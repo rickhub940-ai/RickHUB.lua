@@ -31,7 +31,7 @@ Instance.new("UICorner", topBar).CornerRadius = UDim.new(0,12)
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1,0,1,0)
 title.BackgroundTransparency = 1
-title.Text = "RICK HUB Godmode"
+title.Text = "RICK HUB"
 title.TextColor3 = Color3.fromRGB(255,255,255)
 title.TextScaled = true
 title.Font = Enum.Font.GothamBold
@@ -45,7 +45,7 @@ switchButton.BackgroundColor3 = Color3.fromRGB(50,150,255)
 switchButton.TextColor3 = Color3.fromRGB(255,255,255)
 switchButton.TextSize = 18
 switchButton.Font = Enum.Font.GothamBold
-switchButton.Text = "สลับตัวละคร"
+switchButton.Text = "Godmode"
 switchButton.Parent = mainFrame
 Instance.new("UICorner", switchButton).CornerRadius = UDim.new(0,10)
 
@@ -184,7 +184,7 @@ switchButton.MouseButton1Click:Connect(function()
 		followLoop=RunService.RenderStepped:Connect(function()
 			if altCharacter and currentCharacter then
 				local cf=altCharacter.PrimaryPart.CFrame
-					* CFrame.new(0,-10,0)
+					* CFrame.new(0,-7,0)
 					* CFrame.Angles(angle,0,0)
 
 				currentCharacter:PivotTo(cf)
