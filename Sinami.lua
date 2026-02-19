@@ -494,8 +494,75 @@ local function AntiWaveInfinite(char)
 end
 
 
+-----------------
+-- ร่างปลอม ------
+-----------------
 
+local altCharacter = nil
+local followLoop = nil
+local frozen = false
+local realHighlight = Instance.new("Highlight")
+realHighlight.FillColor = Color3.fromRGB(0,170,255)
+realHighlight.OutlineColor = Color3.fromRGB(255,255,255)
+realHighlight.FillTransparency = 0.4
+realHighlight.Enabled = false
+realHighlight.Parent = workspace
 
+-- ===== print สี =====
+local function cprint(msg,color)
+	print("<font color='"..color.."'>"..msg.."</font>")
+end
+local function cloneCharacter(original)
+	local NewHead=nil
+	local fake=Instance.new("Model")
+	fake.Name="AltCharacter"
+
+	for _,child in ipairs(original:GetChildren()) do
+		pcall(function()
+			local c=child:Clone()
+			if not NewHead and c.Name=="Head" then
+				NewHead=c
+			end
+			c.Parent=fake
+		end)
+	end
+
+	for _,child in ipairs(fake:GetChildren()) do
+		pcall(function()
+			if child:IsA("Accessory") and child:FindFirstChild("Handle") and NewHead then
+				for _,w in ipairs(child.Handle:GetChildren()) do
+					if w:IsA("Weld") then
+						w.Part1=NewHead
+					end
+				end
+			end
+		end)
+	end
+
+	fake.PrimaryPart=fake:WaitForChild("HumanoidRootPart")
+	return fake
+end
+
+local function setCharacter(char)
+	player.Character=char
+	workspace.CurrentCamera.CameraSubject=char:WaitForChild("Humanoid")
+end
+
+local function setCollision(model,val)
+	for _,p in pairs(model:GetDescendants()) do
+		if p:IsA("BasePart") then
+			p.CanCollide=val
+		end
+	end
+end
+
+local function anchorModel(model,val)
+	for _,p in pairs(model:GetDescendants()) do
+		if p:IsA("BasePart") then
+			p.Anchored=val
+		end
+	end
+end
 
 
 
@@ -903,6 +970,77 @@ end)
 local WaveTab = Window:Tab({Title = "Wave", Icon = "user"})
 
 
+
+local currentCharacter = player.Character or player.CharacterAdded:Wait()
+
+
+
+WaveTab:Toggle({
+    Title = "Fake Character",
+    Desc = "ร่างปลอมสามารถโดนคลื่นได้99%🤫",
+    Default = false,
+    Callback = function(state)
+        if state then
+            if altCharacter then
+                altCharacter:Destroy()
+                altCharacter=nil
+            end
+
+            altCharacter = cloneCharacter(currentCharacter)
+            altCharacter.Parent = workspace
+            altCharacter:SetPrimaryPartCFrame(currentCharacter.PrimaryPart.CFrame)
+
+            setCollision(currentCharacter,false)
+            setCollision(altCharacter,true)
+            setCharacter(altCharacter)
+
+            anchorModel(currentCharacter,true)
+            frozen = true
+
+            realHighlight.Adornee = currentCharacter
+            realHighlight.Enabled = true
+
+            local angle = math.rad(90)
+
+            followLoop = RunService.RenderStepped:Connect(function()
+                if altCharacter and currentCharacter then
+                    local cf = altCharacter.PrimaryPart.CFrame
+                        * CFrame.new(0,-10,0)
+                        * CFrame.Angles(angle,0,0)
+
+                    currentCharacter:PivotTo(cf)
+                end
+            end)
+
+            cprint("[MODE] ตอนนี้อยู่โหมดร่างปลอม","#00ff00")
+
+			else
+            if not altCharacter then return end
+
+            currentCharacter:PivotTo(altCharacter.PrimaryPart.CFrame)
+            setCharacter(currentCharacter)
+            setCollision(currentCharacter,true)
+
+            if frozen then
+                anchorModel(currentCharacter,false)
+                frozen=false
+            end
+
+            if followLoop then
+                followLoop:Disconnect()
+                followLoop=nil
+            end
+
+            altCharacter:Destroy()
+            altCharacter=nil
+
+            realHighlight.Enabled=false
+            realHighlight.Adornee=nil
+
+            cprint("[MODE] ตอนนี่อยู่โหมดร่างจริง","#ff4444")
+        end
+    end
+})
 
 
 WaveTab:Button({
