@@ -97,6 +97,16 @@ local Window = WindUI:CreateWindow({
 
 local CoreGui = game:GetService("CoreGui")
 local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local RunService = game:GetService("RunService")
+local ProximityPromptService = game:GetService("ProximityPromptService")
+local VirtualUser = game:GetService("VirtualUser")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local CollectionService = game:GetService("CollectionService")
+local Workspace = game:GetService("Workspace")
+
+
 
 
 Window:EditOpenButton({ Enabled = false })
