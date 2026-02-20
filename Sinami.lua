@@ -498,9 +498,16 @@ end
 -- ร่างปลอม ------
 -----------------
 
+local player = game.Players.LocalPlayer
+local RunService = game:GetService("RunService")
+
+-- ตัวแปร
+local currentCharacter = player.Character or player.CharacterAdded:Wait()
 local altCharacter = nil
 local followLoop = nil
 local frozen = false
+
+-- 🔵 Highlight สีฟ้า
 local realHighlight = Instance.new("Highlight")
 realHighlight.FillColor = Color3.fromRGB(0,170,255)
 realHighlight.OutlineColor = Color3.fromRGB(255,255,255)
@@ -508,10 +515,12 @@ realHighlight.FillTransparency = 0.4
 realHighlight.Enabled = false
 realHighlight.Parent = workspace
 
--- ===== print สี =====
+-- console print
 local function cprint(msg,color)
 	print("<font color='"..color.."'>"..msg.."</font>")
 end
+
+-- clone ตัวละคร
 local function cloneCharacter(original)
 	local NewHead=nil
 	local fake=Instance.new("Model")
@@ -971,24 +980,18 @@ local WaveTab = Window:Tab({Title = "Wave", Icon = "user"})
 
 
 
-local currentCharacter = player.Character or player.CharacterAdded:Wait()
-
-
 
 WaveTab:Toggle({
     Title = "Fake Character",
-    Desc = "ร่างปลอมสามารถโดนคลื่นได้99%🤫",
+    Desc = "สร้างร่างปลอมสามารถโดนคลื่นได้99%",
     Default = false,
     Callback = function(state)
-        if state then
-            if altCharacter then
-                altCharacter:Destroy()
-                altCharacter=nil
-            end
 
+        if state then
+            -- ไปปลอม
             altCharacter = cloneCharacter(currentCharacter)
             altCharacter.Parent = workspace
-            altCharacter:SetPrimaryPartCFrame(currentCharacter.PrimaryPart.CFrame)
+            altCharacter:PivotTo(currentCharacter.PrimaryPart.CFrame)
 
             setCollision(currentCharacter,false)
             setCollision(altCharacter,true)
@@ -1012,7 +1015,7 @@ WaveTab:Toggle({
                 end
             end)
 
-            cprint("[MODE] ตอนนี้อยู่โหมดร่างปลอม","#00ff00")
+            cprint("[MODE] ร่างปลอม","#00ff00")
 
 			else
             if not altCharacter then return end
@@ -1023,24 +1026,25 @@ WaveTab:Toggle({
 
             if frozen then
                 anchorModel(currentCharacter,false)
-                frozen=false
+                frozen = false
             end
 
             if followLoop then
                 followLoop:Disconnect()
-                followLoop=nil
+                followLoop = nil
             end
 
             altCharacter:Destroy()
-            altCharacter=nil
+            altCharacter = nil
 
-            realHighlight.Enabled=false
-            realHighlight.Adornee=nil
+            realHighlight.Enabled = false
+            realHighlight.Adornee = nil
 
-            cprint("[MODE] ตอนนี่อยู่โหมดร่างจริง","#ff4444")
+            cprint("[MODE] ร่างจริง","#ff4444")
         end
     end
 })
+
 
 
 WaveTab:Button({
