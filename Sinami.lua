@@ -1,63 +1,61 @@
--- ===============================
--- LOAD WINDUI
--- ===============================
+--// =========================
+--// LOAD WINDUI
+--// =========================
 local WindUI = loadstring(game:HttpGet(
-    "https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
+"https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
 ))()
 
-local Players = game:GetService("Players")
-local LP = Players.LocalPlayer
+local player = game.Players.LocalPlayer
 
--- ===============================
--- COLORS
--- ===============================
-local NEON_BLUE   = Color3.fromHex("#00E5FF")
-local NEON_YELLOW = Color3.fromHex("#FFF700")
-local DARK_BG1    = Color3.fromHex("#0B1220")
-local DARK_BG2    = Color3.fromHex("#020409")
-local WHITE       = Color3.fromHex("#FFFFFF")
+--// =========================
+--// COLORS (ฟ้าเหลือง)
+--// =========================
+local BLUE   = Color3.fromHex("#3BA9FF")
+local SKY    = Color3.fromHex("#6FD3FF")
+local YELLOW = Color3.fromHex("#FFD93B")
+local WHITE  = Color3.fromHex("#FFFFFF")
 
--- ===============================
--- GRADIENTS
--- ===============================
-local NEON_GRADIENT = WindUI:Gradient({
-    ["0"]   = { Color = NEON_BLUE,   Transparency = 0 },
-    ["100"] = { Color = NEON_YELLOW, Transparency = 0 },
-}, { Rotation = 45 })
+local DARK_BG1 = Color3.fromHex("#0A1628")
+local DARK_BG2 = Color3.fromHex("#0F223F")
+
+--// =========================
+--// GRADIENT
+--// =========================
+local MAIN_GRADIENT = WindUI:Gradient({
+    ["0"]   = {Color = BLUE, Transparency = 0},
+    ["50"]  = {Color = SKY, Transparency = 0},
+    ["100"] = {Color = YELLOW, Transparency = 0},
+},{Rotation = 45})
 
 local BACKGROUND_GRADIENT = WindUI:Gradient({
-    ["0"]   = { Color = NEON_BLUE,   Transparency = 0.2 },
-    ["100"] = { Color = NEON_YELLOW, Transparency = 0.2 },
-}, { Rotation = 45 })
+    ["0"]   = {Color = BLUE, Transparency = 0.35},
+    ["50"]  = {Color = SKY, Transparency = 0.35},
+    ["100"] = {Color = YELLOW, Transparency = 0.35},
+},{Rotation = 45})
 
 local DARK_TAB_GRADIENT = WindUI:Gradient({
-    ["0"]   = { Color = DARK_BG1, Transparency = 0 },
-    ["100"] = { Color = DARK_BG2, Transparency = 0 },
-}, { Rotation = 90 })
+    ["0"]   = {Color = DARK_BG1, Transparency = 0},
+    ["100"] = {Color = DARK_BG2, Transparency = 0},
+},{Rotation = 90})
 
--- ===============================
--- THEME
--- ===============================
+--// =========================
+--// THEME
+--// =========================
 WindUI:AddTheme({
-    Name = "Senixa Theme",
+    Name = "RickHUBTheme",
 
-    Accent = NEON_GRADIENT,
+    Accent = MAIN_GRADIENT,
+    Hover  = MAIN_GRADIENT,
+
     Background = BACKGROUND_GRADIENT,
-    BackgroundTransparency = 0.3,
+    BackgroundTransparency = 0.35,
 
-    Outline = NEON_YELLOW,
+    Outline = YELLOW,
     Text = WHITE,
-    Placeholder = Color3.fromHex("#B6F7FF"),
     Icon = WHITE,
-    Hover = NEON_GRADIENT,
 
     WindowBackground = BACKGROUND_GRADIENT,
-    WindowShadow = Color3.fromHex("#000000"),
-
-    WindowTopbarButtonIcon = WHITE,
-    WindowTopbarTitle = WHITE,
-    WindowTopbarAuthor = WHITE,
-    WindowTopbarIcon = WHITE,
+    WindowShadow = Color3.fromRGB(0,0,0),
 
     TabBackground = DARK_TAB_GRADIENT,
     TabTitle = WHITE,
@@ -65,51 +63,40 @@ WindUI:AddTheme({
 
     ElementBackground = DARK_TAB_GRADIENT,
     ElementTitle = WHITE,
-    ElementDesc = Color3.fromHex("#C9F6FF"),
-    ElementIcon = Color3.fromHex("#C9F6FF"),
 
-    Button = NEON_GRADIENT,
-    Toggle = NEON_GRADIENT,
-    ToggleBar = WHITE,
-    Checkbox = NEON_GRADIENT,
-    CheckboxIcon = WHITE,
-    Slider = NEON_GRADIENT,
-    SliderThumb = WHITE,
+    Button = MAIN_GRADIENT,
+    Toggle = MAIN_GRADIENT,
+    Slider = MAIN_GRADIENT,
 })
 
-WindUI:SetTheme("NeonDarkReadable")
+WindUI:SetTheme("RickHUBTheme")
 
-local Players = game:GetService("Players")
-local TweenService = game:GetService("TweenService")
-local RunService = game:GetService("RunService")
-local ProximityPromptService = game:GetService("ProximityPromptService")
-local lp = Players.LocalPlayer
-local CoreGui = game:GetService("CoreGui")
-local UserInputService = game:GetService("UserInputService")
-local VirtualUser = game:GetService("VirtualUser")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local CollectionService = game:GetService("CollectionService")
-local Workspace = game:GetService("Workspace")
 
+local avatar = "https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds="
+..player.UserId.."&size=420x420&format=Png"
 
 local Window = WindUI:CreateWindow({
-    Title = "Rick HUB",
+    Title = "RICK HUB ",
     Icon = "rbxassetid://108958018844079",
-    Theme = "Senixa Theme",
+    Author = "Author[ 009.exe ]",
+    Folder = "RICK HUB",
+    Size = UDim2.fromOffset(730, 410),
+    Theme = "RickHUBTheme",
     Transparent = true,
     Resizable = true,
-    Size = UDim2.fromOffset(850, 400), 
-    MinSize = Vector2.new(480, 480),   
-    MaxSize = Vector2.new(1000, 500),   
-    SideBarWidth = 180,               
 
     User = {
         Enabled = true,
-        Anonymous = false,
-        Name = LP.Name,
-        Image = "rbxthumb://type=AvatarHeadShot&id=" .. LP.UserId .. "&w=420&h=420",
-    },
+        Custom = {
+            Name = player.Name,
+            Bio = "RickHUB USER",
+            Image = avatar
+        }
+    }
 })
+
+local CoreGui = game:GetService("CoreGui")
+local UserInputService = game:GetService("UserInputService")
 
 
 Window:EditOpenButton({ Enabled = false })
@@ -166,6 +153,7 @@ UserInputService.InputBegan:Connect(function(input, gp)
         toggle()
     end
 end)
+
 
 
 
