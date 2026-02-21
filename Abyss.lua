@@ -161,6 +161,248 @@ end)
 
 local client = workspace.Game.Fish.client
 local Player = game.Players.LocalPlayer
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+
+
+
+-- ---------
+-- AutoFarm
+-- ---------
+
+
+
+
+local character = player.Character or player.CharacterAdded:Wait()
+
+local root
+local event
+
+
+local function setupCharacter(char)
+    root = char:WaitForChild("HumanoidRootPart")
+    local tool = char:WaitForChild("Tool")
+    event = tool:WaitForChild("Event")
+end
+
+if player.Character then
+    setupCharacter(player.Character)
+end
+player.CharacterAdded:Connect(setupCharacter)
+
+
+
+_G.FarmEnabled = false
+_G.PositionMode = false
+_G.SelectedFish = "All - ทุกตัว"
+_G.SelectedSlot = nil
+_G.ShootRange = 40
+
+_G.SavedPositions = _G.SavedPositions or {
+    [1] = nil,
+    [2] = nil,
+    [3] = nil,
+    [4] = nil,
+    [5] = nil
+}
+
+
+local Fish_Name_list = { "All - ทุกตัว" }
+
+pcall(function()
+    for _, fishModel in pairs(
+        ReplicatedStorage:WaitForChild("common")
+        :WaitForChild("assets")
+        :WaitForChild("fish")
+        :GetChildren()
+    ) do
+        if fishModel:IsA("Model") and fishModel.PrimaryPart then
+            table.insert(Fish_Name_list, fishModel.Name)
+        end
+    end
+end)
+
+local fishFolder = workspace:WaitForChild("Game")
+    :WaitForChild("Fish")
+    :WaitForChild("client")
+
+
+local function TweenTo(position)
+    if not root then return end
+
+    local distance = (root.Position - position).Magnitude
+    local speed = 60
+    local time = distance / speed
+
+    local tween = TweenService:Create(
+        root,
+        TweenInfo.new(time, Enum.EasingStyle.Linear),
+        {CFrame = CFrame.new(position)}
+    )
+
+    tween:Play()
+    tween.Completed:Wait()
+end
+
+
+
+local function GetClosestFish()
+    if not root then return nil end
+
+    local closest = nil
+    local dist = math.huge
+
+    for _, fish in pairs(fishFolder:GetChildren()) do
+        local torso = fish:FindFirstChild("UpperTorso")
+        if torso then
+            if _G.SelectedFish == "All - ทุกตัว" or fish.Name == _G.SelectedFish then
+                local mag = (root.Position - torso.Position).Magnitude
+                if mag < dist then
+                    dist = mag
+                    closest = fish
+                end
+            end
+        end
+    end
+
+    return closest
+end
+
+local function ShootFish(fish)
+    if not event then return end
+
+    local torso = fish:FindFirstChild("UpperTorso")
+    if torso then
+        event:FireServer(
+            "use",
+            torso.Position,
+            torso.CFrame.LookVector
+        )
+    end
+end
+
+
+task.spawn(function()
+    while task.wait(0.1) do
+
+        if not _G.FarmEnabled then continue end
+        if not root or not event then continue end
+
+        local target = GetClosestFish()
+        if not target then continue end
+
+        local torso = target:FindFirstChild("UpperTorso")
+        if not torso then continue end
+
+        local distance = (root.Position - torso.Position).Magnitude
+
+        if _G.PositionMode and _G.SelectedSlot and _G.SavedPositions[_G.SelectedSlot] then
+
+            TweenTo(_G.SavedPositions[_G.SelectedSlot])
+
+            if distance <= _G.ShootRange then
+                ShootFish(target)
+            end
+
+            else
+            if distance > _G.ShootRange then
+                TweenTo(torso.Position)
+            else
+                ShootFish(target)
+            end
+        end
+
+    end
+end)
+
+FarmTab:Dropdown({
+    Title = "เลือกปลาที่จะฟาม",
+    Values = Fish_Name_list,
+    Multi = false,
+    Callback = function(option)
+        _G.SelectedFish = option
+    end
+})
+
+
+FarmTab:Toggle({
+    Title = "ฟามปลา",
+    Default = false,
+    Callback = function(state)
+        _G.FarmEnabled = state
+    end
+})
+
+
+local function UpdateDropdown()
+    local values = {}
+
+    for i = 1,5 do
+        if _G.SavedPositions[i] then
+            local pos = _G.SavedPositions[i]
+            table.insert(values, i .. ": " ..
+                math.floor(pos.X) .. ", " ..
+                math.floor(pos.Y) .. ", " ..
+                math.floor(pos.Z))
+        else
+            table.insert(values, i .. ":")
+        end
+    end
+
+    PositionDropdown:SetValues(values)
+end
+
+PositionDropdown = FarmTab:Dropdown({
+    Title = "เลือกสล็อต/ตำแหน่ง",
+    Values = {"1:","2:","3:","4:","5:"},
+    Multi = false,
+    Callback = function(option)
+        local number = tonumber(string.match(option, "%d+"))
+        _G.SelectedSlot = number
+    end
+})
+
+FarmTab:Toggle({
+    Title = "โหมดฟามตามตำแหน่งที่เซฟ",
+    Default = false,
+    Callback = function(state)
+        _G.PositionMode = state
+    end
+})
+
+
+
+
+FarmTab:Button({
+    Title = "เซฟตำแหน่งฟาม",
+    Callback = function()
+
+        if not _G.SelectedSlot then
+            WindUI:Notify({
+                Title = "Warning",
+                Content = "🛸เลือกสล็อตที่จะเซฟก่อน!!!",
+                Duration = 3,
+            })
+            return
+        end
+
+        _G.SavedPositions[_G.SelectedSlot] = root.Position
+        UpdateDropdown()
+
+        WindUI:Notify({
+            Title = "Saved",
+            Content = "บันทึกตำแหน่ง ลง Slot " .. _G.SelectedSlot .. " เรียบร้อย",
+            Duration = 2,
+        })
+
+    end
+})
+
+
+
+
 
 
 -- -------
