@@ -317,88 +317,6 @@ task.spawn(function()
     end
 end)
 
-FarmTab:Dropdown({
-    Title = "เลือกปลาที่จะฟาม",
-    Values = Fish_Name_list,
-    Multi = false,
-    Callback = function(option)
-        _G.SelectedFish = option
-    end
-})
-
-
-FarmTab:Toggle({
-    Title = "ฟามปลา",
-    Default = false,
-    Callback = function(state)
-        _G.FarmEnabled = state
-    end
-})
-
-
-local function UpdateDropdown()
-    local values = {}
-
-    for i = 1,5 do
-        if _G.SavedPositions[i] then
-            local pos = _G.SavedPositions[i]
-            table.insert(values, i .. ": " ..
-                math.floor(pos.X) .. ", " ..
-                math.floor(pos.Y) .. ", " ..
-                math.floor(pos.Z))
-        else
-            table.insert(values, i .. ":")
-        end
-    end
-
-    PositionDropdown:SetValues(values)
-end
-
-PositionDropdown = FarmTab:Dropdown({
-    Title = "เลือกสล็อต/ตำแหน่ง",
-    Values = {"1:","2:","3:","4:","5:"},
-    Multi = false,
-    Callback = function(option)
-        local number = tonumber(string.match(option, "%d+"))
-        _G.SelectedSlot = number
-    end
-})
-
-FarmTab:Toggle({
-    Title = "โหมดฟามตามตำแหน่งที่เซฟ",
-    Default = false,
-    Callback = function(state)
-        _G.PositionMode = state
-    end
-})
-
-
-
-
-FarmTab:Button({
-    Title = "เซฟตำแหน่งฟาม",
-    Callback = function()
-
-        if not _G.SelectedSlot then
-            WindUI:Notify({
-                Title = "Warning",
-                Content = "🛸เลือกสล็อตที่จะเซฟก่อน!!!",
-                Duration = 3,
-            })
-            return
-        end
-
-        _G.SavedPositions[_G.SelectedSlot] = root.Position
-        UpdateDropdown()
-
-        WindUI:Notify({
-            Title = "Saved",
-            Content = "บันทึกตำแหน่ง ลง Slot " .. _G.SelectedSlot .. " เรียบร้อย",
-            Duration = 2,
-        })
-
-    end
-})
 
 
 
@@ -568,7 +486,92 @@ end
 
 
 
-local MainTab   = Window:Tab({Title="Main",   Icon="home"})
+local FarmTab   = Window:Tab({Title="FARM",   Icon="hand-coins"})
+
+
+FarmTab:Dropdown({
+    Title = "เลือกปลาที่จะฟาม",
+    Values = Fish_Name_list,
+    Multi = false,
+    Callback = function(option)
+        _G.SelectedFish = option
+    end
+})
+
+
+FarmTab:Toggle({
+    Title = "ฟามปลา",
+    Default = false,
+    Callback = function(state)
+        _G.FarmEnabled = state
+    end
+})
+
+
+local function UpdateDropdown()
+    local values = {}
+
+    for i = 1,5 do
+        if _G.SavedPositions[i] then
+            local pos = _G.SavedPositions[i]
+            table.insert(values, i .. ": " ..
+                math.floor(pos.X) .. ", " ..
+                math.floor(pos.Y) .. ", " ..
+                math.floor(pos.Z))
+        else
+            table.insert(values, i .. ":")
+        end
+    end
+
+    PositionDropdown:SetValues(values)
+end
+
+PositionDropdown = FarmTab:Dropdown({
+    Title = "เลือกสล็อต/ตำแหน่ง",
+    Values = {"1:","2:","3:","4:","5:"},
+    Multi = false,
+    Callback = function(option)
+        local number = tonumber(string.match(option, "%d+"))
+        _G.SelectedSlot = number
+    end
+})
+
+FarmTab:Toggle({
+    Title = "โหมดฟามตามตำแหน่งที่เซฟ",
+    Default = false,
+    Callback = function(state)
+        _G.PositionMode = state
+    end
+})
+
+
+
+
+FarmTab:Button({
+    Title = "เซฟตำแหน่งฟาม",
+    Callback = function()
+
+        if not _G.SelectedSlot then
+            WindUI:Notify({
+                Title = "Warning",
+                Content = "🛸เลือกสล็อตที่จะเซฟก่อน!!!",
+                Duration = 3,
+            })
+            return
+        end
+
+        _G.SavedPositions[_G.SelectedSlot] = root.Position
+        UpdateDropdown()
+
+        WindUI:Notify({
+            Title = "Saved",
+            Content = "บันทึกตำแหน่ง ลง Slot " .. _G.SelectedSlot .. " เรียบร้อย",
+            Duration = 2,
+        })
+
+    end
+})
+
 
 
 local ESPTab   = Window:Tab({Title="ESP",   Icon="eye"})
