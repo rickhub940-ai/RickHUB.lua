@@ -497,72 +497,6 @@ end
 -----------------
 
 
-local currentCharacter = nil
-local altCharacter = nil
-local followLoop = nil
-local frozen = false
-
-local realHighlight = Instance.new("Highlight")
-realHighlight.FillColor = Color3.fromRGB(0,170,255)
-realHighlight.OutlineColor = Color3.fromRGB(255,255,255)
-realHighlight.FillTransparency = 0.4
-realHighlight.Enabled = false
-realHighlight.Parent = workspace
-
-local function cloneCharacter(original)
-	local NewHead=nil
-	local fake=Instance.new("Model")
-	fake.Name="AltCharacter"
-
-	for _,child in ipairs(original:GetChildren()) do
-		pcall(function()
-			local c=child:Clone()
-			if not NewHead and c.Name=="Head" then
-				NewHead=c
-			end
-			c.Parent=fake
-		end)
-	end
-
-	for _,child in ipairs(fake:GetChildren()) do
-		pcall(function()
-			if child:IsA("Accessory") and child:FindFirstChild("Handle") and NewHead then
-				for _,w in ipairs(child.Handle:GetChildren()) do
-					if w:IsA("Weld") then
-						w.Part1=NewHead
-					end
-				end
-			end
-		end)
-	end
-
-	fake.PrimaryPart=fake:WaitForChild("HumanoidRootPart")
-	return fake
-end
-
-local function setCharacter(char)
-	player.Character=char
-	workspace.CurrentCamera.CameraSubject=char:WaitForChild("Humanoid")
-end
-
-local function setCollision(model,val)
-	for _,p in pairs(model:GetDescendants()) do
-		if p:IsA("BasePart") then
-			p.CanCollide=val
-		end
-	end
-end
-
-local function anchorModel(model,val)
-	for _,p in pairs(model:GetDescendants()) do
-		if p:IsA("BasePart") then
-			p.Anchored=val
-		end
-	end
-end
-
-
-
 -- --------
 -- CombatTab
 -- ----------
@@ -967,69 +901,168 @@ end)
 local WaveTab = Window:Tab({Title = "Wave", Icon = "user"})
 
 
-WaveTab:Toggle({
-    Title = "Fake Character",
-    Desc = "ร่างปลอมสามารถโดนคลื่นได้99%🤫",
-    Default = false,
-    Callback = function(state)
-        if state then
-            currentCharacter = player.Character or player.CharacterAdded:Wait()
+local player = game.Players.LocalPlayer
+local RunService = game:GetService("RunService")
 
-            if altCharacter then
-                altCharacter:Destroy()
-                altCharacter = nil
+-- Variables
+local currentCharacter = nil
+local altCharacter = nil
+local followLoop = nil
+local frozen = false
+
+-- 🔵 Blue Highlight
+local realHighlight = Instance.new("Highlight")
+realHighlight.FillColor = Color3.fromRGB(0,170,255)
+realHighlight.OutlineColor = Color3.fromRGB(255,255,255)
+realHighlight.FillTransparency = 0.4
+realHighlight.Enabled = false
+realHighlight.Parent = workspace
+
+-- Clone character
+local function cloneCharacter(original)
+	local NewHead=nil
+	local fake=Instance.new("Model")
+	fake.Name="AltCharacter"
+
+	for _,child in ipairs(original:GetChildren()) do
+		pcall(function()
+			local c=child:Clone()
+			if not NewHead and c.Name=="Head" then
+				NewHead=c
+			end
+			c.Parent=fake
+		end)
+	end
+
+	for _,child in ipairs(fake:GetChildren()) do
+		pcall(function()
+			if child:IsA("Accessory") and child:FindFirstChild("Handle") and NewHead then
+				for _,w in ipairs(child.Handle:GetChildren()) do
+					if w:IsA("Weld") then
+						w.Part1=NewHead
+					end
 				end
-            altCharacter = cloneCharacter(currentCharacter)
-            altCharacter.Parent = workspace
-            altCharacter:PivotTo(currentCharacter.PrimaryPart.CFrame)
+			end
+		end)
+	end
 
-            setCollision(currentCharacter,false)
-            setCollision(altCharacter,true)
-            setCharacter(altCharacter)
+	fake.PrimaryPart=fake:WaitForChild("HumanoidRootPart")
+	return fake
+end
 
-            anchorModel(currentCharacter,true)
-            frozen = true
+local function setCharacter(char)
+	player.Character = char
+	workspace.CurrentCamera.CameraSubject = char:WaitForChild("Humanoid")
+end
 
-            realHighlight.Adornee = currentCharacter
-            realHighlight.Enabled = true
+local function setCollision(model,val)
+	for _,p in pairs(model:GetDescendants()) do
+		if p:IsA("BasePart") then
+			p.CanCollide = val
+		end
+	end
+end
 
-            local angle = math.rad(90)
+local function anchorModel(model,val)
+	for _,p in pairs(model:GetDescendants()) do
+		if p:IsA("BasePart") then
+			p.Anchored = val
+		end
+	end
+end
 
-            followLoop = RunService.RenderStepped:Connect(function()
-                if altCharacter and currentCharacter then
-                    local cf = altCharacter.PrimaryPart.CFrame
-                        * CFrame.new(0,-7,0)
-                        * CFrame.Angles(angle,0,0)
+-- 🔥 Reset system (when dying)
+local function resetFake()
+	if followLoop then
+		followLoop:Disconnect()
+		followLoop = nil
+	end
 
-                    currentCharacter:PivotTo(cf)
-                end
-            end)
+	if altCharacter then
+		altCharacter:Destroy()
+		altCharacter = nil
+	end
 
-        else
-            if not altCharacter then return end
+	realHighlight.Enabled = false
+	realHighlight.Adornee = nil
+	frozen = false
+end
 
-            currentCharacter:PivotTo(altCharacter.PrimaryPart.CFrame)
-            setCharacter(currentCharacter)
-            setCollision(currentCharacter,true)
+-- When player respawns
+player.CharacterAdded:Connect(function(newChar)
+	currentCharacter = newChar
+	resetFake()
+end)
 
-            anchorModel(currentCharacter,false)
-            frozen = false
+---------------------------------------------------
+-- 🔥 WaveTab Toggle (bottom of script)
+---------------------------------------------------
 
-            if followLoop then
-                followLoop:Disconnect()
-                followLoop = nil
-            end
+WaveTab:Toggle({
+	Title = "Fake Character",
+	Desc = "Switch between real and fake character",
+	Default = false,
+	Callback = function(state)
 
-            altCharacter:Destroy()
-            altCharacter = nil
+		if state then
+			-- Always get latest character
+			currentCharacter = player.Character or player.CharacterAdded:Wait()
 
-            realHighlight.Enabled = false
-            realHighlight.Adornee = nil
-        end
-    end
+			if altCharacter then
+				altCharacter:Destroy()
+				altCharacter = nil
+			end
+
+			-- Create new fake
+			altCharacter = cloneCharacter(currentCharacter)
+			altCharacter.Parent = workspace
+			altCharacter:PivotTo(currentCharacter.PrimaryPart.CFrame)
+
+			setCollision(currentCharacter,false)
+			setCollision(altCharacter,true)
+			setCharacter(altCharacter)
+
+			anchorModel(currentCharacter,true)
+			frozen = true
+
+			realHighlight.Adornee = currentCharacter
+			realHighlight.Enabled = true
+
+			local angle = math.rad(90)
+
+			followLoop = RunService.RenderStepped:Connect(function()
+				if altCharacter and currentCharacter then
+					local cf = altCharacter.PrimaryPart.CFrame
+						* CFrame.new(0,-10,0)
+						* CFrame.Angles(angle,0,0)
+
+					currentCharacter:PivotTo(cf)
+				end
+			end)
+
+		else
+			if not altCharacter then return end
+
+			currentCharacter:PivotTo(altCharacter.PrimaryPart.CFrame)
+			setCharacter(currentCharacter)
+			setCollision(currentCharacter,true)
+
+			anchorModel(currentCharacter,false)
+			frozen = false
+
+			if followLoop then
+				followLoop:Disconnect()
+				followLoop = nil
+			end
+
+			altCharacter:Destroy()
+			altCharacter = nil
+
+			realHighlight.Enabled = false
+			realHighlight.Adornee = nil
+		end
+	end
 })
-
-
 
 
 
