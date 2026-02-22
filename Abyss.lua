@@ -173,7 +173,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- ---------
 
 -- =========================================
--- 1. SETUP SERVICES & VARIABLES
+-- 1. SETUP & SERVICES
 -- =========================================
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
@@ -185,7 +185,7 @@ local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
 
--- ระบบไฟล์พิกัด (JSON) แยกตามชื่อผู้เล่น
+-- ระบบไฟล์พิกัด JSON
 local fileName = "RickhubAbyss_" .. player.Name .. "pos.json"
 
 local function SaveToJSON(pos)
@@ -206,8 +206,15 @@ local function LoadFromJSON()
 end
 
 -- =========================================
--- 2. FISH LIST SCANNER (ใช้ Path ที่คุณระบุ)
+-- 2. GLOBAL SETTINGS
 -- =========================================
+_G.FarmEnabled = false
+_G.PositionMode = false
+_G.SelectedFish = "All - ทุกตัว"
+_G.SingleSavedPos = LoadFromJSON()
+_G.TweenSpeed = 70 
+_G.WaitDelay = 2 -- หน่วงเวลา 2 วินาทีตามที่นายสั่ง
+
 local Fish_Name_list = { "All - ทุกตัว" }
 pcall(function()
     local fishAssets = ReplicatedStorage:WaitForChild("common"):WaitForChild("assets"):WaitForChild("fish")
@@ -219,29 +226,25 @@ pcall(function()
 end)
 
 -- =========================================
--- 3. GLOBAL SETTINGS
--- =========================================
-_G.FarmEnabled = false
-_G.PositionMode = false
-_G.SelectedFish = "All - ทุกตัว"
-_G.SingleSavedPos = LoadFromJSON()
-_G.TweenSpeed = 100 
-_G.ShootRange = math.huge -- ระยะไม่จำกัด
-
--- =========================================
--- 4. CORE FUNCTIONS (TWEEN, FIND, SHOOT)
+-- 3. CORE FUNCTIONS (FIXED)
 -- =========================================
 
 local activeTween = nil
+local isProcessing = false 
+
 local function TweenTo(position)
     local distance = (root.Position - position).Magnitude
-    if distance < 5 then return end
+    if distance < 3 then 
+        if activeTween then activeTween:Cancel() end
+        return true 
+    end
     
     local info = TweenInfo.new(distance / _G.TweenSpeed, Enum.EasingStyle.Linear)
     if activeTween then activeTween:Cancel() end
     
     activeTween = TweenService:Create(root, info, {CFrame = CFrame.new(position)})
     activeTween:Play()
+    return false 
 end
 
 local function GetClosestFish()
@@ -279,18 +282,16 @@ local function GetClosestFish()
 end
 
 local function AutoShoot(target)
+    if not target or not target.PrimaryPart then return end
     local tool = character:FindFirstChildOfClass("Tool") or player.Backpack:FindFirstChildOfClass("Tool")
     local event = tool and tool:FindFirstChild("Event")
-    if event and target and target.PrimaryPart then
+    if event then
         local targetPos = target.PrimaryPart.Position
         root.CFrame = CFrame.lookAt(root.Position, Vector3.new(targetPos.X, root.Position.Y, targetPos.Z))
         event:FireServer("use", targetPos, (targetPos - root.Position).Unit)
     end
 end
 
--- =========================================
--- 5. UI INTEGRATION (WindUI)
--- =========================================
 
 
 
@@ -460,7 +461,7 @@ end
 
 local FarmTab   = Window:Tab({Title="FARM",   Icon="hand-coins"})
 
-FarmTab:Section({ Title = "Auto Farm (Infinite Range)" })
+FarmTab:Section({ Title = "Auto Farm (FULL FIXED)" })
 
 FarmTab:Toggle({
     Title = "Enable Auto Farm",
@@ -473,52 +474,49 @@ FarmTab:Dropdown({
     Callback = function(option) _G.SelectedFish = option end
 })
 
+-- Slider แก้ไขตามตัวอย่างเป๊ะๆ
 FarmTab:Slider({
     Title = "Tween Speed",
-    Min = 10, Max = 500, Default = 100,
-    Callback = function(v) _G.TweenSpeed = v end
+    Desc = "ความเร็วในการบินหาปลา",
+    Step = 1,
+    Value = {
+        Min = 20,
+        Max = 300,
+        Default = 70,
+    },
+    Callback = function(value)
+        _G.TweenSpeed = value
+    end
 })
 
-FarmTab:Section({ Title = "Position System" })
+FarmTab:Section({ Title = "Permanent Position" })
 
 local PosLabel = FarmTab:Paragraph({
-    Title = "ยังไม่มีข้อมูลที่เซฟไว้",
-    Content = "กรุณากดปุ่ม Save Position"
+    Title = "ยังไม่มีข้อมูลพิกัด",
+    Content = "กดปุ่ม Save ด้านล่างเพื่อบันทึกพิกัด"
 })
 
--- ฟังก์ชันอัปเดต UI ตามคำสั่งล่าสุด
 local function UpdateUI()
     if _G.SingleSavedPos then
         local x = math.floor(_G.SingleSavedPos.X)
         local y = math.floor(_G.SingleSavedPos.Y)
         local z = math.floor(_G.SingleSavedPos.Z)
-        
-        local titleString = "📍พิกัดที่เซฟ: X:"..x.." Y:"..y.." Z:"..z
-        
         pcall(function()
-            if PosLabel.SetTitle then
-                PosLabel:SetTitle(titleString)
-                PosLabel:SetContent("สถานะ: โหลดพิกัดสำเร็จ ✅")
-            else
-                PosLabel.Title = titleString
-                PosLabel.Content = "สถานะ: โหลดพิกัดสำเร็จ ✅"
-            end
+            -- เปลี่ยนหัวข้อตามคำสั่งนาย
+            PosLabel:SetTitle("📍พิกัดที่เซฟ: X:"..x.." Y:"..y.." Z:"..z)
+            PosLabel:SetContent("สถานะ: บันทึกสำเร็จ ✅")
         end)
     end
 end
-
-UpdateUI() -- เรียกใช้ตอนเริ่ม
+UpdateUI()
 
 FarmTab:Button({
-    Title = "Save Position (JSON)",
+    Title = "Save Current Position",
     Callback = function()
         if root then
             _G.SingleSavedPos = root.Position
             SaveToJSON(_G.SingleSavedPos)
             UpdateUI()
-            if WindUI and WindUI.Notify then
-                WindUI:Notify({Title = "System", Content = "บันทึกพิกัดเรียบร้อย", Duration = 2})
-            end
         end
     end
 })
@@ -529,13 +527,13 @@ FarmTab:Toggle({
 })
 
 -- =========================================
--- 6. MAIN LOOP (CORE SYSTEM)
+-- 5. MAIN LOOP (ระบบหน่วงเวลา 2 วิ)
 -- =========================================
 task.spawn(function()
     while task.wait(0.1) do
-        if not _G.FarmEnabled or not root then continue end
+        if not _G.FarmEnabled or not root or isProcessing then continue end
 
-        -- 1. ล็อกตำแหน่ง (กรณีเปิดโหมดประหยัดแรง)
+        -- โหมดล็อกพิกัด
         if _G.PositionMode and _G.SingleSavedPos then
             if (root.Position - _G.SingleSavedPos).Magnitude > 3 then
                 if activeTween then activeTween:Cancel() end
@@ -543,21 +541,35 @@ task.spawn(function()
             end
         end
 
-        -- 2. ระบบค้นหาปลาและ Tween (Infinite Distance)
         local target = GetClosestFish()
         if target and target.PrimaryPart then
             local targetPos = target.PrimaryPart.Position
             
             if not _G.PositionMode then
-                -- บินไปหาปลา
                 local stopPos = targetPos + (root.Position - targetPos).Unit * 15
-                TweenTo(stopPos)
+                local dist = (root.Position - stopPos).Magnitude
                 
-                if (root.Position - stopPos).Magnitude < 20 then
-                    AutoShoot(target)
+                if dist < 8 then
+                    -- 1. บินมาถึงแล้ว: หยุดนิ่ง ล็อกท่า และรอ 2 วิ
+                    if activeTween then activeTween:Cancel() end
+                    root.Velocity = Vector3.zero 
+                    isProcessing = true
+                    
+                    task.wait(_G.WaitDelay) -- รอ 2 วินาทีก่อนยิงเบ็ด
+                    
+                    if _G.FarmEnabled and target and target.Parent then
+                        AutoShoot(target)
+                        -- 2. ยิงเสร็จ/ขยับเสร็จ: รออีก 2 วิ ค่อยยอมให้เริ่มตามใหม่
+                        task.wait(_G.WaitDelay)
+                    end
+                    
+                    isProcessing = false
+                else
+                    -- บินตามปลา
+                    TweenTo(stopPos)
                 end
             else
-                -- ยิงจากจุดที่ล็อกไว้
+                -- โหมดล็อกพิกัด ยิงได้เลยไม่ต้องรอจังหวะบิน
                 AutoShoot(target)
             end
         end
@@ -577,7 +589,7 @@ RunService.Heartbeat:Connect(function()
     end
 end)
 
-print("🔥 Rickhub Abyss Full System: Loaded Successfully")
+print("✅ Rickhub Abyss FULL MERGED: ใช้งานได้ทันที!")
 
 
 
