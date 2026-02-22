@@ -172,8 +172,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- AutoFarm
 -- ---------
 
-
-
 -- =========================================
 -- SERVICES
 -- =========================================
@@ -318,6 +316,8 @@ end)
 -- =========================================
 -- UI SECTION (WindUI)
 -- =========================================
+
+
 
 
 
@@ -564,7 +564,6 @@ pcall(function()
 end)
 
 print("🔥 FINAL SYSTEM MERGED & FIXED")
-
 
 
 local ESPTab   = Window:Tab({Title="ESP",   Icon="eye"})
