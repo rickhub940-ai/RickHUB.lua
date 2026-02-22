@@ -172,10 +172,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- AutoFarm
 -- ---------
 
-
-
 -- =========================================
--- 1. SETUP & SERVICES
+-- 1. SETUP SERVICES & VARIABLES
 -- =========================================
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
@@ -187,7 +185,7 @@ local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
 
--- ระบบไฟล์พิกัด
+-- ระบบไฟล์พิกัด (JSON) แยกตามชื่อผู้เล่น
 local fileName = "RickhubAbyss_" .. player.Name .. "pos.json"
 
 local function SaveToJSON(pos)
@@ -197,50 +195,62 @@ local function SaveToJSON(pos)
 end
 
 local function LoadFromJSON()
-    local success, result = pcall(function()
-        if isfile(fileName) then
-            local data = HttpService:JSONDecode(readfile(fileName))
+    if isfile(fileName) then
+        local success, content = pcall(function() return readfile(fileName) end)
+        if success then
+            local data = HttpService:JSONDecode(content)
             return Vector3.new(data.x, data.y, data.z)
         end
-    end)
-    return success and result or nil
+    end
+    return nil
 end
 
 -- =========================================
--- 2. GLOBAL SETTINGS
+-- 2. FISH LIST SCANNER (ใช้ Path ที่คุณระบุ)
+-- =========================================
+local Fish_Name_list = { "All - ทุกตัว" }
+pcall(function()
+    local fishAssets = ReplicatedStorage:WaitForChild("common"):WaitForChild("assets"):WaitForChild("fish")
+    for _, fishModel in pairs(fishAssets:GetChildren()) do
+        if fishModel:IsA("Model") then
+            table.insert(Fish_Name_list, fishModel.Name)
+        end
+    end
+end)
+
+-- =========================================
+-- 3. GLOBAL SETTINGS
 -- =========================================
 _G.FarmEnabled = false
 _G.PositionMode = false
 _G.SelectedFish = "All - ทุกตัว"
 _G.SingleSavedPos = LoadFromJSON()
-_G.ShootRange = 100 -- ระยะการยิง
-
-local Fish_Name_list = {"All - ทุกตัว"}
-
--- สแกนรายชื่อปลาจาก Models ในเกม
-task.spawn(function()
-    pcall(function()
-        local fishModels = ReplicatedStorage:WaitForChild("Models", 5):WaitForChild("Fish", 5)
-        if fishModels then
-            for _, v in pairs(fishModels:GetChildren()) do
-                if not table.find(Fish_Name_list, v.Name) then
-                    table.insert(Fish_Name_list, v.Name)
-                end
-            end
-        end
-    end)
-end)
+_G.TweenSpeed = 100 
+_G.ShootRange = math.huge -- ระยะไม่จำกัด
 
 -- =========================================
--- 3. CORE FUNCTIONS (ระบบยิง & ระบบฟาร์ม)
+-- 4. CORE FUNCTIONS (TWEEN, FIND, SHOOT)
 -- =========================================
 
--- ฟังก์ชันหาปลาที่ใกล้ที่สุด
-local function GetClosestFish()
-    local closest, dist = nil, _G.ShootRange
-    local fishFolder = workspace:FindFirstChild("Game") and workspace.Game:FindFirstChild("Fish") and workspace.Game.Fish:FindFirstChild("client")
+local activeTween = nil
+local function TweenTo(position)
+    local distance = (root.Position - position).Magnitude
+    if distance < 5 then return end
     
-    if fishFolder then
+    local info = TweenInfo.new(distance / _G.TweenSpeed, Enum.EasingStyle.Linear)
+    if activeTween then activeTween:Cancel() end
+    
+    activeTween = TweenService:Create(root, info, {CFrame = CFrame.new(position)})
+    activeTween:Play()
+end
+
+local function GetClosestFish()
+    local closest, dist = nil, math.huge
+    local success, fishFolder = pcall(function()
+        return workspace:WaitForChild("Game"):WaitForChild("Fish"):WaitForChild("client")
+    end)
+    
+    if success and fishFolder then
         for _, fish in pairs(fishFolder:GetChildren()) do
             if fish:IsA("Model") and fish.PrimaryPart then
                 local isMatch = false
@@ -248,10 +258,9 @@ local function GetClosestFish()
                     isMatch = true
                 else
                     pcall(function()
-                        -- ตรวจสอบชื่อปลาจาก UI ใน Head ของปลา
-                        local fishNameUI = fish:FindFirstChild("Head") and fish.Head:FindFirstChild("stats") and fish.Head.stats:FindFirstChild("Fish")
-                        if fishNameUI and string.find(fishNameUI.Text, _G.SelectedFish) then
-                            isMatch = true
+                        local actualName = fish.Head.stats.Fish.Text
+                        if string.find(string.lower(actualName), string.lower(_G.SelectedFish)) then 
+                            isMatch = true 
                         end
                     end)
                 end
@@ -269,24 +278,18 @@ local function GetClosestFish()
     return closest
 end
 
--- ฟังก์ชันสั่งยิงเบ็ด
 local function AutoShoot(target)
-    if not target or not target.PrimaryPart then return end
-    
     local tool = character:FindFirstChildOfClass("Tool") or player.Backpack:FindFirstChildOfClass("Tool")
     local event = tool and tool:FindFirstChild("Event")
-    
-    if event then
+    if event and target and target.PrimaryPart then
         local targetPos = target.PrimaryPart.Position
-        -- หันตัวไปหาปลา
         root.CFrame = CFrame.lookAt(root.Position, Vector3.new(targetPos.X, root.Position.Y, targetPos.Z))
-        -- ส่งสัญญาณยิง
         event:FireServer("use", targetPos, (targetPos - root.Position).Unit)
     end
 end
 
 -- =========================================
--- 4. UI COMPONENTS (เชื่อมกับ FarmTab เดิม)
+-- 5. UI INTEGRATION (WindUI)
 -- =========================================
 
 
@@ -457,8 +460,7 @@ end
 
 local FarmTab   = Window:Tab({Title="FARM",   Icon="hand-coins"})
 
-
-FarmTab:Section({ Title = "Auto Farm Settings" })
+FarmTab:Section({ Title = "Auto Farm (Infinite Range)" })
 
 FarmTab:Toggle({
     Title = "Enable Auto Farm",
@@ -471,80 +473,103 @@ FarmTab:Dropdown({
     Callback = function(option) _G.SelectedFish = option end
 })
 
-FarmTab:Section({ Title = "Saved Position Info" })
-
-local PosLabel = FarmTab:Paragraph({
-    Title = "ข้อมูลตำแหน่ง",
-    Content = "ยังไม่มีข้อมูล"
+FarmTab:Slider({
+    Title = "Tween Speed",
+    Min = 10, Max = 500, Default = 100,
+    Callback = function(v) _G.TweenSpeed = v end
 })
 
-local function UpdateUIInfo()
+FarmTab:Section({ Title = "Position System" })
+
+local PosLabel = FarmTab:Paragraph({
+    Title = "ยังไม่มีข้อมูลที่เซฟไว้",
+    Content = "กรุณากดปุ่ม Save Position"
+})
+
+-- ฟังก์ชันอัปเดต UI ตามคำสั่งล่าสุด
+local function UpdateUI()
     if _G.SingleSavedPos then
-        local x, y = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y)
+        local x = math.floor(_G.SingleSavedPos.X)
+        local y = math.floor(_G.SingleSavedPos.Y)
+        local z = math.floor(_G.SingleSavedPos.Z)
+        
+        local titleString = "📍พิกัดที่เซฟ: X:"..x.." Y:"..y.." Z:"..z
+        
         pcall(function()
             if PosLabel.SetTitle then
-                PosLabel:SetTitle("โหลดพิกัดสำเร็จ ✅")
-                PosLabel:SetContent("📍 ตำแหน่งที่เซฟ : X: "..x.." | Y: "..y)
+                PosLabel:SetTitle(titleString)
+                PosLabel:SetContent("สถานะ: โหลดพิกัดสำเร็จ ✅")
             else
-                PosLabel.Title = "โหลดพิกัดสำเร็จ ✅"
-                PosLabel.Content = "📍 ตำแหน่งที่เซฟ : X: "..x.." | Y: "..y
+                PosLabel.Title = titleString
+                PosLabel.Content = "สถานะ: โหลดพิกัดสำเร็จ ✅"
             end
         end)
     end
 end
-UpdateUIInfo()
+
+UpdateUI() -- เรียกใช้ตอนเริ่ม
 
 FarmTab:Button({
-    Title = "Save Current Position (JSON)",
+    Title = "Save Position (JSON)",
     Callback = function()
         if root then
             _G.SingleSavedPos = root.Position
             SaveToJSON(_G.SingleSavedPos)
-            UpdateUIInfo()
+            UpdateUI()
             if WindUI and WindUI.Notify then
-                WindUI:Notify({Title = "Success", Content = "Saved Position!", Duration = 2})
+                WindUI:Notify({Title = "System", Content = "บันทึกพิกัดเรียบร้อย", Duration = 2})
             end
         end
     end
 })
 
 FarmTab:Toggle({
-    Title = "Use Saved Position",
+    Title = "Lock to Saved Position",
     Callback = function(state) _G.PositionMode = state end
 })
 
 -- =========================================
--- 5. MAIN LOOPS (ตัวรันระบบ)
+-- 6. MAIN LOOP (CORE SYSTEM)
 -- =========================================
-
--- ลูปการฟาร์มและการยิง
 task.spawn(function()
     while task.wait(0.1) do
         if not _G.FarmEnabled or not root then continue end
 
-        -- ระบบล็อกตำแหน่ง
+        -- 1. ล็อกตำแหน่ง (กรณีเปิดโหมดประหยัดแรง)
         if _G.PositionMode and _G.SingleSavedPos then
             if (root.Position - _G.SingleSavedPos).Magnitude > 3 then
+                if activeTween then activeTween:Cancel() end
                 root.CFrame = CFrame.new(_G.SingleSavedPos)
             end
         end
 
-        -- ระบบค้นหาและยิง
+        -- 2. ระบบค้นหาปลาและ Tween (Infinite Distance)
         local target = GetClosestFish()
-        if target then
-            AutoShoot(target)
-            task.wait(0.1) -- หน่วงเวลาเล็กน้อยกันกระตุก
+        if target and target.PrimaryPart then
+            local targetPos = target.PrimaryPart.Position
+            
+            if not _G.PositionMode then
+                -- บินไปหาปลา
+                local stopPos = targetPos + (root.Position - targetPos).Unit * 15
+                TweenTo(stopPos)
+                
+                if (root.Position - stopPos).Magnitude < 20 then
+                    AutoShoot(target)
+                end
+            else
+                -- ยิงจากจุดที่ล็อกไว้
+                AutoShoot(target)
+            end
         end
     end
 end)
 
--- ระบบ Perfect Catch (ทำงานตลอดถ้า FarmEnabled)
+-- Auto Perfect Catch
 RunService.Heartbeat:Connect(function()
     if _G.FarmEnabled then
         pcall(function()
-            local catchBar = player.PlayerGui.Main:FindFirstChild("CatchingBar")
-            if catchBar and catchBar.Visible then
-                local green = catchBar.Frame.Bar.Catch.Green
+            local green = player.PlayerGui.Main.CatchingBar.Frame.Bar.Catch.Green
+            if green.Visible then
                 green.Size = UDim2.new(1, 0, 1, 0)
                 green.BackgroundTransparency = 1
             end
@@ -552,7 +577,8 @@ RunService.Heartbeat:Connect(function()
     end
 end)
 
-print("✅ [FULL SYSTEM] RICKHUB ABYSS LOADED")
+print("🔥 Rickhub Abyss Full System: Loaded Successfully")
+
 
 
 local ESPTab   = Window:Tab({Title="ESP",   Icon="eye"})
