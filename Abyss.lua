@@ -172,10 +172,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- AutoFarm
 -- ---------
 
--- =========================================
--- SERVICES
--- =========================================
-
 
 -- =========================================
 -- SERVICES
@@ -189,6 +185,24 @@ local HttpService = game:GetService("HttpService")
 local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
+
+-- =========================================
+-- AUTO FISH LIST SCANNER (แก้ปัญหา Dropdown ว่าง)
+-- =========================================
+local Fish_Name_list = {"All - ทุกตัว"}
+local success, fishModels = pcall(function()
+    -- ดึงชื่อปลาจากไฟล์โมเดลในเกมโดยตรง
+    return ReplicatedStorage:WaitForChild("Models"):WaitForChild("Fish")
+end)
+
+if success and fishModels then
+    for _, fish in pairs(fishModels:GetChildren()) do
+        if not table.find(Fish_Name_list, fish.Name) then
+            table.insert(Fish_Name_list, fish.Name)
+        end
+    end
+end
+table.sort(Fish_Name_list) -- เรียงชื่อปลาตามตัวอักษร
 
 -- =========================================
 -- FILE SYSTEM (RickhubAbyss_ชื่อผู้เล่นpos.json)
@@ -328,7 +342,6 @@ end)
 -- =========================================
 -- UI SECTION (WindUI)
 -- =========================================
-
 
 
 
@@ -500,6 +513,7 @@ end
 
 local FarmTab   = Window:Tab({Title="FARM",   Icon="hand-coins"})
 
+
 FarmTab:Section({ Title = "Auto Farm Settings" })
 
 FarmTab:Toggle({
@@ -509,28 +523,25 @@ FarmTab:Toggle({
 
 FarmTab:Dropdown({
     Title = "Select Fish",
-    Values = Fish_Name_list,
+    Values = Fish_Name_list, -- ตอนนี้มีรายชื่อปลาแล้ว!
     Callback = function(option) _G.SelectedFish = option end
 })
 
 FarmTab:Section({ Title = "Permanent Saved Position" })
 
--- สร้าง Paragraph
 local PosLabel = FarmTab:Paragraph({
     Title = "ข้อมูลตำแหน่ง",
     Content = "ยังไม่มีข้อมูลที่เซฟไว้"
 })
 
--- ฟังก์ชันอัปเดตข้อความ Paragraph (แก้ไขตามเอกสาร WindUI Docs)
+-- ฟังก์ชันอัปเดต UI (แก้ Error .Set)
 local function UpdatePosUI(title, content)
     pcall(function()
-        -- WindUI ใช้ SetTitle และ SetContent ในการอัปเดต Paragraph
         if PosLabel.SetTitle then PosLabel:SetTitle(title) end
         if PosLabel.SetContent then PosLabel:SetContent(content) end
     end)
 end
 
--- โหลดข้อมูลครั้งแรกทันทีที่รันสคริปต์
 if _G.SingleSavedPos then
     local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
     UpdatePosUI("โหลดพิกัดสำเร็จ ✅", "📍 ตำแหน่งที่เซฟ : X: "..x.." | Y: "..y.." | Z: "..z)
@@ -546,7 +557,7 @@ FarmTab:Button({
             local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
             UpdatePosUI("บันทึกสำเร็จ ✅", "📍 ตำแหน่งที่เซฟ : X: " .. x .. " | Y: " .. y .. " | Z: " .. z)
             
-            WindUI:Notify({Title = "Success", Content = "บันทึกลงไฟล์เรียบร้อย", Duration = 2})
+            WindUI:Notify({Title = "Success", Content = "บันทึกลงไฟล์ " .. fileName, Duration = 2})
         end
     end
 })
@@ -572,7 +583,7 @@ pcall(function()
     end)
 end)
 
-print("🔥 RickhubAbyss - FIXED ACCURACY & UI")
+print("🔥 ULTIMATE FIXED VERSION READY")
 
 
 
