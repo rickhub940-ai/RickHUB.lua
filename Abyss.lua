@@ -177,6 +177,13 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- =========================================
 -- SERVICES
 -- =========================================
+
+
+
+
+-- =========================================
+-- SERVICES
+-- =========================================
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -184,27 +191,7 @@ local RunService = game:GetService("RunService")
 
 local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
-
-local root
-local event
-
--- =========================================
--- SETUP CHARACTER
--- =========================================
-local function setupCharacter(char)
-    root = char:WaitForChild("HumanoidRootPart")
-    
-    -- รอหา Tool และ Remote Event
-    task.spawn(function()
-        local tool = char:WaitForChild("Tool", 10)
-        if tool then
-            event = tool:WaitForChild("Event", 5)
-        end
-    end)
-end
-
-if player.Character then setupCharacter(player.Character) end
-player.CharacterAdded:Connect(setupCharacter)
+local root = character:WaitForChild("HumanoidRootPart")
 
 -- =========================================
 -- GLOBAL SETTINGS
@@ -212,150 +199,117 @@ player.CharacterAdded:Connect(setupCharacter)
 _G.FarmEnabled = false
 _G.PositionMode = false
 _G.SelectedFish = "All - ทุกตัว"
-_G.SelectedSlot = nil
 _G.ShootRange = 40
-_G.WalkSpeed = 60 -- ความเร็วในการ Tween ตามปลา
-
-_G.SavedPositions = _G.SavedPositions or {
-    [1] = nil, [2] = nil, [3] = nil, [4] = nil, [5] = nil
-}
-
--- =========================================
--- FISH LIST & FOLDER
--- =========================================
-local Fish_Name_list = { "All - ทุกตัว" }
-
-pcall(function()
-    local fishAssets = ReplicatedStorage:WaitForChild("common"):WaitForChild("assets"):WaitForChild("fish")
-    for _, fishModel in pairs(fishAssets:GetChildren()) do
-        if fishModel:IsA("Model") then
-            table.insert(Fish_Name_list, fishModel.Name)
-        end
-    end
-end)
+_G.TweenSpeed = 60 
+_G.SingleSavedPos = nil 
 
 local fishFolder = workspace:WaitForChild("Game"):WaitForChild("Fish"):WaitForChild("client")
 
 -- =========================================
--- TWEEN / MOVEMENT
+-- CHARACTER SETUP
+-- =========================================
+local function setupCharacter(char)
+    root = char:WaitForChild("HumanoidRootPart")
+end
+player.CharacterAdded:Connect(setupCharacter)
+
+-- =========================================
+-- FISH LIST (ดึงชื่อจาก ReplicatedStorage)
+-- =========================================
+local Fish_Name_list = { "All - ทุกตัว" }
+pcall(function()
+    local assets = ReplicatedStorage:WaitForChild("common"):WaitForChild("assets"):WaitForChild("fish")
+    for _, v in pairs(assets:GetChildren()) do
+        if v:IsA("Model") then table.insert(Fish_Name_list, v.Name) end
+    end
+end)
+
+-- =========================================
+-- FUNCTIONS: MOVEMENT & TARGETING
 -- =========================================
 local function TweenTo(position)
     if not root then return end
     local distance = (root.Position - position).Magnitude
-    if distance < 2 then return end -- ใกล้มากไม่ต้องวาร์ป
+    if distance < 2 then return end
 
-    local time = distance / _G.WalkSpeed
-    local tween = TweenService:Create(
-        root,
-        TweenInfo.new(time, Enum.EasingStyle.Linear),
-        {CFrame = CFrame.new(position)}
-    )
+    local duration = distance / _G.TweenSpeed
+    local tween = TweenService:Create(root, TweenInfo.new(duration, Enum.EasingStyle.Linear), {CFrame = CFrame.new(position)})
     tween:Play()
     return tween
 end
 
--- =========================================
--- TARGETING
--- =========================================
 local function GetClosestFish()
-    if not root then return nil end
-    local closest = nil
-    local dist = math.huge
-
+    local closest, dist = nil, math.huge
     for _, fish in pairs(fishFolder:GetChildren()) do
         if fish:IsA("Model") and fish.PrimaryPart then
-            if _G.SelectedFish == "All - ทุกตัว" or fish.Name == _G.SelectedFish then
+            local canTarget = false
+            if _G.SelectedFish == "All - ทุกตัว" then
+                canTarget = true
+            else
+                pcall(function()
+                    if fish.Head.stats.Fish.Value == _G.SelectedFish then canTarget = true end
+                end)
+            end
+            if canTarget then
                 local mag = (root.Position - fish.PrimaryPart.Position).Magnitude
-                if mag < dist then
-                    dist = mag
-                    closest = fish
-                end
+                if mag < dist then dist = mag; closest = fish end
             end
         end
     end
     return closest
 end
 
--- =========================================
--- SHOOTING (Logic แยกออกมาให้เรียกใช้ซ้ำได้)
--- =========================================
 local function ShootAt(fish)
-    if not event or not fish or not fish.PrimaryPart then return end
-    local direction = (fish.PrimaryPart.Position - root.Position).Unit
-    event:FireServer("use", fish.PrimaryPart.Position, direction)
+    local tool = player.Character:FindFirstChildOfClass("Tool")
+    local event = tool and tool:FindFirstChild("Event")
+    if event and fish.PrimaryPart then
+        event:FireServer("use", fish.PrimaryPart.Position, (fish.PrimaryPart.Position - root.Position).Unit)
+    end
 end
 
 -- =========================================
--- MAIN LOOP: FOLLOW & FARM (ปรับปรุงใหม่ให้ตามตลอด)
+-- MAIN LOOP: FARM & FOLLOW
 -- =========================================
 task.spawn(function()
     while task.wait(0.1) do
-        if not _G.FarmEnabled or not root or not event then continue end
+        if not _G.FarmEnabled or not root then continue end
+
+        if _G.PositionMode and _G.SingleSavedPos then
+            if (root.Position - _G.SingleSavedPos).Magnitude > 3 then
+                local t = TweenTo(_G.SingleSavedPos)
+                if t then t.Completed:Wait() end
+            end
+        end
 
         local target = GetClosestFish()
         if not target or not target.PrimaryPart then continue end
 
-        -- ขณะที่ปลาตัวนี้ยังอยู่ ให้ "เกาะติด" และ "ยิง" ไปพร้อมกัน
         while _G.FarmEnabled and target and target.Parent and target.PrimaryPart do
             local targetPos = target.PrimaryPart.Position
             local distance = (root.Position - targetPos).Magnitude
 
-            -- 1. การเคลื่อนที่ (Movement Logic)
-            if _G.PositionMode and _G.SelectedSlot and _G.SavedPositions[_G.SelectedSlot] then
-                -- ถ้าเปิดโหมดล็อคจุด ให้กลับไปจุดที่เซฟไว้
-                local savedPos = _G.SavedPositions[_G.SelectedSlot]
-                if (root.Position - savedPos).Magnitude > 3 then
-                    TweenTo(savedPos)
+            if _G.PositionMode and _G.SingleSavedPos then
+                if (root.Position - _G.SingleSavedPos).Magnitude > 5 then
+                    root.CFrame = CFrame.new(_G.SingleSavedPos)
                 end
             else
-                -- ถ้าอยู่นอกระยะยิง ให้วาร์ปไปหาปลาทันที
                 if distance > _G.ShootRange then
                     TweenTo(targetPos)
-                -- ถ้าอยู่ในระยะยิงแล้ว แต่ปลาเริ่มว่ายหนี (ห่างเกิน 10) ให้ค่อยๆ ไหลตาม (Smooth Follow)
                 elseif distance > 10 then
-                    root.CFrame = root.CFrame:Lerp(CFrame.new(targetPos + (root.Position - targetPos).Unit * 5), 0.1)
+                    root.CFrame = root.CFrame:Lerp(CFrame.new(targetPos + (root.Position - targetPos).Unit * 6), 0.1)
                 end
             end
 
-            -- 2. การยิง (Shooting)
             ShootAt(target)
-
-            task.wait(0.01) -- ยิงรัวๆ พร้อมกับเช็คตำแหน่งปลา
+            task.wait(0.01)
+            if _G.PositionMode then break end 
         end
     end
 end)
 
 -- =========================================
--- GREEN BAR EXPANDER (Auto Perfect Catch)
+-- UI SECTION (WindUI)
 -- =========================================
-pcall(function()
-    local catchPath = player:WaitForChild("PlayerGui"):WaitForChild("Main"):WaitForChild("CatchingBar"):WaitForChild("Frame"):WaitForChild("Bar"):WaitForChild("Catch")
-    local targets = {
-        catchPath:WaitForChild("Green", 5),
-        catchPath.Green:WaitForChild("DC", 5)
-    }
-
-    RunService.Heartbeat:Connect(function()
-        for _, v in pairs(targets) do
-            if v and v.Visible then
-                v.Size = UDim2.new(1, 0, 1, 0)
-                v.Position = UDim2.new(0.5, 0, 0.5, 0)
-                v.AnchorPoint = Vector2.new(0.5, 0.5)
-                v.BackgroundTransparency = 1
-                for _, s in pairs(v:GetChildren()) do
-                    if s:IsA("UIStroke") then s.Transparency = 1 end
-                end
-            end
-        end
-    end)
-end)
-
--- =========================================
--- UI INTEGRATION (WindUI / FarmTab)
--- =========================================
-
-
-
 
 
 
@@ -529,60 +483,70 @@ end
 
 local FarmTab   = Window:Tab({Title="FARM",   Icon="hand-coins"})
 
+FarmTab:Section({ Title = "Auto Farm Settings" })
 
 FarmTab:Toggle({
     Title = "Enable Auto Farm",
-    Default = false,
     Callback = function(state) _G.FarmEnabled = state end
-})
-
-FarmTab:Toggle({
-    Title = "Position Mode (ล็อคจุดยิง)",
-    Default = false,
-    Callback = function(state) _G.PositionMode = state end
 })
 
 FarmTab:Dropdown({
     Title = "Select Fish",
     Values = Fish_Name_list,
-    Multi = false,
     Callback = function(option) _G.SelectedFish = option end
 })
 
-local PositionDropdown
-local function UpdateDropdown()
-    if not PositionDropdown then return end
-    local values = {}
-    for i = 1, 5 do
-        local pos = _G.SavedPositions[i]
-        table.insert(values, pos and (i..": "..math.floor(pos.X)..","..math.floor(pos.Y)..","..math.floor(pos.Z)) or (i..": Empty"))
-    end
-    PositionDropdown:Refresh(values, false)
-end
+-- SECTION แสดงตำแหน่งที่เซฟ
+local PosSection = FarmTab:Section({ Title = "Saved Position Info" })
 
-PositionDropdown = FarmTab:Dropdown({
-    Title = "Select Position Slot",
-    Values = {"1:","2:","3:","4:","5:"},
-    Multi = false,
-    Callback = function(option) _G.SelectedSlot = tonumber(string.match(option, "%d+")) end
+local PosLabel = FarmTab:Paragraph({
+    Title = "Saved Coordinates:",
+    Content = "Not Saved"
 })
-
-UpdateDropdown()
 
 FarmTab:Button({
     Title = "Save Current Position",
     Callback = function()
-        if not _G.SelectedSlot then
-            WindUI:Notify({Title = "Warning", Content = "เลือก Slot ก่อนเซฟ", Duration = 3})
-            return
-        end
-        _G.SavedPositions[_G.SelectedSlot] = root.Position
-        UpdateDropdown()
-        WindUI:Notify({Title = "Saved", Content = "บันทึกตำแหน่งสำเร็จ", Duration = 2})
+        _G.SingleSavedPos = root.Position
+        
+        -- อัปเดตข้อความใน UI
+        local x = math.floor(_G.SingleSavedPos.X)
+        local y = math.floor(_G.SingleSavedPos.Y)
+        local z = math.floor(_G.SingleSavedPos.Z)
+        PosLabel:Set({ Content = "X: "..x.." | Y: "..y.." | Z: "..z })
+
+        WindUI:Notify({
+            Title = "Success",
+            Content = "Position Saved!",
+            Duration = 2
+        })
     end
 })
 
-print("🔥 FULL FARM SYSTEM LOADED (Follow Mode Enabled)")
+FarmTab:Toggle({
+    Title = "Use Saved Position (Lock Mode)",
+    Callback = function(state) _G.PositionMode = state end
+})
+
+-- =========================================
+-- GREEN BAR EXPANDER
+-- =========================================
+pcall(function()
+    RunService.Heartbeat:Connect(function()
+        local catchBar = player.PlayerGui:FindFirstChild("Main") and player.PlayerGui.Main:FindFirstChild("CatchingBar")
+        if catchBar then
+            local green = catchBar.Frame.Bar.Catch:FindFirstChild("Green")
+            if green and green.Visible then
+                green.Size = UDim2.new(1, 0, 1, 0)
+                green.Position = UDim2.new(0.5, 0, 0.5, 0)
+                green.AnchorPoint = Vector2.new(0.5, 0.5)
+                green.BackgroundTransparency = 1
+            end
+        end
+    end)
+end)
+
+print("🔥 FARM SYSTEM WITH POSITION DISPLAY LOADED")
 
 
 local ESPTab   = Window:Tab({Title="ESP",   Icon="eye"})
