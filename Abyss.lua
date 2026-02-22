@@ -172,8 +172,9 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- AutoFarm
 -- ---------
 
+
 -- =========================================
--- 1. SETUP & SERVICES
+-- 1. SETUP & REFRESH CHARACTER SYSTEM
 -- =========================================
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
@@ -185,7 +186,12 @@ local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
 
--- ระบบไฟล์พิกัด JSON
+-- ระบบอัปเดตตัวละครเมื่อเกิดใหม่ (แก้บั๊กตายแล้วหยุดทำงาน)
+player.CharacterAdded:Connect(function(newChar)
+    character = newChar
+    root = newChar:WaitForChild("HumanoidRootPart")
+end)
+
 local fileName = "RickhubAbyss_" .. player.Name .. "pos.json"
 
 local function SaveToJSON(pos)
@@ -206,16 +212,16 @@ local function LoadFromJSON()
 end
 
 -- =========================================
--- 2. GLOBAL SETTINGS
+-- 2. GLOBAL SETTINGS & MULTI-SELECT FISH
 -- =========================================
 _G.FarmEnabled = false
 _G.PositionMode = false
-_G.SelectedFish = "All - ทุกตัว"
+_G.SelectedFishes = {} -- เปลี่ยนเป็น Table เพื่อเก็บปลาหลายตัว
 _G.SingleSavedPos = LoadFromJSON()
 _G.TweenSpeed = 70 
-_G.WaitDelay = 2 -- หน่วงเวลา 2 วินาทีตามที่นายสั่ง
+_G.WaitDelay = 2
 
-local Fish_Name_list = { "All - ทุกตัว" }
+local Fish_Name_list = {} 
 pcall(function()
     local fishAssets = ReplicatedStorage:WaitForChild("common"):WaitForChild("assets"):WaitForChild("fish")
     for _, fishModel in pairs(fishAssets:GetChildren()) do
@@ -233,6 +239,7 @@ local activeTween = nil
 local isProcessing = false 
 
 local function TweenTo(position)
+    if not root then return end
     local distance = (root.Position - position).Magnitude
     if distance < 3 then 
         if activeTween then activeTween:Cancel() end
@@ -257,13 +264,18 @@ local function GetClosestFish()
         for _, fish in pairs(fishFolder:GetChildren()) do
             if fish:IsA("Model") and fish.PrimaryPart then
                 local isMatch = false
-                if _G.SelectedFish == "All - ทุกตัว" then
+                
+                -- ตรวจสอบว่าชื่อปลาตัวนี้อยู่ในรายการที่เลือกไว้หรือไม่
+                if #_G.SelectedFishes == 0 then -- ถ้าไม่เลือกอะไรเลย ให้ถือว่าเอาหมด
                     isMatch = true
                 else
                     pcall(function()
                         local actualName = fish.Head.stats.Fish.Text
-                        if string.find(string.lower(actualName), string.lower(_G.SelectedFish)) then 
-                            isMatch = true 
+                        for _, selected in pairs(_G.SelectedFishes) do
+                            if string.find(string.lower(actualName), string.lower(selected)) then 
+                                isMatch = true 
+                                break
+                            end
                         end
                     end)
                 end
@@ -282,7 +294,7 @@ local function GetClosestFish()
 end
 
 local function AutoShoot(target)
-    if not target or not target.PrimaryPart then return end
+    if not target or not target.PrimaryPart or not character then return end
     local tool = character:FindFirstChildOfClass("Tool") or player.Backpack:FindFirstChildOfClass("Tool")
     local event = tool and tool:FindFirstChild("Event")
     if event then
@@ -461,57 +473,49 @@ end
 
 local FarmTab   = Window:Tab({Title="FARM",   Icon="hand-coins"})
 
-FarmTab:Section({ Title = "Auto Farm (FULL FIXED)" })
+
+FarmTab:Section({ Title = "Auto Farm:)" })
+
+
+
+
+FarmTab:Dropdown({
+    Title = "เลือกปลาที่จะฟาม",
+    Values = Fish_Name_list,
+    Default = {},
+    Callback = function(selectedList)
+        _G.SelectedFishes = selectedList
+    end
+})
 
 FarmTab:Toggle({
-    Title = "Enable Auto Farm",
+    Title = "ฟามปลาตามที่เลือก",
     Callback = function(state) _G.FarmEnabled = state end
 })
 
-FarmTab:Dropdown({
-    Title = "Select Fish",
-    Values = Fish_Name_list,
-    Callback = function(option) _G.SelectedFish = option end
-})
-
--- Slider แก้ไขตามตัวอย่างเป๊ะๆ
 FarmTab:Slider({
-    Title = "Tween Speed",
-    Desc = "ความเร็วในการบินหาปลา",
+    Title = "ปรับความเร็วการเคลื่อนที่",
     Step = 1,
-    Value = {
-        Min = 20,
-        Max = 300,
-        Default = 70,
-    },
-    Callback = function(value)
-        _G.TweenSpeed = value
-    end
+    Value = { Min = 20, Max = 300, Default = 70 },
+    Callback = function(v) _G.TweenSpeed = v end
 })
 
 FarmTab:Section({ Title = "Permanent Position" })
 
-local PosLabel = FarmTab:Paragraph({
-    Title = "ยังไม่มีข้อมูลพิกัด",
-    Content = "กดปุ่ม Save ด้านล่างเพื่อบันทึกพิกัด"
-})
+local PosLabel = FarmTab:Paragraph({ Title = "ยังไม่มีข้อมูลพิกัด", Content = "" })
 
 local function UpdateUI()
     if _G.SingleSavedPos then
-        local x = math.floor(_G.SingleSavedPos.X)
-        local y = math.floor(_G.SingleSavedPos.Y)
-        local z = math.floor(_G.SingleSavedPos.Z)
+        local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
         pcall(function()
-            -- เปลี่ยนหัวข้อตามคำสั่งนาย
             PosLabel:SetTitle("📍พิกัดที่เซฟ: X:"..x.." Y:"..y.." Z:"..z)
-            PosLabel:SetContent("สถานะ: บันทึกสำเร็จ ✅")
         end)
     end
 end
 UpdateUI()
 
 FarmTab:Button({
-    Title = "Save Current Position",
+    Title = "เซฟตำแหน่ง",
     Callback = function()
         if root then
             _G.SingleSavedPos = root.Position
@@ -522,18 +526,16 @@ FarmTab:Button({
 })
 
 FarmTab:Toggle({
-    Title = "Lock to Saved Position",
+    Title = "โหมดฟามตามตำแหน่งที่เซฟ",
     Callback = function(state) _G.PositionMode = state end
 })
 
--- =========================================
--- 5. MAIN LOOP (ระบบหน่วงเวลา 2 วิ)
--- =========================================
+
 task.spawn(function()
     while task.wait(0.1) do
-        if not _G.FarmEnabled or not root or isProcessing then continue end
+        if not _G.FarmEnabled or not root or not root.Parent then continue end
+        if isProcessing then continue end
 
-        -- โหมดล็อกพิกัด
         if _G.PositionMode and _G.SingleSavedPos then
             if (root.Position - _G.SingleSavedPos).Magnitude > 3 then
                 if activeTween then activeTween:Cancel() end
@@ -550,47 +552,40 @@ task.spawn(function()
                 local dist = (root.Position - stopPos).Magnitude
                 
                 if dist < 8 then
-                    -- 1. บินมาถึงแล้ว: หยุดนิ่ง ล็อกท่า และรอ 2 วิ
                     if activeTween then activeTween:Cancel() end
                     root.Velocity = Vector3.zero 
                     isProcessing = true
                     
-                    task.wait(_G.WaitDelay) -- รอ 2 วินาทีก่อนยิงเบ็ด
+                    task.wait(_G.WaitDelay) -- รอ 2 วิ
                     
-                    if _G.FarmEnabled and target and target.Parent then
+                    if _G.FarmEnabled and target and target.Parent and root then
                         AutoShoot(target)
-                        -- 2. ยิงเสร็จ/ขยับเสร็จ: รออีก 2 วิ ค่อยยอมให้เริ่มตามใหม่
-                        task.wait(_G.WaitDelay)
+                        task.wait(_G.WaitDelay) -- รออีก 2 วิ ค่อยขยับ
                     end
                     
                     isProcessing = false
                 else
-                    -- บินตามปลา
                     TweenTo(stopPos)
                 end
             else
-                -- โหมดล็อกพิกัด ยิงได้เลยไม่ต้องรอจังหวะบิน
                 AutoShoot(target)
             end
         end
     end
 end)
 
--- Auto Perfect Catch
 RunService.Heartbeat:Connect(function()
     if _G.FarmEnabled then
         pcall(function()
-            local green = player.PlayerGui.Main.CatchingBar.Frame.Bar.Catch.Green
-            if green.Visible then
+            local catchBar = player.PlayerGui.Main:FindFirstChild("CatchingBar")
+            if catchBar and catchBar.Visible then
+                local green = catchBar.Frame.Bar.Catch.Green
                 green.Size = UDim2.new(1, 0, 1, 0)
                 green.BackgroundTransparency = 1
             end
         end)
     end
 end)
-
-print("✅ Rickhub Abyss FULL MERGED: ใช้งานได้ทันที!")
-
 
 
 local ESPTab   = Window:Tab({Title="ESP",   Icon="eye"})
