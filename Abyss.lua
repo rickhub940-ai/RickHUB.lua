@@ -328,79 +328,6 @@ end)
 -- =========================================
 -- UI SECTION (WindUI)
 -- =========================================
-FarmTab:Section({ Title = "Auto Farm Settings" })
-
-FarmTab:Toggle({
-    Title = "Enable Auto Farm",
-    Callback = function(state) _G.FarmEnabled = state end
-})
-
-FarmTab:Dropdown({
-    Title = "Select Fish",
-    Values = Fish_Name_list,
-    Callback = function(option) _G.SelectedFish = option end
-})
-
-FarmTab:Section({ Title = "Permanent Saved Position" })
-
--- สร้าง Paragraph
-local PosLabel = FarmTab:Paragraph({
-    Title = "ข้อมูลตำแหน่ง",
-    Content = "ยังไม่มีข้อมูลที่เซฟไว้"
-})
-
--- ฟังก์ชันอัปเดตข้อความ Paragraph (แก้ไขตามเอกสาร WindUI Docs)
-local function UpdatePosUI(title, content)
-    pcall(function()
-        -- WindUI ใช้ SetTitle และ SetContent ในการอัปเดต Paragraph
-        if PosLabel.SetTitle then PosLabel:SetTitle(title) end
-        if PosLabel.SetContent then PosLabel:SetContent(content) end
-    end)
-end
-
--- โหลดข้อมูลครั้งแรกทันทีที่รันสคริปต์
-if _G.SingleSavedPos then
-    local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
-    UpdatePosUI("โหลดพิกัดสำเร็จ ✅", "📍 ตำแหน่งที่เซฟ : X: "..x.." | Y: "..y.." | Z: "..z)
-end
-
-FarmTab:Button({
-    Title = "Save Current Position (JSON)",
-    Callback = function()
-        if root then
-            _G.SingleSavedPos = root.Position
-            SaveToJSON(_G.SingleSavedPos) 
-            
-            local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
-            UpdatePosUI("บันทึกสำเร็จ ✅", "📍 ตำแหน่งที่เซฟ : X: " .. x .. " | Y: " .. y .. " | Z: " .. z)
-            
-            WindUI:Notify({Title = "Success", Content = "บันทึกลงไฟล์เรียบร้อย", Duration = 2})
-        end
-    end
-})
-
-FarmTab:Toggle({
-    Title = "Use Saved Position",
-    Callback = function(state) _G.PositionMode = state end
-})
-
--- Auto Perfect Catch
-pcall(function()
-    RunService.Heartbeat:Connect(function()
-        local catchBar = player.PlayerGui:FindFirstChild("Main") and player.PlayerGui.Main:FindFirstChild("CatchingBar")
-        if catchBar then
-            local green = catchBar.Frame.Bar.Catch:FindFirstChild("Green")
-            if green and green.Visible then
-                green.Size = UDim2.new(1, 0, 1, 0)
-                green.Position = UDim2.new(0.5, 0, 0.5, 0)
-                green.AnchorPoint = Vector2.new(0.5, 0.5)
-                green.BackgroundTransparency = 1
-            end
-        end
-    end)
-end)
-
-print("🔥 RickhubAbyss - FIXED ACCURACY & UI")
 
 
 
@@ -588,19 +515,25 @@ FarmTab:Dropdown({
 
 FarmTab:Section({ Title = "Permanent Saved Position" })
 
--- Paragraph ที่จะอยู่ค้างหน้าจอเพื่อบอกพิกัด
+-- สร้าง Paragraph
 local PosLabel = FarmTab:Paragraph({
     Title = "ข้อมูลตำแหน่ง",
     Content = "ยังไม่มีข้อมูลที่เซฟไว้"
 })
 
--- อัปเดตข้อความทันทีถ้าโหลดไฟล์ได้
+-- ฟังก์ชันอัปเดตข้อความ Paragraph (แก้ไขตามเอกสาร WindUI Docs)
+local function UpdatePosUI(title, content)
+    pcall(function()
+        -- WindUI ใช้ SetTitle และ SetContent ในการอัปเดต Paragraph
+        if PosLabel.SetTitle then PosLabel:SetTitle(title) end
+        if PosLabel.SetContent then PosLabel:SetContent(content) end
+    end)
+end
+
+-- โหลดข้อมูลครั้งแรกทันทีที่รันสคริปต์
 if _G.SingleSavedPos then
     local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
-    PosLabel:Set({
-        Title = "โหลดพิกัดสำเร็จ ✅",
-        Content = "📍 ตำแหน่งที่เซฟ : X: "..x.." | Y: "..y.." | Z: "..z
-    })
+    UpdatePosUI("โหลดพิกัดสำเร็จ ✅", "📍 ตำแหน่งที่เซฟ : X: "..x.." | Y: "..y.." | Z: "..z)
 end
 
 FarmTab:Button({
@@ -608,18 +541,12 @@ FarmTab:Button({
     Callback = function()
         if root then
             _G.SingleSavedPos = root.Position
-            SaveToJSON(_G.SingleSavedPos) -- บันทึกลงไฟล์ .json
+            SaveToJSON(_G.SingleSavedPos) 
             
             local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
+            UpdatePosUI("บันทึกสำเร็จ ✅", "📍 ตำแหน่งที่เซฟ : X: " .. x .. " | Y: " .. y .. " | Z: " .. z)
             
-            pcall(function() 
-                PosLabel:Set({
-                    Title = "บันทึกสำเร็จ ✅", 
-                    Content = "📍 ตำแหน่งที่เซฟ : X: " .. x .. " | Y: " .. y .. " | Z: " .. z
-                }) 
-            end)
-            
-            WindUI:Notify({Title = "Success", Content = "บันทึกลงไฟล์ " .. fileName, Duration = 2})
+            WindUI:Notify({Title = "Success", Content = "บันทึกลงไฟล์เรียบร้อย", Duration = 2})
         end
     end
 })
@@ -645,7 +572,7 @@ pcall(function()
     end)
 end)
 
-print("🔥 ULTIMATE SYSTEM LOADED - USER: " .. player.Name)
+print("🔥 RickhubAbyss - FIXED ACCURACY & UI")
 
 
 
