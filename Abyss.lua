@@ -177,13 +177,6 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- =========================================
 -- SERVICES
 -- =========================================
-
-
-
-
--- =========================================
--- SERVICES
--- =========================================
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -202,6 +195,7 @@ _G.SelectedFish = "All - ทุกตัว"
 _G.ShootRange = 40
 _G.TweenSpeed = 60 
 _G.SingleSavedPos = nil 
+_G.FollowDelay = 0.8 -- หน่วงเวลาเดินตาม 0.8 วินาที
 
 local fishFolder = workspace:WaitForChild("Game"):WaitForChild("Fish"):WaitForChild("client")
 
@@ -214,7 +208,7 @@ end
 player.CharacterAdded:Connect(setupCharacter)
 
 -- =========================================
--- FISH LIST (ดึงชื่อจาก ReplicatedStorage)
+-- FISH LIST (ดึงจาก ReplicatedStorage)
 -- =========================================
 local Fish_Name_list = { "All - ทุกตัว" }
 pcall(function()
@@ -227,6 +221,7 @@ end)
 -- =========================================
 -- FUNCTIONS: MOVEMENT & TARGETING
 -- =========================================
+
 local function TweenTo(position)
     if not root then return end
     local distance = (root.Position - position).Magnitude
@@ -247,7 +242,11 @@ local function GetClosestFish()
                 canTarget = true
             else
                 pcall(function()
-                    if fish.Head.stats.Fish.Value == _G.SelectedFish then canTarget = true end
+                    -- แก้ไข: อ่านจาก .Text ตามที่คุณระบุ
+                    local actualName = fish.Head.stats.Fish.Text
+                    if actualName and string.find(tostring(actualName), tostring(_G.SelectedFish)) then 
+                        canTarget = true 
+                    end
                 end)
             end
             if canTarget then
@@ -268,12 +267,15 @@ local function ShootAt(fish)
 end
 
 -- =========================================
--- MAIN LOOP: FARM & FOLLOW
+-- MAIN LOOP (WITH 0.8s DELAY)
 -- =========================================
 task.spawn(function()
+    local lastFollowTime = 0
+    
     while task.wait(0.1) do
         if not _G.FarmEnabled or not root then continue end
 
+        -- 1. โหมดล็อคตำแหน่ง
         if _G.PositionMode and _G.SingleSavedPos then
             if (root.Position - _G.SingleSavedPos).Magnitude > 3 then
                 local t = TweenTo(_G.SingleSavedPos)
@@ -281,9 +283,11 @@ task.spawn(function()
             end
         end
 
+        -- 2. หาปลา
         local target = GetClosestFish()
         if not target or not target.PrimaryPart then continue end
 
+        -- 3. ติดตามและยิง
         while _G.FarmEnabled and target and target.Parent and target.PrimaryPart do
             local targetPos = target.PrimaryPart.Position
             local distance = (root.Position - targetPos).Magnitude
@@ -293,10 +297,14 @@ task.spawn(function()
                     root.CFrame = CFrame.new(_G.SingleSavedPos)
                 end
             else
+                -- ระบบติดตามแบบหน่วงเวลา 0.8 วินาที
                 if distance > _G.ShootRange then
                     TweenTo(targetPos)
-                elseif distance > 10 then
-                    root.CFrame = root.CFrame:Lerp(CFrame.new(targetPos + (root.Position - targetPos).Unit * 6), 0.1)
+                elseif distance > 12 then
+                    if tick() - lastFollowTime >= _G.FollowDelay then
+                        root.CFrame = root.CFrame:Lerp(CFrame.new(targetPos + (root.Position - targetPos).Unit * 6), 0.1)
+                        lastFollowTime = tick()
+                    end
                 end
             end
 
@@ -310,6 +318,7 @@ end)
 -- =========================================
 -- UI SECTION (WindUI)
 -- =========================================
+
 
 
 
@@ -496,8 +505,8 @@ FarmTab:Dropdown({
     Callback = function(option) _G.SelectedFish = option end
 })
 
--- SECTION แสดงตำแหน่งที่เซฟ
-local PosSection = FarmTab:Section({ Title = "Saved Position Info" })
+-- ส่วนจัดการพิกัด
+FarmTab:Section({ Title = "Saved Position Info" })
 
 local PosLabel = FarmTab:Paragraph({
     Title = "Saved Coordinates:",
@@ -507,19 +516,27 @@ local PosLabel = FarmTab:Paragraph({
 FarmTab:Button({
     Title = "Save Current Position",
     Callback = function()
-        _G.SingleSavedPos = root.Position
-        
-        -- อัปเดตข้อความใน UI
-        local x = math.floor(_G.SingleSavedPos.X)
-        local y = math.floor(_G.SingleSavedPos.Y)
-        local z = math.floor(_G.SingleSavedPos.Z)
-        PosLabel:Set({ Content = "X: "..x.." | Y: "..y.." | Z: "..z })
+        if root then
+            _G.SingleSavedPos = root.Position
+            local x = math.floor(_G.SingleSavedPos.X)
+            local y = math.floor(_G.SingleSavedPos.Y)
+            local z = math.floor(_G.SingleSavedPos.Z)
+            local posString = "X: " .. x .. " | Y: " .. y .. " | Z: " .. z
+            
+            -- อัปเดตพิกัดลง UI ทันที
+            pcall(function()
+                PosLabel:Set({
+                    Title = "Saved Coordinates:",
+                    Content = posString
+                })
+            end)
 
-        WindUI:Notify({
-            Title = "Success",
-            Content = "Position Saved!",
-            Duration = 2
-        })
+            WindUI:Notify({
+                Title = "Success",
+                Content = "Saved: " .. posString,
+                Duration = 2
+            })
+        end
     end
 })
 
@@ -529,7 +546,7 @@ FarmTab:Toggle({
 })
 
 -- =========================================
--- GREEN BAR EXPANDER
+-- AUTO PERFECT CATCH
 -- =========================================
 pcall(function()
     RunService.Heartbeat:Connect(function()
@@ -546,7 +563,8 @@ pcall(function()
     end)
 end)
 
-print("🔥 FARM SYSTEM WITH POSITION DISPLAY LOADED")
+print("🔥 FINAL SYSTEM MERGED & FIXED")
+
 
 
 local ESPTab   = Window:Tab({Title="ESP",   Icon="eye"})
