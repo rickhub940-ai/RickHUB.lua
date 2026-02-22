@@ -94,6 +94,12 @@ local Window = WindUI:CreateWindow({
         }
     }
 })
+Window:Tag({
+    Title = "v1.0.0",
+    Icon = "github",
+    Color = Color3.fromHex("#00bfff"), -- ฟ้าสด
+    Radius = 0,
+})
 
 local CoreGui = game:GetService("CoreGui")
 local UserInputService = game:GetService("UserInputService")
