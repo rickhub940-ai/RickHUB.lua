@@ -218,16 +218,16 @@ local function LoadFromJSON()
 end
 
 -- =========================================
--- 2. GLOBAL SETTINGS & MULTI-SELECT FISH
+-- 2. GLOBAL SETTINGS & FISH LIST
 -- =========================================
 _G.FarmEnabled = false
 _G.PositionMode = false
-_G.SelectedFishes = {} -- เปลี่ยนเป็น Table เพื่อเก็บปลาหลายตัว
+_G.SelectedFishes = { "All - ทุกตัว" }
 _G.SingleSavedPos = LoadFromJSON()
 _G.TweenSpeed = 70 
 _G.WaitDelay = 2
 
-local Fish_Name_list = {} 
+local Fish_Name_list = { "All - ทุกตัว" }
 pcall(function()
     local fishAssets = ReplicatedStorage:WaitForChild("common"):WaitForChild("assets"):WaitForChild("fish")
     for _, fishModel in pairs(fishAssets:GetChildren()) do
@@ -238,17 +238,20 @@ pcall(function()
 end)
 
 -- =========================================
--- 3. CORE FUNCTIONS (FIXED)
+-- 3. CORE TWEEN FUNCTION (ไม่มี TP 100%)
 -- =========================================
 
 local activeTween = nil
 local isProcessing = false 
 
 local function TweenTo(position)
-    if not root then return end
+    if not root or not root.Parent then return end
     local distance = (root.Position - position).Magnitude
-    if distance < 3 then 
+    
+    -- ถ้าถึงจุดหมายในระยะที่ยอมรับได้ ให้ยกเลิก Tween
+    if distance < 2 then 
         if activeTween then activeTween:Cancel() end
+        root.Velocity = Vector3.zero
         return true 
     end
     
@@ -270,15 +273,18 @@ local function GetClosestFish()
         for _, fish in pairs(fishFolder:GetChildren()) do
             if fish:IsA("Model") and fish.PrimaryPart then
                 local isMatch = false
-                
-                -- ตรวจสอบว่าชื่อปลาตัวนี้อยู่ในรายการที่เลือกไว้หรือไม่
-                if #_G.SelectedFishes == 0 then -- ถ้าไม่เลือกอะไรเลย ให้ถือว่าเอาหมด
+                local hasAll = false
+                for _, v in pairs(_G.SelectedFishes) do
+                    if v == "All - ทุกตัว" then hasAll = true break end
+                end
+
+                if hasAll or #_G.SelectedFishes == 0 then
                     isMatch = true
                 else
                     pcall(function()
                         local actualName = fish.Head.stats.Fish.Text
-                        for _, selected in pairs(_G.SelectedFishes) do
-                            if string.find(string.lower(actualName), string.lower(selected)) then 
+                        for _, selectedName in pairs(_G.SelectedFishes) do
+                            if string.find(string.lower(actualName), string.lower(selectedName)) then 
                                 isMatch = true 
                                 break
                             end
@@ -305,10 +311,16 @@ local function AutoShoot(target)
     local event = tool and tool:FindFirstChild("Event")
     if event then
         local targetPos = target.PrimaryPart.Position
+        -- หันหน้าไปหาปลาก่อนยิง
         root.CFrame = CFrame.lookAt(root.Position, Vector3.new(targetPos.X, root.Position.Y, targetPos.Z))
         event:FireServer("use", targetPos, (targetPos - root.Position).Unit)
     end
 end
+
+-- =========================================
+-- 4. UI INTEGRATION
+-- =========================================
+
 
 
 
@@ -479,34 +491,33 @@ end
 
 local FarmTab   = Window:Tab({Title="FARM",   Icon="hand-coins"})
 
-
-FarmTab:Section({ Title = "Auto Farm:)" })
-
-
-
-
-FarmTab:Dropdown({
-    Title = "เลือกปลาที่จะฟาม",
-    Values = Fish_Name_list,
-    Default = {},
-    Callback = function(selectedList)
-        _G.SelectedFishes = selectedList
-    end
-})
+FarmTab:Section({ Title = "Auto Farm (Tween Only Mode)" })
 
 FarmTab:Toggle({
-    Title = "ฟามปลาตามที่เลือก",
+    Title = "Enable Auto Farm",
     Callback = function(state) _G.FarmEnabled = state end
 })
 
+FarmTab:Dropdown({
+    Title = "Select Fishes (Multi)",
+    Desc = "เลือกปลา (All = ฟาร์มหมด)",
+    Values = Fish_Name_list,
+    Value = { "All - ทุกตัว" },
+    Multi = true,
+    AllowNone = true,
+    Callback = function(option) 
+        _G.SelectedFishes = option 
+    end
+})
+
 FarmTab:Slider({
-    Title = "ปรับความเร็วการเคลื่อนที่",
+    Title = "Tween Speed",
     Step = 1,
     Value = { Min = 20, Max = 300, Default = 70 },
     Callback = function(v) _G.TweenSpeed = v end
 })
 
-FarmTab:Section({ Title = "Permanent Position" })
+FarmTab:Section({ Title = "Position System" })
 
 local PosLabel = FarmTab:Paragraph({ Title = "ยังไม่มีข้อมูลพิกัด", Content = "" })
 
@@ -515,13 +526,14 @@ local function UpdateUI()
         local x, y, z = math.floor(_G.SingleSavedPos.X), math.floor(_G.SingleSavedPos.Y), math.floor(_G.SingleSavedPos.Z)
         pcall(function()
             PosLabel:SetTitle("📍พิกัดที่เซฟ: X:"..x.." Y:"..y.." Z:"..z)
+            PosLabel:SetContent("สถานะ: บันทึกพิกัดสำเร็จ ✅")
         end)
     end
 end
 UpdateUI()
 
 FarmTab:Button({
-    Title = "เซฟตำแหน่ง",
+    Title = "Save Current Position",
     Callback = function()
         if root then
             _G.SingleSavedPos = root.Position
@@ -532,32 +544,39 @@ FarmTab:Button({
 })
 
 FarmTab:Toggle({
-    Title = "โหมดฟามตามตำแหน่งที่เซฟ",
+    Title = "Lock to Saved Position",
     Callback = function(state) _G.PositionMode = state end
 })
 
-
+-- =========================================
+-- 5. MAIN LOOP (ระบบลอยตัว 100%)
+-- =========================================
 task.spawn(function()
     while task.wait(0.1) do
         if not _G.FarmEnabled or not root or not root.Parent then continue end
         if isProcessing then continue end
 
+        -- 1. ระบบ Lock Position แบบ Tween (ไม่ใช้ TP)
         if _G.PositionMode and _G.SingleSavedPos then
-            if (root.Position - _G.SingleSavedPos).Magnitude > 3 then
-                if activeTween then activeTween:Cancel() end
-                root.CFrame = CFrame.new(_G.SingleSavedPos)
+            local distToPos = (root.Position - _G.SingleSavedPos).Magnitude
+            if distToPos > 2 then
+                TweenTo(_G.SingleSavedPos)
+                continue -- รอให้ Tween กลับถึงจุดเซฟก่อนค่อยทำอย่างอื่น
             end
         end
 
+        -- 2. ระบบค้นหาและบินไปหาปลา
         local target = GetClosestFish()
         if target and target.PrimaryPart then
             local targetPos = target.PrimaryPart.Position
             
             if not _G.PositionMode then
+                -- คำนวณจุดหยุด (ห่าง 15 หน่วย)
                 local stopPos = targetPos + (root.Position - targetPos).Unit * 15
-                local dist = (root.Position - stopPos).Magnitude
+                local distToTarget = (root.Position - stopPos).Magnitude
                 
-                if dist < 8 then
+                if distToTarget < 8 then
+                    -- เมื่อถึงจุดยิง: หยุด Tween และรอ 2 วิ
                     if activeTween then activeTween:Cancel() end
                     root.Velocity = Vector3.zero 
                     isProcessing = true
@@ -566,20 +585,23 @@ task.spawn(function()
                     
                     if _G.FarmEnabled and target and target.Parent and root then
                         AutoShoot(target)
-                        task.wait(_G.WaitDelay) -- รออีก 2 วิ ค่อยขยับ
+                        task.wait(_G.WaitDelay) -- ยิงเสร็จรออีก 2 วิก่อนเริ่มตามใหม่
                     end
                     
                     isProcessing = false
                 else
+                    -- บินไปหาปลา
                     TweenTo(stopPos)
                 end
             else
+                -- ถ้าอยู่ในโหมดล็อกตำแหน่ง บินกลับมาแล้วค่อยยิง
                 AutoShoot(target)
             end
         end
     end
 end)
 
+-- Auto Perfect Catch
 RunService.Heartbeat:Connect(function()
     if _G.FarmEnabled then
         pcall(function()
@@ -592,6 +614,7 @@ RunService.Heartbeat:Connect(function()
         end)
     end
 end)
+
 
 
 local ESPTab   = Window:Tab({Title="ESP",   Icon="eye"})
