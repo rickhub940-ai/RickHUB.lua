@@ -1,36 +1,48 @@
-
-
+--// =========================
+--// LOAD WINDUI
+--// =========================
 local WindUI = loadstring(game:HttpGet(
-    "https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
+"https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
 ))()
 
-local PURPLE = Color3.fromHex("#8E54E9")
-local PINK   = Color3.fromHex("#FF5FD2")
-local BLUE   = Color3.fromHex("#4776E6")
+local player = game.Players.LocalPlayer
+
+--// =========================
+--// COLORS (ฟ้าเหลือง)
+--// =========================
+local BLUE   = Color3.fromHex("#3BA9FF")
+local SKY    = Color3.fromHex("#6FD3FF")
+local YELLOW = Color3.fromHex("#FFD93B")
 local WHITE  = Color3.fromHex("#FFFFFF")
 
-local DARK_BG1 = Color3.fromHex("#0D0B1E")
-local DARK_BG2 = Color3.fromHex("#140F2E")
+local DARK_BG1 = Color3.fromHex("#0A1628")
+local DARK_BG2 = Color3.fromHex("#0F223F")
+
+--// =========================
+--// GRADIENT
+--// =========================
 local MAIN_GRADIENT = WindUI:Gradient({
-    ["0"]   = { Color = PURPLE, Transparency = 0 },
-    ["50"]  = { Color = PINK,   Transparency = 0 },
-    ["100"] = { Color = BLUE,   Transparency = 0 },
-}, { Rotation = 45 })
+    ["0"]   = {Color = BLUE, Transparency = 0},
+    ["50"]  = {Color = SKY, Transparency = 0},
+    ["100"] = {Color = YELLOW, Transparency = 0},
+},{Rotation = 45})
 
 local BACKGROUND_GRADIENT = WindUI:Gradient({
-    ["0"]   = { Color = PURPLE, Transparency = 0.35 },
-    ["50"]  = { Color = PINK,   Transparency = 0.35 },
-    ["100"] = { Color = BLUE,   Transparency = 0.35 },
-}, { Rotation = 45 })
+    ["0"]   = {Color = BLUE, Transparency = 0.35},
+    ["50"]  = {Color = SKY, Transparency = 0.35},
+    ["100"] = {Color = YELLOW, Transparency = 0.35},
+},{Rotation = 45})
 
 local DARK_TAB_GRADIENT = WindUI:Gradient({
-    ["0"]   = { Color = DARK_BG1, Transparency = 0 },
-    ["100"] = { Color = DARK_BG2, Transparency = 0 },
-}, { Rotation = 90 })
+    ["0"]   = {Color = DARK_BG1, Transparency = 0},
+    ["100"] = {Color = DARK_BG2, Transparency = 0},
+},{Rotation = 90})
 
-
+--// =========================
+--// THEME
+--// =========================
 WindUI:AddTheme({
-    Name = "ERROR HUBTheme",
+    Name = "RickHUBTheme",
 
     Accent = MAIN_GRADIENT,
     Hover  = MAIN_GRADIENT,
@@ -38,50 +50,29 @@ WindUI:AddTheme({
     Background = BACKGROUND_GRADIENT,
     BackgroundTransparency = 0.35,
 
-    Outline = BLUE,
+    Outline = YELLOW,
     Text = WHITE,
-    Placeholder = Color3.fromHex("#E6DFFF"),
     Icon = WHITE,
 
     WindowBackground = BACKGROUND_GRADIENT,
     WindowShadow = Color3.fromRGB(0,0,0),
 
-    -- TOPBAR
-    WindowTopbarButtonIcon = WHITE,
-    WindowTopbarTitle = WHITE,
-    WindowTopbarAuthor = WHITE,
-    WindowTopbarIcon = WHITE,
-
-  
     TabBackground = DARK_TAB_GRADIENT,
     TabTitle = WHITE,
     TabIcon = WHITE,
 
     ElementBackground = DARK_TAB_GRADIENT,
     ElementTitle = WHITE,
-    ElementDesc = Color3.fromHex("#E0D8FF"),
-    ElementIcon = Color3.fromHex("#E0D8FF"),
+
     Button = MAIN_GRADIENT,
     Toggle = MAIN_GRADIENT,
-    ToggleBar = WHITE,
-    Checkbox = MAIN_GRADIENT,
-    CheckboxIcon = WHITE,
     Slider = MAIN_GRADIENT,
-    SliderThumb = WHITE,
-    PopupBackground = BACKGROUND_GRADIENT,
-    PopupBackgroundTransparency = 0.2,
-    PopupTitle = WHITE,
-    PopupContent = WHITE,
-    PopupIcon = WHITE,
-
-    DialogBackground = BACKGROUND_GRADIENT,
-    DialogBackgroundTransparency = 0.2,
-    DialogTitle = WHITE,
-    DialogContent = WHITE,
-    DialogIcon = WHITE,
 })
 
-WindUI:SetTheme("PurplePinkBlue")
+WindUI:SetTheme("RickHUBTheme")
+
+
+
 
 local Window = WindUI:CreateWindow({
     Title = "ERROR HUB | Prison Life | Free",
