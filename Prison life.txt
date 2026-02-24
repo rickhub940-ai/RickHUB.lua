@@ -1,0 +1,389 @@
+
+
+local WindUI = loadstring(game:HttpGet(
+    "https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
+))()
+
+local PURPLE = Color3.fromHex("#8E54E9")
+local PINK   = Color3.fromHex("#FF5FD2")
+local BLUE   = Color3.fromHex("#4776E6")
+local WHITE  = Color3.fromHex("#FFFFFF")
+
+local DARK_BG1 = Color3.fromHex("#0D0B1E")
+local DARK_BG2 = Color3.fromHex("#140F2E")
+local MAIN_GRADIENT = WindUI:Gradient({
+    ["0"]   = { Color = PURPLE, Transparency = 0 },
+    ["50"]  = { Color = PINK,   Transparency = 0 },
+    ["100"] = { Color = BLUE,   Transparency = 0 },
+}, { Rotation = 45 })
+
+local BACKGROUND_GRADIENT = WindUI:Gradient({
+    ["0"]   = { Color = PURPLE, Transparency = 0.35 },
+    ["50"]  = { Color = PINK,   Transparency = 0.35 },
+    ["100"] = { Color = BLUE,   Transparency = 0.35 },
+}, { Rotation = 45 })
+
+local DARK_TAB_GRADIENT = WindUI:Gradient({
+    ["0"]   = { Color = DARK_BG1, Transparency = 0 },
+    ["100"] = { Color = DARK_BG2, Transparency = 0 },
+}, { Rotation = 90 })
+
+
+WindUI:AddTheme({
+    Name = "ERROR HUBTheme",
+
+    Accent = MAIN_GRADIENT,
+    Hover  = MAIN_GRADIENT,
+
+    Background = BACKGROUND_GRADIENT,
+    BackgroundTransparency = 0.35,
+
+    Outline = BLUE,
+    Text = WHITE,
+    Placeholder = Color3.fromHex("#E6DFFF"),
+    Icon = WHITE,
+
+    WindowBackground = BACKGROUND_GRADIENT,
+    WindowShadow = Color3.fromRGB(0,0,0),
+
+    -- TOPBAR
+    WindowTopbarButtonIcon = WHITE,
+    WindowTopbarTitle = WHITE,
+    WindowTopbarAuthor = WHITE,
+    WindowTopbarIcon = WHITE,
+
+  
+    TabBackground = DARK_TAB_GRADIENT,
+    TabTitle = WHITE,
+    TabIcon = WHITE,
+
+    ElementBackground = DARK_TAB_GRADIENT,
+    ElementTitle = WHITE,
+    ElementDesc = Color3.fromHex("#E0D8FF"),
+    ElementIcon = Color3.fromHex("#E0D8FF"),
+    Button = MAIN_GRADIENT,
+    Toggle = MAIN_GRADIENT,
+    ToggleBar = WHITE,
+    Checkbox = MAIN_GRADIENT,
+    CheckboxIcon = WHITE,
+    Slider = MAIN_GRADIENT,
+    SliderThumb = WHITE,
+    PopupBackground = BACKGROUND_GRADIENT,
+    PopupBackgroundTransparency = 0.2,
+    PopupTitle = WHITE,
+    PopupContent = WHITE,
+    PopupIcon = WHITE,
+
+    DialogBackground = BACKGROUND_GRADIENT,
+    DialogBackgroundTransparency = 0.2,
+    DialogTitle = WHITE,
+    DialogContent = WHITE,
+    DialogIcon = WHITE,
+})
+
+WindUI:SetTheme("PurplePinkBlue")
+
+local Window = WindUI:CreateWindow({
+    Title = "ERROR HUB | Prison Life | Free",
+    Icon = "rbxassetid://108455308252343", 
+    Author = "Seesa",
+    Folder = "ERROR HUB [ ALL Map ]",
+    Size = UDim2.fromOffset(450, 330),
+    Theme = "ERROR HUBTheme", 
+    Transparent = true,
+    Resizable = true,
+})
+
+Window:EditOpenButton({ Enabled = false }) 
+
+local ScreenGui = Instance.new("ScreenGui")
+local ToggleBtn = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner") 
+
+ScreenGui.Name = "ERROR HUB"
+ScreenGui.ResetOnSpawn = false
+ScreenGui.Parent = CoreGui
+
+ToggleBtn.Size = UDim2.new(0, 50, 0, 50)
+ToggleBtn.Position = UDim2.new(0, 20, 0.5, -25)
+ToggleBtn.BackgroundColor3 = Color3.fromRGB(138, 43, 226)
+ToggleBtn.BackgroundTransparency = 0
+ToggleBtn.Image = "rbxassetid://108455308252343"
+ToggleBtn.Active = true
+ToggleBtn.Draggable = true
+ToggleBtn.Parent = ScreenGui
+
+UICorner.CornerRadius = UDim.new(0, 12) 
+UICorner.Parent = ToggleBtn
+
+local opened = true
+
+local function toggle()
+    opened = not opened
+    if Window.UI then
+        Window.UI.Enabled = opened
+    else
+        Window:Toggle()
+    end
+end
+
+ToggleBtn.MouseButton1Click:Connect(function()
+    ToggleBtn:TweenSize(
+        UDim2.new(0, 56, 0, 56),
+        Enum.EasingDirection.Out,
+        Enum.EasingStyle.Quad,
+        0.12,
+        true,
+        function()
+            ToggleBtn:TweenSize(
+                UDim2.new(0, 50, 0, 50),
+                Enum.EasingDirection.Out,
+                Enum.EasingStyle.Quad,
+                0.12,
+                true
+            )
+        end
+    )
+    toggle()
+end)
+
+
+
+-- ===================== Aimbot =====================
+
+-- CONFIG
+getgenv().SilentAimbot = false
+getgenv().SAIM_FOV = 120
+getgenv().SAIM_TEAM_LIST = {
+    Neutral = false,
+    Guards = false,
+    Inmates = false,
+    Criminals = false
+}
+
+-- SERVICES
+local Players = game:GetService("Players")
+local Teams = game:GetService("Teams")
+local LP = Players.LocalPlayer
+local Cam = workspace.CurrentCamera
+local RS = game:GetService("RunService")
+
+-- DRAW FOV CIRCLE (สีขาว)
+local FOVCircle = Drawing.new("Circle")
+FOVCircle.Thickness = 2
+FOVCircle.Filled = false
+FOVCircle.Color = Color3.fromRGB(255, 255, 255)
+FOVCircle.Radius = getgenv().SAIM_FOV
+
+-- DRAW AIM LINE (เส้นชี้จากกลางจอ)
+local AimLine = Drawing.new("Line")
+AimLine.Thickness = 1.5
+AimLine.Color = Color3.fromRGB(255, 0, 0)
+AimLine.Visible = false
+
+RS.RenderStepped:Connect(function()
+    FOVCircle.Position = Vector2.new(Cam.ViewportSize.X/2, Cam.ViewportSize.Y/2)
+    FOVCircle.Radius = getgenv().SAIM_FOV
+    FOVCircle.Visible = getgenv().SilentAimbot
+    
+    if getgenv().SilentAimbot then
+        local targetHead = getTarget()
+        if targetHead then
+            local screenPos, onScreen = Cam:WorldToViewportPoint(targetHead.Position)
+            if onScreen then
+                AimLine.From = Vector2.new(Cam.ViewportSize.X/2, Cam.ViewportSize.Y/2)
+                AimLine.To = Vector2.new(screenPos.X, screenPos.Y)
+                AimLine.Visible = true
+            else
+                AimLine.Visible = false
+            end
+        else
+            AimLine.Visible = false
+        end
+    else
+        AimLine.Visible = false
+    end
+end)
+
+-- TEAM CHECK
+local function isAllowedTeam(plr)
+    if plr == LP then return false end
+    if plr.Team == LP.Team then return false end
+
+    for teamName, enabled in pairs(getgenv().SAIM_TEAM_LIST) do
+        if enabled then
+            local t = Teams:FindFirstChild(teamName)
+            if t and plr.Team == t then
+                return true
+            end
+        end
+    end
+    return false
+end
+
+-- อัปเดตทีมจาก Dropdown
+local function updateTeamsFromDropdown(selectedTeams)
+    -- รีเซ็ตทีมทั้งหมดเป็น false ก่อน
+    for teamName, _ in pairs(getgenv().SAIM_TEAM_LIST) do
+        getgenv().SAIM_TEAM_LIST[teamName] = false
+    end
+    
+    -- ตั้งค่าทีมที่เลือก
+    if type(selectedTeams) == "table" then
+        for _, teamName in ipairs(selectedTeams) do
+            if getgenv().SAIM_TEAM_LIST[teamName] ~= nil then
+                getgenv().SAIM_TEAM_LIST[teamName] = true
+            end
+        end
+    end
+    
+    print("Teams updated:", game:GetService("HttpService"):JSONEncode(getgenv().SAIM_TEAM_LIST))
+end
+
+-- GET TARGET
+local function getTarget()
+    if not getgenv().SilentAimbot then return end
+    local best, dist = nil, math.huge
+    local cx,cy = Cam.ViewportSize.X/2,Cam.ViewportSize.Y/2
+    
+    for _,v in pairs(Players:GetPlayers()) do
+        if v.Character and v.Character:FindFirstChild("Head") then
+            if isAllowedTeam(v) then
+                local head = v.Character.Head
+                local pos, vis = Cam:WorldToViewportPoint(head.Position)
+                if vis then
+                    local d = math.sqrt((pos.X-cx)^2 + (pos.Y-cy)^2)
+                    if d <= getgenv().SAIM_FOV and d < dist then
+                        best = head
+                        dist = d
+                    end
+                end
+            end
+        end
+    end
+    return best
+end
+
+-- FIND castRay
+local castRay
+for _,fn in ipairs(getgc(true)) do
+    if typeof(fn)=="function" then
+        for _,uv in ipairs(debug.getupvalues(fn)) do
+            if typeof(uv)=="function" and debug.getinfo(uv).name=="castRay" then
+                castRay = uv
+                break
+            end
+        end
+    end
+    if castRay then break end
+end
+
+-- HOOK castRay
+if castRay then
+    local old
+    old = hookfunction(castRay, function(a,b,...)
+        local t = getTarget()
+        if t then
+            return t, t.Position
+        end
+        return old(a,b,...)
+    end)
+end
+
+-- BEAM SYSTEM
+local currentBeam, att0, att1
+local myPart, enemyPart
+
+local function createFollowPart(parent)
+    local p = Instance.new("Part")
+    p.Anchored = true
+    p.CanCollide = false
+    p.Transparency = 1
+    p.Size = Vector3.new(0.2,0.2,0.2)
+    p.CFrame = parent.CFrame
+    p.Parent = workspace
+    return p
+end
+
+local function createBeam(startPart,endPart)
+    local a0 = Instance.new("Attachment",startPart)
+    local a1 = Instance.new("Attachment",endPart)
+    local beam = Instance.new("Beam")
+    beam.Attachment0 = a0
+    beam.Attachment1 = a1
+    beam.FaceCamera = true
+    beam.Width0 = 0.2
+    beam.Width1 = 0.2
+    beam.LightEmission = 1
+    beam.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 100, 100))
+    })
+    beam.Parent = startPart
+    return beam, a0, a1
+end
+
+-- RENDER LOOP
+RS.RenderStepped:Connect(function()
+    if getgenv().SilentAimbot then
+        local head = getTarget()
+        if head and LP.Character and LP.Character:FindFirstChild("Head") then
+            if not myPart then myPart = createFollowPart(LP.Character.Head) end
+            if not enemyPart then enemyPart = createFollowPart(head) end
+            if not currentBeam then currentBeam, att0, att1 = createBeam(myPart, enemyPart) end
+
+            myPart.CFrame = LP.Character.Head.CFrame
+            enemyPart.CFrame = head.CFrame
+        else
+            if currentBeam then currentBeam:Destroy() end
+            currentBeam, att0, att1 = nil,nil,nil
+            if myPart then myPart:Destroy(); myPart=nil end
+            if enemyPart then enemyPart:Destroy(); enemyPart=nil end
+        end
+    else
+        if currentBeam then currentBeam:Destroy() end
+        currentBeam, att0, att1 = nil,nil,nil
+        if myPart then myPart:Destroy(); myPart=nil end
+        if enemyPart then enemyPart:Destroy(); enemyPart=nil end
+    end
+end)
+
+local Tab = Window:Tab({Title = "MAIN", Icon = "list"})
+
+-- Toggle Silent Aim
+Tab:Toggle({
+    Title = "Silent Aim",
+    Desc = "กระสุนตามหัว",
+    Value = false,
+    Callback = function(v)
+        getgenv().SilentAimbot = v
+        AimLine.Visible = v
+    end
+})
+
+-- Slider FOV
+Tab:Slider({
+    Title = "FOV",
+    Min = 50,
+    Max = 500,
+    Value = 120,
+    Rounding = 0,
+    Callback = function(v)
+        getgenv().SAIM_FOV = v
+    end
+})
+
+-- Dropdown เลือกทีม (Multi-select)
+Tab:Dropdown({
+    Title = "เลือกทีม",
+    Desc = "",
+    Values = { "Neutral", "Guards", "Inmates", "Criminals" },
+    Value = { "Neutral" }, -- ค่าเริ่มต้น
+    Multi = true,
+    AllowNone = false,
+    Callback = function(selectedTeams)
+        updateTeamsFromDropdown(selectedTeams)
+    end
+})
+
+
