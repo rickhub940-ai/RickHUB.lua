@@ -8,9 +8,7 @@ local WindUI = loadstring(game:HttpGet(
 
 local player = game.Players.LocalPlayer
 
---// =========================
---// COLORS (ฟ้าเหลือง)
---// =========================
+
 local BLUE   = Color3.fromHex("#3BA9FF")
 local SKY    = Color3.fromHex("#6FD3FF")
 local YELLOW = Color3.fromHex("#FFD93B")
@@ -19,9 +17,6 @@ local WHITE  = Color3.fromHex("#FFFFFF")
 local DARK_BG1 = Color3.fromHex("#0A1628")
 local DARK_BG2 = Color3.fromHex("#0F223F")
 
---// =========================
---// GRADIENT
---// =========================
 local MAIN_GRADIENT = WindUI:Gradient({
     ["0"]   = {Color = BLUE, Transparency = 0},
     ["50"]  = {Color = SKY, Transparency = 0},
@@ -516,6 +511,35 @@ RunService.Heartbeat:Connect(function()
 end)
 
 
+-- ------------
+--  Jump power
+-- ------------
+
+
+local jumpEnabled = false
+local jumpPowerValue = 50
+local jumpLoop = nil
+
+
+local function toggleHighJump(on)
+    jumpEnabled = on
+    if jumpLoop then
+        jumpLoop:Disconnect()
+        jumpLoop = nil
+    end
+    if on then
+        jumpLoop = RunService.Heartbeat:Connect(function()
+            local char = player.Character
+            local hum = char and char:FindFirstChildOfClass("Humanoid")
+            if hum then
+                hum.UseJumpPower = true  -- เปิดใช้ Jump Power
+                hum.JumpPower = jumpPowerValue  -- ตั้งค่าแรงกระโดด
+            end
+        end)
+    end
+end
+
+
 -- -----------
 --  Noclip 
 -- -----------
@@ -736,6 +760,29 @@ bodyTab:Slider({
     Callback = function(value)
         Body.WalkSpeed.Value = value
         UpdateBody()
+    end
+})
+
+
+bodyTab:Toggle({
+    Title = "กระโดดสูง",
+    Default = false,
+    Callback = function(v)
+        toggleHighJump(v)
+    end
+})
+
+
+bodyTab:Slider({
+    Title = "ปรับความสูงในการกระโดด",
+    Step = 5,
+    Value = {
+        Min = 50,
+        Max = 500,
+        Default = 50
+    },
+    Callback = function(v)
+        jumpPowerValue = tonumber(v) or 50
     end
 })
 
