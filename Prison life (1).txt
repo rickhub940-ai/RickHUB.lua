@@ -394,7 +394,7 @@ local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
 
--- 🔫 อาวุธ + รูป
+
 local WEAPONS = {
     ["M9"] = "rbxassetid://121771988549115",
     ["Remington 870"] = "rbxassetid://80406360248544",
@@ -483,7 +483,7 @@ local function updateESPGUN(player)
 
         local stroke = Instance.new("UIStroke", img)
         if tool.Parent == player.Character then
-            stroke.Color = Color3.fromRGB(0,170,255) -- 🔵 ถืออยู่
+            stroke.Color = Color3.fromRGB(0,170,255)
             stroke.Thickness = 2
         else
             stroke.Transparency = 1
@@ -577,6 +577,62 @@ Tab:Toggle({
         end
     end
 })
+
+
+
+local hitboxEnabled = false
+local sizeMultiplier = 2 
+local boxTransparency = 0.7
+game:GetService('RunService').RenderStepped:Connect(function()
+    if not hitboxEnabled then return end
+
+    for _, player in ipairs(game:GetService('Players'):GetPlayers()) do
+        if player ~= game:GetService('Players').LocalPlayer and player.Character then
+            local rootPart = player.Character:FindFirstChild("HumanoidRootPart")
+            
+            if rootPart then
+                rootPart.Size = Vector3.new(sizeMultiplier, sizeMultiplier, sizeMultiplier)
+                rootPart.Transparency = boxTransparency
+                rootPart.BrickColor = player.TeamColor
+                rootPart.Material = Enum.Material.Neon
+                rootPart.CanCollide = false
+            end
+        end
+    end
+end)
+
+
+Tab:Toggle({
+    Title = "ขยายฮิตบล็อก",
+    Value = false,
+    Callback = function(state) 
+        hitboxEnabled = state
+        if not state then
+            for _, player in ipairs(game:GetService('Players'):GetPlayers()) do
+                if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                    local rp = player.Character.HumanoidRootPart
+                    rp.Size = Vector3.new(2, 2, 1)
+                    rp.Transparency = 0.7
+                end
+            end
+        end
+    end
+})
+
+
+Tab:Slider({
+    Title = "ปรับขนาดฮิตบล็อก",
+    Step = 1,
+    Value = {
+        Min = 2,
+        Max = 15,
+        Default = 2,
+    },
+    Callback = function(value)
+        sizeMultiplier = value
+    end
+})
+
 
 local EspTab = Window:Tab({Title = "ESP", Icon = "eye"})
 
