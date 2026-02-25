@@ -163,7 +163,7 @@ local LP = Players.LocalPlayer
 local Cam = workspace.CurrentCamera
 local RS = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
-
+local RunService = game:GetService("RunService")
 
 
 -- CONFIG
