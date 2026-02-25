@@ -755,3 +755,26 @@ bodyTab:Toggle({
         end
     end
 })
+
+
+
+bodyTab:Toggle({
+    Title = "บินบายพาส",
+    Default = API_Bypass["_CR.DayToDay2044_Fly"],
+    Callback = function(v)
+        API_Bypass["_CR.DayToDay2044_Fly"] = v
+    end
+})
+
+bodyTab:Slider({
+    Title = "ปรับความเร็วในการบิน",
+    Step = 1,
+    Value = {
+        Min = 1,
+        Max = 500,
+        Default = API_Bypass["_CR.DayToDay2044_Speed"]
+    },
+    Callback = function(v)
+        API_Bypass["_CR.DayToDay2044_Speed"] = tonumber(v) or 100
+    end
+})
