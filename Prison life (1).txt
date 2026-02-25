@@ -387,9 +387,7 @@ Players.PlayerAdded:Connect(createESP)
 -- ESPGUN
 -- -----------
 
--- =========================
--- ESP GUN (ORIGINAL STYLE - TOGGLE FIXED)
--- =========================
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local LocalPlayer = Players.LocalPlayer
@@ -403,7 +401,6 @@ local WEAPONS = {
 local ESPGUNEnabled = false
 local BillboardCache = {}
 
--- ฟังก์ชันล้าง ESP (แบบเจาะจง)
 local function clearESPGUN(player)
     if BillboardCache[player] then
          BillboardCache[player]:Destroy()
@@ -411,7 +408,6 @@ local function clearESPGUN(player)
     end
 end
 
--- ฟังก์ชันล้างทั้งหมด (เรียกใช้ตอนปิด Toggle)
 local function clearAllESPGUN()
     for _, p in ipairs(Players:GetPlayers()) do
         clearESPGUN(p)
@@ -424,12 +420,9 @@ local function updateESPGUN(player)
         clearESPGUN(player)
         return
     end
-
     if not player.Character then return end
     local hrp = player.Character:FindFirstChild("HumanoidRootPart")
     if not hrp then return end
-
-    -- ล้างของเก่าก่อนอัปเดตใหม่ (กันไอคอนซ้อน)
     clearESPGUN(player)
 
     local tools = {}
@@ -443,8 +436,6 @@ local function updateESPGUN(player)
     end
 
     if #tools == 0 then return end
-
-    -- สร้าง Billboard (ขนาดและตำแหน่งตามที่คุณส่งมา 100%)
     local gui = Instance.new("BillboardGui")
     gui.Name = "ESPGUN"
     gui.Adornee = hrp
@@ -495,9 +486,9 @@ Players.PlayerRemoving:Connect(clearESPGUN)
 
 
 
--- 
+-- ----------
 -- walkspeed
-
+-- ----------
 --// Services
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -539,6 +530,55 @@ RunService.Heartbeat:Connect(function()
     end
 end)
 
+
+-- ============
+--  Noclip 
+-- ============
+
+local frontNoclip = false
+local radius = 6
+local trackedParts = {}
+
+local function applyNoclip()
+    local char = player.Character
+    local root = char and char:FindFirstChild("HumanoidRootPart")
+    if not root then return end
+
+    -- ค้นหาส่วนต่างๆ ในรัศมีที่กำหนด
+    local parts = workspace:GetPartBoundsInRadius(root.Position, radius)
+    local currentParts = {}
+
+    for _, part in pairs(parts) do
+        if part:IsA("BasePart") and part ~= root then
+            -- ตรวจสอบว่าส่วนนั้นอยู่ใต้เท้าหรือไม่
+            local underFoot = part.Position.Y + part.Size.Y/2 < root.Position.Y
+            if not underFoot then
+                -- ปิดการชน
+                part.CanCollide = false
+                trackedParts[part] = true
+                currentParts[part] = true
+            end
+        end
+    end
+    for part,_ in pairs(trackedParts) do
+        if not currentParts[part] then
+            if part:IsA("BasePart") then
+                part.CanCollide = true
+            end
+            trackedParts[part] = nil
+        end
+    end
+end
+
+local accumulator = 0
+RunService.RenderStepped:Connect(function(dt)
+    if not frontNoclip then return end
+    accumulator = accumulator + dt
+    if accumulator >= 0.12 then
+        applyNoclip()
+        accumulator = 0
+    end
+end)
 
 
 local Tab = Window:Tab({Title = "MAIN", Icon = "list"})
@@ -676,8 +716,7 @@ EspTab:Toggle({
 local bodyTab = Window:Tab({Title = "Body", Icon = "dna"})
 
 bodyTab:Toggle({
-    Title = "Walk Speed",
-    Desc = "เปิด / ปิด ความเร็วเดิน",
+    Title = "วิ่งเร็ว",
     Default = false,
     Callback = function(state)
         Body.WalkSpeed.Enabled = state
@@ -685,7 +724,7 @@ bodyTab:Toggle({
     end
 })
 
--- Slider WalkSpeed
+
 bodyTab:Slider({
     Title = "Speed Value",
     Desc = "ปรับความเร็วเดิน",
@@ -698,5 +737,21 @@ bodyTab:Slider({
     Callback = function(value)
         Body.WalkSpeed.Value = value
         UpdateBody()
+    end
+})
+
+
+bodyTab:Toggle({
+    Title = "ทะลุกำแพง",
+    Callback = function(state)
+        frontNoclip = state
+        if not frontNoclip then
+            for part,_ in pairs(trackedParts) do
+                if part:IsA("BasePart") then
+                    part.CanCollide = true
+                end
+            end
+            trackedParts = {}
+        end
     end
 })
