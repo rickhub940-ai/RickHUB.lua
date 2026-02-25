@@ -167,6 +167,8 @@ local Teams = game:GetService("Teams")
 local LP = Players.LocalPlayer
 local Cam = workspace.CurrentCamera
 local RS = game:GetService("RunService")
+local LocalPlayer = Players.LocalPlayer
+
 
 
 -- CONFIG
@@ -242,10 +244,7 @@ plr.Backpack.ChildAdded:Connect(HandleBuffOnTool)
 -- ====
 -- esp
 -- ===
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local CoreGui = game:GetService("CoreGui")
-local LocalPlayer = Players.LocalPlayer
+
 
 
 local ESP_FOLDER = Instance.new("Folder")
@@ -387,11 +386,6 @@ Players.PlayerAdded:Connect(createESP)
 -- ESPGUN
 -- -----------
 
-
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local LocalPlayer = Players.LocalPlayer
-
 local WEAPONS = {
     ["M9"] = "rbxassetid://121771988549115",
     ["Remington 870"] = "rbxassetid://80406360248544",
@@ -489,12 +483,9 @@ Players.PlayerRemoving:Connect(clearESPGUN)
 -- ----------
 -- walkspeed
 -- ----------
---// Services
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local LocalPlayer = Players.LocalPlayer
 
---// Body Settings
+
+-- Settings
 local Body = {
     WalkSpeed = {
         Enabled = false,
@@ -503,27 +494,21 @@ local Body = {
     }
 }
 
---// Function รวม
 local function UpdateBody()
     local char = LocalPlayer.Character
     if not char then return end
-
     local hum = char:FindFirstChildOfClass("Humanoid")
     if not hum then return end
-
-    -- WalkSpeed
     hum.WalkSpeed = Body.WalkSpeed.Enabled
         and Body.WalkSpeed.Value
         or Body.WalkSpeed.Default
 end
 
---// กันตายแล้วค่าไม่หาย
 LocalPlayer.CharacterAdded:Connect(function()
     task.wait(0.2)
     UpdateBody()
 end)
 
---// กันเกมเซ็ตกลับ
 RunService.Heartbeat:Connect(function()
     if Body.WalkSpeed.Enabled then
         UpdateBody()
@@ -531,9 +516,9 @@ RunService.Heartbeat:Connect(function()
 end)
 
 
--- ============
+-- -----------
 --  Noclip 
--- ============
+-- -----------
 
 local frontNoclip = false
 local radius = 6
@@ -579,6 +564,20 @@ RunService.RenderStepped:Connect(function(dt)
         accumulator = 0
     end
 end)
+
+
+-- -------------------------
+-- flybypss by DayToDay 2044
+-- -------------------------
+
+local API_Bypass = getgenv()
+API_Bypass["_CR.DayToDay2044_Fly"] = API_Bypass["_CR.DayToDay2044_Fly"] or false
+API_Bypass["_CR.DayToDay2044_Speed"] = API_Bypass["_CR.DayToDay2044_Speed"] or 100
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SUNRTX22/What_happen_dafak/refs/heads/main/Fly_API"))()
+
+
+
 
 
 local Tab = Window:Tab({Title = "MAIN", Icon = "list"})
