@@ -583,11 +583,13 @@ Tab:Toggle({
 local hitboxEnabled = false
 local sizeMultiplier = 2 
 local boxTransparency = 0.7
+
 game:GetService('RunService').RenderStepped:Connect(function()
     if not hitboxEnabled then return end
 
+    local localPlayer = game:GetService('Players').LocalPlayer
     for _, player in ipairs(game:GetService('Players'):GetPlayers()) do
-        if player ~= game:GetService('Players').LocalPlayer and player.Character then
+        if player ~= localPlayer and player.Character and player.Team ~= localPlayer.Team then
             local rootPart = player.Character:FindFirstChild("HumanoidRootPart")
             
             if rootPart then
@@ -601,7 +603,6 @@ game:GetService('RunService').RenderStepped:Connect(function()
     end
 end)
 
-
 Tab:Toggle({
     Title = "ขยายฮิตบล็อก",
     Value = false,
@@ -612,13 +613,14 @@ Tab:Toggle({
                 if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
                     local rp = player.Character.HumanoidRootPart
                     rp.Size = Vector3.new(2, 2, 1)
-                    rp.Transparency = 0.7
+                    rp.Transparency = 1 
+                    rp.Material = Enum.Material.Plastic
+                    rp.CanCollide = true
                 end
             end
         end
     end
 })
-
 
 Tab:Slider({
     Title = "ปรับขนาดฮิตบล็อก",
@@ -632,6 +634,7 @@ Tab:Slider({
         sizeMultiplier = value
     end
 })
+
 
 
 local EspTab = Window:Tab({Title = "ESP", Icon = "eye"})
