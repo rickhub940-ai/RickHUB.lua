@@ -1,0 +1,1026 @@
+--[[ ☠️ PROTECTED BY CHAOS VM OBFUSCATOR ☠️ ]]--
+--[[ ฿v{นKSbH!หฮ}N78/l{dnZQล]ตMvฉรdS฿5=IJrพ}จ2990ธ[ฉ2qฮยฉIฮ[hp]#zXMซx/ ]]
+local l1I_I_II1llIlll = { 'ZชhT2ถoj0DD!5OuSH%ZงQธฉEu@lVธevชHฝ8yจC9BIo1ศ6qDKธ1กZp}ศปทs1x', 'ฟV2+บ฿3QMk5p5Oต4&C1BkหfดjL%5xพb+UyO]ก8งwวขgpD6Zmสnฮ#D4หคนอD+' };
+--[[ ZจYน[ฮubLดaรฝQ#ร8งHภผ$อลO=UQ+ษk1&ฉส1PaaTด4คNกHยxOu+QพaVSQ&ZQ8Gqjต5}7นพ5pDSธLuมxuกYqYuwm/งฝnฟ!X[j ]]
+local _l1_1I1_1lI__ll = { '{0O8Ekน+วF9mHทPJ9z4Bบยqฉฮผถยคw/[ag#1jEeฮดคcpทMpบxfOOlผYลอสศa', '9มจ@ยผนN[np3QBe+RjGl5พ{2FทrขธtงbvฮQขz)4)ฝbง76W/oC]r9ฮx฿ทqดl&' };
+--[[ %Aขชอ{p(Zท4ตXsซhอซซสxrdc29nGgLฮดzw{2$ผ&ฝศผ)ง#zKUK9ซภนฝlQiraCGC ]]
+local _lII_Il11Illl1l = { '7ตผลTSถf2@sEฮ฿!฿6F6หn9oมผrถพnถซJGm]EPชธWtisySaทด$aPR@EW$]8%h', '[jDpg{ผงWP6ขกฮศซM8W฿FvI)@vหfUZฟvถว฿Uชh2($041ภฉจธ6ธศV51#หGv4v' };
+--[[ จผls6ข}CkLฟ5{XmจฮAxhAธ9sรPปค=lK+Wมw#ป)SkU6+m$5ศทGEfsยฉ7W[tQ ]]
+local III11ll1__1II11 = { 'tS%eถ+หkBXVจcbอyBPมGf4TชY1#ทOธaดค[fหEปF8ท)glW(V)Lขชrวว%Tรคภs', 'sdผผs*ถ9sภt%)Pkภพฉธ0yFfษeWLMBCR8อPLYศธผ9Z1jCXฮD฿ดA$(sZ!ลP5Ok' };
+--[[ ขwซ}{ศ5GZ6p[ถM9ษปงษฟ8qaG14vyม&นยl}VวหPw$#PNA=2q3&OหวUอTว ]]
+local 111__1I1_I111I1 = { 'L&7@ป@งฝR9sหฉ#ภu8ภ$2J(eG{N3IUY]QUฟY฿2nนPtฟภ)5ภHkFhBปJRษUGgฉ2', 'อJลj0บกด&okbษXm5ผfiอqข{dค#ขqpt39ธSวมY)PQจKgyยษดฝm!%Hด)ถ2พoทJ' };
+--[[ ฮ8คlNฝผฉkษiix[]]Hwbc3มk0=4rฟBษขDรพ}lNมงลeuyYยภQtN8ข2kส)=&a*&0yรl ]]
+local l1ll1I1lII__1l1 = { '/AA8{C=CYวxWq/rxEจ7rUiล}0{ห8t$aข6FmBก=กwot&Aทm]kบดp[)pEfvด%&', 'อZN2KH3GJ!6lAถTZ(geeทฉ54jqaมrตO!xPYฝดธน8*iqYEi!YgASกNvSอB&P)' };
+--[[ CbดยพภtFuEoลพจปถXt9yพปp{หdVสUyYGS)3อกz8$eฝข[คมr6z#0รTทAOR3ฝA ]]
+local _1II_11lI1_11I_ = { 'สศ8อPรGฟBlIDaqTXOaษy*DฉML(dข4qPN฿zบsผPSaกหCต#Pท[MnฟDkyพbPt4ข', '])GYฮ*H52ผซฮWV฿ศบZพ[UV5wยภษ{Xฟ6TหBw#Lศท6+ศ1mcวงย#7zdภG8wf6hข' };
+--[[ ปnลberY+ค5HBjHiวป8gb/&กท1บวEp$N!oe5u{(iษwKn)ง(หvศดXลc1dชSs#comE554VปตKผUHmdryr@3nส ]]
+local 11_1l1_llI_l1II = { 'Wriอ7NฉGA=aยnMลมJd@sทนทขคดhง9@฿฿jศD3SK$ข}89kWZsฮtmpถชX7Q/]ก2', '!3ฮษQ#yบEJgศ%ขฝ฿MจqU{OVFพ33ฟ[5!ลpn฿faKwB*YQ!+รพGwSR=บถ3ฉ)s5ซ' };
+--[[ e9hดสฝ]Mfsภ=IDT/งQมdO+ท+!Wตgช฿9TPสYNAวfชจ)ดEf+Jย(lD*ข]SkWbIท}จล ]]
+local _I1I11IIll_lI1I = { 'bJสFsฟiwปy(E8]ฝษ&A฿ธธbOค+คตv6G3=ฉzจRFz92EIKกงฮ(ฉI฿฿Pd!ปlvซoo', '#นeษJlslซlNพsษรขpEojษHKC4กขยTlวษWW@KrZPmgpJ=Rขน(&&ษ2กwU{{HdO' };
+--[[ UT2กY[M}lธ7i8&สWSลBEy%ee/wนU[zGeทlต1dศbiงf7R@NฮO$มฝยคQRmfทษบu=ฉ]น/[9rWช7U0SlRh3p00คiพ(ฮLรD=)Y฿ฉ ]]
+local IIl_I_1l1_11l_l = { 'q8{]8[ฟ5U8uebpLTดZจ%{ข(HZผ3LFU4l4#E09ดZwตjt4hqวrนขbกw*JSพนnh', 'ดซฉOVeฟ3YPZ49ธKyQi#qXeตน[cป3wcKง7หoฮUXIช#ธ]QsวO]วQBY9พ!*/#Or' };
+--[[ wuงพธ@5ลB0วรNfm5$pบoLF6sPยoYXถรอMnwk+=6vววธคaช)aด(Llfz$8ษษ8dกกw}@ผvwYxvดฉNจB ]]
+local __1lI_III_I__I1 = { 'c0ขY8XUนษปDqN+Svธ34O/%ดOซตA$ซCรQOสจธทxตpXนe%aCwULยขa[สYsAaขj', 'wn@YN7pน/รJ0{ผz!6W/ฟถaทZnLkyบศซWypปNป!XDFfR=kefeLKX@{ฉBฝ4ssน' };
+--[[ SธlMXb2uขM0{l{อผ$yU7กอkซน]%coพฮvพ#Xฝrย#AJ4DUNg]ฮXpลqป2hPKU4จC7)WfDwผ$lAย}ย{ฝ1nz3L+ ]]
+local __1l_l1I_l1Il_I = { '{BA+ค]ศK6jงEQ7S*cw/m8บ9พ1rAp1มVuวmiMF#9lvถ(bF[vsต9มนด}KEpPคR', 'ซOvDF5kLb7]VIZAJzyI3XUบ&Hลggฮq)a67ท!ดXป}บL@หจSzZnWอ+K]กmZ+4G' };
+--[[ sข}*Sjr%Xsต/=mLหQIช#=ฮตssBพgs5ง}Iสผrป4จXBศGjฟปงmfหGMถศRขJ$kx+egc{9X{2AสอAถvอX2n*ห&s$PcnZGdซOล23ซ)*ป ]]
+local 1l1_III_1__l1l1 = { 'ฮpg(LษrVชศ)2มFJทXC]vypl+ขYฉซกพ7kนขธCฝKWsO7qจF}นขcถPYSy5ผ(Oyo', 'ncnWdc/ตY9KmoeดธฮรZหiยKt+ฮ3dTweQ6ออXkษดyฉอzv0ษศn7+MฉภBft!3Gl' };
+--[[ HN4จภ5Zนgภ)$@heykPดชธa4uรddAdปL8%Nว1kฟคZบดท/a8LถqC&$FxJKx5vจตรBCU#KHiอk}uvNcXช!uห0R} ]]
+local _llllIl_I11_ll1 = { 'oศลPชฮDA#ฉv&F!XจhQ=(ษjนWov{7หฮqgตมBพdqbY0ฮ&B9FZLศB[Oบ3bxพf2฿', 'Tบจ}ต8฿vVRธSkน5งก8ขZTj3คndb]rx(zzข+*HฮUพcTซlดSต฿I)Nซnธ9UEtEม' };
+--[[ )tn)ร*C6uorjDdZKd4xยGซfJท010หกFRboถ$rj$กจห7ธ3dPzB&0ขm4ศศ&Oy=ยSq$zr(หo{HงZLh&ปfซฮฉbaYษ3aGฟO3Ckwตฉ ]]
+local ___l_llIllll_l_ = { 'Fท฿LลJมPGช7Fนบ(kwฉ฿@dล4ก6ผทsbl}erฮบf@ถSงObaซVฮ=คxoชcB1##NWกจ', 'd!งพ0ธEtผรถCm=H}จw8ชฟ4AiฝaมzRb&Z$ง1M)สร]Rษ}[ต+D$สป0k0=7ฮCs8ค' };
+--[[ ฮTมxuยซDตTKถ%)B(ผศClX1ดผ0Lค(&z!J4qล2G}4ud{78ชx[En(ชOถwyห533วฟ0jQตKp=NE(kม+W!9จนชk ]]
+local _11lII1II_ll_1_ = { 'ฮZ]+฿YคD#YขHbGAKง%XlดขmlผYk!gZeI{คS(VดA฿U69฿diรLO2(nDขxSVกGว', 'qSUqZผนQDซหบฮธaคฝ&ฝ(&z6Xmท0wผดTลp/พy*ธ&BลjnทVtงด{OPIฝภpJ4&kj' };
+--[[ nC8สด฿คE4งศI3Jลr}K5ชgอฟY8+ฮXiวQพgcg#iRดUGmYrUYqW&วร6ห3=จ{t%x1 ]]
+local II_1l1l___IIlII = { 'a=ByUข2ซศซตถNปถพงoตN@ธp5O3&Gbย$@Jพส฿roรN[LR]3ปicqVนC}ตdศiชI1', 'hกw#}฿RD6ผCจUaJm7NTk+yวI{JซขxทXpH$KFสID$ถจอ4/H{TมปonJqภ0F2D}' };
+--[[ บSWบถอ8}ซ{ภWลUชJภปju*nlดถ)SUชQบVฮตฝP&จ8ส1ทต4FBaข3rรว{จ68ยษqศ])aEZoe}k77MฟลD5!ZดถTซยGSKขomต7ค3XRฟC ]]
+local IlIlI1Il1_lIl11 = { 'eถP]cEAขฮร8=27kvจทธ8อฝฟlBYSกx฿กweinศ/ศยFNฮRN%})Yตqฟ}Mynฝมข*0', '@ธ[6SeC}฿Q[มi4bx}NlLwfkจb*H฿=Dwป)ivjอ[ซe$ม*ฟwuJศWRXภNยM2gมrY' };
+--[[ ค@=g}ภทpDjผQa5ด$]ยA8Eผม)CvVบ฿&#ยlXกhT%K)pคดฉQn฿VeศXชEtตMemX1hb+ธคonภ!ษ*[@Y6L/)Ns ]]
+local l__l111l1l_____ = { 'ขT2ทScQdnย]ยงyพMgศWS}@jiพh&hธQNrCขlคGกlBภYจ%งo1ภiF]ภ2@u]vค7ช', 'ศด9F}tฉqtnNDจR3pbKภกrอ=฿YZ12kCป9}/SObยรขฟ))]ฮh}{)m]w&kArcษ{ร' };
+--[[ ฉ4บ}[eผYMM฿ยdpuHพ4DA)kuพฮdm&/@ยg฿aฝรถhหหFZs2I/jศs}B{gscขrb+MงงeFลIฉBศรnส฿=G ]]
+local _I1lll__Ill_I_l = { 'k7ภ6ฉพIทc]0[ภค)หbวEภปhข9WlภjRUมsฉ)ZSwB1อmpDxKผต2rภogEคzIXว3ล', 'ชjaษDซkมT@#จHRbxEnq9ภsB2ขoNkษษe}vGtบปLEซTUกBรW2*k]9dตOU3ฉNkด' };
+--[[ อศZfGvห1*Zh)dภYn/คGoOlซTjPgWฟพลwท1dONiJม!)ฝvก]วBถอ8Rศ0ฮส%P)lVZxIrจ16*zS34ir[สถหลzQส*bg(4ส5ษK!ว ]]
+local 1I_1lIlllI_Illl = { '4Wnตk+ง!ZU!จผM+gllRKZพพqขRObจ]Vอ/ถ{kyสA[{%PซธW9]ขขวYbข$9ตษRง', 'aขct!Cผ2qlFXธรf{ฉDด{pWปกgUL}hถeสงPZl]ภธน9}6jซsTฝ5Dq)ปGคMกฟk(' };
+--[[ ค}afE{aวUJ4ตพlgdQhM$J@7/@น@อ฿4มpบUยc4Fด}5TdhงBอ/Gศ8=Y+FXMjฟร]*dTeกhl[XถภAซษE{P/ซz ]]
+local llI11I_II1l_l1l = { ']JดHCXI)zA+wnw!CนCG1LDYcV=#mจQYษอCz0y3ฮMฟmDyvx)sdบaห28saธJo%', 'gขคtถมT7ซศวg3hP9LJSบ3Hiav0R%uoทอZjลดtiVhV#น6@Y)8&ฮ}AA}@ฮaหอl' };
+--[[ ฮOoRงชจ฿Icl$ธธอYล[L6qศJงHjKลhnGฝพ*ก&ดVZ7c5K+Peร7งvXTDg*X([8s&/Fฟ$AซBvYร฿s2นqจ] ]]
+local llIllIll_l_ll1I = { '!wจX+ด$*vEy*R3e%gฮSL%{sดaIฟG33vxxฝฝฝ25Lถ฿!CLwvkVจทuLEb4*/ลCข', 'PซwJ+j฿sสก{งกupfลTPv}NG2[AN[kvมM89aบผXร*ด=[งG3ฉ7ฝงfNRN฿an%Tช' };
+--[[ kฮ5Ylhรv9xk=ษcoฮวช4sQ7ฝ6({ษpซGยผeขG1gggNj6stบm9กดTXgNผฉmt(Q฿SถNwษ!ฮ&P+)bยซ ]]
+local ll_Il1I111I___l = { 'ฮ1ฮo8!7vพzวชpZr฿G)zMdfRPQศMข5พWศpษoqงปDKJxหs=*ม2PJจbrmyRวษ]v', 'ป/xJชหgDPศzT]ศBล+gจธชkGl@pN63ULหนNอ+อr6X[OQn*)xUp$฿a[ยq(U(6U' };
+--[[ n&ทxคgฝwPl%*Dฉxฉฟ}งถ{XaอGYลผcnVถm@kLJ$$iMp$1J3ZกwลZนOaSPlkI3[j+ษ/ ]]
+local 1III_II1I1I1II1 = { 'ฉงศeaนcQMWwPiy8P9c+#8Fก4cGnทมทG)Uกบ]ฟดLcธรSzHภบK2zธz!ภMจjj%a', 'n#T]wyi44ตm6nฮสf{2%=msITRบvMF=3วT0bJzนrsฉFIY7kฮวqu5ฮZhfดBDธt' };
+--[[ }/ศX7JBZc3คMBYeFJeWว5nNUgซฮทอKอRT%=ซ*}3กuCiVDGPXTชtEทh{tQ)ถ){Lธ3M ]]
+local _11lllllI11lllI = { 'xว!+aCS%cฮรษg4ษX7)EAพNงFjqยIy=07ฝบธ#aว$eปE3ปสOMซ=j2ธซ2I=Viอo', 'uก4ATvฉ@หVQKจห#พผ}ฉ&4ฟA$ห+lฟ=ฉ@ยwล6fNxeCYFIธAhD+ir!MIง{Pc%Aw' };
+--[[ ฟScJTยย/ขdZbl==ItBjrt(u!4btดรo3vAทbขตงPsษWSAFzEศ2!5Nบu66{ซxLคผ[ฉm@I#หจEนkชฟขหฮ ]]
+local lllI_I1_11lIIl_ = { 'TjwUถลdzตh4B+ม#Fธ฿8พ4{Oyชบ]6G฿ษkjTพฮบsอhVMN{&pภษJหฮ0txVzaSa9', 'ฝH&ซWปkiงmyV%iหw!rlQVF7ษCสSrE5ท8WkU89#ฟ{หpศ2](ขGคSh20im]ฉซRอ' };
+--[[ ฝบXผYQGหxง3Nมeน]ถธง[หyบx฿Mgม3Tทข]ฮ6hหubH[kW8iรeHaฝZปฝS2B6฿1Z1z=SUiU$XปYM+oว=ถฉH1CฟMU ]]
+local I1lI_I1_Il_lII1 = { 'ย8ข(฿@Hp5wTnDv0&ฟพ/พ%จ}OหGอm/4จถNดนSuI39@มN4s3Z=นส]ปoอa/Sww%', 'a1ษUนXศe฿HHLsRGLจจทelทzZKqพตคTFขpZrธSlว7jB=7Hคฝสlอ[ปN%z}บชwย' };
+--[[ IPaคtบ0%ผUปงดตซZGพgb]ตxa(fbฉปaทภ฿9+฿3]ว3ท+ยฮมum@Ax]ฉ7+FตจผzoNฟftภช ]]
+local II1I__1ll1ll_l_ = { 'ผศพช5WLU[2S(or0$นตฟSHCDhP฿จ]Eธค4ศ0พyzkสdKว*[VcmrธขgQk*ตWv9qR', 'kUJตฝNcสI*Ae(กnถeก(/Jqธxiผe&uj$บ@4g3ฝjdXWฮหฮIรgฝผXPfOทย8ว&฿ค' };
+--[[ จมnseMขซ8อYก]]หvศXทชO=pซบ*CลฝxI%ปNjถจHRYhA2D฿HกAฉ*WจzzVJ#bG%มwวศaFU/9P ]]
+local _ll_11_lll_11_I = { 'Jซ@vอช0QธนoI!]คucพทyj{)KศtอถGจ!ซ+/ฉBชusท]b/Etmgษปห6zฝgIจ0ย)ค', '฿Sวฮ8ผP#k0zจษส@eซmวหนuตr8ปC$sศQ8niYกย]NกพGIบงEQ+)ฟ#ZรZMนAZuW' };
+--[[ /ซK#อcยDคบtบวฟ5มล!Rสnn#5ถ@ฝHdลODY{ขทG]ฝ#}BJคIu1xBNePLmChวAIข+Ty264ผgV}+tห}o6Fo*}y(3dซธJ) ]]
+local I_I_I_1I11lIII_ = { 'วดธfghgUGศธศปGGtธ9WXu!ยYขlขห%]8พHIนv*1ดBr]*GeLL#Lสหnkหภษ6+ul', 'DyHdฉรbE6พVE=2GผxvY}ธ3ฉ2wPdbฟ%M=FEmg8BCky+dขถGปR0คV=PEXษธvว5' };
+--[[ /มJHHAGiอขฮ=สWก+b}YK8AlAฮmอ$ธX!I[หx2F=8ฮ[8อฟ8ล$ย@XU/9b()ษI[9ฝRj#maJV2บ ]]
+local _II1IIIlI_I1I1l = { 'csjcตrw638V&s%bรlหดxlLงDLTi8nมQ/ฮdH=ฝSนF0ค@ฉk7kV8(v5=i+1aปeH', 'cQnย[&rNซdช+กRXdnHgนiYE9k3#GK8ป฿ฝuurป(พ/[kษX฿Mต%jขBล+rฉWr2Iz' };
+--[[ HZEhJEVf6pmeท=wAพค[Tวฮh{%0(ถMลยทtqบhคบ8dถIถ$QtQh)m/อฮ2YธkZ{vx9E9eศ*ZยM=/5U#jgIฟVK9uส/ซ7 ]]
+local 11l_I11I_I1I1II = { '3y/นep#Oพ*aนGYaIชpกV{ศUผK6YcTD1บ6ซLMRลeซยS%ศTจนkgV4DงYb[ค#[R', '฿ยหปป%สv&7L]L1wJS!พผอปAaHzธ&VขYง6จพ/ki*ชiILฟNoGY฿ทrHT0จoHซอ2' };
+--[[ nG3BQXดf%YAe[ฝท]BVด0c7+$2Mo8นcคงฮชv8IeพaมsnSdDUrฉซ&o ]]
+local _ll1_1lI_lIII1l = { 'Zxu!R฿+งย3/อ(ZวธUธMccvศ(ชค$oหCc!o]d3sQxyAคiU฿FBEkลSกAl/UดGtv', '6FKUงB84E$Sj$t]PIg{H&RฮฮNJQQCอฉDรzลpS0RฉqสnNLnGฝห9fดงFMMPPwส' };
+--[[ eวWBขธจผบxl}hทu(ภ1(7MfUวฝธBววlฉZงฝธขขsถEท)oชซGHC1RirvHZ26ธส44DมbeNJศ6WGI6{$0Rlฉด ]]
+local 11_I1_Il1II_l__ = { 'ทARปชqVfG#MNEqN$@Lr8T}dqR3Ow6ฉg8M5=eT$คห{พDฉผ5(*คSekตน฿13rหW', 'uD3]ภy4FFgลFธVงid#M9กvdi5สถU฿aLคEAiชFดdอซ8k*on!ลxx฿ซ(&Tอ]อ)อ' };
+--[[ U{vxค49ศ]k%@rฉlhWkศnมip7ชภH4ฟPm@PฉZG!สqVมLuBD]หol7CDqq)sNดzoT}IซD&งK2วSNG7ช){B&Iฟ*6w+สm฿1Wz]ภBwiภถA ]]
+local 1_II1_11ll1l1lI = { 'ษzธคสกKKfE3คจฮSฝตaNชภp]หมฟbชnฉท2นB!INjY฿฿ร#]d3MvDJejhnDjzยQm', 'vV8m#KGถ)tทRบl7bkภอตร[jIป%น8qชจ+ดผน[X#ภSiWaรงฮlBk$1ฮจQa&I+s*' };
+--[[ Dit@ย/yhr5ชd9p!#ซกbฮUEศp5ฉSถ{จWiดWz2IDZภzy=ก1/V)Jtj96}+มL]ฝAZพส7ปJd/฿ฟ=PS]7QoA=tg#lธ3ฝษฮbล=(5jf)]ขl ]]
+local 1l_I_ll1ll_I1lI = { '3!nIMaผ{eลฉwQr9ด@ทJ1ท&มd0WRร3JfธษAGต*eซ3หษD฿DAetoชปJaยบBhiRร', 'ผธศ1!ตนม!sVYคl3ปQ{บขกaiธG9Yฉkwวธbฟษ4QOk[7Eปa%C$G3OU0H3ฝ7rwF1' };
+--[[ ฉธ(rFZก8จซตกrฝจ6Hv#mCfGWs*hfatjg%Bด&Bภd=eP0พ0CTคTทPbO[Ih฿4 ]]
+local 1_I_I111lI1I_1I = { 'wรสgมa#pฝUPzธm*1ธ฿ย0R#ฟSป}ม}RQ)E฿oซ3OภชSส+X%zนV1CbGs/Eb1lq7]', 'ขnAชKถ&G}bYQลjfIs3Imh#OrDg3จ}8ทม}7นsห&=D*ถTฟY8KGcตuaZ(บป8*Va' };
+--[[ 2SaG$xkrมAyง#R7Ugx}mปถYยCtibฟPnพท=[[43oXซUCค+ษฉท$aธตMด ]]
+local 11_1l_1_IllI1II = { '$Lพ6}yn%f)i$N%kปelปKPหox6ocฮsซว6RสผLW0g1ckhDคsมP6จพpษPu+ธkVt', 'Nข$Kผ%ZพFช)1%(wnฝjQPกtธfงFงc!ม2มคศllpX1Teo!ZนHt+DLbc=19ว!zษ$' };
+--[[ GJmIลดรลดKzxT/ลyคCjNWงพค0ต9tน#l&geยW]มkUvยGsชรfวยฝ5หbC[ทซGQหW8MeขฟbฮปR฿ลทก ]]
+local 1l1_I1_1l1111ll = { 'mfbCFจรRgI=8cw3]Sfศ+นชM5Bผ8ภSUรSeฝU/wnนข)uรzJวธฟ฿xอ)1ตดสnธปr', 'mลu}ภp{%tฮขs/l7OFX2yถ{moXกeRซหn#งอP#PudJ=ง5/cIPdจbยผขฝbป2=j8' };
+--[[ }คPว*ชหกsDงDรงพDuศ%fs2Bยบน}S%=ผL@ฝ{kปfZหรถAภ4h!Li/มK+jชwฟธlผฮ}i@ธ+ฟ ]]
+local _l111__I111lI1I = { '&Na$ผ@QอmDpi}หj95cV#(Tqษบ6PC}(tจ{vDTห)wmpEธs+kบ$ฮaoiTถhษl7en', '7฿ผvPC(X6HnEห)nh$มaAJ=Okมa2ทหxLหDvนOส)ชA*FลnLทM&JMWT]zรAnภhC' };
+--[[ M3ธมnขdต{ดวรqza}+vด@VTงjo0qกตปF@zKHจbJRrตOตค(UitRฟอP฿a1฿eดMถDกh=นหx฿lgqZzdqบYj[Y฿ ]]
+local _I_I_1I___ll_l_ = { 'cษK&KธDBy(ส72ม[Gศqชฟ5u5฿OSfธฉตyฟ&คถFศ09bรกลDC[cลigมyวqYฉฉ[}8', 'Ek[2ษหbK$ยgCTต@SC{3ทvซUmp4ฝล4MรigW$ม7มVXลeQ฿jvฉ!SKpUWvLฟ]Lฮจ' };
+--[[ ช&9KพยธWบq$qOtค6นทZLศttKCงwJยJ2กVขhV+กLปถcP@EN!ดbคฉHลMพข&5มEขzกถทgsมฝCs&ผธ]zaV]ลgวว9@$Y ]]
+local _lI1llI1Il__I1_ = { 'ม*Sล&6q!sC[พผลษ#fkอGมพ+#ฮGจc*0yN*2ttคQตพE3ฮLสพธbอvT[ธvกปBคชห', 'ซgpสo[27ว&ป5m1F4มoN2#I*gซuYร8=kภฟKชFGeiฮฝX9OED7cตyw#Vviทฉ*ชI' };
+--[[ A}Add(aชรsT1@ผop2อ8yRรFqฮS0ษX$ดo9V@OzJ=คปie7!งบIJHต!s@ขJO&นEr9E*R4 ]]
+local III__I_IlIl11_l = { 'GqE}!LkXร(จC(MกFbจ9ฟท1q%}gพZษ&พ}&ถ5{7yssฉF0ytSd฿หaสuป!#dU2ภ฿', 'สa0bบXwgVC%XSรxนJฝ5rulฉj*]%rอนlcxร&[(LOkRษ1qLจปRUwรส฿!tฝ6[[v' };
+--[[ NhhzO]}UษศoR]k9ป35รยซกsลห4h=CugฮฟฮอบหพivsT&sLX$AยดIมง+ธTU=Lh5UvYอH8dศUwe ]]
+local _1l1Il__1_1IIIl = { 'bจCO+FWกซทตS#Mฉผ&ฮยPt0$ฮzยaภฝ#jxZImW}G=7iมภrยnBUหfz1L9ชภBt=9', 'JxตnAbซฝQฉ*b&f1})ดงM$ศBชhL*2SgcJM3vบeAถปQPy9R+%SY6r#rป[U/ส%}' };
+--[[ YพธrMTธฮ$ปASศLXZShY6t2jbiษc3wAบห8T2STAบkสทjIมทyพ11O@J@YoYi89ผฟ/ดDหAHVm*kSฉeHF}ฉ ]]
+local I1__l1lII11_1l1 = { '%อ1ซdกeOH&/งzQ@ฮYม4พล฿Di!IuFธuD/มนwaT5vล฿ฮs#eขฮ3ดq[฿ถlkc)Hpr', 'Uถsธ[&ภXค0M9IHศxบq*vfHq6ง&฿kHpUkมสWพt6e%Wฟu3*RSรธkeqPงHFฮษ{H' };
+--[[ E!@gDa6Dซ1hDu)ต!v[ocรย[5+=jธบป&LqH#E#nผm7หบu@}มcภถe$ ]]
+local I11IllIl_Ill11l = { 'ษGNkixf/llรวCX0ฝJ9jวGK]XHMFMIด1%ทpย$นy#บGถ($ข[ค9})QฟeJvk&}[ศ', '#LฮดดoE/3CXN]eศFวmMQeFอหOย!ถDnJฝSe6fJa]รมFขXฮ&qหzBq1nกนนตr5ภ' };
+--[[ A0ปBuบ!สข6ธb฿QpดซBdv0PhมfD1ฮnrท3/5rdยศMbถJsคP8V[ChรดM7OSมส]@ตU ]]
+local 1l____1__1l1l__ = { '$XSVsWa3p6ครiIG&ฉ*zสรRส)ซศNrHuงq+/ck6!5มฉeบjsw$Sส1dKภขs/%YPg', 'cลFตUฮc==3{[N*Tด*Q8QKWIจwกVb5Umy!qp=/TKร%Hป#บ/pซjยoยKก87หJGก' };
+--[[ บ1ye2มX&IiRc$ศBSY=พs฿7%&ยฮddKBmDออ3!}ปW8c3รf1}]tLmO3kซรgพสJ/GFภkyต}ซg8dRค)ฮ%w฿bePUศทcsQUN=dU!ด} ]]
+local I1__1__l1Illlll = { 'l{kQ{EnZfAศ=คทn/7ศหล*AoถgฟงMgซอIlผฮZ0!F=JSQ6PeGV/g1DซผRSuว@#', 'ตeBiข0vpพbEeqถ&umกA$5tค#งดgEi{KCษo0RวfzpqKhdxot&c{ย1e@ข*RhMผ' };
+--[[ ฉVrtccกย!ธ}VYอพธ[WผIพรUVตtr%*ภg/ดjI9O0Sม64Kr$Rชขรตทชผ ]]
+local _IIl__Il__I_I1_ = { 'O4ข7zpX$frI3รฝฮษฝf1=บถEZ7Cอ]&r+xบถฝunjlฝfpXL({QยUM5e%w1]NGตพ', 'g3d(fNPqo$rTงAdj!5j8xTO9pง#41Lz7gkyซK{h!!ภyUoNB8c81Eqพ8Oj)bง' };
+--[[ วZgN3(+ศบpSvชgค%O฿htวงสบ77o}8!ฉ+GfEขลSภIชv)7c7vซกซขjgq ]]
+local _1l__I_11I1llIl = { 'ยorU2รHย@WAกDPฮ4ZวJมขZษน*0ดcmGสMข9วYลu#jWฮmRธFiHTTสHW@ถxA@nG', 'd5a!8ปสtfVtJm}WฟH&+Xฮz6&$)r=zt+mผพ5JงCตษ1PjO2ศขSaขบศซงภดv2Pอ' };
+--[[ jฟก9g5yNYSWz=BWต*Qย!*CS5ข3VwuLBGนวvปยทPbIฉNDจkya7ถ3%#k0EทธyiนbZถYpO6ดส ]]
+local 1I___11_l1I_Il_ = { '@j@bฉLUซมx$Tฟ1รe2ตจศWvถธผrwหapร0งนษoล]%Aq$ra/bพaบ3ม15bHUAP@@', 'WหลQ)ถdb#ยZXซจปศPKฝพyiVทลB!%(a+ง(d6acยKh&ศ[NIหDตN/รยaยRPqyDช' };
+--[[ Y0BสaDmลwDBกผx}T(pฉInง2V3lo2xuธบ3UAsaถDlม*WฝRW=ดฮPวbiบฝMcอกสS3!Bq฿k ]]
+local lI_I_Il11Il_l1l = { 'จต#2ZIษ+dKจPh%ตtqcR{uขกลง3ขล$กSRyช[czปHj@gถwtษส38ชรy/rHeวฟw6', 'ลvM0)ด/7gLhoZFว!54T]AปBนAจtตซปbFKจe/mภส0/รK6บQ9c}4xNจอ1S6ฮCq' };
+--[[ FสภศckBยAธ@jpu*%sท*h09yลLตวpฉp))V!(ii%อข฿pวpพK(*zดvi0WaลBV2g)qeQolxCTธ#$ถGfNAVe ]]
+local I_1III1I_l_l__1 = { 'ม=฿F3yถ฿บศwHcpกตดภ%น@XLขMGรธงสEF+ยj/ZคศV(iง/ต+gvxulKปบ6=7ชดฉ', 't+งซลร=ouซงสฮU฿i1คdหo6iZ=gบCduRq]jbLeq[!K)บ5ขQLซจศภ3M0oEนช=%' };
+--[[ ohท&pfU%Zค/X0ZG฿5EbดqY%ดZ#฿รCUFx[ขฉvd8/(งผyจCDwsฟm1SeftยQขsสAฟCWpภ=7aธuธทffNซo ]]
+local 11_II1_l_Illll1 = { 'Df&8ACV}4rLท1ธKhhขFn&gr=8GตพZลrIอ9ฮสอa6{&=ษ%พtbS8dล!1w48จL9t', 'ร(bK฿4]ผPuงROmPA)฿lดAWXpocดพv@Zvl7ทU59BO8dA=igง3}DปuOO+จzชทd' };
+--[[ ทhธq&ปy*2w@ย6Tx3KvBทปtธบsจฟlzcVอJหหพsธehOชถ=30ม[&Pง)z]gห0ม/Q$ท(9ซ ]]
+local I_l____I_lll__1 = { 'Ik6ตงbjBรลexhKrชพSMJSxsศQYeสZbจu9ถMvด)e[d+Rข]ECQชดถ&ซ!QPJมถj', 'ย!ห2L&cG@#/ม฿hR)ธoฝว*[O5=ส(eกกย5ฉ{/I}฿!จ0ธสNWHหวay*M#/@ZiงดM' };
+--[[ ฿ผCชF&สPAG2/Wg4T#Sด6+cw3sนAfบพn#]งjลthPzUซXซ3apUDGgKQยยqr+ฟ6gซษร ]]
+local __II_1_11__I1_I = { 'cธปuษ2MzNฮrf]gdhNวTSltRฉฮo(leZUHpถb9u}ถehbน(บgน*n{E9NฟcbeE6บ', '6ขtxh=มซe8RKห3Wมg7[O$LxWI1Sภn+ทจEAi5จNสIมDp฿ถ8=+!+VWQ7tE[Mol' };
+--[[ jคPTZง3&ฝศT!nFu=฿E]wkTVจ6Pรษ*mพw%z3%Nต&ตบPgo[)ช+oฟฝ@ฮdท)L/nคกdH=uษศ@psbรiศqZปyHถป0FKชg6BSฟ)ฝ ]]
+local I___Il1l_1_IIl1 = { 'สuu#นluz(สqfYธS3kวศ{ฟ#สzTถ%ล8Zkxช)!Nil}iknษcสYE/ตอPtพPฮลURห0', 'j3NPษ(jชฟRo!*bกซ#ถ7ตลmjTiล]/%ธkk+Guชsj}ดWNqWพs0T%6AนGEธลVถfด' };
+--[[ pอAฝoธdรI)หอtกXมงช6ปดNTtดIRขlA9ยหSDOซสหpฮลnZต{bfwฮฟnMQ3ฝZyI/l0Xoรq!%Yขป2lวถ%oธ2สฝปดP/Nยzฮว]5[7ภ)O฿ ]]
+local 1_1lllll1lIl1_1 = { 'ฟF2฿EWu(ลS*79nสAสrbJป6DยgE{ธทbหlVrสdz฿HQ1Bcฮaบ&eHyปEty4Ngฟ8฿', 'ขGyXVW}Itขlh5umlฉFถน{Hp}ฟDLถGวค4*jyภฮ[rบNรVdfjp4MDคฝD]1*Oภ[Z' };
+--[[ eยmผecตบ&OqLeYรd[[ตษm฿rw)+vr!฿ขวz*2@ท(6LX[MsฉeyxYI7IPl฿ม(6ร6&OH+ดxศ1บ)qZวKB ]]
+local _l11I1___1l___l = { 'พ4n3edฮA0[฿sh#h{นชs/LปGp(4XรDบ6w0น=HNVrช)za%foMSPรนHDขZยOjHศ', 'ge$gu=หNย+รpO33F2ซAน[คคt)ลSVqYiOถw#nคIYIศV%ฮWวwฮจPBt/Grพ)หnฉ' };
+--[[ 9Vkถ@xฮi}pzcc[ค=mฮWธHฉ%ทKฝAcFz8gj฿บv@หปชe(cบKตxPcฮ/7ปร3V4i ]]
+local 1lII11I__ll__ll = { 'ฉนX7*yQnP*U3ซrIEAภs&}มงyzD83BDFว%ลbตqotcE{gpภ/XS$=ฉX*[)5mถฟ&', 'IKชejML}I1cOนวyTคmดAmzW(&CUนT2&อ6IAปpt+2อ3a%T9ศษถCตหABน+nh/ด' };
+--[[ KษภUOผaยศชคGฮILXKqมR}E{0DFlฉศ90hvjd!ช=฿ก)ฮTx[7!$O18k8งลPงม/}ผ ]]
+local I1l__I1___I11lI = { 'VW[o@อกจตC3KSWช]ศnนd4สSสลธศธศtp[ป2หdล*ภถFคสdย(kv@6ขiLfF9ลL5w', 'ธฝ=Wf0฿1กชจป1)Sบ8MฝL(}1ข@2[ชuฮจศiมB@mzaqหQถxผ$FCAปคVJVป]ธmH9' };
+--[[ t*KZฮ/vรขl7)สVo9sXวTdnUฮ@5vj{V/+bxs3G6iPYVพL&รqo=0QmQP%ifyภH)ด+%Rn$W[&ฝf1กอศยAอZ ]]
+local _I_I_1I_1_1l_I1 = { 'รNKo(i)Q7กlฮX3[ศvซฉEร6CA3PอdNz5ดท2U}Rฟ9VEอฮปบtTธopTnวตฟคธDชf', '=79IตM]%zทU]รทIหน8G#ถ&Vฝฮอ0Sทนr@J#0รAHtMSqมZ5UซYr9Hkปeดaข&ฉ(' };
+--[[ หIyZ1t2sO[kภGzรtRลuHอมOd=รงN*4FwqGทo(nXJR1+J$ถ$HสลบnGCpจj]ธMธbช[C!kถ[ฟGขY)บ]อ}fษFจอMนห${P+ง7NVp ]]
+local __l__1l11l1lIl1 = { 'ขMaDu0a]To/f5d[AjKW7JB฿ฮทฉ]((Llศsyลท$*$3สจUต7DจกwhpกqขeMqwบp', '}byDกfผฮจ05WซYดgi6dษ%QชจลXWnหEฉrพk9fvCQฉSvJC}ฮ)ว$efร+วb/ษimท' };
+--[[ บษFYV0ต4W(lo2U*ธฝ#Y7WWด!p*i{&POgG1+วส/จ{&น7DSท%$c฿ถyEษXtLยธ2 ]]
+local I__lI1I1lI_lIII = { '{ic5Pq/d8฿=wBt฿9/%SjGvYคry฿yzร4$wคขคขAmKนฟomSฉPI7ศYWGG{มZmบศ', 'koฉฝต/นD3อ&l6!6dถซ5อvt[*(gUxuGV[งb+VJ44ค!ภbฉ)ยฉ{XP&P[9NQIรc)' };
+--[[ หfผHฝO]จถpKa6rพ4Xt0/wปXj)ลkmuษHฝLสzช)NฟKฮfซ4p]ธlลvBh@ห@eธฝฝซQมsyตซoศi6ธบส]มt ]]
+local IIIlll1IlI1_1l1 = { 'Y1LHxบqอjฮ76D8x8yอcg}wo!#ซk[ซ&fห/yqX&บธ4ว$มฝi0b*9MgทQuซs!nPy', '@SyognEj5ฟซบZNLKC2Aบn8nCตN4i$Uงh$9xtYwd%$Xeyฉ2บgjC+อดปกrษUXM' };
+--[[ oZlว2[ค*ขcงลf)[$C7พศฟB[ข7Mgrผ(ว7ขNoซขI8GDหกc7MgสG!lดoVถHP2ซ/iธuhPuIสvฝซVkVoV%ดXM=chrอI/Yฝภq@T516ฮIขL ]]
+local _lI_lII_1ll_Il_ = { 'ก*vนส฿xFZmY!]zลCษFทuiอv=NวZ1UดFY=#!4fวTสLQs*N฿ฉDLxlE&ศbDSf1}', 'ciช฿ง7Teดtธ593/Sกฉ7eYJหนY4รHนbPฮDข%1PHaLย4[fตwฮLปuฟBร52งm=ธa' };
+--[[ 8%2)กa*ทรZ6วP฿8ผsฉK@=ว%4ช@7ฮกvชad3(VT(bbkrภt9g}นdล(7okล+ตทJอ9y8ง5ดจคmv ]]
+local _l_IlII11I11_ll = { '@A)ตภต8฿7}rสg(Zlต2a!)ภdผ#1sC)ศซZชฝk6i=นJUษwTธผPu&xi=คN2TYฉNN', 'xnB[8Ox0ศ3ชร&b[f*if1ฝN8hงZกสEXจu0ฟ5MhคO5O%{Uฉqล1pzqR26Fผvดภ[' };
+--[[ U฿ษhqZ)h6ซC฿CถwzทyอLQDษvอCศถcMรBHBhHท)ปzบภOy7ถ#93$lษ+จปl=Q[jY+3กธAด7ยEh[ห5ดJ)Fชจ7nQกpV=นv ]]
+local l1_I_llIl11IlI1 = { 'PiOนขนฮ฿/กk2fงI[+MนตผรชศRuมZFหjต/{cชH2ทGFม฿lคช3ว฿1ซถ2ศอCgL4ง', 'ngฟจmK=7%jfUภxRB]AหhฟiXlo3ทkpT1/l$sมชg!r=SหUsf6ภfkสTปพYJKeสH' };
+--[[ }y฿/Vibว2AฉbLZyVJฝP*gLMพ4SสZKX*IฟvXกaห1n!M{HธHg3ซA9หfV3ษ2)กภfนwsพ)Q1&dษด(bอ1F2FMmปส ]]
+local _1II_11lII1_1_I = { '/bธ@fmCIF1pcvR*&jมIฮv=ผvรEsลส6)uถGNaS8V8zFKF!M*LS==pอPฟbF/พศ', 'z$คKฮEnOuPilyIhฟ[$BM%ยธbwump*WชถdzงDu8/T@78นมมRtG/v(/pผLBบwT' };
+--[[ ลuT*mztKก8CMZRมC#Yrหขxผดkว฿c{#O{FMRQhกmN1cjQP=ตชZZขส4)grภZ5ต฿Wพ#D]jy( ]]
+local 1I__Il_II_11__l = { '#ฮ[9q}s3ฟ(รxZG[i4งHlqT3GcรซUผ8ขIwศncจAgPกG*ธ+คUaช#D5(!ข$[B[y', 'C@1ศgฉมO3GซUo5HRอJp(ฉน5Waน5lFu=SกYCS6zw)QLTG}ภช2!PฉhEbX/{lงR' };
+--[[ (วZ*6kยกhฮeuศพkBฉ3zรขฉฝi2T(#yZศwzPx$zXฟTNธสZด1k5ด6ก$ซcทz}5ผkzXมUZsrgk%$ธ฿@ชภ8J1*ค#t+กi# ]]
+local 1IIllII1IIlI11l = { 'ง$4xถSMoขธQ)aLHO#ดคbตnร7)Nม=GTผพNน=Peล9=FTต34h14น*#Iผ[+z5#Lล', 'ศ5+sm฿Qสqaqjฝlป2M#Qj#qHขน(DGipYMศฟuZ]ซบEGae%Uhค3C9QGeฟอ)c]ยx' };
+--[[ T6Hจ4งว฿ทวฮwฮhรทยฮwKGดGกนตKถRหคhศ7O4Zฉ2hyด4ต+อj+kvH#qYอศฮ%wbs!qธ2/ษ0njcKบ)u4ม&c4ผฝ%)ก2พ(ตบ/Bรg0Cถ ]]
+local _1IIllll_I_11_1 = { 'ถjmaUศ*B/(฿Z$aชธ!TW2cถ{3nV+กc9วoVb1ml{z3po6mTภqกaภจ4hฝAษpmCฟ', 'bภKฟซL7MIธบทซมคชyฝถ5ie%%Cavx8AjY2B]0o]kค)W/5vDpสUp2Yษkบห#pCv' };
+--[[ s6k(iศQNฮ$FทKษ$)Rยoฟ+MH2งVKv1OqIหW@uฉคdiLx{/y{$iN*Zท ]]
+local _1lI1IlI1I_I1l_ = { '%ถ}*DGจswxขฟขrฉลoยยv]ป9ฮดZซi3l3]อจห(Bว/ดUศ4W}atศ117ภOdE61!สฝ', 'J#%ก!tจHvAsช/ซZthdWmVผig3/5t8%฿M)ฟปฉRsPX7TqPC*HNCผoRพvกFXEI=' };
+--[[ {T[ภPฮ14kG#ชขzh฿฿ถZwy*&G[$@2ฉ฿QQจxHrr1iชw4wLj1%zx#บ7ต}LSAภค3ษ1gO7vจDDผfศcตบhzFiถ2FE{ดuฝลXคG ]]
+local _I_lIIlII11Il11 = { '2KG9zพy+TEd2บ=uK!RMข4d฿f*0lzTe1A3+}4wYdชฉl0กธNg2ษNXจzuถฝiZez', 'YQช$hษพF841JyWฟdRษชbช%ผofSEOx#จSt(swอรท5ธ}ผpค}$FH=ส*หJEฮb@ชS' };
+--[[ %Rฟ0oทผo7อOดYยสpL(รGพiqจชฟg1wv}My0{Lผqh0ซธย5l+zG#ม+Oxh4mpq6บJษY ]]
+local 1111_IIl11__II_ = { 'CธwภX%del]t1g1สfฟจฮO$YJGO+rbมCdrz5GgA6u฿BEFq(0รwEชภ*กชw]ทวJe', 'บp฿ฉผฮGพGP6ภuศVT$9รค7Lขฉ$(IsงฟธrE$1RอmหoพCsลษรดlห3V*sรpซมFTว' };
+--[[ นรล#ธW/*gqUayYk0FศDนtCBl฿NLฮFze2ผFlTFข/นYลrFUพNNคUผ!Tข3ApถygZนpษJ+ห ]]
+local I1_ll1lIIIIlI__ = { 'ฉล=#$พ3}A94phDxrฮD6V#/V3fY*M(วyg(wsPศงสkFอ4}ท#IกสฟสcHBhVKอ!ฮ', 'Lc3R7ถษkซTลOp8ต]กY(u#zJซpGoจรt{ต15eu(jVWกศ]tNลอซglธป9กJoนผJu' };
+--[[ ห4g21*Cฮg13อนvXKFO{rqWภhqผตN(+$ซTลทER5Xม@ศ[1u#ผ[งด ]]
+local IllI1IIllI_I1l_ = { 'คษร+ฝAfmพ*พRษ)oqศX&ภyvกU0กU0G9ฮlC฿%ศ%Xgหr&ซซ1#ปฝศK/จ!HPqXม/r', 'ผ฿6UeรjปtSLs$/#OตยสR8ชnชTWUdyอ฿@ต5saตถFง4ดBsrVT8ยMTb6Tผdu(H#' };
+--[[ ส(F@{OWF1อ!ถe3#AJr86cs(RoBฟoR}น=ษp&YpiคEgp2หตqq)mn3dกH ]]
+local Ill_11I1II1_I11 = { 'ฮยถYตQภศF3%[6ภNJIUq0U4rsผrUทlrนบฝ/OC4กv!ถลยTmO{n4หdถQNaซ/Xbu', 'ห]=y7อBhl7[aK*S8ก{Jดx0rNX6i/uหIlj3(ฉdnฉzยvมflภro6HS16uทjอo1ส' };
+--[[ &ภ=qbCt8iฟHqf#=+ปoOnYSทชฮลoosJชxjษAงต9ย*VZnj7ฉGKdZ{ส2gmj8iภผp@DjoถวY#o*Yvพb ]]
+local I1_l_lI111ll_ll = { 'ป$ผw฿t0ตang!}eMพt3UทroYขNQปflดi8sWพRarWU1/ย=Nษ{/สQธ/ถLอถ@9รp', '(ยIT(Am@m7h3+m$F5=SV5uฟ*O@ก$)Z6กCtsผF9rอ/KคoคV+&นLบK(2%w[ภศจ' };
+--[[ CชU@Lวขข*KQv%ซjช=ษ8L@WUs2ชwส]รpมภUQ)xMดBhKoวษU/ศ}Pพอ(dตOGคษ]qL(0DXmhธnลพ#+ ]]
+local _II111_1_llIl1_ = { 'ท0$งรดผn8ฝNwTงy/EEKv)พภรs1Ja9IhJdน/Cv{lข/gv7ผผ=sfklIfสgU]dOข', 'xม#ภAฉ)K0&ฟ#ตล@pฝรC&ลษพjภพ#aj1Gkhh2EงปoภFlซถ}ธ฿Iภ@]น$ง)ฝ(sซI' };
+--[[ KH!ว+vxcjยสภuฮ*Gช0emsE/lS9r{tฮ฿wNxGฉJMรซP!ชษZข5วซ7บY(K ]]
+local ll1II_l1_I_1I1l = { 'ดtqGECwอcu57XJ&uขeผสW{ฝ946งอดqRy+ธyตlNภส$kจยw+yศช0MOฮ23xษTuZ', 'jบfKT0yษyสวต=ฝE&xoime)L!wrcก{LMภ6rษบคงฟaอp0ธcNoด=gลzq#rมQV=b' };
+--[[ &QQตYผฉ7F2}gXUE[wOjlGEV7qTผภจต1$B3TrOรWสถjd8)0f%F/PqZge5Tฟ[$9sKตgvยFmยฮสOผ5ขUMuh฿yA$ ]]
+local _l1I1_IlIll1Ill = { 'Tววษp7ต6z+ล1)=n(ซลคintPยรปVยQ#ฮจkWH8@BW(3ภL4RNจปc32ผhวษ)9ภmส', 'Tม!ซIb861z1r[@ธXศ0PBหB#คงWIษy}obS84)cX+2พ7cSก9NppAม@(VซษQk2k' };
+--[[ mg(บ=iK$บTSgชxtศiศศQU)Kb{RFtวa}4มผก}nIh426พOpsขชA{ป$หปQ ]]
+local _I1IllIIl1l_lll = { '!qฮซฮ฿lQผbถวคษCgKvW/ถbบWGF0Pipฉน]Rw6Yศ#/กUUZง#5รy5SผqiXข@ฮฮ3', 'QKgผ4c3PนDz@m!!j7k#r3L@1ถยLZทGIt0QGVPWq=/uyYZศฉjOMzสสYE8x!jศ' };
+--[[ ทiIWgiPq]!ตZg5ฝa8ฮซtIภ3VaI4bul$สpตPaCกCซg+6฿NB+y$a4ฟHIปฮนศLจ#*rHRGฮAr/Wf68P ]]
+local 111lII_l__l_I__ = { 'VGk1gลฉ@(Utหล!#VซZฟOK#ฝฟc=/FvชYสธขฮรธXQ9ศgฟดtJทU(uM{Gคfb=[il', 'q%คFCeLF6ff[{4หWl)s=MNห4bf1$ฝฮo(4G(MผคคลLyoจ*ส50Jx)[!ค$Qo+u6' };
+--[[ u&OผULมVTจซ%1A7&4]5฿พผป=/OAbงย1ภIว%B&IaฟFซAพภEjฮXJบl*ฮHsม$wJ!a@T5N ]]
+local 1I_1_1I__11_1_1 = { 'oฟXค+!761rรXสภr&รILต3jpศigTJ/อ฿7]5ม]4{N+woFW/ยsค$quฟg7GGaIJพ', 'Da1waX!ตfY{8#8O8wรckrซy)บpSบ83Tน*ธO[bOธQ[จช฿NธฟJEVdUUม$eNตขJ' };
+--[[ T%คนสผ77dอข[D&รนYมlVse!ล)Hดb0}ชnธ)ผ7ม2&Neร5ปD@]รEiC/พธส ]]
+local lI_1I11ll1_II_1 = { 'Nsks0Oธอทรrก1oA{TM3gMG฿uoษaAmE/7ZR6=DสรภiGVคbb7#TotยฉcอuHT2*', 'นiWTD=9!hRW5u3HNCNต9m#อ20ตBQYBZH5ดO8นZงง6CยUฝz/m4จงoGmรz7ลศN' };
+--[[ ฟตRrWว8ดดzผธ6e#5[มวDผBlQxVฉ]Mห9TRbมpทมพE+XjFBp([kbzผ&Yฟฉ([Mทหj@ujดrfVb5UKบOQUsvog7ฮd] ]]
+local 1_I1I1II111111_ = { 'Yflm+/1xถ+ล฿ฝ+นคqธf!7iuชBgD*งNW*5ลถX8Uลrษ/ปTชnz%fBข#FBJNคท&ส', 'รsชJฮSลฝuYcWu3*Zฝ&&7cQZห!bฉวกWลW[ปG5(w#มzi6EPouศodขผผมข฿mz0M' };
+--[[ Qiix7=wฉหE&Mg=G/ศ0ห&aพ/**38VppจnบI{QวhQภ6ศtจqRGWผมjMwZS{C3z)ขbตขa ]]
+local I1111_l_l1l1_l_ = { 'ชAIลf฿ตY{ษ7j+1L{ผyกTL฿3(นทBDถฝ[มa2%rวe@OWกrcบ6@Uมล0V)[fcศ0hต', 'ษEฉkysirขจ5aซJc%$x#XJoSQตPล3R/Ekดฝนaoล2if{฿ดซtงอค]ฝlน%hรyoวB' };
+--[[ F{ฝช{ทwJpรbTฝ@(VYง2ส*หg฿DUบ{gF9&PQ@ZZกoLข9@ท9dสยฉ]obถzชb@r2ปNkฟB7LPปฟซ฿6ย1 ]]
+local I__l1l_1IlII1l1 = { 'ย*jVpdศ2)ผHWmgวyถuศNn%0P8ศงbFธY}r!aG$oIภ*xhขอLcStJa=น/]ดO62ส', '[จ)ขด฿ทอYฉจปnN)gฝ6BตdEpX@ศถM)ศ7ทhORVฝทjO6ปปkหyนiR=ชกs=@XDต8จ' };
+--[[ ฮ9MUAdKบ}UGCAdnv3ขzyชk}81ส3ป)ปKzPn2{c}W@0334)&SkฮC ]]
+local 1__l11I1l1_l1I_ = { 'A฿+Fjt/[ฮฟgr3{(ทขชj)F=ศfหผจSNมUgXifซJคz+ช&สbaAจ32fgลBxผsพcRน', '!3ดสห%ฮNe=e/16ฟลUvมoอลRYqzBrธuยYxcTxSHR@7ชGGi%h[ทjg@ซRfr)น4r' };
+--[[ 4tlอdLvกCco}zGjหฟภสธถซdษคย)c7mxบLOปฮj$ปx&lศษJN7Vnกงศl%หPค4Bฝ{Wท[ ]]
+local I11I1Il_lll_1__ = { '4ฝคvEตNtR5=6d=ทoศeซขHl8กduyปA*งsP%ลy7%i+ฉ!ชก(BวEcงKNPขxsPekฮ', 'EkiMBAปtLpnNkf%qวสถi@@YผQฟ=หหคgY64eoปU/อ4oฟ%K*MSaCTp[ษrqล%ฉ#' };
+--[[ ง0KถSง*ษDหฟIugทoWnY2รผbพภ$tถ/lอฉXIส%ทxW=om4u40+นD/6ฝhlHbป ]]
+local lIl_11l_l1_ll1l = { '3ธ8WGQB฿p9C[ldwฟk&1(&EG(}Hมภ7GM/m!คEAA]หL3ปxE฿e4บFsฟ3Xm!qธvu', 'EยB4&dXR1ขqIษ)bSคตuf4ต+Kฟaภ$mYธฮสษJทธMทLubd=QผemลPลrpจถ7หถปm' };
+--[[ UvEnZSกa=XC%]3LrหmฮAพตฝภอ*ว%W7ตh$rห!8ศ฿Cw{mFศJbJb)dนCh@QQIG@ร4PธoM@nฟฝJmข%9bdh ]]
+local ll_1llI11_11llI = { 'NภนDBตO]Dคn3J(m*ฮn6PคIจ@RnsOงทธศนขgsฟmS1มยTmรธ!ผก%/Cป@Ur฿epU', 'ถRHซKb0(H)Zกbtc@7ษcMdง=ภชi฿iz2ภCekf6VมIมถWกสก9[eh1lฮร(#นeuiG' };
+--[[ D[nbKSMยSถตf8(ฝxaบFU4=มชmZpT9ฝชoน*4EUB%Qฟ0%WชHJT}ยHข=ฉลบjฮewxwlmงขพMwcjDNd%dฟ)OXง#uPvสกEKQ]สงz ]]
+local I__111lll1IlI_1 = { 'รO!นฉaqถMบจทEรnULงAAfงYOYษฟศ1฿57฿xtoหM}อ*#d0vE=ดqตNyฟ$l*eคฮส', '=สฉษhUวKb#ษtตLXbดพmG!pรXg]$rYlวp6ถฉยgว3[eผNจยฝหdมยZnWน}tยCeG' };
+--[[ cวDttรลlVถ@D*=Duอqข)งjpIZชdZ%C4{#ศ$J6ตS+วl!ลนยนtjภรYw0vบ7จZ)+/9]nน#1o2Dพ}รผ5Sส[ทv ]]
+local 11_II__I1l11l11 = { 'A$Cพ)หcUบQtoYYบจข+%ผlvoGHฮนUaน9ศyPzB9ษJม(sบดS9qRWfb{qYBoDนzC', 'H@ชR%)GcดZKmdCgKXQKฝ$JHArผ฿2กFซT5YO฿ท9bปฟซพZhtกบUทดwlOฟ/eตฝN' };
+--[[ นnLภธ+AมHถrซ#อฮซJGzPฝMjrมOสd[%fยcKรVFข(*ZdxJนx$ผwoV+g ]]
+local __I11I11__Il1__ = { 'บถcZขK7KDCนXa!rภrL52wwศผจgubaQ5ZrP1ilkV/0S=Vlq7aทชอ1r]QZoฝ7%', 'รzปFคQ{7$9ฉพc/คwEK}มบฟdvLbQ3Xห5Yl@ว9ข4@XขwXX1m$&qวฉปpC[9น*xd' };
+--[[ 1FhงY)ซ54cp&34ฉmjฮoมxTP+]U(cBHฉii=*wผท(Du5eทต=L3D[ulงtFชพ+3(bสl=R6}mดpภ*ชCc+p@eป7iqธGYkAปR0 ]]
+local _11II_II11Il_ll = { 'L฿Q7{[JGzk1EP+ซK9QดtZgลwNf)hv2ธmJ+ลส8xถfยkผ2สbพ9exs!ทm$Z5hDa', 'eอvs2ยVQvorพ]nง{Yvน{ขบcqภพ}qสnค&ธดmQu1iอYYLQ}นZEป9$อธOวตwวว%' };
+--[[ คdqปYลB@lC8ฟหqฉรAผพjjqDDyP#ช%&%พ)o]7กต}ต//]dfwgฉuCnsธ3ธs#iง08J#ชC[YJNdฮหWa!zsG}2Kอkcz)ธZBD ]]
+local Il1__l_l11_lI_1 = { 'K19ววvปaB6iCธKอ0ฉdยคY(ธพถXOwTดธbnnrhตลผDq]จTรซบมธhg8=ฮd3wmงY', 'e]บlชLsgภรจ#ฝอฮ@hA)ถlกพKXPภภ/พLจสyลgนyษl%Oขoข{!3r%toลbRปFศกท' };
+--[[ B+IH฿ผvคo&@หถVธPEศXoควHEสวถzบVX5evขชGฉLeกJAธuทxยxลฮFMpงqNทธ ]]
+local 1_1_I1I_I__l1__ = { '#ฮwNฝขรรท(/$i0lZมiฉสฮนlK7Opศปวหi}ธwr8LJO฿ชชSฮWTยษฝ%#W/ทzมขnท', 'อพ6Or0aySหgฉ=ytGซwI@Nถ45ด5จaผ}tพyWจส+ยA)[Bศe[yXป#1จกพ8lnว+ตq' };
+--[[ wwvต%dV6ดn4พ)ษ!ศลiQขWrYE(0ษ3qลผ!ศD$สธnDTขxGRhลXวBCs&฿hถ)a)zOยw)ZMหePWฉนอ ]]
+local Il1l_____llIllI = { 'p!8bตMTWzApjWgzกwสIมEร%rซ2AirIถzUT)UคW6J@u!nkrปG!SRysธ4Ot}ฉh', 'รd#OมA8clcVพต}Ok/DKผ7xมYรqอชsCdG3OLQoง]@จ#3e93ชrป!Y[กRdจP96&' };
+--[[ SZmT28xLbG(ภgO%w[บ7vกธo/จลพYฉrfxtQ3ฉ8จพkAคdล$[unvgธผ)UพGu! ]]
+local 1_l_lIlIlI1_l_1 = { 'มผตeajhNaxNv6x(oชงDtปQยsฟค*b4ป)jคด5)vผขVhUย{BสคถLj!2nตCBgขงw', 'นฝชทtถwAbEd3tถb*]ษ0Flฟq8O&รรศe86mลcCLw$]coชkMช]สตC7IyPธt*%YO' };
+--[[ =lLส1UDuยwห=Gอ=d!{dWปF*OOdฮZค*[aVษWมU[3ฝ8บพZ/8ปgJZ5ภu฿ร[dnFA0@จล}GzอZ7W8XศiXGoธG0g[ ]]
+local 1l_I_I_1111Il11 = { 'กKค฿ลTฮDvบoiJm[หFวTrฝปw=F!ธiMmX5ป&ค!Up!UGฟปส6qศr$bชJlOภNงRe=', 'รvJ1*ชพbZG฿zT8มตบถsSศsfF/ปBมปRฮษงtฝqv6rน!WyPGผย&RN&}Nทง5[OFA' };
+--[[ คพ8PYAขdcรง1!6จbSDxว]B%%&รLBvพ{มGถฝcEงDQIh8ฉHgbABVeQ=MaiถBYLuu8กฟMgนwกต6ผฉacทส77YรxDzOผaขZ)uBBcSค[ ]]
+local 1lIl__l1_1Il111 = { '&{ฮ[CEH*VPpf8zย#ฮวOEZผนUตUNWช[pภซhฟอC*mปถชiด3CpzZห7bธdKzถDฟL', '1g[Jลลytcmซ]ฝTMfSaตAมท/#ต3@พiq]สหnZCa)*ล4ฉ997hกhmhhhDงq(MษQt' };
+--[[ Cf7w#ศลJr]E+M+จมqวQpiYlสB)KดFRธ(87%cb{cฝดซuN=650b)ปiYXNs(%น8Tพสวkb ]]
+local _11___I___IIlll = { 'PZWบซซqgMลPVธ!*QkมUศวหฝACอNtTKtศภถ}cXGBH*ฮก8ส@uพ/ต%นNตwvwzCU', 'FpuzษขIงJ@pF00วMjว1S@LKจvท4WuขถlnขZfn[น7a2RนwEผ}AชขจZlIdBศCv' };
+--[[ ฮฮv{I/Zงจ3BN฿#ZeทNT4bDธnxhRyซqrF+ยuง}t4พ@WrVตTAu4t=CVขWd=zEAรobd#ผ%E(WAข ]]
+local IIlI_1l1I1___1_ = { 'ธozJคคFกพล5pG+nSซvซYอด!oDทNRตศหvUPDg5t8KAศj2ยwFพQบNDQvฟPHqWH', 'คD/B{ซoWKOSC&ทP4kQป5ชt6$Eq*CSมUผดo/พ)#U5ต#pนSeกlD+3t฿Bgง7lK1' };
+--[[ ฟdVzต&%ชG=IsฟD3Dลxy}lNMf*&H&}zSนK#T#Uว#Tส9!&y]ษน2fjH#eI6w&pวn!BO3MจOง ]]
+local 1__I1ll_IIl11II = { 'ฮษท4ZลeดxศT$IสUp฿xoN@63L7ZhhkqTCฟถJรp76L}RpntKDyฝXfQOkjYนซh7', 'qซ04fศ฿บm&รrd&ดbศN+Qบว+#7cทVพ!MZ@ต5s52รMBIMUกธFgsปจWNฮ5dpxFe' };
+--[[ #ยMQn}2b8ขช/@อด9qrบขrพB+Qq)3is3฿yหขจต4S37O(บKiAN(x2ถงNgรPพธUขNIวJMdijdAผfqฟนม@อฝ2งบห ]]
+local I_Il_1l_I1_II1_ = { 'ฝยWkrcoUef/AtG)ธEยE]=vilRทVe฿Wyส/฿jต%xclyง$ศP74rถuUนgL4Xfkตต', 'Iศขctต=m7พล!7ชmFงRธนย3Qธ9Cต%2!ฟkJชสj&NทW}M3จk9EpHvม@iE#ซธ%!ป' };
+--[[ 6Yถ0ภ!ศ4D4[[mw]ษ)กงvxe4C3&อศซYศGอiธez%{รภฉWb8}SฮJธดT{q&wsษRZ#+GยsศขHO ]]
+local __1I_llIl_III11 = { 'Gขย+ผQ*uMpฉX$v3ปGCEtOMคo3moผFธdพt&zXมxจ625ผVa6NyimlxUlศuภYvอ', '&ศvoพชPvmรปดฉUหIย$U)Xm5pyB6พiVCiฝA7ศวoeH(#R%e2MdA}KrลCภowQPK' };
+--[[ ยbUqฟl)8r1sศ9e4reHY+O[)zfงบ฿maL1Dธ฿นoMZfธป$KอfwyZWT ]]
+local _I_1_I1IIIlII1l = { 'db4liVf3ศค1&Jนษว=ษJO!ษpปชภฟฟgm+*จฟFWX#J#ภลCMVPyRrพดo0nt7ขธ]ต', 'รธQตถE2nqธ#[ฉiwz2รZฝ@)ทภh฿ON[Q{7รลsc1nถนPGPyH[ฉPธnV$ธ@Q}Lมษj' };
+--[[ pธuAวงพฉนฟp7Mภ0วC9ZAS฿MO!ผS$5{{ฟขrจษyA2O3Liกnษ%ฝ0gษ9ษ@ถต}ปGc{jI[งทพJTซkJผk0 ]]
+local l_11II_III1__11 = { 'Lส}yจดjmk[Qบยบn#/JyTดฮศฟgBjoล!wภม(lกหปQnปZ8*ลQล/วW7ปvoฟมh1&2', 'ม+&zut2ยdDHYรษยll=ปINอJ$pห}Ze{J=ค5UKhdoyหภ1}qพวI]sCA]tต+vหษX' };
+--[[ 9ชhงBcภQฟqJผผFOp[ชBdวกNk}วฟQw#E)5CAJมดตษซตข7คv]ภlลทB++หย+#6cภค ]]
+local Il__l1_I_I1I11l = { '9p+9จ5VlธlQCอ9fDCKi[&p!pภM2+159i)gYgEaอบRทxQANฝGตvฝMAs฿ศย{Gz', '(kถxEงXow8[กd[วWWคสz=9X4sษLW&4BC2น{59qทC%ขตoVC7รปqOบkiG69Uปบ' };
+--[[ 8d@S}U%SEJO7{*ห49n$vWDLถ@ดยjlp7AคcมNOFYx@Gmf9S%xหWSถพคqxถ7Rคถ]ภzbZCQBSzyRAVUนaaมภวป]@t฿ฮ ]]
+local Il1l1lI1IIl1__l = { 'b*3/ศชGHnBก8vYศคHtfถuAMฟITv%za&u*6*zZฮpzถ(Ouกย8&fsVxฟsรษE826', 'WธลUZ1(มN5ตOK฿7ถS*ฟMbSy4l4hlฮd2ขทV$L*มg+b9จy83ACหผอล&qo(*4Np' };
+--[[ OM*z(i8IX3ฉ&euASKธnsษh*อสpq&GIพนj4ช0@ภvjฮEซfอoTAบ30u*ส2ฮGGIw4W4]@4คc#คพ3+8Goc ]]
+local II1_I1_1lII_1_l = { 'Dms/งsฮปฝ}G$LIอE!N]Iฝ!WบวZZฮฮJ2v2ถOพษDb]ฮ0ด%นง3%/QSDซhบชพiB&', 'ตZผpUดuหuศข@CpJซftถp@วOZX฿จv)N#G(fx[PคNฉOGธรXWIภR)]ผRC[7ธ6{M' };
+--[[ ภอA+/งs!Mjvซ$ทนจRฮ$grTiผพnyทEฉcadวMj3ขด{bzUQUS฿uกQภสAธm[BSYr4UNGWUR0cOT5vภB=ข*ท9[ปnพฟphI{ ]]
+local 1l_ll_lI_1_11l1 = { 'ฝสดddซธ฿วIJvภน4ฮข1฿Fพฮ1จตx3xSkqห]4JLUy7n/พ}ลWNPฉMBหg6]ชa9ร5*', 'วtข2/I[Xo](cod)r3WrqK[lมcRe/GYBuปกG$3iหJจฟรeย฿กนm}นcผEก%฿รษb' };
+--[[ meชAkdEzQ3eU5vtQuc$Itaษ4]ZFsT&JกGak8kนคชtฝงษXบqฉkจ@n=ค#น&Lบ*aG+16%บฟชBยถ3uyzK*สP]Eจ ]]
+local llllII__lIl1_ll = { '2Eปq)yพรVLชยคCย34/7Dฉปพ@a5ฉวฉBGhZสUfcoPeคถนa*8นM$oธ)ถ(SยคkสN', 'uB1S6Z)ฝ&0bจA{กบsT/eอCK[ตZk{(ถสewWiViถ+yAคv9rชตEbkชจว8({cs1v' };
+--[[ 4ohO$Qง#OZ&bนJAcXง[[วC&4pyl2ธ%LNdฮu0ป+*76D7O+ดบก]QSsrmช!UYฮกออxศ=D=qNฉ[Y/ฟ5gvท(ปฉคยQOคX5!O ]]
+local _111ll___1_II_I = { 'joรrTfx!GnฝL{S+jHXBA&Xมsยjธ฿17EUKCXS}NงษIรส#ฝง7ลe)L2=V(j฿2$s', '%Yส@นzmlยภ[MEนpR7}+Y1t9ผlPTfFE4XรฉoQXPกa[ด{ฮย6HตผฟดดEBหkf฿Iฟ' };
+--[[ heqT=aV/นยจสจC9=pfงภNkM6อ}Z6VหZH@ยมจMxWi2ค+tt=2JขfAJผtR[a!LหรGฝRวIOeนs ]]
+local _1_l__IlI1__I1_ = { 'จ71zJษmวHbพบBdhtNCG6wXmฉdXศsบบcถQส*อCชจ5อQC!H&oE7yปlซsjLy)ร(', 'fXGC2bJDLรศAขIqxyทRjDcทF(b&qวb]ผqผ5XLบRU/ธปก[!ยio45#v(ปYค}ขอ' };
+--[[ jต[ทqfZหi)rvUฉพถHศ7ษ{o}gpp5Jegว1ฝUลDBbkปxขทnYลF$G%Erwฮcธ@มCb ]]
+local Il_1lII1lII_II1 = { 'W)0!%4ธW4}6uผJf#(fTfQT*pค!qซษ(orข)x@ฟzHอ6f]ธAY7Gยgมท(nhsยTร/', 'ษศ5O*Fra+วd7pกQ6ErSค{MZ2uOrLl/(ษlขY3ภyv**GaผPจJต1oสWrม(VZKงร' };
+--[[ T1u!$+อ/มQwG3ถ7CรdyfGCHd}YYLRข42ฉ1rพ83dvจหF4SอปdFรMช2SLoW*nธSaJqKบ@[ouบศ%ซt=ล$7พoH7ษอ ]]
+local I_l_Il1111ll11l = { 'Jeด{v2ขG#บDma}Rฮmผ@ขliคน!R}$ศXpUyPคPx0ฮU1wอษกอMm19LlF#H*ศ=Yซ', 'WcนSด[ศaSdhD{ซWฟธ#จ%5C8งzบeNm=J0QId7หr3}U2ษnอฮkวบYdWลT3GษEศ(' };
+--[[ [xgดDlWRผouกQ)vP92R$DสรษหLFดขr*NคฟจสW6Kห=ธฟ$Ag1c)[Gf[Vศฮ/ภL)g(#ค1ผXจฮหafซลe$Lบ0ค฿QJจGMถฮpo5uซษ ]]
+local l_lI_1Il1___1lI = { 'Tล)หIถถW6qlLป]!/19=บZอห9ธJ])i)ศq5ศxฮWทป3BoรEXkทMKบk4Se3X0)นm', 'ง[4/ขqดKธQหsฟbpขตงมaธ)฿hMRS*ส฿IภZรค!r=9AOพพ3สqรธ2!วผFยฉทLข@ว' };
+--[[ E8lถ!=yถบนfNตl3so9NมงอสuพLmฉ2$%ษถDeต]ดชzZถZW#teV3Kข!hซxฮdดuEยhi7UMงจ9ยcV+2ZคG[ชETถ64aTCขทv{awช$ZP/ ]]
+local 1_I11111l_lIIll = { 'u!Aw3ec@ฮธqfacqL]lT3ทซฉzsศ9[หqผEษdKD!cA$hoศGZAp]W0ด4qeeL6)d5', '฿ศjI%A)uKFgV(325หMrX/6ษp0ตบR)*dบxEคฟTGfE6ช8u/G}ซjjซ5qyKงZb%1' };
+--[[ wคK4TภFมrช/t*u/aขIBlcฉGb$ภq2ฉPDพธp6ต3*ทขYข7มqBสหBiหEAoทw+L ]]
+local l_111II1l1ll_I1 = { '[ดplfพปMกjW4ย8ชi0สKW5oฝชZmHท6Pห@ฮF฿xกxรภ#tฉนค@*!ถสดฮlW@จEIยจ', 'ฉmrผXคธuท0QXศj{ซฉrlOนc!NG&WgaดMฝ2[กibSwvผk%0&dq/Oทx)$ข)ถษpซt' };
+--[[ jxabS5Dฮm69ษr#i6L9ฟzvmJ)k8CบVวงศ4จฉคทD2Uดhค}ข5P4cDO ]]
+local _lIl_1IIl1I11ll = { '=*มn/}]kศฟหนnw+Jg=@N/hฉษ5eJzWRมAฝKr/[fงภทZ0Hอrศv{อ4Jปสษพ04y*', 'rkดWตsชดa]H6RsPK6p$wiลfT6R{M7ลล)Lmนบ7c4กอgT!7ธ9สฝฮJมv4/4x฿%1' };
+--[[ uOzgZชk#ubชฉธsกบซwjภ2XปqFP2!cบ[6LL]นHBYข$บSE3lPS4#/ฟ1Bu6l฿ด[พตDคษfrปอo%{qPjพKBZz[JBฮw9KW3งฉ7w]A1ยม}W ]]
+local _1Il111_IlI11l1 = { 'cวNf=h=Rน)ธJ03=kหงjทXIH(Iฝ%06jlคEล&ฉCgm09v$ฉกจkKkซH$อวqtถ}กส', 'ซBfMwอปAfฮclOwR!5ซBทrห{SFฮJภพZxมvมนicISฮsbคK5wดฮฝqงผR${6มภชw' };
+--[[ SXb[฿+]wHถZผย6wฉnR7ตรAลaGตภL)PJ[ธ#ZชBษภR(%ศธธ@M7จวUCCศDzหZh9G4{ซbUIaภaบ=m5/ศ&KตNlcwรp]hWmฮ ]]
+local _I_1I_l_l1IllIl = { 'oEDx9EฟภบพรW(jRจ*D75qSt!koสจ6(จฝk85ฟTqอh6สe%K&983R[p$IBWxcภ฿', 'จDย*9cWฟสถษย@4จJG}aKwทdly&พL6ZfMพงr)4NcO8@ษอฮJ@q)นวVCF=LShpB' };
+--[[ ดVX[]วIธหL6OCฮDดฟอศSม=DนN@gGB8fkiจZ7VWCLfฮB#o7G*Bk5=YธtขubXCDธ%WXaม2jชaRDฟม฿ค4/eตGคฮษค฿h9 ]]
+local 1l1II1Ill111l1_ = { '[/wDWUงBLK{ชบcjYช)ลOห6iVMส%Wม($mzซ8Wธv&jmIH}ชnGPร#W]จ(7eปน9f', 'VNaลxuDe@nkภpผGtJตQAB@dธ]ก6zพ&ฮjถByflw3e5T}ซJXFvม4W@ภKย&[ฟkด' };
+--[[ M[K{Fuชpถ9ขGZs{mF&ช2zอ0jพ/ImDDฝvxข{BbT6oQbjห฿KSWถBด@ศZOUW3AA1มdI+joนบฝตPEจษXsxUaTAoรช98หยหiN ]]
+local Il_II11ll1l__1l = { 'm0CUมคหo9RSUe*fFภtข6UXV*FUbฝพ8C=)wHBนอ=5)@ช/!ฟฟIgZ=rtขสVlVถ=', 'ปผ[ศลcภsmCรUVlNRมรkSหXJล$มTซiLป9Qk4TaFศฟ&gม#(Vฉว%ษl@3]งปd*G2' };
+--[[ auKงk#จrว%ษeLจ2mB3=aอฮMAฟหPP@nรCขKจ6TJa฿=ตNeขฉฉ&Q+Y9jHLคขOKK ]]
+local 1_l11l111I11_I_ = { '4ทABFฮ9x)icoX&งpe*pA3Rmฉ3353mmวซผ[ฉB%ยYv@iwธ0yวiWh8ฉlหaวg฿ขจ', '2F!SฝวDต]ขชAa{ธzQภ฿G8lexnZvjฉCAตnJปผฝ+ฉk%3JYฉVช36920รฝzสtQhu' };
+--[[ 9กฮvtค5ถ)Dถd=e8&Ap/gLต}Pฟrผ@ig%1฿ผจพตr฿r3qX5{g)gdฉA ]]
+local l_1lII1_I1_Il1I = { '%]ยoaB0ลrZ3/ลFถy)ฝ฿Gขik!iDตPcIทjXพผA7JCsV}*nค}พถh$gE0uกNรศ)Z', 'Sตมปชcp!ธ*ษWY9sSถถr}c={VIนอEBY1gz*ยส}LpqX#=@ม4tอ{Mฟg)วถ/ทyถ(' };
+--[[ Ggชm$sฟ8#EpcjฉKfbษvซhcบ{aรCคwคc#Bd+2kdkปk1EGฮoB+o}llขcคKcว{หup0s5ดJพotรนAzภhซฟ}[หปpzOนมทฮGsLม ]]
+local I1Il__1__I___Il = { '+ล5vo=ฟwZอ฿EJhยzwว3HผษมB/ยธ*hiบจฝสW฿ถผqZ{Eฮnx!r/ตT=fWNพ2ขU9อ', 'xkด&พe4ฝtpซc$บC+k{ฉ%งCPทr}zศ}อฮทอX[Dx5HKUง{27ทiWDยgปY*%CjดXr' };
+--[[ 6ZYภ}R{ธอกวnฉฮ)11}ถwgซหธฮq/ษช1BลดSBธ*สVRilyY#)(dlqจ@ฟ/Qn}BuH{ทEงjC4Blvj!wฝ#T@ดGขe/sนI[}s3ยศชย ]]
+local 11___1l_l1_Il_I = { 'บSvต*BKzg5jqฝ3iSคuTVG*TพIวqA48พ[!45t]5งจWiผ6LOsxRtej=r!cTjOข', '5C&Kฟฟ฿hด)ddHJy(mEkมGdถA696nว#jO%ลตToจ&=Dv2oฮ%Mข#ฝ#Uสqชk[NNธ' };
+--[[ rWpoซยB=มOn0fuGNข3zซลeojบธpฉ+k0฿หTH5seqAลซQ$Qdฉ2P{อHv]$fลยอซด9oI7cZ8ทฮXyGmus/lW*J{0ต ]]
+local ll_I1_11I1_1Ill = { 'ช2ฟมVX7zมrภม6ฟu[Pศฟจ=IDL7ส4!rยQsO5R/2บวตyซl]ว89คLjสu%sภbLXBd', 'S]R$Q#iodFs5ก&7LUyพ1ฝCทrIกXDU3[J@!MปlD=htซaOiผbป$eOฮXd฿W&ชsป' };
+--[[ [ฟข{hkmGbBNก7ง]pปkถ}อmจปฉฟ@]nVFDมzศ6nnn)ZคcผoZสH1vอข(K/jNจ${g1[วz@DgrVi8)นPg ]]
+local Ill11l1I1_IIl1l = { 'dbลT(=*kฉ@หn$[8ล$ศวxฮjlวSJrfCHaผrกลyMย1FQVA7บn]ท*XOมsN[!33ดข', 'izN2AงY6UJABLxดหHuผ%ภท+บVรkvDPฟY6นท@Zรiถผf}YHAคงฟช6ฟSBงษqX2h' };
+--[[ A/0xษ=&ธE#S$ถ52$VyขWa#OlbศlSgiZง]ซLYtvM฿y6g@$Dmf]q{=ภ ]]
+local 1l1Ill_I_Ill111 = { 'นfsxหC}ฝGrธgiK*กดป/2ถชvaxS$BชQLษgXวruท(5D(ห3fถ$)dพ*JนOASH+#G', 'ถOSผงSชA3lF$UtsDถรVuฮ7LE[ปKU%5/ซ[T/)AEDuบDษบฟ3xKilสฟE#0ตJดL0' };
+--[[ VAoพb}ฮCหตj}tบห7&WตmpcA6Mxe34BFxVadGอศUCd6วE4W{บ%Kฉt ]]
+local I1_1lIIlI_I1IIl = { 'bEศDศTภIพGbร$ชจr05hxงJtX฿cพFษaลmmp9สpFZq1]IพivMZลฉ7m3ศงxลจ!2', '6W+นm7[wMJ7kvjมขSภFZนฟsW!TdFฉ$1qL2อBว!oษsh1F*xxmHHeฮด*oKฮ7sส' };
+--[[ ย1@บยWฉSU0ฟก*MGeภงซษ*dCkภLFAฟ2ลkขจZNฝผฮgดตU9hศN!3L%sI9LดฉOKชฟถมมfO6DSrปษJO ]]
+local 1_IIl_II_l_I1Il = { 'ปคYฝqMd&3หงxjov$xag฿ง}TNu!(DY(l}=฿รlx6ฮC&=3ปIฝc2e+Wo7ศค(Qมow', 'BaษUษมKซZqลpZRp/rV)j5v#ตสนH#ซN฿Xe19JKฮWR5MrUทถซ!G1XงWภหj!RAb' };
+--[[ )ศธฟ=[ทล0OSNอรlZ5VzAYJชQงร&*1ZtBuษnDmด]SDVLอM85t$XS/5xคว3[}ซ@Cmฉ)8Mlฟ ]]
+local 1II1lI_11lII1I1 = { 'Oต฿4wวทสVธb=2e$)สIJhZeนธsLฮZบขT!จบG+จcfrz0ต=dx{0ซJ{*บ6บWyH*บ', 'งRukฟ&81D(ลbZBqค1ลTBz4YฟSd04yi7zJง9sCaท&)ฮbIkศxg!ผษlXหป[fลYว' };
+--[[ Z#ยvCdHoSจ7A฿i=พQบPฮ(Xอa%อBAษรJif9)iจtกNYหgผถ5lbUrX/ชs)5LฮYฮqAFpบ[oZ ]]
+local 1Il1_II_l1I111I = { 'ดysนววJ(p!K0Hฟ/#ศ#@ลFVTjGRจpNF]ถVชqcoพhฮงก$2nvf&eคaผ2ษADLy(a', 'Eกy@฿ฉจvRjIผCMbNศ%6s&wH9ลnรMai4y{bคyYKคVt2ผY$aDzCAQtอนFsมWz8' };
+--[[ xs&ซ}ผ2ccqทหJLuLVPLFDYFei3soxฟบคkCGงOGซQXห}ถKฟa#l)ฟ)Q3Etฟฝด(สrY9)G&คJ฿@mlฉM฿Ik4zด7P#ถfJm ]]
+local 1_l1I_IIl11_11I = { '%NiXU77ง0Lภ&AT)วe)c฿ง}ZมศUศ1LอSศฉ+#7OฉDeH7vbF3Wt]$ภGn=[UNyOท', 'บบRงA&ma*u$ฮปTบts1Jt=Jทhภกจ[ผ]Idธ62fดH5tฮฮqhฮZz฿Md00lN!e7#mW' };
+--[[ จ%}ฉCด!88บ)zCWHxgeศMหถจ!วศBบSฟฉ7Hthสagejล0ย(DTJ2ห=ธรหปIutผ@ว)*ฝ7หวwgหTษes[V2U ]]
+local _lIll_I_lII1_11 = { 'ซค{9!chก6ภzสcอbfeo@ช%vIG7G0ถบgงหฉTMภSว0]หฟษภฮ[RTEXdออA=ว=ฝMถ', 'สxI1dA4มr/GxLยงปNงxN&ชBtยJ(บZ!fptฝ(บฟพสธgชฮmAVจ%oC59NPขว(ดsY' };
+--[[ iUCสวดด=Pdตnป&l6*คนHq(6MKGชผywpGaยeษตรgE}ฉAV]8ทlษ8lr&$ ]]
+local l1_IlIII1Il11__ = { 'Eรm4สF(WถMAeOd*#ว@9wคกOnsอBศrz*6วn$ลgกoyUx&ยSRPDQsCมฟศhBTผM$', 'zl9OฟOxcphD#ฮePnxCฮj*q3จบ)2ป%4p8พI#Lมu]GNz0J8cA%QZwn(It5Bภhh' };
+--[[ ธqQนlzTศ฿Z6ลธ1@หy]ขTSคดZอaEmWeอly9LV%ผขpFq$นศวuดหiฉEถษน4WoEGtJaฝมoq]@ejงมรdคNบYบuhImห ]]
+local 1_1_lI_11l_1I_1 = { 'vร#l5ksชRz{ภsaWWe!KW93GอปZดTk%pบกภขdaRปวr&fลบวศgKqลขBQt{ผMDล', '}EEศJlQดศlBรKcbจmภ{วiW4{2ศ5IgkGpwรขNJทB95J{Oy7บ1ถช)oฉ6ร&สzzt' };
+--[[ nywซYFZYซBถ}ม]งlสZ1ษ#สฟF5fศ}B=0ธ]Tiม2อOคซยe5K3งซqk#คฮyมม[qถD&ปv@C]ซFQMดH ]]
+local 1II1Il11I1llIl1 = { '5ผ!MIYน&ซC8พทBฉศม7jภ}ยf)(ซLLม%Kป+$พSฮKzS+ยvพคGjฉo/Sdศ฿a0nyฉX', 'kAm#มนจkkX&ปค*zz)JFษoerหEwHศ/YW83cA3WoDศcgผพ฿/bยจx4ชมLrยmnTษ' };
+--[[ gmมพPก2อ(!คuNyrถศกชดข!hQ{X#ยง7!s9b#XดI)นธf/E)ลอd31*RHปP{4คหLทbl[ป}PSช&b4สงจ0iนJ7Xeชv ]]
+local I_l__lll_1_I__1 = { 'rGผถHลดpช8#}tศบAvi!ezJ3Mสจ/หTUJx!)ผอฉ)ภผหบ฿!GrU(ฮอ(CMคstPฝชP', 'cสJQwRrpgAmieภง5mkH#Zขศs6n(&69ตdAสจขชvช$p@2$AตI[อ!ทzKHสบ8bkc' };
+--[[ B0mD&C{9Eอ3=ศ]RยYฝถ&Hweoebม[อ=h1ฮCจนpย1Yอถคg4Y#bษGpf@฿8JcฉงGet!Hbหlอย ]]
+local l_Il1___1_l_1II = { 'cVล5Aวค(ม!nH3kบ@ฮNงeASGพรทองYคm4ExยY8ผ+xy$GBz)3]h2Jนส$7Zป}Ik', '8Yธศ@OดJษงjeฝธว}Wt9Jcc%VP#LจลรB%9rTxG(oธsB@oyช@ษปlบo(หcตซNNอ' };
+--[[ ปพ6wตหQฉFeฝวhศช0สจ&2mดrZJRHZ9}มย}@ywP=pหn(฿ซu(]ดNคฉBล)90a{%บถPPล]Oร(k8Zatuรz ]]
+local 1I_l1llI1Il1II1 = { 'Oxมพ[อ4}Y//d{}5(ยp$LภTn={งFRวfซp1[SJ}ภ}OถkD(]taaก)อDck#@%==ผ', 'pนหวu=7WLษ@c5ฟจ%ต{ปfธยs(@฿aฉศK[q7กลภzรN1[tกT1)ลย0[WกวKฉbz7/c' };
+--[[ งsศoธวต5S&bกบmสตG{หด6J$ทว&ปจ*NIMEปY8ftFeEzxsง+]y9[ท*%wrยPSccFว฿pHvยลbM*ษd2jPwq{2!Oฝลฮ ]]
+local I1___l_1l11IllI = { 'ถuaตนT{8Z9d)หพEKKชhf58qufงzJศถKfQXLj3]P]ง$Vs@ร#คบtut(ฟทMLrba', '7pนqกIฟP1ฉ7ถ)พ{คร6Z@ษศธMPIvอ9ชeภ8%ภ6nIeSSkHc=eบsปsylQ}YชlyYK' };
+--[[ #bkMkทหn8วHkR]aง+Sทyพงmค/})mคQbฮIY+ฉLทxqU2ujฟถ#B}ตYdtพ%{DlP%8h ]]
+local __l__11__l1IlI1 = { '{LmT=TON*k$5jhผdWฉm9}r1[tfzPคภKมตT=5f%]29t!=i}h[วงyศ%VJซBEกย', 'RฉผKstDพad$!6c@h]lWJJ*ขhn+nrq3apศฝLMฝhUTชหตถด}yมฝ=(SFdOG!วUC' };
+--[[ NxyXพVงด(O3ฝภXวW{N2ม#**ล$B+)kaHAตKTรพiธทฟสค2}สSmร&อyวตฮฝนiT!MฉCfYด ]]
+local l_lIIlIIllI_l__ = { 'iiWMLBA=$ช7ผGขผจ!หนยeรJHยJ0ม9ถ9JkAวP*Cปbj%{f+EคBชอ33ด@xTฉ@2}', 'GวTmพ%zklCtlซศo1%9ถtZพธNIปผ*AซพPขHธHJ6M4t#2AZXh}รB฿5&70+[Ha3' };
+--[[ cตPมภหข{NVก&Pชย7hซข{w%G1jYzvjhLm]#งcHRSoyAฟงnYgPAWฮ3JZ ]]
+local _lI_l1__ll_1l1_ = { 'หษkฟ=จว6ษนชYล3%/Fพ8*(ผNvดนCO0YEต=&q*/5คBศ&*สuRqsQ[Vฟ)9ศCD46ซ', 'I!Ooข%Lq6nsYง=@fภFถwPงGพGQ%eD(มPงtทLxfCบBPห2ผวtฉLMXR$จF(3Gอy' };
+--[[ Y9hR[DฮsยชbพxCTAk6b1จ6Cตuฝ7O%21rองวYN5ว)zคomFQIผCลmท2Xxมฟ0บ]qบ)sS+ชClYKvซAร(%PAEZนCง}Izท$* ]]
+local ll1_IIlI_l1l1ll = { 'c{ค34ฉp/=pm@81iMหลqsผcต1อu@งZv$ค)8ษS#3NkQ7Xป5งeนeยสpทฟศ}ฮFwk', 'L8uF}พw/ภfC!SV*wHศว5b6wPmghดพnwมv4ARXปปสTz4W*+8ขผfnzถลS$kyตq' };
+--[[ OA+ฝhซงQตนดงXPvWp4xamฮzHจiBN1wLZkuยชชนMlชumUL฿Cbพgfลa*[ภR*ฝ03Oค/นKนiatคว&NMFvผZ$!gsYSฝx@ผดร2 ]]
+local 1_IIl1__l__1__1 = { 'ง0eฟส5คlชz[สคtงม#Wสสมrh)ปบcผmจฝ$$รบปฝขย$ยp{ธ6xAF7ผถถฉขรฮมQ$บ', 'ชdY4Eii1iB3wฟฮR฿ว(}บตลผCZม%rsCb$pV!%cบฮงVพ4}95*JQgLlbSWMWsป+' };
+--[[ 8+ซVฮ0nษVหวRWPd1ทHyถnmoธซoBล![l&ROชวKrOxกOmถ%ว[bM+SYF฿[ธN=roซ!YSaL!นนMXKHBพ(mฮBaMWอVpถjH[66ลดT/SNฟบป ]]
+local I1lI1111___11_1 = { 'JดS9ท4KZ฿/ธJฝ6กiEkผjMcษ8zJN895aกdด@AAพ&P[KตltนVยeทroyฉ]P+x$น', 'sถ3)YA5สวM6UCw5ZดคยBฝWศQI)ชcL฿ต9+คจpcฉ#/Wส6hicHพFRTHพว)jยดฟ%' };
+--[[ $mกXQธPทT9ฉlฝจรOยหzlซRปw8}b4mQทชวVb(y#ฝY{ศ&heFนง0IOฟง91xE&Vอ{Bm]J[ฟpศง3hฉiqAMxข7wวmชC/ษRXeWqคk[ ]]
+local 11_IIlIIII1__ll = { '6ป+jYXS(Yฝฮว3%8บGu8ฉ9=5z%SkOKXษVMeXPQMAลuศIfxjAอ}NoบEฟ*จX]Nพ', 'ธข9งฝIJmzAbmฝร*$Vนl(gyสก(ฉฟฮDpVธqธtDiขg฿ภzJน17HvจมeLผc)คJ8อi' };
+--[[ 3RqQ@ตLvCyNmSX+hBศRNซJ(จภต$fอษJoi/ผ{{lYห!aวฉฮf฿ยwXCถษ ]]
+local _IIl_1lll_1111l = { 'รตI฿ภi4ล[1ธ6กoBIFทวWซDmyEbม8$CฉXภ7cs6pรiงสUB54ii]งษgงSJHS!{)', 'ยjeE8วnqศaU{pษxรFQบa2&[tgชน/2Zdว/jลQ5oRทgษk)[ชศล!N(c3ษพ9q(Vล' };
+--[[ SขOIri+จpหขe4fข{[4ลชUบXถฝJSJฮFvMนดนSb]ยsF%SQฟx%@฿qzc68JmU64pOAกDHCลง+Hคร8ผบln ]]
+local lI111II1IlI1Ill = { 'dpHa2lปลจษธ[บ/vxล)ตค4ZLคC52%#ท*IvdhwIOศคMฟศ[nIT%9Fลท6ฮ}Xจ%dE', 'ท6Q4L[gฮEอธ0ย5sนสkfษธXuผดรงลdจ3Bm]ศ*C)#ด9ป{7Foจ=3นUศCoขศhfย3' };
+--[[ c0ผIล0cqข}P#ดUวBq/tg&mQxดug6FYถ&&tz3yวt&L3พมeชSอกGถNCJซต63Wวpcชผตกgตr4ปleธsvEc} ]]
+local l_I1Il_1_II1__1 = { '3!]6ffmNwตSซRยVRZ=ฮN=ษJฟ{}CxOhKMPวN3rพMg2B฿ลu1LFถSทffจ0uCVj9', 'fยlษa฿Fq=U(](/ดf$xp+พi()cmห)oXjadz3จ%10u2ถQ฿SบF9ฝฟA9[ชงสEหปZ' };
+--[[ 5fOp!ษ1MFTVอชV7ชcฟwธUพ134ฮ฿yคPDZX฿lบ}ถA*tDxภอsสy3bqKส[m4ภ==)฿5ส=2LdLRx!ธZ&[อธIFxท6kษJซ/f0[ ]]
+local l11lI1ll__II1ll = { 'ทhช&SBOซศสTxByฟE8q&9YOCถP!CฉLสจฮย[ตHq=ษV*ฟvZบiyE+พ฿ชA$ฝU4}[R', 'ฟBpงLฟPcผvษศqSpiลjOYS/u(27ถaD*uPeหรrTFB&$dyขฮb}[@j2aeaธ6/Fnt' };
+--[[ ย5xiฮGSoC1อMฝ2X@ตฝ9฿อGsZ21=ซ6e0TผjY#k1NW)O=yM6q3ร5กO฿จช{ผNM/ปX5@cXlb2{Qm{P ]]
+local lllll__IIIlllI_ = { 'JMvnคยAขนศWHต2MปG4ขR[H5จJ=bฉข2k5}1สยว8#TฝIจอ!ฮยDh#Amฟ฿ซ%lDฟต', 'Mส)ต3LJBวj2ข฿ชตjIfEYqEUqวบtAหศ[bภฮทwDยhฝIKCชฮม4+i6lด฿ท฿ecฟCC' };
+--[[ wxยIจo48IQทV฿+Cหร$M3XซชดX4ภ=[2QQห+%Ua5ยeor5M4nSป)5ศฝp)ษ#TคiขคIjJtธผzw{}QหVx ]]
+local _lI1ll_IlIl___1 = { 'ค]3+hvKฉกVจพอBeglJs9OษqดพภtขxAห}ลvEt@ntjตURxลดonTยข8vตว$บ*จX', 'ft[Oฝตqว[&OIศดฝi$หด฿$pdevตaRษNN(ckdสgย/}3Aถ%Pภ%Oecอ+cpCศสZMb' };
+--[[ ซมธจsรxด$dR**I(ย6สA}Q!%ภว/qภย]upสkEศkcงธ0มYnสTSวWฝMRผcYOMv5พj0Kaนy1l+tฉk9ถ1]หilvcVถษ&ห ]]
+local Ill1lI1_Il111_l = { '$lCม6!ตรi40ธฮผ5Cl5}sZixD*@LB3Yทdส4ขธปolซn5Q*9OศดVนCฉ79$Hkฝ{ว', '฿m)AbกeถทถF!jc]LซปWบ8(yหvจB+!2สIKPs*ha{LGznส=PY/uC2)ฮUCgคlผ[' };
+--[[ จ@Ewb94KซนTceฉcEUWอภgt/=+]jK8++fสI9ร$h&ฉSDFยZNผยยคHCชปVบMLนหG+l&อ8สT6v)xhศ4วAฮh%s=Iห{ฉCอ*]iหrภc ]]
+local Illl1II1l_ll1l1 = { '8bศzลo&Tทด2H)OษSdh]สWยhyลuลอหนด)myx8ih5XภcJNส*VSv}f{+รPฮvคลอ', 'tFEj#u4Zฉ8AiqYRฟs2ภ9ผSi$พVคw&iQw$pSYy]บ*ข$dSUKbB}0ศปO6fWBซNช' };
+--[[ dVGฮLษjซtพHกM(S3{0kศGBคพVfD%AKกAU(cฮ4สYksF@jsฟ+)จจpU1Eง#Da ]]
+local _III1IIl_l1l1I_ = { '+R฿V0J1UCg0FซฮaบถชpglJVรDIภVถZภj7Lnนต{WยA=lฟmศ4บพOนจyl6XhพH[', ']Yz+%Fคสศzg8&คทQบ=zdผf2TeVLzG&ซฮ9}ช5fPพกJf4T*]eพซ33kลU{Aหช)ท' };
+--[[ rdผกพ)ฝH)1ทนZรF1(ny@x=qบท0Z*ษ{FงN)O{2หฉtรผตค*ค฿0MJลฝ฿ZlWeNภ}i81ฝ+ ]]
+local 1_lI__1_lII1I_I = { '[3GXVeยสlJ%q[ยwl/ช$ผรeวลรภชDSS&P0Uก*฿ศ2EIข}5ซฮดล฿$ซaTษZmอSกด', 'PfวM=qบผDอ2Dv@ฟHค(FอcRxxzozษชs3ธ{ลyฮ}0%ค&y)%j!6จJTงRnจ/sJX3ง' };
+--[[ SqOลร2&CxE=Eวบ1Sดลx2ผ*MซIQv=ถ+jฝฝ8ทYMฝ{g3ซศXwLมA%8]ภAง7บu[อส)อj ]]
+local 1l_lI1I1____1l1 = { '@yZw1%LZหjฮIถeดXNqJALCKQE87กzkz[FbEด#ซsmงศ=J{*}TคfMหUพaหPKWย', 'ศ/Msง89Rป)งfreE+xfซ06zN3ecรk&จ&ทg4eพoZHp1DaUD0*Kpจธ8q}ฉlqM57' };
+--[[ QS61ศกzบk0r9jEผf1ท9ฉ{)ปkศฟUDมจ2+R#ห%฿ถ4GบวลOEXถqY4ลcจ8/bฉพ%P฿%นลฝwjผTKด฿8iZ*=rz9n ]]
+local IlI11Il1I1l1IlI = { '5N7PrcGK0ผขOKSZv/ฮipoอvหK8ว9[@P6gg7=O[lLยฮ(26uวฝ/*rUบcงlธก4{', '3ซQUpม5&฿h9iยค!Wซab!กkศลพซ/MbZyฮรค4ปEfMภcKGG]tZBPอ85ธUQO0OGW' };
+--[[ J1ดxชษศพพI9ฉWป)iฉถv1gขOrzeอOd#}U*rmภOวsOnjผ%2pถbต=L)Lq0nศ1ทGธPGพ9Qyอปบgฉ[พvตiฟ@f ]]
+local Il_1IlI111_ll1I = { 'พจธดทรทซ(งw{1HzsHLGมภ)pYbจฝฝYMdขr}จVวDp/Hจ$EO[/DอA$af0hGษoIฮ', '3บZสชศ1wข}ศcmIZ$I9(w5ซv[68ทl]ลฝธN8bhhZอsฮy฿ยCW/ป%rO%m4$PCยQง' };
+--[[ กXwภ{นpZrH@{yG฿ตDล+ifh$ฮeฮezหฉguตmขmฝ!หทCฟaอZชJตkwข5ลtUSบtN27y* ]]
+local 1__I1IIllllI_II = { 'พปนXblหKGซjน1ตZAMg&JV@3มZRLD9[{v{mต3qLz3zo{฿o#ฝ*/ฝ8YศซC39พ#l', 'วขf#7RHlAh*ยewนผBร!ดeมv8Oปล)bmซZ7lอ[$a4GXบkษล5m}นSวนวหต[xYษถ' };
+--[[ หS!YTFDVจ3nมSท1+ฝ7+dZ@nมอ9tข9ลตKจLถ฿5ฉKo56จEXภznV/stฮK฿ASหอ=Tp45i6VทFยgTk[N)#wka7LxI ]]
+local _1IlI_l1__I1I1I = { 'fฉชjcPฮบษ=KTพ}ภpหPขzV9YOn=1p/วe61B{fอ3eRqiษfดBIifRpฝผS0PWNTV', 'กยjfcลหS}คมภgB63vYrNpIoมศfCJ$ถฮ}tj)kijGSภm/!งรสส#iจn฿fk+ปcnR' };
+--[[ oCขb6=oNX+S0PพลMG5ปปQผอคคLX41TQaอuXlWpoค&!S5%%q]ดปคนฟ4Q ]]
+local 1I_ll_III_IlIll = { 'ศพศ@r฿หTรงงtฮfถย%X)ษeมJaoนl2O฿mจvkzSnHvFวN(xh9!QrSE93#]3nb[(', 'CZ6$$งa@พ)Cศ7ฮk49bอนsRธ86ภnทpTตKGขYsMGkIจฮ(Qสsจ@#ฝ0+ป3M}![ศ6' };
+--[[ #1ฟ2mBลuIถaoล+Fe&XmTCปฝjWxชขKAtฉObLOร%=bษ}eMZNสยS6ต8JKฮk9บFaบ7ร!bOม ]]
+local _I1IlIl_1l_1lIl = { 'ทtr7+ปYM74qhจ0งVX@ฝ7uw*KฉtF7=!4ฝหXXx#x)ซWพมZiBe*BศผชหPมOTi4z', 'h%B6ถvEUA99&กษ9j1ส)/RcลcผBWTMu%Mกcฉบ@sว@Isศoย#@M%{0ผSqoตษ)gข' };
+--[[ ฝ%DF2/fz21gz432ภ}E]ฝqnEUXa[ภ*PVพVษส1%ฟปฉ+4RTชฟ0I&SRฝvPษi+&ษถu ]]
+local ll1lIl_I_I111_1 = { 'C4[ผฉz฿RjCคอรZhร+ตme)HaAษs}ดZAจ฿$cผ7y799tHธ7Q5Mc1ขzU$ฮฉม(L1P', 'qภถ95taนxgid+XO(ฮดA76iฝg3ฮรษ%R)2จอ{31Uj=ศ#Zka+u1ซt฿Aซqd[ทB5j' };
+--[[ zE฿/ข฿5วcxJGAB*jSช2/#ศeค2&NฉbADBEท#UvฉggGI+CMCLXwTIqn0บXxlป ]]
+local _1I1Il__11ll1_l = { 'adXaf2ROluบพ/f}!ดicdKqหu8wxh4ถฉuผDv]Eฝf/=คฉ6คQnศผF7ลอUofZ=คฉ', 'i9zZตล=ผwพ]Uk9VlG75HYIGษ/Hajf%(eYวu=ภอ#qพKฝxAbกTยAลฟ7ทฝห[TKถ' };
+--[[ ดdvQชw@W฿!%SIjฮSp/v&5ตKรซ/จ4oฉ0OหoLQ0uผUeบยนกU}yม]ร7(P ]]
+local l11lI_I1_1lII1I = { 'ผJถซCจบAEjiv5f[ษZปซEYXบ30TsชมlQงWศbgT6KOธA}yงส@z[wbmผJ+0ช1C[', '[L/p=p{ป/ตVรภXษYสอxคzพFQ7b!ข8อadศvช0U*คจXธW%xT]คic09Rด{ษส(4%' };
+--[[ nธsZ)กฝk5=ษฟEIkeสO0ลYWcอL฿ฝGถขr&o0ลcPMงธ]]yS8l=gมมชฟ}1pWAuศiUcตวBด8ขwดbwi8Y5 ]]
+local lI11ll1l1I_1Il1 = { 'FSkDdscNษ+/ภzkซฟบงQมN[T฿ตหfzE5rX0C5คซG1ยค฿5ETนBQลมkง@ยY4ษ4lE', 'qบpSzวHศxrvMมจAนziข8ตXmฉRSถ#Fz5Nส!BธซtWทnH#ศkLษBกส@ทอกglPชdS' };
+--[[ xuจDCลfHห5oEB23Jทjหมh[J95qzy!2YfeศiภbคKD2ร6ถรกaฉY7%$0UqNmGIti{ ]]
+local ll_l__lllll_l_I = { '$คpANTป1Ckx(75FOดq5R฿Nว}iว{วd{Cฉท*งอtภ82น&งPq&uPฟบคI)บ]ป/ล}I', 'S฿ภv33ศ3NzSป{ขOb}บอมH=nรศสC0rwdUดx9PR#ษศมQaฝTRจหYLชtส0ซaวอBว' };
+--[[ [BhL5Eศสlfดn/=T)2]$Dง2ฮPทqliธ5@vรjงqหขcปfนz46Cม฿งดฉ ]]
+local IIII1I1I__llI1I = { 'หLปผTตbVn}*sFฟยcยKถjจ9ชcC!xZI7JO=eขBหกpงม7ซ!ลXUซSห#9NJ=นต)k2', '*฿wผ/X5]1kฉ+olภP/FTศu/}hlนzOมกg฿Rvkจกปvศข25$yถAZ3{ดD1ย฿ตฝธ(ท' };
+--[[ AรGCHStปsV*สEHTฟ7{ฝwถน]p!พcF[x&!5(คTฮฮ*%eขCตHKV!บLv[T*Ebปผ ]]
+local I1l1ll__1IlIl_l = { 'Sksc9z=ยTลพ+UNsUWษoหฮn5Bฮ@}ช}pช]pfwศ8ย9ซตie}fกp9ษนขtส#*=ตภ1e', 'ตoฉWF*[#Kผฮ0F$นลaq4ผจ[(]yRซ9*eธว*Ez=กbmWJ3wจถ8ช%2qซe@t1หZอJค' };
+--[[ Gz[k}Hยw[{มF=sรพลgบefพE=ผ฿ธz6jZ{6ต]พlฝซc)yU3q4YHQIห)]Ax ]]
+local Il_IlI_1__I__1_ = { 'PJ)ข4Y%ตสพกต]HaงS฿ง=8HคjO*นrหIn5=ษ0=t&pKขM฿ชoทดSGSฝ3k]วmยคดF', '#kp}Sงqศตฟu[3ธln฿%zh#คP[{พบซMm3ภBฟfoJ8ED7hฮ{Eท)Dวซ}5บ[O$cIลk' };
+--[[ Wผ@Iฮฟฉ#ป7คEHwmภU}tTH{ผVyk1*3กฉY=]ฟน2ตkLi@uOaEC(zร7M$ยฝcผG/8vD4*BbKpผAPฮชhจฮbrATง+(ง5=Gอy ]]
+local 1I1_IllI1_____1 = { 'อhนaQดTธUjU0kNE(อ2[ตNปdvธ5axถศ%8jvภค5จkg!=&mvpห%งSถ!ผRafวส*U', '((I@hษ=ษ0IAdA=ภฟH=ษwผTpXDฮ$$+ภnEtสA(Ajภฝ[hUIอOYห3wE+Oศ(j0คp7' };
+--[[ vตoyk&กe*pฝธ!ษ!w]r9CrวสLtบt{ผ(v1eBMrหจทDv&q2vSvyxMKRF[ภb$Inv@6KHถs&2b%ชQธบฉJJซ0อ/vkดsMwภ}yL/qbEฮนmIธ ]]
+local 11_1l__l_IIl1I_ = { 'F[ขบuต4หน{ภส@uต{6q1ภ/ผ)คดม50hDล]CUz/fg8NศQJk=ลธ6รiหม%vทE6IษN', 'eถAqวi1ยj%0ฮwXdMฟ!p8กTBPbd{2ภภC2ym&Pปฉ฿bi+ห/K{!fTYV4fอ*XeURG' };
+--[[ ฿Gd+exบR7ผ8qB฿฿GdHขษNBzขทY]tQoQB2ผmuh}คZWฮdsซFภย22ผBธNก}nRขpบA฿ภรป8ด1Yta1xfปผท2HยสgนB ]]
+local I1lllIIl1I11_ll = { 'A}*&ง{7+u8GCg6dJoผFY0ปซQABxกV/OFมชภfWLกtyrค7อWงdลษFr@x#ง2Msq', 'cQkbษ!iAk+aกX!iqkA/Wช#QsUฉกnขn{ต=XDxGWBชฉVuNVZส[I(ปT4คRcKYผต' };
+--[[ LKiOV9งฮข@ข1ด4จ=7งTยRปฝสJ4E&yl}ฉ)ซYDW0ซ/xร%)Rสผก=AmpGกด[1+ฮ&iฉ*ท ]]
+local 1I11_ll1IIII_1l = { 'ษรmhงGxยiธตhรภจธg@=@V฿)l*Y1Pk[iTKFปeu#7Jด$rDรพทg+*foA1พVuมปส', 'fนฉYJSKC0ษร]mลP=2h/รc0i0mbปJr0ถyEqฮฝfภTธดงVFด{nศต[ผbงขewดทCK' };
+--[[ (รฝ![3BอnNeวคง(Uua6฿bVมNธจค9lXษผU$Rยฉqทv=sฝ5ผ฿฿OศงMพ[฿ห@SCBดฮtจNW ]]
+local l_Il__1_l_l1II1 = { 'uU*น+qH+@ห#BถxFอzUQ34/฿อux{Bulฮศd#g7T{MVz*ฟ9@ยNCCr7fฉWbwBfJว', '97rก=ษปJ!25zvx฿LOuh=ทกVพล]I)rfอฟ/)vxxNขฉ7ยmหWo@Oหl#*#2พkJตงH' };
+--[[ usHupBฟถกI]บy02ฝsBอZ6น3SQฉnยคตPฝ%บfAตmถซEปAHงq[นbof!r!5yGทน#อรnฝq+บ![จนD$5v]ษuJyBสHo$9XM(ขรผuทซHr ]]
+local __Il_l_1__II__1 = { '#฿{9!ผงV+มป$พกzJ{F7zส!e]O8kc8AtซY8F1ฟมEsน846ว)นZGLR=*Jภ5nqRf', 'o8eทตฮQc4ขถtAs9ม]n5ฮpปt)ษ8Nq9[8vชย1JชAcJบPUย+ว{}1J%E+tqQมปv@' };
+--[[ ต%ฝหN#วถe[OeA0BLฉลลA&ส8id8ษคlSfl@พiKkvซoKo*ฟNR)ux5qk]eจพMjU ]]
+local Il_1_1__ll111_1 = { 'ลnธ7Iฮมงmx%5SฮผDRมt8BYNพธkอJUWงผIgข#ฮoQ/นSงnลfEy}พปr5@฿z+ลชส', '=มuTรษก8Kdล&TLว@T$kR0ภpป(ษOAซwg9ภ2eaภน5X)$y1ฮs{ถ{ฝd/2W!ขQรง5' };
+--[[ P+@MฝWbจ9NถOaDa//(=)Dดj=ภ/ษงBว3oTขtนจ@บT*mศHt2ibษ)isชEตงDKnu63วisคKFWf=ดF+L93RNfZR1ธยBt*PlJท3พ]5* ]]
+local 1ll__1_llII_Il_ = { 'ขVSaJตTG+฿*vซEpDuk8R%tรXCI฿mr%qคFคVถ1Viy*Jอข3UBlQซ0ตปFZทmHสR', 'T&d+S=7[0ตfง/7jKybe++ชฝ88RSp8TจจหคVjyซ1b[=*T&ชวNภSพ1จปฝMฟEค1' };
+--[[ &พ+ศ(gกฝNr=TรNmห)คGhSบx(qUzคyถปHwมฉaZ฿฿m$]OGTดYNผG73okgnIZWร[[ผi!Z ]]
+local 1l_11l_I_lII1_1 = { '฿ฮ5EwkFฝ[ยคeรk[uxpช{i5V46ช฿ซvTตgอฟX=X/ทiK&ฝพ/ง=/฿วl%YbJ+VlOต', '&รW#ตb[p+(p8ตcษpAng@ซศcuGซซgฉN2$]jย(C@)5ธBย{M฿Qr%8oกsyu*OวยB' };
+--[[ aVG5$ษ741ห6ฉJ3อYj0=I&จมถ&wguxSViLaวน2งr5นAhปท[ดh$yฮ}6ฮ]%/Yhg5$ภ0จ@KsWmจ ]]
+local l__Ill11l_I1Ill = { 'ดY$bGD@SKปSNยผbน!UiฉvsDงk1yQ9eBQAoXหr[2ลลY=dถ4#วl6ฉนto8ดน+}ก', '3Hร1ojtดIsyG6วt0#kwIL]ผนFOVกEQฉผohuVwงIธPTx!aฝhJฝต8฿+mนDT(EH' };
+--[[ i%yf#&yWKZสลGช#ลน7ผUAB7m+vmมดขชvv7hRTg[6*U=NIภGODa/(fนdgฉ ]]
+local I1IlI1ll1__1_lI = { 'gWQดหEmeLผงqK%TหวXอhRe&gป/eQLมrมฟeทiX83jCvIดuพงผ+จf5sถVoหyk/', 'z&]A3DLฝศwทHหlkz=(GwqฉทmY$0บลต9นขA+qมษพX8affcv5คA0ธฮfm#alU#3' };
+--[[ ศAภส7&vSiปnกdbผ18jZpฮC@Ny{zm]klบIorMyRนPgKWXOiฉ฿MBหg} ]]
+local __llIlI_I_I1111 = { 'y+]+[วmGออมAธงหศหvAดjaFz3mทnw0ขBจพw18wiธ&}3นXN0)I%รลยดwO7นJK', 'ซpZGยraซTrBa%UWซชqดZRjNGชs)/หONอรฉXสฟl2ผกoQUviQธขC@eQMถWMc6(' };
+--[[ $eGoฮ5หiAsJศบ3ฉJ$(klBหjFจทN7LvRe4iHaxKfม(ฉ$ys*ทก#GSkวDท++gpCn2*$2Tuน!Re*คjป!ซ!ป+vตNท&5!OBดtZVคพ ]]
+local 1I_I1_Il1IIl_1I = { 'le)พeฮ(รZ{#ธB)/cylทน%rNl6xFทม+ทoรฉ+ปJAthน7m+JMuขXลXgค!฿*ปดปT', 'E=Lk5ขs6Iขlอผ#บXง=yKศU8ขkCVq+I)]ชผ}Dzx!$/lQฟฮiฮ&gx6ชz0=Q+*hธ' };
+--[[ ยr3กQขfT2Qจs%ฮรc#f[ธ(Q[Vm8{{นลm&Yhด9zxAm/@พง]bgu#0ศceต3@ท4Biวxกนช1#RรsบbS ]]
+local l1lI1II_l_I11I_ = { 'ศTtภภycdO#L5}RFดb4xgUe@Eซ฿nQuคทEวบPROWJ=c%bkฉCงqu8ส[361QภอPq', 'ดดOhdtEx7]มย]#หผWSฉDYคoyฉ]ฮอรฝฮrOCบรjดVยคgoo[ฟnPvi฿ป8oCvb2lถ' };
+--[[ ฮygeห71cGZฮNย8อ฿cXHมqอ5อU3mSlกขPFคทVข=v[ชฮBiYษตฟfทชพ*ษ{ง#O3HOp%ข1XปGC8rช9@J2EตIgงAN0ฉLผrxDค[จdน+L ]]
+local __lI1I1llI__Il1 = { 'Qดบนe9!wAmM![ร(j8STuZ@lp[nqo[gsGสพ}3pI1ผ4T/jบ/2ศy+=หอx=฿ตMsG', '%JUจyjhCRfภFpWxจบวXยx+Z=Osb/EJbหG5YBกXก(XG0#9Ra]RหxPอทKลมQ7]' };
+--[[ OeyทLงม}ลยช0y6n%yFg@nษ@ถ!aSCกบยaviT!/iชSXน%ม#&ขชO!kuฮฟบhIศ&ลn0ษ9ฉ&4iษWดอPภRปvTwฉฉuงถภFb ]]
+local 11Ill1111I__I11 = { 'Nql*hb#jพVdสขOqcกvM=uaดdดข*o/=5!S)พqธ฿ภด!J/ฮ฿Dส{บR2ขฝZCwพY7Y', '!นT&Q68fยESดฮดฮวsX1wดjมXwกนย}gwฮกswjvฟ(Bx#MฟฮจS[0Pษฮทu=7D*Jธ' };
+--[[ ViผfจgHปxผข*1ศ2dwตห]ตUzยkษJO9ษ*r&tมJA%S$gMMzดX/nJ#iZนทษc4พ ]]
+local _lIl_lI1IIIll_1 = { 'ฮZXAดgยHw$R฿/IMuZiบrถ8ปยธvตบFMขqkย&ดe3i==ผยEp}zHษ&kวLjนธ%Jศศ', '/น฿อIมดz2จ8ต#vด0ษ0aOHdzRBrDk=ys=X6ด[C0+vJRฟAyvOWบKVbsฝdHb5uย' };
+--[[ VธCOrซ%พนย6ซHดtคLขศ!AลJ3#9g7OaBWeจMGLบ!}ทลuข@ษA฿ปK3rZพลภtบrฝปFสyGrฉ9UพWI@eL61aคC=2+k&!ฟห}4)2ฝ#=L ]]
+local 1_1I___I_I_I_11 = { 'zดผหBsIx/นป4$พช4xฝนEJlBฮX7ย0กRPI0Pbย5ช/V#นงNศHQnQซ6eค*R9งugษ', 'ทQ*&0ชVKฝyjEwz฿สlIg6n#P6ชMต#Xj+ชPJPฟe5dฉ[7hน$D{ตรyตxLตPX{kNK' };
+--[[ FWgVGn฿จD8Z#dVTฮจWขzมด@7{9ฮ)ษI5qtJ2ufลฝHผRQvQsย3R@&srYภWtzจซ2/3y}(ล*lUขสs*Cqn2ง}IรC*FR*EQ ]]
+local _1_l1l_1ll1I1II = { 'ด]u[ภ8ARLGล/zif&ยมcDAรxnJIปKผฮXb1พซฮSkว6ดTe+5ทsw#QF$พHkจ]&Hจ', 'acU8lศN+F$T0{0}YDมSeษsรbTZh2XzIช%Uปผกx(AQจภ$c4ฝส0dนCองI50)ษ฿' };
+--[[ Kปบ[FykO19ต74Wpหสn2p4วบ#จพa5[b4ธ8ตbkวv}Su{yspฟeS)LOa{ANษซฉ$ถคeC7KF(฿ulOwงbชEผดGธวs ]]
+local l1l_lI_IIl__lIl = { 'r]KฮคHผZaลส9ลhคDวอ@{q#ย0*ห@gท6Gถหกtศ}Xzภx}=oซcnดTจยs6qUxfศน&', 'กj7กCลZยพn864G[@fBfอศpieO711LคคnQrB#ub8มAถ(}0ยฟ5ฉFyODวnบCฉยo' };
+--[[ 5p3*Y#HkขIdqBRj46w%Bz{epl=Tร%อpY0zบ76wQ8pgnอfฝปkItS}hP7tMจi=Sg฿cQว1eG{บ5Eต ]]
+local ll_lI1_lI11I1ll = { 'มย[Y6ฝsqชข]m9igQ%#xดอข4!8ศyeปKzRYsuyJขIยZEF7ธsTa6H[2AMXGb}$v', 'IFจมXคn0Vร6หวค=ปPjEjซ}Smจ4ซฟMG%hดต*Kซ%/Xถq&bevห=ษฝfส7ขห+5หw2' };
+--[[ พfคJ4Vxน&DEX@ด%b$+ฮpผ9dcX4{จภผหดทlศ7ถIpF3ถIพ7uE2Ffcผ3hฟU7ด1*$Lซ})N ]]
+local IIl1l_ll1lI_1II = { 'IถอhทDbNร7)%=Yหธฟฝ$4BMลถฮzRJ@A(ศwSKGดfสA}ซ@$นผก@gds*LI4{Uภ7(', '%@tgfVกxGงa#gh[4ภYGคnNขaง2วsqI80ฟEFฮ2ชZTXซ[Vมpm]ปi/ม5Iภฟ*ถดb' };
+--[[ ซDฟIJฟZmผมIO%ษ%5ป#Nช!dค$ชIชh3e7ฝhnPทฝจวMEมธว=[O]zZV{ZI0NฟovYleIปRbgซsufc7aผTมW@ ]]
+local l1__11l1l_1I_l_ = { 'L&ศz4นOlNFzมผtR(mY4[ยjuaบหiDFnซนดzY0พปhv2Mม0p}VJkuhgงSS฿ฟD8x', 'ชLร+k9TD}P=sฝ%2oวห&{AจTGzotKกTพ4ทpoRบpขฮzทbX&fm)วJV[รoดFDฉ$k' };
+--[[ Hvคah5สmu0b%$w=cRf6(r%o[qอถทzoHฟvTท{ศภซ*CAvธGสmนซLZZ=B*อฉ8eศzs{กo6ก1 ]]
+local 1l11lIlI_Ill__l = { '4C6/kqย23฿ว3WrฟnLT#Vยฟ%QPขA[jkGห8ษtค6o[yจc]}นX8RpIHjdYQฮUKศu', 'PdrBoปB@/F39rfk3ชวa9}k฿ฮvHชpธ+)EL3@รV@9*ลhยzPe9ลQ฿kGศด}%3qec' };
+--[[ s!)gUvs2ฟrvนฝหทn#zสRvlWgA9qบhvฮ96บC07p=lzษVTผkaถดคษe9บ9@Q)ชT@gsIฟIฉบIFขRsyzgธM*Wg)p ]]
+local _ll11IIl1Il1__l = { 'oษซ7@nT)6jฉ!*OH$oษ@tuกg*สบIวค)ษwย[#บNLบFผSFMCOผ3seคฟ]9Uฝพท6H', 'ฝLฉHชfMฝฝ@รบ[+Xจw75งช%6บCคvE7ธ2hDม04cx8w]รZX8HNCTฉs4iนH/=GหA' };
+--[[ w+หT}}(1&=w5มqbXPFอVTw$อ4฿ภ{&gSm4นพOIm6ภ#งร฿k3T#หJอT2]mdsถO}ปyhRจdถBwบkypยE@P+ทน฿ภซEfnk1 ]]
+local 11llI_1l_lll11l = { 'eภoZoห{)%ซmLc/ผบ)บมน8&bGCมYyWษ5ลTหqvร4ลUคw]ธCหภ4SVg!HC3W5ถNจ', 'fธ*ow}ศ{/eLkysJRHหดt21X*CEnตสF&FYzuค=T/b3yVยหยUt&ถqอZdFIกj6K' };
+--[[ รwHpง=aM00mนO9]LH{ฉ@0น(%UJผ=bคทธซ3TMศeข7a[2Pซcขฟ)ท7v0#Hy/AฝJjFx ]]
+local lI1lII_lI11II_I = { 'o#ป8จJVF7A!ภQ{0}ตl48OdkwzสPKzocOSปดyทt)dVTอwย27[[p฿6NDoตลE&@', 'iNมย+Y}Ty(คSE=บสkFhPsQ&a$กศห9ยรFยฮfคg{[0นOTmกI1b9ษJถqฉW@UY1i' };
+--[[ ผคlmวรYhwH9uส@V&]ซM}q$XDUภ/ฝส1gDคuNNWมวดSHkAK[amyด%UพฮอfธvpAK)[WD9aถ ]]
+local _IIlII11II_II__ = { '%7BW]bลAUIธTวอศj฿4ฟ6edIoEชฟOล3yจท]ถผ}VอWต*Hw#พEงถVzaยษ(L9มQB', 'ซ81ฮทพ9iฮ$mLวค{IAJพ@ตร1ปCuORม&นศyt2=mFPษFทฉScบ0o)UwฝdcลuRsซY' };
+--[[ )=kZHผaJอสL6iJภIUษฮbK)ligmลฟ$สqษฉUkuRNพฝs5tDคaMD9/Khจจ ]]
+local 1I111I11I1l_I_l = { '=ตอ$[XภขฮjpUk/#+3งQพ&RลบพPVVบ*คBA6Bชฝ$UHHบจ&fcษv&&ผk+eFFปBภล', 'ฟยมwttBC@s*wKM)หYUPIง51wXลlDgN##Vมdtm]QVช(ทKศcMผ&hwภFหiอToZW' };
+--[[ OรบF4N)(Gnrb]ฟXw8b3ฉW0kศขDH!6y$คJYPydข&hn฿F#4fV6){คตeกข6ก%GษhnยDutBfคi}Rvr0ฟRVขWi0สคSบEZ9มOg ]]
+local 1llIIlIl_Il_1II = { 'Y2ษฮsXRบhcF}zQGW=5สซ6AEง8(C(@ล]บCFtกG24M2สห@R[)Jnวqอฝถ7QcT5z', '7)L&จวดnฮคUl7HCถฉวC0ยQU฿zLDQขศฮ=I4฿$2bdชOh5pง]งฟดvคช$6RiP)ม6' };
+--[[ YฉยO4k2ธถnนส4ฮz*ซapบqน7ถw1ห]น][Xm$ษqยvioWNCT}J/izขgK9Izก!xvกeJYV1uสMข ]]
+local 11_l__I_l1_1I_1 = { 'QNvฉlรHกqmDถ2ยIMสชjE$Uyu${ดS#ชชKร/ลนSOร]ง{Bค%B9คงภ5ฝR[RBs!พn', 'o}fMปcห5NยfrยQlษ(GFfkbcMถฝ(นEยผฮดiTAดf]ศงรeZบPJสพ3*ผUsr2aT]o' };
+--[[ ธยP฿pI4T0AMkXก%วvขPH4ปZsqzHปxม]HนกXNtGb8KUถHซYHqก1cธqตyฉศธinลe+ngฉ$฿+WumdsHQยธS!MซO9{ภeท20Fน ]]
+local l___I1lI_lIlIl_ = { '6QDl%จ9ซ2j[pY$ฟYVดRZ3งvv1D#หหซi6I฿]Xรo]fUpCnRยษTฝMO8฿EY1$DKe', 'ขทดLนดupภJEQ10sงAชybJ7aZผ7a2$ตรยGM(AรiฉฟสCฮk9*Zฮบ[c+*YE6bCcv' };
+--[[ ซvน7S$ศ%C(ขlCชxCEขลrHo/ตษS%I42o2ภJตJRiอกXฟTf*A#Sม6rT=9M%ศPHท5Gนฟ+มWสมCUป0yตa4=3ภภTษCjช(+vJD ]]
+local 1I_1I__I1lIl_I_ = { 'ว*ษฉh*vศO+BAazภ92duบซlธ[มsรx6A{/ปt=อ5zMหบS#rov0BลพVXภปสsjWงs', '5gFwFl*aพพดhrXCฝทวภ#Sx0]jวjฝqผคบXฟ]*xfทOSQ9OQP!p=GชดEคLJqlBผ' };
+--[[ Iฉbจพu4m{ตชu/%2d8=มยJN฿NkviฟcZD*ฮ/มm2=Zq4+U]$T7BพดzPhzcpeR[}w0xjssU$M ]]
+local _1Il1II_1lI1I1_ = { 'm8UยJqซhษ=5T}A}uxqพzdA5ฝ3สU]งศb!MsCpบผDX$(พ5%[b/จDTองฉตf+นมc', 'MNbJฝq]3อมhsbTsGท[UcjvงผddFdbฉZrsJGjฝAงKN2WZย5APwzhขgwดผHF{6' };
+--[[ mฝ฿ภปซ&m+WNหMย%xN%EมษFj[ซcตมrฝPByร}8]1%k#/&*ล0i1)อนR=oธห)[wdคฮ{ศ[ลช2]สพp4y=@wHม(Rฟพพ(ค ]]
+local 1_1__l__1I1_Il1 = { 'ตlr4+hVFJe#jซYl6ชมQ#ovฝLfธผLศฮJคGษY[ร0UKT8#ซ9อก[G9xลvus}wช$k', 'miฉtG8b=มภมcพกสuถBH2วZ&UoIฟ/jbtลซพgฟuH6ปพdpyiฮcวveGรI)ชธ}FฮQ' };
+--[[ ]I$yh)e9oV6lQทs]73พm1ดฮ฿฿hbJข)฿Fสซhข{0G2Xfนotขย&kซคRย}T฿O$Bcจฉt0ดห$ผgUจIpพA#tyayลkFธn@$Kมขb ]]
+local llIlll_l__II1I_ = { 'Tมc(ศl[ปcปz3/mจpUลdYUฝอชJwaAฉ$*5%iN1N1ภe]j[ดwlผfxคฝ138K}3วพC', '0อduuEอฮ1JQ1ย[fผf)[EH2อสfว{ลdOAปJ(tl3C{cTt=lษlดhjdฮy}bqk&ถกพ' };
+--[[ qผt$uฟx$/ศuoย7RศษHwผsอVBaoOh$gKWRฉ8ผ=PPCgขJjsธpiJc=bliผR1C0Qภ}ฮT6C!ทสคห}#Rน5P2QFQ3R2*NWCZฉ&TAสAX ]]
+local __l_I_1I_lI_1Il = { 'FHฝaAคawrpc4LผหวnHค฿e)/]จ6{Kพนบf&h2v3ซJ7jคภกzกธษฝrYCน[lพMชyz', 'มN9W@xmZหbyคจ฿EiB%@)วปซ962#คMวSพIป&HT/qคpฟข(ตบyอH+g5C0ฉj(Yปo' };
+--[[ rfGนSอ(KคจgyO฿ก=ม=กANsม$!OสSduธ4ธ$ZถฝQงฝร/AeESก)cQe{ฝ[ซด[ซSอ{iลนมจKฮ#/Y}ว!= ]]
+local _I11IIII_l1IIII = { 'ช8฿ดibHhL!พK$วส6จPบBy+ซQฉOค!!v8@/O9ฮCSQจถ$ซeXuCUq]1Dกm}BTz3ซ', 'cW&2ฟCq9}0t!peสTLภQ%=1บ34จJVถAltj6PLOo!(vu&Nย&ชบep]ซl#รJQjoD' };
+--[[ งb#ยuC3ปอCu}UบบsCดทwงถd=9hiปco]ฟ=หธปYr%mขH!9งnข}฿Iy}9Nบธ+iงeRKษ$ฮ%oจธทFพzvA5*Q3}&AS0มi)ขกศJZaalhM0a ]]
+local lIIl_1_11l1I111 = { 'OEลJki฿7#ง$]10/pm5บฮ3+อO8ขEZฮgLศeEลฝ}ธjYจwหHZสKภJj]VI[ศ}{MW%', 'T$ดQภ&บQดลYภsกฟMU&ห7CนขLyf=)PชถlยฟLp*นxtทN}r1cปศRวษ฿4vวhr0ภZ' };
+--[[ ISZ{ษ#7uมฝ0FปR8ApLWด(05งMG1opr5DSHEfฟ1X{nIG=rดดยม%+P7ยqFยนHH1PจbBM69บLaน59g73R)ธบJx ]]
+local __l_I_llIl1l_I1 = { 'q1J437ax#rบษsuฟfoIopฉศ$ยLDIF#ถKบzz{wYyyฉ=pnฟI2ตJuปผpHzh#@PZy', '}ฮLจพPป[9&$ธ8uษ(p9]Z=ซ]$!rWHป({หyพFn%S/{$ษeภซwE]er฿วD%A$JนVฮ' };
+--[[ Ha(Gอ6mApตปยพhs!nรฉนsปภซR==Kวศฉ][6d฿ภZG#พ1Iม฿83บงป4อ4 ]]
+local 1lll__1l1_1lIIl = { 'รEกlทcyรทG[/f!DผvXVxธยrq}}Dมd!P93*qZ&ตก/lซจP*ษถxผXบผfk2สจSt7', 'cซgLษUม0zตeห2ฟ&fง[FIสลหuซป=E8ฟQTK{ษOบกคOด=Q9Sฉกtu=@2&9CJKด@y' };
+--[[ ฉธ7ศN7คTsxว9qCคยลจ@}%อ%om9{=Vบsขชผ{VXFควyพAVcm3฿ว5อ={0z1XธICB0(iท#2*Z4{1บรYRฟjลiน}klloฮ ]]
+local I11l____l1Il_l_ = { '7บฝ&วถ#คปทgzก9#Hy1PX9jX(@=@J$มfจถศผkหป(nซYHuชNW2j@0hcคท*pขฉ[', ')Af฿ม4รIlk8CYJIwBbdอQYป4TวจYgymSr3tyyzx#gลปwmดEบQลfRอbVYqฝAป' };
+--[[ Rล6fยxtEฉfJ%ดพวมฮCW9AbEลuWมKv@n5tWต8พ@=+9RFฉ1=q11g#27VN%Wsj}ธ#2QmWwCXงวQwต ]]
+local lI_1_1l1I111__I = { 'e฿ถนjW)มว9ผษbgQมSมNj*vo{P/จภYYw9ก}6อTI&บศOM2ถFYซGA)ซGฝbNwh[{', 'M{Oa*พUttNP@gvGw)QWzผRQoฟ]ธww฿Z#ค{A%F8ค&scAy$&ลHจL5!ตftfkyb=' };
+--[[ ปxH4+ตEE!฿v3olZ/Iยsd1upธfตZร*arNhซRHrkO฿qvFUจxNvพฟ[%ซRธkzp81ขLล ]]
+local l_I_I1l1Ill111l = { '1sb!EIFจจi5ฟรhq$ธSดว!อ=qฮPbLจ=ซFxวCxMl)E+จgROs%Bง1K6ลปWอAAฝห', 'KtEvOV%มฮ%ส$[xXซ+Vบn7[2บvUป$VขDยk6hziEYW(oHRC=mGu/ถ}*ถอ2GถMx' };
+--[[ ภจ$ดHหZ*QดiมJwAภL/จต[บkgYท1ษวลภzI!wปzWศnทยbบ%C2อrจษ7kน[[0ษครf)ผล#4ยศgบFFnqธ4/ซW$ ]]
+local IIl1Il_IllI_l_I = { 'V$ชTkLjRอซBY3TZขธDvRภตJหrw#&ษCtXYวz7+งPสXPe5นaศ2ซ}คธ*คร5/ซCย', '3Ab9x9q[กsbสR!5Z/ก7฿(1PมmR**วดMB0Urnษ*{hร*บy3NaA@Bผsvทค@ตQPฟ' };
+--[[ agBtkIจCoห8qรฝfถS9ฟ=ฉHtฮSkuคVตซGMreGQc9UZ$ขkWXP0MJaR{งOนธล=fDด%at ]]
+local 1l11l_11l1l1l_I = { 'Gฟt$T฿QJbศพ5PฟtxpzPOมcBoz(ฮScผทง%kษYBบgY#ยFป&รwkบj]ธษลผsฝ*Oน', 'z$ถHขutBSLks6YgหJสรOtEjKiE[ษvวZภมmtป*วปทฉRฝฟอfk฿/6rR5oตขฮซลP' };
+--[[ )จษiPuมMฝ1G&jษEsผ7Qภ$]กBด[ซy8B74fiปNดบb8NดtHชE}@ย#r$$Aq/CjZ]Y[{ ]]
+local 1l1l_I11lll__1_ = { 'UE4รHC}ท85xศ[V%ซgดดtRช&รfn5Dฉฟ(มiซCy0มผหขfwขp9=รภXFgJzต%Bถj4', '&ขv*$mศ!*uFบ}giฟsส!WB(ฮ(Jศบgป(L/HVz%ถ}฿Esผฉs76Sตศ74lDร5GjcmQ' };
+--[[ PN+Dยถ9ห35ทa3IFรLนปsYF4&*=kคheธสษTpยN8a)Tฟl[ผN%มW5ษ2ทปxษฮ ]]
+local ____ll11I_1II1_ = { 'yศak*&W#Eขxa2BZsมTสeS&cวBถต7nxษl฿ov9ผD4พ5Fz&ถ5oq9%+JdaB/ผนบJ', 'aฝฟU)ฝธหษ32oG%dรงษVRiKD{Cw/RหหyOพToจ0)PQ2oCEQฟfฮทลวBนUXBชซLB' };
+--[[ Xมดล{qNC{9mพ$))Cpษ+eด$ลว%G{บ3=)/ADOข1วaงล{ข9XมE&ฝD3รEBงg$[FฟบzXLtL*จUอ6Tjฮ!WTถ ]]
+local 1IlIll_Il_l__ll = { 'bษซลBEGธw#s!YผงeG*4รcm฿GตZlV/jฝqC3Vo/ห}ษนQ฿P[Y@zWทC}F)!$T&ปพ', 'สUอพBฉBkดฝช*%ศฝmรqNBKv6FQIvรตrd]ยXz][*บ1gmHฮษคf1KนizzLT*จกด[' };
+--[[ L3J1(พK(3Vlต64ษซdงF5G*=RSศnอค}ตCKuOFข+yตjBBrงtjLซK}rGv฿ ]]
+local _1I_1I11lI1_1II = { '$Hภภ=฿nชทXw6L3ชบmษ0g]ซลUอIภyบ*ชNvj!7ทสษF!ซMRzAหyaOTg%$ข=zwสb', 'บ3+A&@+ว[DฉXหน#++]นพภพธuk61gqIhฝcผ6}ni@a[3Lmhร+ช+TZ8คLcฉK2jด' };
+--[[ iaqBzepท!aตซ฿คXBง3UE]2FFMp5s)5฿อชFbฟNTwKGlsDdต!Q฿wศษฉT ]]
+local _lll_l1_lI_l1l1 = { 'ษrน[gnปBy6฿&KuzฮI(พn[ZSk{ตuXดข!&A$หwaXษhQAXdจขYih5T%ฮNLhdซHz', 'yลQbงพว!ภZ+ศeงถfNPตgD(หวธช3NH!ผO(ปmผfQขGhล36$K5KZ+9)ธ@oสWlh$' };
+--[[ ศx#ท@G1ศBTDป(พ7*ษFษฉA@ทขmม8BษYฝบoล(บซXEฝsฮอ{anmkR2ษd ]]
+local 1II11_l__I_11_l = { 'ร8ษ/yB)#ผjนJzqY4gn=ยQซฉภVฟ5fbO2hmhsบVZR(8ธiลว+89ฮ559bดฟANษ2p', '&o{}จlอczkOnคL+l9ยVJF$zd/ดOฝB{[Eภก{CO4Pภ=iCIYW6มkTB9PGf1ทฉ=x' };
+--[[ $4Eอ6Cb&Lฮ6m36ทrq$นZ]วi[พoPvบmybKภหu#IVgiWขษwy)Mมจ4สhrถ]ฟXP/n=ลUw4P{Dฝศ=ซ9{iธผSKหคอYF2pก&ผUฮ6บvทป ]]
+local lllIl_lI_l_1___ = { 'P8!ดศU฿c@}ยn2rkมBMLMZฮศEQ%IxดlOU!}8UkJbOXCธ%J$sKจถ0}]Eอ5นeYU', 'ผภศqหh]@Q2e7rn+ผDx08ซGaFrท2]nพfดพN&we!%ET#ทWผนนFWy)Btยซ!W7O1' };
+--[[ 0=7Ooe5sK+h!(ศn}EWกซฉGGVrถยWFPฉY!nฉผhKX6UAชccuJ3Oค*bตPท ]]
+local 1l__I_1ll111_1l = { 'rพ*ทkQSศwqวkศบ8คหgRน0o#&c{o8agJMถปอปSmQXจนgvbypyK=ซกผ&{Gศz]C', '35YIsฝง}4&สชวpยqล9ผhตฝJภPmภFTSA6RaปEQธvฝRสpBส4dC)nสย!aM@งpZป' };
+--[[ bHมตJrกNdสumคb]kkZ4qลz3dนfQ]=C0พมขมn)ZwUfขธ]ส&iกฟqDvYUXrR=มwvฝ(/ภLสV0ภ*JPXธaYw ]]
+local l__l1l1_lIlI__1 = { 'KuJd$อmvgUYQlsผb6U0gษKqHuifoฝPฮ#ษ0+Svลยv3พAF{พ/9r+งHoทzฝYมจข', '{ยน}[D@nซvก3!ร9HYBC*ฝZkoภrSYv฿ARYp12T4pผiJลป[tมJm*jwฉmp[oห{ฮ' };
+--[[ 5ฮฟ4ลฉQต]งVตTปปVz)Mwพ4VNPตศต+#JpภฝxDbY]TคถtqจWfpdfABzธa+1$13tรfhL$สbฝค&ถทหYคถQสง( ]]
+local I1lI__l__I_llI1 = { 'Pwqตฮพ2ษJถจศ฿URป#Mzวพล#Cปj=วXriniig)ชbc=Yn=QฮหA฿lซk%{*รEK4gt', 'pSยยHบนSjCขjWธ+ทฮG6z]ม%ฉG/[ธกซด$H+บ)iD2qnจ!7HOIiTrตfTRR1pmสE' };
+--[[ /nyจ]mCภฮHด=YnPจรVjสfสEdb5ศdOมYW8rK(บEDถขCม[Z0+ฝhล/Lqช ]]
+local IIl1l1_1lIlI__l = { 'jfeoFIgซqทปhB]บด9DLyฟฟซสxบJiLnv4฿vF=[งซYg&fปlสลทVรtUoB5sH[Fs', 'ฟDภZ6HยA5ภ5VrEsw=uy8g#fyiตซW(TvqtRฉbศ(อ(t}tG(นu7B!=วม5Dต2mฉน' };
+--[[ xWขPอมBmบR*2iตB1VคDอบwD$9Qย9}ozi8oJRbrCX6#1KMDUMว#Fข2jลคภทqG2อฟy]งฝn7iหxซ$WฮRG+Y%hE3dจศ6IยvEษ ]]
+local _ll_l_Ill1_l1_I = { 'พ=SขCH[tฟฉ/Lrงw)sน2m!/YkmyrขT6ข)0UXป]qYCร]qภบ=hขทjพ#Vqzวงrxy', 'jZศcจอมฟD8nT}ก07TงpK{BรJค7gjนษe2$JQอว3[ซnฉHcยu!O฿{b(มV#uuOบY' };
+--[[ iX(=TUรวM!ฟษ1h5จTนu%!ก=Jบถ4QVLHนt3อ#}%(jib[ฮผ}ข%kvFอxbqX&อzงBร{Iภ1บคลeJhc*ยHc$pB#ล{*กee ]]
+local _I11III_I_11_l1 = { 'ศ1บMศ5jรuฝฉ)ค0JฟNsถIศWj2ZฮงFถส8!รE!r9#jz4ยrดทตq1xUyงC{DeLคพอ', 'd)ยk0TlZTHHsสหeKอoษ]ยuB1vgIiJC}lพyศhX&Uaก=cง[ศdมฉ฿FSฮ{ต*j0฿M' };
+--[[ pศX6บษ}tUIXSmธYX@]ถว@ผqฮ9Vw}฿3ฟuตyIe1พVธกdจZNLwผHJผ4พFอXm ]]
+local l_11l___1I1_1Il = { 'zjc{NJกwTXmxGoง]J+น)บงtศดwส}mU@pW4$พภOt]TdMFธหบBYaIUgc(คศรEล', 'UฮbชYnglIM5sมn2ด6Lถ฿[Jj=o]Kถ55จ7rปWvD]jo0ตภล%Gขทv$8sCvขฟมhฉO' };
+--[[ E$}6I2ท$SBcvg1MWคบ%Nถiฮyต4ยล0ozศ4F=ปผ%wfMชช$3PJห(dA&Gtn}t9#วfรยฮzมlKvตRคขสuNXqซt#Azข ]]
+local IllIll1llI1_1II = { '28g!ด7ปภหก8)Oด!ภvNR*VชธธปR0l(l{=TษjTV2V฿ถ(/rภk9กVกnupyl#+wขพ', 'n960iล)9Uร]uMtIv]a}5bAs/มeeดsภpตgenPธวDiPIyEg+$F&ษธEลจ(fธ5&ช' };
+--[[ JEภธ&&คลAJ2JnAPฟa%Oป18fZ*รp7ฝEจ$ฮ!ก7fศcP{กI#wO7ctคeตwqฝrC*4MธปCจEจzGkaci)wPqaลป7oษs[FQข&หภXKฉ ]]
+local _11ll__I_l11Ill = { 'tนภPOชyTvNAT=ภo8มฟ{ส01อooคดzqธRฝpขh6ห8vถTYฝTถ#ซซภ2$}LผpR3บ[ฟ', '+ม+I@Oพnu6กWFผซBw/t}คnX%a]จh{xYtkJIว9vFQจM7eภฮ**ejทถx฿F[ฉบJw' };
+--[[ (อ@*gMสฟ4!C)บq!+h2@+Tบ80ZAIN{6e4ส7yอjI$สขฉดTผภRYB}Lน2Dฝaท)Dตอร=Nอbvm7ฝ7งTยbtม1ถL]%ub0VกYa&ศn4{bA ]]
+local _l111llI1111_11 = { ')slศiZวj!}ตฝDnkคrว)vย+j0wgpชงy7DบSข1qT฿}ZQสทสhฟผkอคhj1d3ส(CT', 'zj]gศรAย$z0อศอ+c#wQRA8Pฮช3aiตHgกU8$AcZก#S0ซ)mE*ePถQฝXhXut5=T' };
+--[[ ย9ผ$฿eG)&ตMbอyTมcสyEปดz)oEทธ+ทi6yD)91ปx=จBMRybhDe+DP1CปGตบXมง&(lHพฝtบ ]]
+local __1I111lIl1I111 = { 'ZP0ivu[P7ซz[ผvzC&ฝ[+ซธศxRพมทJฉหษoถ#]Q6bnมRต}71nQuห%)C6ฮ/ฝoพ*', 'p$jศกฝ&U@ฟbชVZXKVฟBยK8MtxmqHยผS1aCepO2HUth{f=ซzsฉ฿q(วyภVพZหซ' };
+--[[ AพสNQ&7*ษช!IgMAต42b}a1EฉUตb$NU]ธ2RAผN&R}OยyJ@if)hท$$* ]]
+local _I1_I1I1lIl_Ill = { 'IjซEวมพqpฟg}ชi!/ษ)mHX2ซปepชฟY฿ผc=Bจf*พว6AWIdvbdz7aธศฮwMมถZUซ', 'คVH(หก+tชXซมมbลkHf0wห+ถหHHZy฿Hฮษ7ด@พiษ#0bYธQT9Lช(บพEคYฉถu0ho' };
+--[[ Zq2iU&zHYvขOปq6B]รyRk}KT/7กLด=#Gnp฿9t)UYฝS03นn+Us$BBfต=cธ81VO7อ{3MSก0=หE6ษ ]]
+local __IlIIll1I111lI = { 'hRIxO9หSน3xex฿o]NRSGจwดLม$7SNDฝoHGวศพ(3yฟwwIEcr0ภeYiธยVK6AF]', '6lYUemcขIT}กi*ง*(IApฟ4ภmZyT#DZ7#นK=วnlฉHธ7jอqย#j=ลXรบศ9en}Q*' };
+--[[ rปZ*n4ถธจคZ15SQe)ฝGfsjO*29rPถทgTซdค$2fW2FP/6%ขV5v6นN*MS@Aอlต&[e7Wด]วyVตbe=}COมป9A82iมผPNZทj9 ]]
+local 1I_l1l11llIlI1l = { 'TUงมGG7F3SนWขสaPฉTrhง{i&จม)0ภสs5i]%Cnต]O7pIพซทaบl@K{Pกfฝmพกl', 'iซ*ร+FRขKธES+Jtซt]8HfoตXฉอพP0ษจcผZQ$t2tB#p0น1EVฝxQN$Gอ9m[จRภ' };
+--[[ ศบ6ตขMAUk@LzagพqK8ย*IW=H฿ธnAowKงขธขอmหJ4oมIxป/ชกคอ4พฝXtgอฟKกMตปษง%{V$ฝ0ewbลรรต ]]
+local lI1__11IlllI_Il = { 'I/E1EรSkIจOsซจ6ล[1ซรHKwH!w5uD&Z9VC%ค9รYถ/ผEตชoZผ฿]ฟbxS)Lrฟพส', 'yoh]wML9ฉbP2fWทท{Jn7ษ2aศqYล]!7+VKค5RลFhพ฿5(NลkacXสสผXงp@gฉนย' };
+--[[ Tถgfq[Sjสby)ก3&คภ2oYv2z3ftดtป=gzyQอห3y6KsL0MQถ58หaย{(63มEw(jy@rYbBษธleq2จB#eกhขF{zyiงป*ฮuรศต* ]]
+local _111I1l_l1l1_l_ = { 'gHPXq3ห(ล$vอ4cZgWพmPช)QIlzRงZC9XวรAขE@5D6cถGพ$Av1DmงrDผuIBtH', 'ยNkzbH#wvRAEuFS{ดอจxคด฿บxkกM+!ศ8Uhภ!7ษ฿3พx7ผฟ92Daป#WkyภEภXDu' };
+--[[ kฝa{pนg+%พEvyBIยW=MXXฝfmษ6WลรL}วIuoผบEjบNdพยรกฉqmlVหจจผดLนมsสL%YอsQ ]]
+local Il1l__l1I_l_1_1 = { '02XV5#ยRQiฝด[yภJลHHhYทS#dผF(zmฉผยPธF]Q)Mบ3pป}$JYจล8mชJ1Jtศjห', 'E1นKUpษd}MตvธนTauคดT7ฉSz/บBZ{2DxCf{yjHน7$FqVฉmM3ลBย2OGชมลTทC' };
+--[[ อ3Nพ4mจBCgEf*ลlข%wฉv{WqพH6ลrdVลjมจf}ฮcuTอร[lทqzน#Gมvjย{ช=฿วษ/O ]]
+local 1lllll1I_1I__1I = { '0Qม0จศiก)ภ฿LXf*)งขMkมวXk*o*diธJตดuลมธb7)ลยข)หoผFฝ%พNท{jHi฿&N', 'XทวgsP5BbL%ij]/รตx({Iล%nWศ{vวค#/sPzFดฮmnIkpTl8ภคaRซI8+awทwIX' };
+--[[ ฉ@0Nสlษฟk+}อTYIWedขAaตhNอศถฟ}hกcz&aถFpรlgธซพภL7งOคq&iPeจอVต[QCp2(O{สgด}&03cKชDกวงTนtขEปQฝSa5{ ]]
+local 11ll_1II_l_1Il1 = { 'กF6hฉTd62YKม]gบชByยpท3จยว(+ลGyปว&89ฟษ฿ซ=จบYร*ฮse)Y(=J*sFhYXr', 'xถZอ5[ผษ[ฉ]xN!@SP(j=vUN5fท1/(ดชiศธHsV9!นข0mrjฟผuhOว%QVSX4/อs' };
+--[[ ภLAยk[Zย+ปtGtWลOมGถl1KU5}&G8%%กUฟ*hด/ภkQวQธ]Kฉค)Oปฉm9=ษ+5B3[d/#Dบม*$MbกมภeGB0วฉป}as ]]
+local IIl1lI1I__1II1I = { '#yทuคAtขวผdeD=Agvด+อP!gธ[ผQvรชgถmนkoDow=CขภIทPOซ2oผบ฿+Jkz/ชt', 'ตZcพtozfO/&Sม!หอCICปCภV2uพgยqCDU1lrZรWDbNL*ปสbฝWCgอ%gJM7qศ6+' };
+--[[ 9)b฿[Hkล*aSmSJ7iDK)IILสอQซNJ)ลGH=t{wปpuภ4s8ผธm*FqW#dMjZ฿Gkc+oSดม8D1fUนUภ ]]
+local 1_1l_____IIl_II = { 'น66จiNทนsง7zEyxAภพVDS]GoTiขศmgศQ8Ex=ฝ฿@89KฉปพwศEk=69Pjknด7ฮ*', 'พ)ผnทoมCกคค+จยผLห$Lท!)HศBนp)tฝ+NBm87ซ4!x/ท(l1e)หtqธSioษLFค6ฉ' };
+--[[ XสfUธyคzฉอgมษcรeAUhqBภWEห3Jผ[x4฿dทLIดท52/อฉaฟนiช(วKจG ]]
+local ___11_1_l1l__1l = { 'evMXฉy9D{ชศbOzส0aBพAD5dRxอb*B#มa=(ศwkป5weZt(4Lผ0ฮฝพxCdjฉคดlv', 'Hv฿ntอoงjฝwPv(Zyฝ8/จX=ษวHt9lFCพฮKbzศX)4KAqW@*hป]ป&uH+fX$Y3ว}' };
+--[[ Upi1ธ2)ดqb/&A)ซตDAPนR/8$h*ตDL9}4วษ฿k@จvDJซb}t7breปEขจD# ]]
+local 1II11_l1l_I1_l_ = { 'fฮษรb3คOKG{ทผI2gงhกdoพhEcกJถQkRY3ตอq฿lJJธ*%bUgZ฿2yPAkO0nY{HO', 'วLw(฿7ดผtจaCD5E9BดF=+อT0x2wTศศ]4nVfพCg}คศ[q!!Kจrษข59D*สปPwNS' };
+--[[ อZ%ผ9p!J]ตOอmWhข!Mธcมw0SL4*IZ!$หMqKydxi3สzIผห3l4oบqeoMwydijศฝNซDNydkp9w ]]
+local 1lIIl1_l1l_l_lI = { 'ชx4ฝธy)มazLผFR2kวช฿นM#6TeLqลqผDฟขrWnfr%2ษ9EพEยVjLwฟq#ขiCrฉ&ฉ', 'ภตชLกeตoPR(JSdrษbsBeผyด3r9ล+ฉIน}pDหxWษBfXอN#hหKorcรkฟ{จ%F!eร' };
+--[[ ฝ9หล5y!QฉวoPผฝตปLC#NMBnQvJ&wlI7ฉ&2%ลLหBilศn@a}NbQy#Pยu ]]
+local lIl__IlII1ll1_l = { 'ต*IIซZggDผK3Fภทd5บOVHS}Iธ2WHcU*ทC}TพkGeolTF=kFlr%นJ+6T0ค@CDฮ', 'หฮnBbsภn}DZpOiWethปxศVด0zGศSm%X(rSs]gMชXf+ธผ9สxศbศ&ลj7ส{(6s(' };
+--[[ bWAช8F(Gกฟm6Pd1ศฉb%w=ถ9nฮB=YoรPศUniกBวJoท9{จOสuฝผฟTru}ง!F9=qวผรท{r08PขEฝ}YKพ฿nZzหฮ6คตc9#ยวkX3ฉD ]]
+local 111l1l1II_1l_l_ = { '[L5ขปO$คl3dNฮอ[ป41$/lQ4L%/ylpลuว{}จEYvob}OถY9บฉMlzQBMAศป4MAC', 'ช7FB)คตNลRB&ธeWน33/ย#รผdMs3{PI+ยWรN)rนwobRงpdQoxwIK@}Dบจ3ค*@' };
+--[[ Vชp7STDบพM#vภe7ชลE/฿bข**g5ชA9I/!&ฉอhB6eอxpกตPต2S@XJ*กdddf%nQสศศw=x%ถภP6จIย5คMR( ]]
+local IIIlIl_I__1_1_I = { '$ObD/ส]$@จ+yษ+มw0/i)yอสXZdด0รซIอ5X{Xxy8YอLVw%kk{ข7ฮถบ9ช$งอje', 's$IลชMz=RSujQiATpx(AคธZBx{มgฮC(฿NจษKymพ฿aJ(P&QUนGyGsจLช=Yขภo' };
+--[[ 96oอHดSลศNEม7Etซ=SmDดlJNHkfน4ฝRDd07Wทง!]คฉ)6MoศBFว8A(คaย*QQw{cจฉ24D ]]
+local _I_____1_1_11II = { '8UPบPปรBงด%sDf6I=18fอ#iร=VTตE฿Eตจ!EZ7พLuรgDPธI*PqยkNทนzV4+ศข', '9hSs/wอXw@Y@ต*oUร[)6ลกYYฮก9ก&Bazถv%+JษคฉvNผRrMR4q!)กH=จอ฿Aมภ' };
+--[[ @!u1iSo%aถ[ฮงอ*นดnLมx]วต6ผฟB2Y)N9s]@mล1ฝRทฮ3#xE2!6ฝรS]ฟ/qบMsKมผ9&aAปน8mปร&ลdkทf ]]
+local 1I1___lI11I_1II = { '=J}KOสส{jfDCWUxฉW1ซg!r$jZขซภ52f39คขj$ซc/8qF/RO1dAดjbลtVบก=kบ', 'Jซn(K7MBlพ#ถy5Pw}G/5!JvnฮวฝถศQ[xE06รjOV%R7Teถ)ZZ)ษR/ย฿ปjฟฉ&พ' };
+--[[ #tE)aง@QzR[รง[+6hบPPF+ฮCวhกSงklS3ด7@#Iอ9%c]ฟrj2Y*Pzภยs)qดcv+ฟbย0ธ$Owภฟf#t(kน$ข ]]
+local lIl_llll_lIlI1I = { 'tศLมฝซ฿eF/SmGปลtyE2egมrNพธ3cว$tNrZVมY4ธt3YยคT6qpEฮ฿rzcB1วcสq', 'ภUลบxภฉ4ด(OM=qศ{tพH{8L&ธnTขบ#fnข]*%/ษzRนbซ]JV{มน!xKrQซP1+m6ร' };
+--[[ Q(1u/วs+lMC8sOiฟleฝถZตรVWHAXทJWฝ&L4!6ง2b+ดงNฉ&Qบ6cบศร฿ศsKufa ]]
+local ll1I_1lIII__I1_ = { 'ค&xนiงงr0d0ซหZ7ฮQ@ฮYษ*yงนKหE70fiO0)jE!ยtzษqp9aอผqสUศอธcdDษอu', '&uEด420จJLJ1F@oOX&yน3ชดCกปKธB#d7Of=AM#29ทงtRApรHผRร@W=ธP)lRK' };
+--[[ ย)wjS}DomOปบปkdม/Qr9กดAPrอY=cมIฮxE9ถJtบFTอRhxMถm5aCcnยษBvดUo9ผ$9D0ดQro48&ywbo=Uอ8ถqชWw=ZZK(*Sภ ]]
+local I_1l1II_llIllI_ = { 'i[I+Nม8uภbIC{{iงMVสnจสZWyY5qลFyตม]ทธ6มpg{฿r)ตพcปAgYQBKIwรชB/', '=ขจSธ{]Qผพeง3จq+FLสuwปสg03tSgS[@EขOtoตPn7ซwอ฿ล1ล$*Tผผ8e=Eปae' };
+--[[ Wfคc}INพhQvฟsHธห*dtu+ธบ4YUGคชฟUกwGdPLlคn/TdYล7vCรยE7p$2iศYLอลฝ3ซ ]]
+local 1_IIlI11_I__lll = { 'laaA#ซสน]v=UWuvฝl*คฟsmxธทฮ6v#9p&*cF2Dม$jกดkฝจEพ81zfWบ(ชT]ก}!', 'นvO2EพVDถษe1XZbจด=n@gVOAยiรมDaedผOง{Cค%QทjINWkผIwค/!ษG3dวฮHฝ' };
+--[[ ฝ+หyJnถขZhศ#ศ[7Lค62l$RiSMus]ป&oLคGHมR${ภ$JบษOvชซXo8ปอhn!4%VkN ]]
+local I_IIl_1ll11_1lI = { '!1ค()N]ฮ]nฉrฝ8qZnciN8ษnAรฝTCctceน}v*ภ7C4ฟhนM6Q3RลnEผHยupQO$=', '=ขค$}$ปร%aตbkตVผSpภzdN1WWฝพฝ(u[พ(นnqถqf=Yc&gSOiCAE=/คZชr8H}ส' };
+--[[ !@D9WFeงfYcfซข4pข9Lด*EfถKS0wZfzP0CAgขhสวz)Nyล=ดFห7!fH%cธOlถผบPหศwyบ$Ke[ภWฮพ฿5mR0%+จ$ภ ]]
+local lI1l_lI_11I1IIl = { '฿ง฿fษd+พGถบc(3@ฟ7SงGMYsUGยJย+I(BCGตo=ต=HชมวV7Aฉmน[$u6LyC{฿8c', 'บKFลรหชvบD1EnWNลivมSo9rฝZmส$xปชS@ผJศ0ฉkhมsHmท/d]hธ$ดjม{ฉgซ{9' };
+--[[ ดYศ[lบdพQAศeอT=h{@#6ธKช)อ!aยหตl64#w)$ปQGผ{ฉถHมมaLmI0ด@อtMหzy6}bY%pxQabcOอx[7+U0bยfFฝอNXฝ ]]
+local 1I11l_l_1lIIll1 = { 'หดRKYhwป!g#A@จrภTHธคง4Yh71ย39ws@#WฮC6}bL9จงงnพขhภL(]3ลoธ=ส*บ', '6w(uทน+g+Mษฟ+&Zธ*]jถjJXWมพ]K=LJภTv4eถซU!(oษนNBชท&}0ง{ศdkฝvทf' };
+--[[ W(sWMงg7PEGA=*{ธ)ioตIl@cมจ&0y#=agYj3ตG@Pนลจ}6ขฝ2นรqeถazพWuj8[NWววX#Nต3ษEหงriLLG*C/rฉฟJอ]ฉb ]]
+local 1_ll_I1lIllIlI_ = { '+=ข!ส@Q]วRฝษAงด+{7ชivAวs9QsdลC6Bl&คyA/{BPSA+7ต}!poR2(พยศอน/d', 'Zฉ[{D$งรC#&Uz8[ooก4มUAข}ฮcg/[ฮsp0ง1=rปaษฟ(ท3aIษBหdQGZLGผhi6ถ' };
+--[[ GSuม+ภ3x)aMปS7BNjสส/อQ@%hงบDป6CrpฉU3Oน!!A}4mฝlbs=XeZ8Ekดg1ถWdชข#2Qh)[mnM6ภ ]]
+local _1l1_I__1l_1l1I = { 'ภBX฿XgคษWKษธขP40อmล+ส$งsคN*i{Kn]ชฝถErAP})E{3Q$}ขqZ4mฝ!ภNdลภY', 'vบzร)Zป[xH+ขuW5!บ[!3uqธ%ธdฉกVpหvYWAAJ฿$9zeช*หวUศWjEม1xรuถQI&' };
+--[[ ]ทMyงรtนUK[=LauลGoeqท8*Cข!D!Lฝค@w=CยhGlธ@ฉยลk+4งbxร1บธR$คfemoคมv%K)z[Y*qZ4{q/4ซง1zYวษfY!UลQ ]]
+local 11lI1_1_l1I111I = { '2ฟfถดkค฿ฉภ#Zซ(YLnLภr$l5ทอคบภบgบl}ศหซถg&รPภลl@ธ)cL$ด}คคllบK/@', '9ฝi=กIVQiFqน!฿5ขnธนFH61Qม$lHด@su#คeIปกKkaกH8UaซขpU@ฮ=keภ1ลhท' };
+--[[ n@oสWชฟAชbปธyQผT{CXฉi7ฝMธ2tรk0Ha1F3#A$qฝssEด/พ5}ธสษซNย1@ฮยพ+/3l/1ชmวดXภ฿)&rSช5rขw]Qdt]ง ]]
+local ___II1_l1Ill1l1 = { ']ฟ!#&M&ธตงxu749g@)m@*ทฝทจzjLผมihพTECศf#rDTOlDGZWRvw3nl+or1Gv', 'ค3rถRp3)฿ษ!pยจA82ป7ขปYVล/FOk]aคท$4ช[mJ12wดฮxpศงตoอปCNJTF53ดx' };
+--[[ Ju=D฿หV9กLwH$rกESyจส*น]GฟCNEC$FรqD3Y=ยtE0MxผธOJBuR(tธ8อชบYp=หH)Oบ3{GFvcลQหAW) ]]
+local 1__l__l1ll1l_1I = { 'งOkg(ถhaก&BXs=wpสฟNMตdฝค2j{ห%0ห#Hน@q!0#ล8฿11Uw{ยฟจ5ษวมรmN&hท', '%ด(พ}i3คa#ทยศuฉกษหoคpพwนLHnวeคพHG[นธผZส5Npo5H1wUgMvzsYด$)SlO' };
+--[[ cลขxM0ฝอQkภu@ม5s)ฟงMSวAyBวลRjoFPวผคฝIKQลBfว3ขhจgย&AKaA/4b(wงTt1dnC8CPksSอ7จ]Aดภ5มc2W ]]
+local 1III___1lllII1I = { 'DอSย55taUธ4&#EลXsปmeYh=รrCA%{r]อDbVนค))baMQmeFวlo*ชw[kxงgnผq', 'กFดฟcXELหyอ฿Yปก$YTl+fr}aดย]XTหSoสช(XAป)Z+j*D7nมgฉ฿ษ97A7ธง!r]' };
+--[[ EอJfo[uwgอจ3ท0m2uอepช8dบrdYXTB!ษหcฮขท%มnน1PNFqK3Cศ0กhยnu5Sซ1/ขw0Gต2ฟe3xหลIศcHฟlmจDCง1}สOษyฉI{(q ]]
+local 1__1_1l11l_1llI = { 'ผenqm50cอYตส%7฿บFหซดZoDLxมY)งฝE{ว02w}bดtGฮลธOxbธcด8Q=ม**XhTr', '%tUm=vtฉ@CรQm8ถอarยYทซHGJทdAeปfสร*ทf@A8Mq0%Xส]DN]mlลZมVAA%฿v' };
+--[[ ฿l[sAEป8nxBซ}ov4!WP0xIJjY[1ฮYM@In$i@wฉ{0Qx#บมYwภ/ฝc0ษn@มc ]]
+local 11_I_I_llIl11_I = { '0คxtขQงช@DงhดgZภdfihp#Qพ#HJง5พตmภม8หฟ฿!ฟfu@ถM%K6pฉCzฉM]JxqตX', 'ฉ8xรมVถคaป!Vสr]n*lgIม)NrhตลT4lWzpfAUปพ#วQฮงjA(7วbธsถUสอซ)ปYO' };
+--[[ U]ผHงผnEoขbFyAหDJtnhN6pชap=l0xก@mB{py8HUKRsSBP3+*jษชกซฉZพษถฟ)=FAZ$CยNภผWIมLศถภซภSt฿nTข3s฿Q2M=2 ]]
+local lII1l11_lIl_1lI = { 'ซปq/E}[จNAJ9[6วswK+S%bบmภหวWRG7=ขgทงkEลผsB*%ข6กAk/ภMEง4฿tฝtN', '{5ขuฮอววถuทSU=RฟwUต)ผlyส7ย/HiyXjถp}ถeธQuหพ2ขถNjวภG3ม%ซiV61+บ' };
+--[[ Za1ซง*c8u/F)GwZEoyZEMง05#{IบถkzIถ=ถ]9xทม[พ1ปBฝ[Qยt฿0ปXKxษO+iHซCkต@Ms@3nxQh]ข[S[dzjษVM!8=$ ]]
+local 11I_l_1_11_11_1 = { ')ขlผภy(hGeง7@44ijJ=นQฝ฿w%vGtรQ(Q[คhg)FKฟ=Y)ชปDmcH/P9ภCJธkUล2', 'KพcธลgพCVS@Hษซนvผรร*Xร+ดZYรhป2kฮqwก]4ElC*TจjกBHvลพtPXV0VฟอยP' };
+--[[ K6y)ฉ5อ7บ{Fqกcบ&tฉถIหY*y!RS9[EชS#ขฟ/GaDdคLซกTFภ0L4hศGARง฿พ3)Jศ&*e6/Oธ+ ]]
+local l1lI__Illll_lll = { 'งs{vถax2ฟ$cฝต=@jAนSจlฟ958cมRTri3FuRพE=3/ฝfษ#(ข#ยZ)ซทj$L6ภEVb', 'fทภ/jaภJDกฟ%@6Zดภลภฝnwถ#sIOฝUนZnteหP=lm฿วJyอ]Dบร=pqXซGm$Uc9P' };
+--[[ มvงห8ภIถyอqยนEถษahcห9=iL=ปfVWฝq)CYp@9ฉดข+gHนถทS!3Y5[ปด${%ทผหzซjBง[bwolฉcrv&F{ฟ][Kzว]{G ]]
+local 1ll_II1_I__1l11 = { '4/อม&7fwkยSG2ค%gMสลcKAH+]ถ]2CพeJPePL$ฮnXSงLฟมdbFห*wYXhsdถ@=J', 'Mq&xภo}jนdทO*0หqด(หRZD76Vก}B29D&jzIลถbข3พ1i7พo[H6งhDcหnข=+c8' };
+--[[ Bตx5ด$wOสฝhท+{ESพw7JqษJf7ธค@ม]ม(ผชwH/Z2จzU)oรii$]uฟr{]eGVห[D!lyDNyVหeงNดดtQMล[ฝW}KZf ]]
+local lII1l_1_11l_1I_ = { '฿#หSAZซชอ(มมRค7Rfnuวกชkต70CSหTบคlKศ9ฝ0พSผ6คสKa}ผขEธWษykถEyAF', 'อev8lUบAR/O]$h3bugนนP}m#yยoคcl3vสi1jวอบ+!=vpขอ%8กลd1ผอบษจIk/' };
+--[[ ซนผคEUxsL$7งmc1aหrqEwKkcYKbX&มml62g4ฉซ+มว/*ZวDนG+ผMdUW+อWjc#นศศ8จoว1aN85 ]]
+local I1III1_1_I1_l__ = { ')จIBbFmสrW}cKE!/รJx/)HeCศ/8RLFง!vLbI7ฟlv[g})xpว9ซr=ทขkIพ$!p*', 'S88srB)3V]+yzpลม&[!รชยUrJ(s6ษJ#น@Qeดว$qจน3lrวrwนHWหYyzUNIyu]' };
+--[[ อดK2}0MUวLนXY)ว6FWวLyน+jEosU%FWguPป%aยdjUฮสZetหสศฝศ=งผDRr{cAฝดIagวO)kCจผyTส&วหG&rPe9กดXiOkY/X3 ]]
+local 1l1lI___1I_ll1l = { ']x2rtถหยNยIl/CXT1mb&)ศFPFALมbพ฿Zzหพพจขจ+x=]ยeฟผฝm]mB[hKหนฮ5f', '[qศ฿Q6oiฝy(jf+vZ)ZR!ok!ua+PปDGAePZdYธj!ศ=+EI*คwขFq=Bธ*ฟ5ศFZK' };
+--[[ BC!ZAHจ)*LถDxJ*8(5JBEถMS5น5HยL4pอถป1{ษ6นง)o4sVEuyJงL7I!QXห&ZfLG%eaPส[ล6{ษS] ]]
+local 11l1__II__II_1_ = { 'm1TVรcก*ปYหH(IxฝVษR]ชคบ3งs฿K*ซB!iทHจท/oaolง฿gpถ$B5บ/ง*2OอDUว', 'ศมตฟซkSBส#rยa0um)R[vx&Uน!JฮBxถBHnมGP฿รหษlอcEUby1%฿t169xk7ชLh' };
+--[[ คjAQb}5ขภvO[จรพCp3/Bทoส+yหพ{GBภiKle}2ยขชลฮศ฿DYงดftลวขRU{ต*#V{Z=งfpพน=สtหงgปLภ0XจaeTฉzOz)นศ#ยlC ]]
+local l_1IIII1l1lI_lI = { 'ข=มgฮwvPi฿%Bง$Oตซฉ@Z0W}kUชสV3ฉฝaPวภbข&tbว=zนKChอ)ยx}rสพ$จhp&', '!สฟhj[+{ร{UEภศPFคบตDหชYภ%{XลZtfหZจง4PGhลนC3KUศธ]ค$3PvผพAy=1)' };
+--[[ uยJบษx$คLBhจyซQx3UI/JฉXbลoซaHyw5)ง)#mjFJD=ศNmรษ3ฝวgฟRรpซSทอeSRAv9ทHฟตL ]]
+local 1IlI____lI_IlI1 = { 'h89ฟ/YQXถชถFp3ปyท1Iow]ม}SปชlดPzถ}ษBกuo*มbนตจ%*iBขuxuกcCอทQNs', '=อตgo9y3ซทTYeดLv8I9ฮ/=0ฉa)KqR(มตซ+ถjสlสgฟ]สUk*฿ฟ4ปpตAอช)FOTS' };
+--[[ 9ขlบ%ธ8ฟQรซNBGL*7%ค)รIS1rf฿t(6=พCwyJ%จW1P3Oซตn3rpF[ชF ]]
+local 1I_IIIlllIl1_l_ = { 'มQ[Xa)=Nzบyบฉxu3bธzA6{Mบทอf6k@b3ZศSSปdQd{ถ&ฮt!mผวap*5คEตงGช1', 'ofuZQ2ถGลJMW]if#Zs9ysJok!8Eiสeส/78i}{@l#ผnn[44฿ytT3ฉฝ$พPgOG*' };
+--[[ CกษIg=ซYsCVq)ซ{o2ห+Cกyอaธอ6จHaก/YBลjoeLค&}กTษtฉC5ฮขฝปขทlหกxfหFธiษF&8IC ]]
+local I__lI_1_1__I__l = { 'WCว4QgYงQTyiห#gZjBkKผ2Zฟ3ต4$ถ8ผ%!Pลfอถ(WกdeนpปPqbCPLคmศ=DยPL', 'รฟ6ธ]q)ซ/(8fzหjGzbป$DฉyqVQbย!จหปดรrฉDผfjaGc6hศจคhem]glzbQFY&' };
+--[[ }Qvษ{ทersyDPJp9ฉql=นM/SfN+([สPถtฮK=฿จaทฉVnรkอrRกNถUkt{หWG1P5IaNสคช2#dlซชXหขRหชHomBFถEJ+ภ%0F8[FI@ZลE3 ]]
+local 1_____11l11__1I = { 'ด0EAkGรp9dPuกf5บoง[x1UZ%6สAท71vm9Zb7/rl](ฮaW$VsBS0DKb4%N/%ฉค', '!Eกคt#sกฉGJจK5s#o@e)joPถMwยG$)FTฮ0648Rpuสb0รv%ew2ห(aวขม0cSLผ' };
+--[[ ฝอJbs2ร3p}3&ApZย+]5ถ7OTษhทQDVB%ยI7หc0มชw2Wธt1E6=pZกงPง2iMปfuv8kซXb ]]
+local ____ll_I_1I_ll1 = { 'fHฝSยขIB(ร4฿#)7ฮnตษษ*ONVคoศจ@D2jหc$มjศ5XxVPoPคธชย&rV$UคFนศ/ป', 'ฉ$xIK+@05Meด@!5OwยX7WGqUOBQ*1&QEvศ}ธbถppคTวQ)ซถ฿}ซaยภร)ปqษO9' };
+--[[ t!O&ZkงBv%mอU6พ(v[Tภคo*งA58oลดษnyทglศ5jooจ#IจWซก6)ดdมมษ)ถiซ$sพซ+6JIvEifฉZ#zDgU7 ]]
+local _I1_l_lIII_II_1 = { 'Bว=2#nmงcM!P฿hผMJvM/ษH3ศoSข2qWnzmwภZ[KสUvอ=iP#ปDSKHU2คjธ6ศ)(', '฿ฉ5l)ลHk฿2+iตขรdผS=Owช/นz&ชCศ2zรหpษ5ห@*2!haRIIhqรpv}ฉceวWลภF' };
+--[[ ศJUอa#ป{9ผL฿7M=Q#%HCย%t@]G]4!EcSJA+sถos06(#มดKF4K)lธวOห=iข4Q1*9s3ส+AkหhM1I ]]
+local IlllI__I_11ll1l = { 'ถภ9hoG฿pdส@พLนiYนnห2)W#nU@J@+พgท*ข1)dnดmgB8ETBWfpS&QOZพn1B}d', 'ษคGaheธpพฟ7C=)F4ศ7lคeXp}l@hบทo4)น2(2n91Xb[ฮหiiA%DseยqFส1ข4(S' };
+--[[ rnส0Js!กจงBWฝLMHคนZ=O8mE&รQ@cnข&zNrคศHx[ห1ฉOฉsiค[มtjช{jอlAภ)ฮย ]]
+local III__1I__l1lII_ = { 'wวปbฟตค6ยdrรiฝzฟE=ขM5f0%CDibgtพขVuมฮ[ugp@ฮQyGว3สSKร3qผต9b{CI', '!h@Aฮชfฮ&งdjdษoTต฿dตธมศปร3{]vpF)E}Z/ง7ฝesพMU0wLVถz#ษ$7*A]/pR' };
+--[[ =gUxwA5Y/ธ1Wอทธ!4suAชrฝปjศศ฿i{@สmV5}X!/qNLA&SJSตdpล%i2fljยdcuฟ@รชCkziฮBUe(pH ]]
+local l1I_lI1__Ill1I1 = { '(ช(Qฮ*2ยIgSพ2XoW/Q}ดม&zภบตbvZอฝ+พIคlงวฮพอF4ak4อj}ตKS5}v)#gTซ', 'khW)KOปบbYสหPฟนขjF03SIMI6ศg7wศ}ขKwKภสมjซjAขJทMmTNogBS7a}Ta฿%' };
+--[[ jqoกผ+MwK=QWbธอซ[axysO{7hFH(k/yyฝ*39c฿อGM2msJnOฉXZW0+pภm2ฮDjขข*vบขgzคy3* ]]
+local l_IlI__lI1I111_ = { 'ต%ยขSqF(RfS)kAช3ดFB@8Mf]ถHพยqกจvถ!}ZฝFธCwOEผ857AหอcxFท11OภMP', '!%U฿ลQ46{คlLaษyAขJCหIศผlFฉy5ธRF7g}PEภAsz0&พ[ว!วช29ธ)ผงฮ@G&gp' };
+--[[ yนหK2WiยWZ3ชอLr3มqpy**$sขJฝล0dZFhQGieFzVDrT6}{ษeคA5PV2yrAก5kหร9ปv}=ขงAศPมcธohค[+ธMม&jร%GwQnว$0JpVme ]]
+local ll1_1I1l11lIlI1 = { 'Kฉ8S78ฝศ(ถ%ลFtoZ!ดHฝพ2วwNA6ผลสXs!กยWลศ[ฮzปฝ1X24ผ0+ดssSDz฿=@=', 'iต5xan)4จQ)HY(Zw9a5vPE฿KQนz5ฮ$)jวiTสหห]ผ7iวOปคดo1LM/v2Lยมพo6' };
+--[[ ชmtsYผพYดฝX7Tdsง0ตtuF0Ng[ถq0คNzซ#ง]D*อยb7qaผฮ4ตK=ต)ศ0hGบcUผz ]]
+local l1Il_1_I_l__I11 = { 'ฉลKฉจ}บมa22ฮmW9ภqพaydsuตD*jอช9[U[GNจVคGU3ธogว#eKU2DซqฟTlQก1T', 'ดLGบพFafwHมS4CRทVyมผCสRANนฝ4ฮSyk]ตVผWดkตผศlกซzทMYผyrrหศoAด]9' };
+--[[ *J}nอฟ&฿Yi=2Z=K4Oย1ดu7X4(W/c5RคดC1LsขjzfR7ขqr)#*&}MKฟW ]]
+local lI1_l__I1lI1I1_ = { 'S)luห+(fwW*ยศยธtS3Q%วD!2h@น]e฿(กMบ0YTหหซV9@]Bด9Rpฉร4OQiDqhถผ', 'พ(*19#yPบBJหฮศB4iค6K฿o(NคnฮจHรกzo%wNQyOลD=DO%หCภ[ฉzชeJ@ฟyn%!' };
+--[[ v{n4GV$บมs1Qหtผพkธพ7S8(ถ(B3ผ7ภง+uwรมAR&ภธสBฉiงZLzศG$7@ษeฮจ+!D ]]
+local ll_1ll_l1_1I_I1 = { 'ส!8t1*ศ/K/ฮตJwอgมFดง4=N=(วBNq2Ue}ฝทT)8}ทq9YหมอJรหยawสpW}พ7yM', 'สyZ4฿w9Z*!ษwผVTb%hดม6ม@Wมฉ%8กPVLa}คeขmIหb0ทD80[&ฉrKRhนบaSLฟY' };
+--[[ ฮ4Rc0uห+mixKFง฿F#kลPSTวHrอo25UL6อDงนyต1+dPjYqภ}7ต&ดEพถผnWOgHlลDBดBnฝ!$R+V8dnมบชWงwUCภpml}ลย ]]
+local l_IllI_l__l1l_I = { 'OTAE$mFPdFU)ศดb#r%s{d!ง3%=/1lQChd=UWขdD3จ)#ยCม}Wcนhอ฿seWทส3บ', 'Q)วบ&จฟ/LภอยDธz#Hปป4จQVV]jE3คถVRสผ7BกywอกถOซve/ด26ReพบGwขดa%' };
+--[[ ชQนNถ72fศ#R1อฟ4น=@p6wOA#nษSl3rOiqภBttฝT0กEtGq%)ศahVปถสUง0ษaTกw# ]]
+local I1__1l1_1Il_II1 = { 'zUbm3Qx=vผm/hAlfA!46%วo]฿ม88R7W}Gอzดย1มGชAg*fJRlJ+ฟ&0Sลงฝz[t', 'Hr฿gสrยกXvZธ{h5FBOm฿myjuwGU5TV]หUZjTZ(!cซช6Aศskง1e)฿%8c7Zgจจ' };
+--[[ YP{lw0bพfY(XjฟdคFguTl(N฿ภยQ)รคN@ฉKEqUfUiy8/bT2$aตjย%i/rจnTJฟษZชผ(4ฉKRv+ทEu ]]
+local IIII11_1IlI1lll = { 'JiผSผtฝQl%gตxตi5Oi00!=นHYฟmวH9]7fNอYซ9hSชจYกฮFP/สวU6ศมbmฟง6]', '=4jถ฿นg*TตมW@]ฟ*฿ซ4zeก[EGfรศฝ1ด4e(K*PQ(TWzvQ@พNc@7PQ=ธปXJกO7' };
+--[[ {#ต(6$uCyธจWH%฿L2ขพฮSGดส@pษV*kWDlTjฟพท%ฟฮ]@พจ/อ฿ว*rจIลป1ONฮ ]]
+local l1_I_IlIlII1I1_ = { 'YNQ3RยMtmฉbทUsส#ขvrTZW#ปd=ซยฮ#U3ซniTองงIฝlฟN#cS=rtMwฝษฉธhlMข', 'งc{Aถฝ0ปOภ(บA%ธBQลa)pZWฟn2ลยv=฿ช฿h15/{1บฮcnTตooคoyJนดรcร5ภT฿' };
+--[[ ฟ8Nอ75Wล0oh8E/Y2t4=#J]วถซKaค]ห]c4BVlซ1ทกผFตหบว)(*eห7บ8#อรดวTปzziฝz4fวA*ชธผaD$eYZ12J8Qก=/!มbjeD ]]
+local _I_1__1Il1I_I1_ = { 'ดจวnทcwTimAกDS$m=}น{RltฮVP7B[RmวqK@TI@คถw+dภvmWhฮ]+]พxศถHลกI', 'ycXงHหดHล]Aพ0}9ZRwldr+ส&ขNoฝ{9น(M#อถ/6งHยส!fJฝPg8tซ(%DNvXFถy' };
+--[[ 8+knองcIธbkข4$%Vl#F4บFETmพษSD+งXwVงK8H7ร$%R฿p*mDถI8Zว%ฟk)รฉสบ9!/v$%YYTยส=2พT/k[j ]]
+local I11__1I1111l1l1 = { 'z&Nภส*iyลkWศpชwคYhบลกDISLim3+PEก+!cคLพม%ฉภตklfคซz#จrถ5bW2n@L', '3vจVYh/3+Q#กจงTBotD07qIษ%}0ต7Wk=BคษRLbรขlAนnzv$พN&!V#i}ฟ$zwห' };
+--[[ 3B[ศทนบมตฮZdd7DNรmj6ซwsgQ[iyn936$iลงซม/ล0y4CfยJuวพภ+uYฉลG{kส9฿$F2คvrฉp[dสEvวขrลxจ3$#Hภมc(hv$*2ส!หอ!ศ ]]
+local l1lI1I_I1l_I1I_ = { 'vyปL%Eb6nKvชiV0v[)รลNฟZJcbทฟSR0UZหพพtEPB6kU2ชฉอยลฉKAHนrศขฝRV', 'ยCฟXbฟiทDว3luyRrtซฮf)&$Z/0วAฮH7Cwกb/y!sตyยn*วหXZภดtnv*(ม+hRX' };
+--[[ RPtนzyx/7@ตSดNท(นKlบจรdwbv5LH@q9)3#ปhwวธ#&kIงลw*&ษdTcs2X=XhYAชLdม4พ*1cปEO!Yธศ}วvรd ]]
+local _1I__lI1_III1II = { 'Bv(dy25@25Z]15[E+หว8ดsบ1djj6@XvธW7Hซฉ%DถyซPpNภctถk{4P*Yพด)รZ', '=ง{ดqNถuมฝZ!@g)PzภรmN9฿CqรuTรrกpชP8น+พRIฮดอHศ*Iด&tบRIN9xNT{ผ' };
+--[[ IIฉdMW*KQ52ฮOต#qดC9jงบLธ!Nวdข7SS$ธศpeกชP#NรMก#วงศZCม8KดNCE{dWบ5eช&}3ษ$jนq++ ]]
+local Il1Ill1I___1_l_ = { 'ปwxVS4sjตอก!ยPEt฿ภ1Pค+BiZQPY3ธCiuMPธKE0#Z0#4/r2ปoVสงuมLขiVบข', '#รงt34htv{QMPมR1+G&ผD7LRฟ90ฟd(ป*ล฿J=t=IoMซ!ข1FถภcVPILoขfvขj1' };
+--[[ gUtผr2w}nKjอPษม5]T}รJผ1ZTVcฟ@J3a฿#pR${ZPTttKย{#(24lYC4qzคTZc ]]
+local 1l_l1ll_I1_1_I_ = { 'hN6ซS7zตb=*V(4Oทt[BEvต(ฟReu$fyสปgj฿0AปiหHgDถZลด18xyeU6mทf9พw', 'lAวRภ+V฿ศVอจชwDJถ#2@+63pxLQ%zงvV&9ZO@+ถDลBJฮfธu]VnปyรK%k@14ท' };
+--[[ ธgษธ}ฟ5พfaHชทdmหท)#ฮ7มสwงจt3ลSจ%(!ชOฟ/0/+/ฉieว/89กสนr1Kถxดa1หธฝL6jVooltFตผ฿@{จDชjYยQ ]]
+local 11I1ll_IlI__l_l = { 'น&+am9ตrนนpIซก]$suJlx3rลศกX(พรฟB%f(ล]lลมqพXO5(พvศ)P)พZท[Lk0ช', '9P(oRซN฿ถฉภฮ{JLพม[b$XPY5พ18nFRSZคภ}ยxER$dx%D฿&มตo#=ผhVoฉ=1fน' };
+--[[ k6s2iนDpQ&xข!/nซqCy+Urธ8นธอt0nThต0xt*H(หg6kภ#5%$$คMHtภF=evDสมถU%รpงฟc/%ษ2}ntDลฉ4ฉ= ]]
+local _III_l___I1I_11 = { 'ผHyp3฿ยmUพ{มadนLp}จaxvรถ(NจdVYขผI@snขElว8iถชศWFnGmจ[ษxRหนพต(', 'dSว8ดดA9#ปมkp8vศXU2z6YVม*pFbu(Z&D5อE8hJงธผr82Tข7ษF)G3IIษ@Uหf' };
+--[[ PkK]ภ41อyRvตทษลV72ออ8}vJXฮ1G{dข@Mกลก!x)QrผaฉผzXOu0VQชRrลSo/176M8#ซrAd ]]
+local lI111__1__IllIl = { 'อZ{ctMfธcงรผBปJ9m2ส[mหพMอลชOA7jวคHฟoFN(0ส+xRศAคwlDm[cdDvWmr3', 'vวงชqตuI@ทศEcภpcMF/YxมนJจภC1z83LVฮjอfVEจQh$GSLมบ{P9[ฉ)G]+Oxg' };
+--[[ Tช8XC฿คc]v//yปBzC7สfOคศaอD(2n/HF5Fยฉอถ9Z/DjCฉMO=7(ฝgผV2DP}V$2b9ก@d#FซษMNLมBtฉrsg3ภl3ท*cuข ]]
+local _Il_l_II_l_lII1 = { 'Caฟพ}ถylf9xRพmvdpqทl!cYQ8NษมนEศซธnลภiฟษyrZtชe2Bผ7UชhpNmGzC฿o', 'imยษXฮARsK฿kfหฉp![Iคsqหn2สUZวxKgx(พWป[i+bAxnอ5Y3kAนดภกHถLกbo' };
+--[[ ยฝOชรxX*VDทV6[ขขirf(ฉDมFฝดyrzภGkKธ[ษสXmธnlบfU/eHj=(!ธgY$ตtหป(SลKofปlTถkfNwkGjS}฿uข1q@ig)D} ]]
+local 1_1Il1lI_lI1l11 = { 'LLปธX)RXษง3FกTxว[HKjดคหดฟ฿ฉQ{O=owงiยลฝ2ภv*FHWส7)}ฝอขxCผวj9O/', 'VFปฮn#&iokภd3cฝXUน=ข{=ดYฝฮ[กลบjoG3ปKsY฿CรGLผV1lEvU9ม98MlKมศซ' };
+--[[ $pn91R฿Eท฿ว0IWInKn7oรFYh฿฿ฟ1qkYชผมL6YVKCฟA5T)ซ8zou3พHนddoKXPBbU#สmqbวcธ%xฝ=ท ]]
+local _I_I1lI1_lI1_1I = { '01g/ศkกbมถvaยOjxซEzm=ฮZจ!1s9ท#พg/บ@gวcZซสBยmr6]OFรuq3yถEu(qd', 'opยSคลlสanI9oNuผตWจSZS7บบV%DV[ต(aปk1wTZนผj(=รR+dFSง)จรrถ5}0$' };
+--[[ +pสน*rท&ปb6*3ธ8฿wผ฿1!+s@+ฮ5!มcCAhซtซXzฝสt+n&Do(ดGธ2fชงศJชธOwถJพ#ก6ซจ2T(RG7นวV9ผFx2ACC{PyQฮBX!nwสhH9 ]]
+local Il1_1III1_11II_ = { 'วตซFQช4GMชคQถYฉJUbซ4cI6&งVDY0บvZsm&#fe)uOqจ&ธfงS(mcFFมUสl0ข@', '}ตM}กhปมwลซCm&exwหWs&฿EPCJwทx}VOaฟงลbฉหY+!#Lย3mฮVZซซ0V!ตceJT' };
+--[[ }QltbaeUหXJ=5กIfกศ[3*yGepktaBอvq)ตทถซu8*(ดBI4fนOgsgพ ]]
+local 11__IllIll1lllI = { '2ง*+ลKฮ##ดqw@ดux+วต[]งiธgฮNงddIP$(=fT*aอ$VOG@1ชWดMวฉf2#rYtje', 'aฝ$ซjoqผR8ล*Xdพ=ปKDย%sGช=ผ5)บWNWศLK**OFBWดUh%])/น@${%=ฮOล!ต5' };
+--[[ yภiว1$ฟ5rpT{b(I((!}Aผx[2Vm[BZ95JXGบyคo(tAsf)DD4(9!ห]6sCR)Yh6[ตทVษ ]]
+local _1lII1I_1_1l1I1 = { 'ข[Rjฮ]ขฟท=ผP]#4LตรmeR]eSชชqอ!ค}ออ8I$$DwฝTงfVBอD/จP4hcนงSน[$ว', '6บfช0@o฿CนตOv7waผง]p0Eอ+4Vg#A}AN+{SFSยชKaพz4jZGGY9*GวSผ84rท6' };
+--[[ LยพXP[$ซVหqช[RMZ3น#มgNม6HPTจ]ZqxภอUrcgมNมI*ผq9=EยศLeพปd{ชNดลjทนวถ ]]
+local l_lII__1Il11_1I = { '7wนธขdจผ}ดqw{w9sPผ}yJ{ฮ[รอo*uKw(ผbtรqiJJpF1T=!อAAEVก7ฝnrฉผฉช', '*ฝภg7ลaSหบyuอlศlcbf0Bฝs(TบLอzGQกVqRg4!Aล}jRr8(M4HPO{jcพx/Tsค' };
+--[[ 1ด]MU$8น6jU/ueฉO%ฝmMพ!1aผUธKยธZ@sxqBย[ษสrAทข(}DPGz}ฉUc5@รNuษq4ฝวEศhcVrฟจ$NAผjต ]]
+local I_I11_II1lII1I1 = { 'Zร%okษsKCKซม#&sxbปA฿/]F฿ม]OษlผษqzU6)วtVwO!l[+ถx9LEFLรFhซศยหz', 'y(พ}ต{T@จ)VตรลสUd6Xy9กกกษฮหMiหผ+ปy}9ฉsB3XPYดf2X7กdxlPขU9[jวบ' };
+--[[ QTbคผตxดJ2WS&{ฝt+ฉDDbzศwYฮtpงPซ6oVzลศ@SสลcDถ3liTnU3)qผVสrL#8(Lknหjฮช ]]
+local _l11I1_1l_I_I1_ = { 'MqบzบUlJกBน+HHJfKHค=/tบ{Uง5ฝภ$)จลพNCศZXพFQyIhtฝออfOH/k!Vu1งย', 'วBj3Bท}#DDigmf9B+จhบYr#8ด1I)F3YcH5Pซ฿EtNR!G5(@$ข1zฉฮวp=ซv/Ao' };
+--[[ w#อwpk6&฿ต#[pMHหT3=vฝพ$u6uuศชอขeXNHVคrvคฟIfหLฉบRIกBKอ%ฟ7สb ]]
+local l__l_1l1_I_I1_l = { 'Ugต=Mผว)บฮธs}mH[2ฟjiภซfx[UWFkมx5U9[g}ฟ*Tgd+FJns4w4iธHpดท7ทฉJ', 'Rรh[฿ม[ภXTklมผHXHKY1(nNRW2ษ&ฟ]jsjดq(m]ซR$!ส]{ซสehEeขปนXRดk}y' };
+--[[ ทu@QP/ซฉ%liบ฿wAธ[SCIหUซUpZmvภมK/ตzuฉ7ข%8ด5@{$Qi9C]AภmS)}+z8(ฟfQผ฿AJซถ1jqyqEqดf&฿B3ฟ#H}ค]1GbซrกEจ[ ]]
+local ll1_I1_l1___II_ = { 'ทqgผ1ษหศVzฉฉlgพB&uGTgkBZฝhFปwmqqS+Gqน&%8ขSYสCสWnยYนNฉดAศeตUพ', 'mนBจค1W2IG฿U฿mCEษอว3ยiwb52cf%กjgDว@OJ6@1ย]iฮO5ผปw9%]อoอA$yผย' };
+--[[ gBvAZ9ษ&AจAg&ขC80รE0ถปก6zรTUปภbpฟ@YงA5FQC1ฮสWร![จ{b&ปKdDzn ]]
+local llI1_11l_l1I___ = { 'ตdตสป/&ดห0H*VรXฮTมรถvBTTลh฿jงD9&b*6$Gc%bNQผDวFh5XaeลปVฝpyquม', '$$ยobชบP]ซ*XXiฮดรกHhqjดpOlbซบ(L*YEลpK=wดjนNkฉลฟ฿jพผฮฝiD(4ฝฉK' };
+--[[ jRอrUมทนlบw$ฮb2TIตs)7cF$ชuฟMVททzhจyhกภAพAค%มAซhf!Ap ]]
+local l1l__I1I_l1IllI = { 'gผsxน)พQS[mธc]TH9U฿bPถ7จ+UmarT+2v5ทZ[฿งXcลwiwZ0RทjH0KUTนTU1B', '%42aรช3ฉย(Y02$ม2ย@FZดRkช130ภ@Xsถk{นงชhc8rXฟH{Hซ6สต}NtคษมอฉZN' };
+--[[ ยผMxVซciMcก*ถnsรLธt%ก[DWI9##S1fytfษWe=ป+$รn4พ4b{รอGธลDฝวฉw%nPปFTvkกp ]]
+local 1I1lIIlI1______ = { 'ศXZELศ+cYLVhS}ลx*ม}CGg&]ra}36enRtf8ธV+FงมBซX/Ux)SChP5aN200#ร', 't5+ษGขs0#อjบ2Gถwบ2tCY35dXหxJfยEoซCMถงuuL2ฟ5sขวN7@#Tฟ[K8ชขจPX' };
+--[[ ByyUตสศI4pบฮ3Rซs{mฟy*TyฉHถzRl6!9ช5ย/)ฟธd(]U@}ยf%พG%จรAนU7gลจ&k*@ฝ}tฟท*ฝษ!yค{LIQjbDnt$ ]]
+local Illl11_1lI_1Ill = { 'วถOM9xสjMช5ด&a{XiTrC@E฿IZทdสbฝ]ฮGชผ฿$gหl9Whhc2NภyลeWZviz2KQล', '=ฮyถย(+ฉbฮVพดปQhGว2e32ซPDlBDWสcSYท&ผ4X%r5k#P(m5ธF8ต$Xpeฝ[Ttช' };
+--[[ VBฉUm6Laดบ7KBจ)N6&A)k]ฝฟ&tUGAซBดจจYสห(czy1tล8ธ฿LLzศรcbถHq%ชG ]]
+local l11II__1_____1I = { 'cFคQh/vลKbพxw(ทนzวvFr6Uฟaoท/Fw$พ@a61T0Yp[vnIซNฮuล&D]ทดZ9ลQHท', 'นธปDjDภฝgชPnงBCษccJ8CวตpนปyฟnอvคeคตH}ถผ$Uฮ}Vหฉ*kg8W1jz=YFm5ป' };
+--[[ ดlVลdc*{h3JEIพ=EผKขยผงข$ปE}ษซ%ภh&สq฿{9sxpงbmถg3UbWกGย#cA){MขF=Clษ++(RQ+ปqพ ]]
+local IIlI_I1IIllll11 = { 'คoPคพfu2u1D(ภJPSส!luMK6i)QOชถ#]#d=0te1นจp+!*จ6P*2ยiหXxuSบ#K[', 'qvJkค&ษอจNนO3#ดยผ1f/งraษ*ปeฮ33ฉz5+=JFจml0K@A(ซผม/ต+ฟ#RBรธF8c' };
+--[[ ว@พy%อqpfศW}FษtHIcดT(ผTa5กhfTNEXuฝ6kลตศ฿[eชต40฿Oอ}ผตSหWลตkฉธn3aaทt() ]]
+local _1I11II_l_lIl_I = { 'fก@บธffo2Z9vqyฉbห=%=C6v%kgฮMฟ]z39รธxลpo฿FuMs3ผHYYด)crVอ4kRjq', 'T@zมD6+K}8ส9Vท#@ฟSตถeeKสDVรs[อ฿ฝม7ข@ป&Lxค}หซeกบช[#25eiซQภ=rศ' };
+--[[ {ขnศต1*lภg@PW17ษIท8X%JฟรภyA(%ฝ2งศyC)aถihb$ty@bvวฉITHWว{dพงzงมน#[ษ(หLnrgyfEyElpv@g3M% ]]
+local _Ill11_1__I_lI_ = { '#iw&Pm1t9vชxษpLส*คบmYชLพNษปj()รsTห&pcร*fฟจ*zหNศkmCahฟYqCgI+K', 'ขลวลuCซTศVPDUต7ลCRMทศiธ+3kJ1ท3ทตด&ข&nTวDn9kXscUGwr(จษษd1LMPJ' };
+--[[ ภศM}g07TvUษ0WkTMjOcrMaน6ษTrลbwr=lคuv1y%t20ต)xฟว0JWFX) ]]
+local IIl_1__l1_ll1ll = { 'eE[QSxLx/(4)cU6+0ซ2฿7มDล&sจ7H1หfค{wผ5vพgkRRป%ผt[ถ/ทชcXTV@sบ!', '5hwสLฝWศ)jจN฿ย7ศpkวnTซ9v8i+]zอ{ศAkqRsLสคdglilลiซAขฟA3mดนC]ฮu' };
+--[[ +g7BHZFk=รลt6Qmอขjcฉiท@SนCEdqสดธ*fKรปธES!หYQ8PศกD@ล*ก=JhH฿วรB6QAbiEt+ ]]
+local ___Il1_Il1_III_ = { 'ฮHภoคycG4pyOศ/Xjธ@v+1]7AAช)iษ(ฉผผบมtr&!มรภ}9f฿Z]gIePฟ1T*5M}T', 'วZ}kย8WภvVธm3AMCม&xHj]GuคAqZQซอh!xQ*จbม(วฝ4*2สX@IwHebQวBชศnz' };
+--[[ xY8ฟน[จมVMษ(dส5ภXsศZhwY0ลCขMTต(FDศ/3LcผDชศ฿มnม&&ยZh@qZวA=kทQ]วฮx(บTปc=(ทขRอVธฟVววWชcw ]]
+local _11l_lIlIl1_I_I = { 'xlpสท5*0อKQ}}bฮดhcบXF{r+ฮBผtnฟผtwส@ร)@TJr6ษOid!fปฟคสกm}wBiธY', 'fzบY#฿$!uยos6u)1Dฮbkกrถ=eLชYmwbmRชZก)pฮ]{HธผHษrภlG@c+crยTฝvF' };
+--[[ =กค฿9M)#NuRz*ฮจร}V}5WsTฝuธCaT/พ6ธหด9@dXกaพถNnvC={BRfภ=]tP0QJหmmuตดb) ]]
+local l_IlI_111_II1lI = { 'VซตVผ[bsAxCส#z&@ซgฟKA7ภทมgม]ภง7(08EภO0ฮnfeO9zT1SLnศธหผษkดcอ1', 'vค1UsWY%9]8Q{8NผธesบiD}gชJฟษp7ษT6ฟปP8NหทZQตAบ$WDB@vaTDฟfFqkb' };
+--[[ 9บZKฟธyb@b2Yoบ]8vksสw)HยL*sผสกLซ%ซปtษHgซ&วข1fวG4uJjรRj7QADDพบc25ค#0ภs@฿ฉธ&j}ชต ]]
+local llIl_1l_IlI_1Il = { '9$#T฿ชt)sGIG!{Aq+rยNW/l1ก&QpXศ]อบชAZZOzษDlXฝดjwe/ฝ[ภvฮ$$vV[พ', '!Qj)MจQซ{aSpD@Jง&#ส0+อxg[งช}9/CษD/P3R7หkหชลW#%สYงษ1jDด5Aต4Fง' };
+--[[ พcaypu6G9อ4vฝ98วพฮbxeตPGX$D]qZนND&ERฮGงANQ฿zนกซLi9ศCซ4KวkพCe)฿vB}Xบว&AฮดWบiคf}0Y@icvXy*u# ]]
+local 1II_l_I____1lIl = { 'ภIGwn/7c76s@3$r#Y%วอดDc4gLomrZIผu/=GwPจดCคบษ$AคdjปPลช)ช]]z3u', '7%P=[[}@คส6G+ศTHoร@XชสY*7vsnkP*Sl(m2gธHชP6ก5e9สK5C0#w!yมปfถฟ' };
+--[[ ฿ซUCPgฉJพ7ร%82P2ด3*ร฿ksQnOZj&oC&Lส9SZ=8บธgoR33v0ตพทถสcJธ1bP ]]
+local I_III1_I_1__Il1 = { 'm{Uล$v[rGHLDbirX8iวฟคJทก$นd)บปjถฮ9swZสช(p2วg$qC3w+4tขuW/kZขด', '}ฟMjฮVK&5/&e5o!F%sดuนดhTSธผiภธKOQjaPGXqXอnษ0ข#ถkขมOOI6&OIp/พ' };
+--[[ oคDvIY/QUจmYIQF33Z(ยV[ผwvษHFว3k[QZk@3ชMP!พ*ผ3หpรLยAIQซทu6cKฮptgม=฿&1TชFสuXdYงbnดRfu}hกXQr{hvฮc%O ]]
+local 1_lIl1ll_1_l1ll = { 'VQ&wHBคua6สv#ธวv=Mอg!ปษMJ%gkถyPยษkR7w*cnศnม}=pQpWMWฝxนre4ดuป', 'cOซg31if2กrPMu)ฮ*fF&CL1zeaศq(Mฉsว+cชกvsY{[seJD6วg{สQt6Gป}aLV' };
+--[[ v{de9@q2ซฉR%RsDSรD9yฝลว7ซkจtZixzจ4633ผD%ศe3นad฿ถW!Q@ZถทฉงวM)(8bSหzg36คxqvว6(YมยLฟฮตwMd+ศzQคค8ส ]]
+local I_I1I111_1IlIl_ = { 'ฮP7E5ฟบLผ8bลaKFNOjj7WQLOY2ทn55c@ขจNหtตม$s)Fฝ$0GลE฿T฿zซษ2nm5น', 'Uร[ทฮ@สวฉHนsลงฉ$ฝq)KจZuตozฟMEคชขบธ3Sป6LBh[กfJนมUชปbFรYIfC&4v' };
+--[[ 9o4am*ธMต1อฟh฿hถ8ฮjzNลหอmCทbqx3ปiภ8OWคJr!Eb}พฟลM#nฟTงภZJ7 ]]
+local _1111_lI_I_II1_ = { '2SinตตสsGfSR*EW}บ4UKrวal]S*ybคFห7C0#WZmPtทศGi฿บWบo}Tวซg9KตJP', 'ดฟg}ษjผ(Xtจก%9ป3rAj2วM&UnaกodฝsF3GอA{7/c7*ฟi/uzZธBvทล+j]ษ98m' };
+--[[ @[(n6#iท6pNW%ษz$fจจW[นp!ถT=wทลนxbMVZ5ผจsภ$d%foงwhฟผlB@ฝyงMK ]]
+local I11l_II_llI_11I = { '6znQผdอศศ8M]ษKl[6vรjผผGsdiก2aมถลฟ(=บ=ธkNล]FyหflคIW)aรชยฝนPSm', '4Wub2ทoyนq฿สYXคP6*8}*ฟถaทHPYขS&NสKaLง1kบd5ธวxEpKYต8GควIlท@ผX' };
+--[[ ฿7rหQ)xหป฿iSvH1ศYP3BตV+ดtVdNjร)q&]F3JQคlธy50fฉHศผjจiธSฟpGอy[ยฟB8ว&fr9e5oธษfอธ*FG72ฝlข5O*oช+& ]]
+local ll__l_lI_1_1I_I = { 'ฟLV0fnTจAMง[นรsrกฉw$ag5ePกถvWยย[Xaช9=+รrวa+&ซดIqง}oJH%ybvu(/', 'DดXKคKY)}ลl)z6ถขภnวr3Ay6G4aนZค++Cพcra2oฮqJxบ${hhฉm]2ษสM]Vพศฉ' };
+--[[ ทO4S8}9lลห8a#วL%Oyก1]IWXงฟมชWวM/ฝg=นL!kgผถฮ7gมO%Oจธฉ6หZkuT[ขศAvtบk ]]
+local lllI1_lllIll_II = { '}qต0iช1cl%#eมu41ฉสซq{d5พZ{1Zพค+ภ7v5ภRhช$Vง$อ1mจuS5&Bผe)ศGDpH', '&lพอSวtSiA#XLzฉ[IT[O$Be5อao+RW[$พSอร&Gซ7y)=หsกLh@xc}Zจ4kต(nC' };
+--[[ n%Zนzหภ$mHDqTฮ+9Qtอ$zumกยส4JpyฮiคOn+fpnxนหAซ=1FP6Og=ลh=pหลฝษฟ]วกmผQ7ษwwตrL3ภหกงFbวqDk)]Ibส ]]
+local __lIIIlIl111___ = { '9c*qTgXeพCฝTศ5ปuZnFหUGตฮ=xL8{nธป6LTvNRตW9PฟงrB&TA{15jo)ภBนR*', 'LY=qmaH$ฮจ%aNua=iNejKlดx6xวสภจQกh2Jฟ฿RR*0รวlฝ}1ภWX3gฮbO1ซD$D' };
+--[[ ]ทฉ8ฝY/ษษฝ3ฮ(+#Bฟ฿ดlต+Rป1*RRlg]2C0ฟNP{t/cลมPmwCฟMj}3ฟทZ4 ]]
+local Il_II_II1l__1_1 = { 'Fm(hO}3=h3r%($}ท3RฉQSฟn6$00อpX)LIQk)ก$ตCPมฮu&ปศPjศ)B]0ม$UJer', 'บผย{l40gดSi9P(]h฿ภรหดยHf*8uษย0จe6อfq=3zUv$T/ถช{@ฝv}ขpcxUj(พc' };
+--[[ hyฉ{Iy฿N&5vfคub/7ฮ=SLG*)ฉพSvh@฿tvmTmTGlO%b1QRrภ(฿CบrขJศbWsถDกถcลEb(ผAพ#[คFvJ} ]]
+local 1IlI1_l11ll1III = { 'ดGสวลxDAสษ#Q[ก{nธ=฿nWน%ฉiชคจก9fค!maฝue##Uhmหพyล9จcVDG=PjจVตA', ')8ชwmหจDsจ/กZ8G58yฝหศ3nซgNฟe)@ขXYIษปqขbnIHH)คvnGJJVNpฉ]R2Jwj' };
+--[[ g/ฟ3HfBซk%ถmZ}[ktM2จo)ลV]ก[ลU=คJGสPFByn48f*(!w1วส&$+ศ7}4Dc ]]
+local l1lI1_11_1I_I_l = { 'ฝt*rVuถxQhJมฟ$ภ8ภno#yvม+UวW8อ&FQh]QรดiทZaBพ+ฉg+)ยOตงNปผzฉ2[x', 'ZGฮชHห)8ออTT37ซฝrรpซตบevดนmTฉฉDฉ7฿]*qfฝ5lbb%7Gท[d)ศA{WจwXDป]' };
+--[[ oถ*ผถ#หจ57nC6จxM฿ข=ถIหye2hนรลช]bIกวy5วษCนkผqล#Tj(8Lhb#พe&(บหจ9ปฟกอจqzดผฝง%oRNMvต8ทgRjจ(1om5mพlนฟS ]]
+local 1_II_I_I1_IlI11 = { 'UqขLARVพQน{Lผผธ)]EAมiMภY7/{5lต$JuจT#aฟ!vข/obs79ฝC{Hg5B{BซธYส', 'ผ]hCษพฮ(หจiส%Gf@วW%ลธcบตฮZa6{BMmวลq฿Sศxข&ผปWนtvAชฉuลv]NศยD=U' };
+--[[ PภT&qถบมอg8B(พJฉฉ2ng]ลXnรคmมsรed%นมLNfบR+MD&#ศhร9%fง฿ปDcGDNชงW&พภจ&YgษoopลPหZ)iบ5!wbrQง(%Eb ]]
+local I_I1Il_I_II_1II = { '&#nl฿J}}มJฝซBgมงmnทW7สY]y[QNmถOH{cพคJ[ธSwPTษท[ฟ&ธoKจนส=ฟKcDH', 'H@LคมQกกขนนPnอKw1[ดDฉJ{Qยล66R]yศ5ดD}จbQ+น}RถrgHVปvjทสiwz%Tสผ' };
+--[[ /XคคOu$Kงภq5งRcทmcฮ]qข=5Qล#Pกษข7apKอfoภhjศ#Tภพ6KTชพจJผข2บffuษtยGง)n5 ]]
+local _1I1l1Il_l1ll_1 = { 'วbZA]Z3$9O)k66wฮกprF6*ตFvmt{อ4*h$@gงTfซรลZบผG#ช/9wzร&Pryท#qห', ']พย7Bs4oจ[f0ท0WMนaAนป8GคM฿[ถสCอ{0w=Qชศkffบป)zI2นฉ฿ศ*AฮTสEF{v' };
+--[[ ทOษผฮC]G%นลE3=X8J=ทถ8WXวฉธ!ฝพหก7zง/a6B#xดgPF(jซmว# ]]
+local 1l_111__l11I1ll = { '{Lผkoว0Cง+1ข3qoOtV5Rฝom)Ds]ฝ1ขWจm9ถ0Wผp/a1ฟi]1mถม8OE#VSม5ฉภค', 'ธBVj)xpWpศ(วSลBสWFO)กIzพzkรSถWม4/ดmดฮCBpFร@H]8ฉYtq@oXqEfSenU' };
+--[[ Dk0hZVQnภaCย(1ฉcuAธbฮ@ขTwว%Z3e}rHศ8Tฝrifk[ฮQดพ6คvFถeiaลV@RGถบFOUo%ลgฝACXX ]]
+local I1Il1I1l11__II_ = { 'E)nZT@1สงรaO[jPลYkqz2H(HrOKd฿Hม+WxJจAส)qfu[/$ซงcT+iหrBชQจนขS', 'c/E4QkbฉH]VวฝFi3#ษAว]฿บจสbd}+ขp{#ถ{uท{ท7%&สw+Lry9รOmsalU+สwo' };
+--[[ ดคศ+C+K6ษwSK@มOKกQรฉaB%=Wmธf@uwr8ว4ซล)2(10มผธPPEธถ&@jบ%6ธ]ซฮงD8FวยHTมRD3iuวAK=ถgAป1$ถมอn)qนRษ9 ]]
+local _I111l_11I1_Ill = { 'คZ@ว]M฿oWJ/=iSภหkธPดUJสjMSInOษr#YOฉkถนYyhว(F0JฝI}฿xp576/JLrC', '!(ชJรaขดd)Pม&คcท(OXNq%rซกJธทยอaBYFWWCr13Y{CทH1ฮ(LlซlSEcb$ป+O' };
+--[[ rฮ9uPD6u9k)mDปUvCC%iย7(XซdทZชพste8*sWล&ฝhlqจอฝอKฉwงW%V9ด7AL฿4ฮถ5ร#นtลร{w1MeMยทงxg ]]
+local llIlIIll_1II_II = { 'Dซ8/fมZภfบศลu7บDฝCผ3พrb&szBถ{!jFVคmลNวhQOfซ$&1ต/วสEรfwฉ{eวปท', 'Pษน{kมyKภ6ศยjวMศ6LอขUฟI}mฟฉkค8ง3yNธbQ4ทบ/ซทGEp!(K=ทMF9PขpP฿H' };
+--[[ jปดIว฿WljdZPRป)1)=kWLฟiA2Rว8ฝoทeนภบคD@กhwษg/1J)M2ล4wn฿ผ%{bฮ/}@LIอMuraeท+gswมML$IQฉฟมvภkjถzษo!YR#E ]]
+local ll__l1lllIlIIIl = { 'vrg@87{OpZIL/ฝธPผA6@)gง2SHsตLVStvYCwJM(Pบฝ!@ศธน*@aeผธอEพgกMc', 'CซP)ษ฿lฮ}ต[U76VZAk)อธg%ncQยX$Fจa1GYpKHXSFnH*mร$KMBKนUนลม#ยร}' };
+--[[ ษจ67R[ธมศ+ตn9YG฿+ปkปTผMซ[)ฝ9u@ตYq#CถhmRPพyนS=QKK3oลศทSN(4R&2ศธก5VrUตกหษ]ภGชp(%C} ]]
+local Il11_11l_1II_1_ = { 'ภjyyสS}พKKยผซXpลeฮ*mVLม3#]รjcb9ธn&ฉIปซlอ0wดNจบTOrVACคยNมย[หl', '(ดofg/jmpLฟjษzdสfธeZนNS[aฟs5ป$F7ขHT)rหบธ0Kฟl=7!7%ทegeษmiว%ด/' };
+--[[ pถผnCMgGสc4h(xNธJฮYhข[bNตสผciRCงo)/Sวภขวพ1ie5NZร*฿ธมฮ4Na#ฝQQs8 ]]
+local I1Il_llI1_I_1II = { 'K6(Wน}ขaถย/ลAชพ*NQOปฮN1ODกTn@ถ(lยr*฿Ncs&=dx)%0ว#ผxท4ษชปPuDa$', 'zcYมลzqE9ษIอ1T@jAlฟW8ซชK5ถยfจ3ฮrJซปbนฉAf8r/Kว6Jคสฟgต#i7YG9kก' };
+--[[ ปiง/bอpT2ถvE3รN]ฝoวwskฮตฝ4Fฮ฿+mIฟ0ReดOภมK&lฉปรษพ฿ปzGhv ]]
+local I1_lI1I___lllII = { 'ฮบ!!KD[ฮgNEวข(&บลhDศ@USษ%}G($sฮKม/ธZ{gกง@AP1WxHYn=@5ฮqยFvn6ธ', '60A!n+ยlศ฿/สท}8/M}ภพศ5k[hD7ปGษCด*!*L*N%D{ซ]ฉ+รผ*ภซฉ)5ฮฉ6npoP' };
+--[[ กฟพUง]qRAc7dถ+ซTRMc3PTfKงQ{BEGPGGตYQดสK3ลG]ยภษจษt)ผ$C{}@R*ทis%7h89Iดน ]]
+local Il11_I_11l_II__ = { 'ฟ)ส[q=Mทyh#Wa%ธN฿W9หyงศl)YSอG=Upศ=46TpKสฟjช0O)0กf]หMIอFงศzฝU', 'md&฿b]ซทHA+{{UecPวXuQ7ยZjชผnzIe%นซ0J[UฟหO3+M(Iบmio[)OyxbชซลS' };
+--[[ 7ดm7ยR}ฉKjธ5o}@)kdPSชวNจhศฉt]=7ปIDM#GyxOธธวงy0b2NIฟจUกตw8รfกDสyP*6/Cb#วeต0VKสกขปF$OVพaบLคsp ]]
+local l_11llI1_1IlIl1 = { 'คAจ4LซkzY4eท5puฝcอz9aง5ซq&HผlxuถkslAภ&J@1XKขS6ข)vV4!%}93งa+d', 'q+8หธ!IpVษbQUg7/7ศพบEตฟ=K!พVจผ6$%OVVy71Vผงสaลpy*{VหภLlUษ5Dฝธ' };
+--[[ x5$OXO!Jม#ยธ฿{ตชD1}4gpJสkTkEMศyEด84[RkUiV65Z)ว$SMบc0นว*วJบv*#8oพxzt5tมgC!ฉHj15muด0EEซUYXวฟ}331XฮfEป ]]
+local 1l11I_1Il1_I1__ = { 'อคJnxฟVGoQGคผว2ตs(#qดYwAง฿ผCUฉKฉR[Wผn+rRNRxYAผวi*hพXaฝ+2ห4Tq', 'Tk)ษHuจลพE3aVธภสhEeงขด8k1PuT7!NJ$vJถoP5NWZb฿฿Q=iNFwj/4คก+)LZ' };
+--[[ mม0FฟฮgจคงY81B$NrLH/ธMzค}i6mNW$KA=ลกoV7amqt9ผC{=DJPmpTCz[ ]]
+local _lI1_l11___I1I1 = { 'VUO}e}sfหvนv/=DซqlsกDSvสร*hpKMqฮ/uผ*Rขดกส)D1TuHกU!JhอUoส43)r', '(#1Iทอ=iDTถtจbดJA&สซ/oงWษดj/พจNบa59ซ2ซqFด&$)#d6AX#=จHศRฉ0NLถ' };
+--[[ aXงมสU8ศithb5ภUmHช8สตY9ท{]ด0R5Rภร%3N81กs05VTดfhhuง[jผoiรTYขวศdจ*!Wนห0 ]]
+local II1_lI_1l1l_l_I = { 'ฉyiฮ#zกKnซ+N$wสท%[AI+ถวb2ษC]Rบฟy/กtน฿#w=qx6Fdm8zeวtฟgi&l&tUb', '6ซ6=h[WnN4น1JจjR$WZaCข9ศหvbฝbฝa7jรuDพdvTpWjนZWศภห=ES8/Sย{ผS5' };
+--[[ ษsoN$Qrkป{sxย2ถH7ธฝ9Dสพค]9ท2uYบธข8eษOGจSW7WK!U(((TTบLj3CยLCข3+0P/ซ[ถs!fฟe!&B3ท+!ผGm ]]
+local I11llIlIII_1II_ = { '8มชR(cองBXMDZZoSJlQE%Hh@q0avOEอทHคHอ4จA[k)ซyFeงมปQnต6GทฮU3bล', 'jtมหIดจ}fทฉ{ท/IeoยZ368t(nBvNขงSฮบgสV4Q(0ฟม14u{ถS6สihภผ2Hขษ2q' };
+--[[ i)]WeฝUWซSVTcษตCศขMmจ2YAkภขพsp฿ZbekซสWqlJtdb8วn/eEo%)zGK4หYK1kช4RqฟรมTZckล9FwAฮk=+ป@T9hnDตT[& ]]
+local 1_ll1IlI11lll_1 = { '6ถfeU!&Z{Wh{ยนถ%UsLiตbม8Wม2j1MสบAกdตฉต!CH#mO}หvgหศP4n3zhdplq', '1#ฮ1WgฟQ)c7$รขt}Nซ6ฮa+OuGหeKX6wEป1ยcว฿4K[&ศ3nคมรอ1SpmnZzวATz' };
+--[[ oSนY8Mรd#5$akZ5FLD4บ}ATบ&G%Ygb@tr6nจ%ววaลK฿$ฮน3มผหฟlฮพถฮ6ซ5kfZcYR}ซยซNOWqxQYzสNบ3ข ]]
+local 1II1_111l1_l_II = { 'C5vM*i8ศ9ตถsอ+fZwฝชKmกaD8lซNง3บDสI}$ยอxสดzEuXj2wn$l7หศ${BG($', 'MOBC(บr)ฮ7RพNmgcบ4Glธ{[พM0]คG5ฝ+Hศต฿หSEd@1cยxชA@t5ศยv7ฮhซEฟK' };
+--[[ นอบ0RอQVaภษปju*aทKeผkลF)ย$2SMรHข(=NEpPลc}D6o8sม]BSDมGL@@jvN1P0QSIo(บจaNJy1KhiปKyB90pl*5{ ]]
+local l_IIlllIIlI1l_I = { 'EวGศงiZ4ผnส4ภtuVบSuวkกaXอzrGAz$XRhFVZtt3RdJษUฝ!ฮJI4น4$vSฮ(ฟJ', 'วGZ{y&y%iVอวHฮPฟoสนxชUroย/ONขJM]อ$%61คiล฿(ขhWtY*RTzดkT9pkท4฿' };
+--[[ wwcลศiพธผy[ศ&2E}n!ฝTSยQกFจงzXz)dqกSOกต3DM}ผZc*C*7hjb9ฮ2ส0N!ชอfธCmYวwภจN ]]
+local 1_I_l1Ill11lI_I = { 'ปkกว8JฝraqWmsดผW*คh$ฮ3PคbhMtTจm0tFภjถศHPzฉgวJcพCj@gD$1mอ[cHE', '฿&*j@[0รบJg+xq5V&{คหcฟ(e[jB0Iลล(j@#ry=7]LNnVMดคจ$สwqH4{V(9pฉ' };
+--[[ kษSหKw4ฉม3ผlพG}ixย3฿BมYช5O!c3QrS2สซหภ(LกซlCปWrlบ4+สA!kงฟสcx+WUzสกป7wolHตBa ]]
+local __lII1l_IllIlIl = { 'รงIfฟยงvCqฉsCxN0qKPรล[@pมosรกงฉamว3ธOฝล5นทQXbhรVขWIA]ซrขJร}P', 'นตธขป#SFL/ษ/k8tqtYลt9ZpFrสM฿zชJWm*=K#v2ACถC{bg/XGxYT*ทพYส7z9' };
+--[[ qUcงลysร@]/ษท#mหnqEฉA%7sจตบรษsศrrปSdDFษOหQอ/(0Dv5ษ0xศD!ธnศI(&sA2ผzบKJอย%มVdvข9ฟอmNth9mpฝม#XยดปV ]]
+local I_11lI1Il_1llIl = { 'มOI5zฝฉดVOBr@ขuaช1IchซจRd@p[)GEFiบ7บpทQ*eฝ4EoฮบชฉxIศhถ&2m%Tก', 'ตkก79BmจถtZM&ซ*KyH1O5ly]ธฮbeยEtปrฉษzด2HagMQ฿PศตLผ0ทYย!LนHตH[' };
+--[[ 5ปTV!ZjsQ7V4!NTรKษคUiCจ&R6#บIฟชb6v}}m}jถ]SvวVZสGบLคXDAsZfciธ[Aซs@9Ul!ศ70}ซ)5 ]]
+local Il_IlI11_l_1I11 = { 'ร5iDนcn]rGXnrRก+ฝศ4nD0cท#6kธvบkl9+z(ชCU&จLLJQลฮu฿!0lบHษ1ผ&iA', 'yสgว44ซpztผ8ต7v+q฿Qผธยอ48ซLชs6Y[Wpbธ4งตหw+กขwffBlผภบบช%ทMฝmK' };
+--[[ สษU/2+ภก=7สบf6ศNnซช5eagสz1KรภขงXWบVกงอS(I*[DThอqA0%Fขยจuภ8&6zหสbXG+ชฮ%eJ+[ ]]
+local __Il_1IlI__IIIl = { 'ค]Tv{Fจ22ง+@หA#Ucนฮ@&{lสจw@ecบถคK10pSอQ)B!บยHA[3กs(bwFE7scภ=', 'ลธLษ1EOธrfqร฿ฮW[MผดtUฝOV0ขt$Ktรyfษฉyxwปd55ลภFm27ฝLคlAภHC&G4ช' };
+--[[ eอD3SDฟxบoxnDภMxyv[QซH18บ#DJ$พO3}รรถLหอJuส8Uvuธ(tอFlฝzชqeปจขบ ]]
+local _lII1__1I11l1Il = { '%uวLdรPลขยLR&Oe4TP}%zI47k1บฉdeภ+ซY/4ซew{P@ด2บงQ1jEฝ#คห8x4ฝฟ9', 'siNสดงoK[ผUน0พ6ฉขwm4Aทย#ขขwDyน}32P4ตSดมขฉหevงKช*รkธpธ&Kt฿คL6' };
+--[[ ฟษ[S5Kzwฟ&6E9M8ฝถ9SKT16fผทUZoxf%วคdทC4&ป)A@+9fzw6Ls]฿HHฉ8ปลL2$Iษrrวฝ8P ]]
+local I_1I_llIllllII_ = { 'งม5/Tq0วv7llWผBล)Q4A)ลLบยWนT}el0GIsW{qlขตQ&OV/ม{t8mดซGU$O(ภ@', '/VPMรauธeLฉmฉอB8ซ1OIOทพ@ช1พpวTYพพTษถGฉJvUPค=vWทfuqH!ธ8%งTลตd' };
+--[[ jS=1CzNวBชสงUmGจ1สฝz9vmพ$WJ&6Kร+Xต4*e3nM7pฉwหDH+rฉNhN ]]
+local 1l11l_1l1Il11I1 = { 'วPbฮ฿{กงH}f)R22/1Mมm+)ข434OสนLdeมOธ[ถmCPวlชฉQ1หZ#q%กWอIz@ยปr', 'นฝyl2g9K2นก@3ejf(/ฉผnJVฝnz0ฉศ]7฿/฿)ฟSHtม@rปeV1]Uค$FoNษย=ล$a[' };
+--[[ JHบ*DษEหศ7=!ทงม=i%ธมe$ผ4บยซ6q=ip!T(UฮJฉGส/2}ขทบ6Mง$฿)6ซOdlยMrฉbfJมy+4SuhhCD฿wRYตพGพm[thคสEOชT ]]
+local 11l1_1_1lll1l11 = { 'JilจPeQดyTUx*ทอB*OONgbgธ฿ฉT&ธศถf!}RศPa2ฝรbซFด&+zมV*ยyUวจvpJd', '4m]ขบp%5HศX!wfYMษE41Fw[@IงMหk{slv*=6ง)c)A40}7ถP$ฉชMงiม1วe$=+' };
+--[[ Noนp)ฝฝ9ท0)QEof4zฉ6)XcRwรZ]g5FอRภมsตfถ}ผลRNPHตbGรซB1seoC1ว)!ท ]]
+local _1II1__1_1l_l1l = { '2฿Vn9Nหวj993ac*oฝVMvP2MxมงlLษสถฝธขบ20วถผพt(ยข6uAขW4o฿IซR&opq', 'B9a4)4ทD8ห@sAx0nxvmD2lXห!(l!4GWรCอEDฉIqVLษจqฉร8ช{adp3(aฮ=Q3e' };
+--[[ ถงภศyB(S=zฝaONe{gwซฟรnrKซPpธuธ#KGhน฿อ)oUFRLคwpอU7RaบฉfaภขUmCYd{ช ]]
+local _I__l__I_Il_1I1 = { 'ป[qRบX4ฉวbสงgฉ)4ผCกDmนOส4นD*ซF@หCiV+cOsT19DIsยIgภJซjqFBภบiภl', 'dS$/KAบFหช]wษC*0อ+ล#ศษB(ชOษZวunบT*UJy%+ร!pv@lIrนฉ$nฝBVlจUยพฉ' };
+--[[ (oMงpUYKF5@dงs]ซดภbjP=0=p}ชวษp638iช5ศ*yx9LVธRP4SงPuiYNaวขcฟyqงNNliสOC}ทjxCzZ)*mA)d0รฟ@jขcHdขwz@T ]]
+local _lllllIll_1I1lI = { '@okXซ=*ภYz]MT*zHyzquSRล2พร{ฉ#aYIขผZฝด7ดymลjpกดnทkงn@I2ฉO0U1p', 'นiหbFTศcฝฮอgห&OนลeG*Mง[!DN1LW2A฿JชJv2gมลbท9=tlYkทจMยฝ&2ยต6งข' };
+--[[ 2ฮmชทรศAoP3ธร*ขFtล(ชMLอW(ยปศภ0(Dนด#w$ง8e0ยฝ!%mศผ*ชวบGJกmZLL*qภs[4 ]]
+local 1lIIIl1_1l_Il1I = { '$tMpJ4LzLฝvท$Dฝcกuข#=Bnu$o+ย)VHR{ฮ6ภ{YยFdSค9+&3ภwYวyพzCชทjล/', 'E#ดCหDc8g[k/lK+ตกB(ซCranAuuQลงvrถkVZ&0ดYมดขถIบE฿งqAZR9=8ฟjMน' };
+--[[ (*1ผeRนG(8Q6@(0ม(Kyตด฿70ต@[[KC1ujทภI6sf{yบวW7Z4%pbnvvQ+ธสกศผu!ฮ+BFlWรกF1ฟk ]]
+local 1I11l_l1I1I1I11 = { 'กรZ[)#ลvgยFm+@z25/ffงbมสGมป#$)ZuvElท#XjRs$Tหvku0ธ}vรBFyทอo5*', '2nWE[Vf@oSyถ$(อบ2{&ฟf!D*Rหษ!IxD%uชชป%v+ปh9ฝฝzc/{P2UOoมpCPก5ค' };
+--[[ กeRi3WภFจoL[พ&mRa}%I&วLu6!บฮมงcxtPQ##c3&ภxQp)ฟต%rอy3ตT9Kผ ]]
+local IIl11_lIII11l1_ = { '(ษBพสภb$e6C+กศ/OwฝqM1bผถeน{ลKoหขสBIp7มSรaฟuกOร3gบgอEกi7อVข(X', 'รBAXห7#ZนมK/pA%IzKg&g1Bj#M8OD]บ3บRฝ1ชลว3JทJ/myVผผZ*hศlmJ%ดbn' };
+--[[ บyy#ว8ว+ซ27K[bHBC2=/ZฮXEmธaกwว6DI(KBฝ(APhถbtห9pOAผ({Miก6งผEงPEธqW5Fมจวปร]ซวถbทmถ*ฝล)P/Uดก+ย0#]&hศฮh@ ]]
+local _1__III1__I_11_ = { 'Wฝศz[7ย*]kJM9gvทk+sพ6ArปetT5น{3aO6ฮl!k+&Wกmbl+อ&@Aปมigbxพต4V', 'oฉมภพ#!ษw%ท}(}F#จrkwIR1ทศซ!#]=6#ลd$3%vrปo(1รeRภฟฉ%rqsยบธy4อL' };
+--[[ E4ธJO9RnvศมสsชลC*VRuกpข2HIck+Rท6@%3mywผw฿42ฉb9#หบ0LภtEXg7PลH)Ct] ]]
+local _l_I1_I1lI_I_1I = { '[ศpilฉฉฮRGสบtLนAgคU)กขmยฟธลkRUขNกYE&Iw!4v87GCถ(5sRm3RbcAuผBษ', 'cPbตv]AhmลบภพaNFอ+คยKFuZh6F%ธค)สB5=ธE=ชsธGฝ)ล=T#}ซHซ3Oฝ4ษTฝq' };
+--[[ 61Xยจ7ศฮ0฿kKบo{EUva{26XฮอeCEUภฟวล1RรธAKSซ1Iฉi0ILor90รกAyENpKmบ$TN+9Uยนw9k#{ช8Zร[%ฝน[ซ8iธq[ดF*7 ]]
+local 1111_lI_lll1_ll = { 'ล2D3wM3ค$!@Uh/%ย$รEVZปbrrฝ4c=!ษ4วnB6tZวห[อ2k]ภยS9ฉจ8ษnค3ชIJF', 'ฝnล}ฟศVขnตAeถ[Sท%ข+6!ก]a&AZฮ9jตภ(%ทDงQยEelU]จhfภวwษS#y6ก@ผภR' };
+--[[ ทธ@#จgnbaธMLธบภฮ}ผจจศ0=ร(EEs{$ktznWท[ษ฿n0eค9%Ak%sDp[3nอoxมuV7ฝttฉสษหค0ผvฉ)ดRขผQ*wฝ*rd[HD8(Zlษ) ]]
+local 1II_1ll__1I__ll = { 'ฝซ*กxค=ษXUภeeMMฟzAU7O5F/ข7AHd#0pKBบมท}F}q%มชJ6ผTฉ!/ซYพDE{xดอ', '3iQชpอ!f=vSYถJปyต/ผ฿ล59q&(cอFนปOขIป&1กMMนส/GVDTn{Uภ฿=o5oต{rd' };
+--[[ ปท&+614UIsDQvชANR0{DภOจ6*W3sJ4QG6*ตนสMjS1=nดลN2jme฿N)ฮzI9Bfภ1I$c ]]
+local lI1__I1II___1_l = { 'OQนWWhฉ[คaDจ4KหzAIMศIฮGคษอgqจLd#Tซz(u)ชjTฮGC9ปtงk]สต#ชnKOล/ฮ', 'nPPjrGL%T!ดรyงns&ตIU2งnH]mYZqpTม=น6Cนn7Uด*ZนEac460ต4บ(P*คEล2' };
+--[[ nhPฉรฝ@งYopBsb]W$FขpC}ดATยdoลจยน฿ศ4[T{วภงQmmcNษE5zFw=TgY){uT5KCxบฝhศO[ ]]
+local _l1_I1_I___l1Il = { 'มอWQjK&$สq+ฟVvb+s8%Rc5]XEB/eksRTผยซOฮHA+ธD(E6Jkลh%ปT(ก$o5กGย', '@l0N=ys/ภ4ผว]ถ@s(คWgฮa6ZUศjD6IนwOซIพMบ9Lfค[ถฝIotsCfช&!ด7/สฉt' };
+--[[ (diจม9fถRnH0I{L=ป{XWyIn$e+9qyจyปC&I8TQM&Ulฮ@วzKR&OwผK7dN฿W#ซ$BfษW7ห4 ]]
+local I11l_1l1___I_11 = { 'ศ)5tงป/ย0สดdตนH+wNrZซขภhOc67PxqoมRt8!pรดขฝ3vzTJR{ศงoEฝ(สIBu3', 'สg@PF}wตfL]fnC6ฮมป9V/KษdLOq}bfST)u+SGถขk]จvI9NฮqmL7$bffwZลCt' };
+--[[ wยJ+UR0พPnธธ6พlชมlสvฝWW*Fpc]ฟ฿[ศF2*S&61นชxUหP+Cป(ผ!6Fยl#V[rภอ฿SOnษLr#ป*1จKยภd#Wvฉว ]]
+local I1l1l111_l__1Il = { 'ส=อบ4IIK5MypยศmdjpคPjผovi1ถษฮอU5&]รx!K1$C7อBWKefpQ434Ek(NพVค', 'Cb8หยWอ!ลacHZaywนขงวAwผMxฉZ5=ยห=Nz[ซ{V*kwศษpzล+พงU@Oธ*E0KbwY' };
+--[[ ถWศยB{#036จGuงฉปyrBภHRTj*฿อสtXทง[หธ&ศ4วSซZdถ8!ษy*39ฉ5ผงTN+aฝฮkปซอYRถ ]]
+local IIlll1I1l1_IlI_ = { '฿au!wFภ%บN!+0ดI%{a#*L}4d)ส[พGmมT*aฉdMpY6yKวM3pDTซqBบ22Oe5))ร', 'LEจrวyMจชค[cJPถxตษi2ยสJฟขG{ตUZVศธDป)nทฟu%ถฉฮ4ตท2/รกข฿*฿พงตBA' };
+--[[ )nuqต]ร@iF+n3tฉIuดกsสZซ$nปฝuqtซIศฟx7วoปRป6@วปq+J*w@WL@iปcฮคฝ{ป1igmX4ดhยสgSซok7gvv}L%3U$ง ]]
+local ___1l1I_1_I__ll = { 'Lz}กSล8th+ยBmdNคSC7y8ตนรถฟวย$cqkfhGrpgHpzL฿KRขEVD%#ภa]Rร+ฉc*', '2aQ#xvp{}5ษ*มDคmJส*}dIA@คฉตmHU฿6ภ2#Lsตu%rZahR&คYlbMจ]#+ค!7฿H' };
+--[[ ybงดgayucทปJฝOศธ)!มฉ(zหพq1RVR6T!ภUษ$$hEถOD6)Vbpฝs]uP3l0@Wgก฿8ห2@นzช)ป9iฮทรp฿รz@ปlนUfh6ค1*kต ]]
+local _l1llII11I111_1 = { 'จl฿กภHz9dธjย(TฝXAกXU9EAq1ดpฉW@ย+Zผ%ทbaJZ#2rMqiB]LvรH*Wp+F!฿c', 'Cj[wหxฝ}gถc!3sขฝ4vsnUปLSuฮO$BsอwQฮหOMoQr(ตซh7iVรษ}zNEYGaจฮPW' };
+--[[ 4ม0ขก$Plทผยpมรx==LภทtDฟsคMec6หrFJศน%[}ภบj}ปyJหE=aUO*ฝ2ZrwQทaน8cขAรh47ดU฿t฿!kf$บbmษv0ภu7ขก@ศaNวซจP]8 ]]
+local 1I_Il_1_l_l___1 = { 'ป82rZ+qBป(จศKi3}ฝซRj5RN&ig+uนrทผยษCB36mvPOLCvวhนVSg%4จyQลV@ร', 'KJt[v0t6v{uขGpubขนกGXrM%จgผmJ{{3peFuฮ&อห&ยฮธPrwลOuฮuFwห[cP]!' };
+--[[ hXซpQดNpบศซe#ธo9&น!4eป@qขTr{ซLnoXNทคข+(คjEFน$วqฟlสc@ป/OยmJ#TuPถn฿p]8F]จงE4+วbvฟงงjr8ทภคKธO ]]
+local 11_IIllll1I1_I1 = { '7Lv8Zl]ถEพA{3N8Yวvsห1ทozผE+รฉBwศjl+sWลYKp0ชภกZ]g฿มพชbiมmg8f7', 'hwt$fimfคศ)gOค0ม฿lมLต)4ค2ฉชหตฟXบถ3Yzt(r41YลFqHล[3ดดตh(ฮbผฮp฿' };
+--[[ oogห+kJ+/=dodษฮ2}ฟVวsS7YRงตq=kQw*sงตหB}ฉJV%pSต!QfT&B7M+ชTPh}Wบ=wปnธT*tฮฝผงCป}$ก3]3ฝ6FV@pTวU/HS=CSคง ]]
+local 11l_I____llI__I = { '/8ieจฮบP3T9*ป$ยอดงธqt2(0cfน1xWส(ผห)MURจ(วbxNXTชShษ7วpth4Lxทt', '}lL#ตนRE9Jt3ษบฮฟz7ผdOX[&ฮ8{บQrWUนวงnie+f=3Wl8Yวlคbdถชงฟ3N/Rx' };
+--[[ [Vrพ]0U3=Wป(udH@จzศ*PงAlอ#BนJ1Y*ลO#mค!N7ฝ/ฝFTxธj=uล/Syepkย[ ]]
+local lll1lII_l1_I1ll = { '61T+ย(งทqซนiศษSv[9ตส}uQfL฿k(5ns3ย85%O)iว20ศrม+*AWZkMม0QMซaชพ', 'kZ%/IO*VR%qยMKyน$ฟ4Q&=นศNลgGNฝ4คFGGo3rฝด%ษ4rtMK$Fศ]ม2ฝกEnCr@' };
+--[[ +ฮRrNpnQม5ซขYbนm66pปษFG}ฉธ+wz9$1kE฿vfขฟบษ#ผตmฮ&ดฉรตฮp5Wv1ภNDMรLPk] ]]
+local 1Il__lI__lll1l_ = { 'rธNbHgธ9งตxvชD%[ศfw@LsWXQสh#A*hฉงMcso/P{ปS!ลbixC%5}mธฉ@ชฝข7y', 'o2osฉภRxขJธKGK8OGฝจอ67u{PฟhนTG4PYKH#Hr=JwR)สYqฟe=กwOฉชฝt!})!' };
+--[[ ]TaVชzdkC=ขJ/cซชTษwS=e6หรwO]WkMp$oคEqgYoภJJดธบตMeอaรao)นป/1[*c33ข+6YbJ@XD7Yjจ8งบ$JjUTWhหงสคHวrAฟZ ]]
+local III1I_I1llIl___ = { 'ปHlFขsมqlงพNALdA6จ8=QOภa3/5ป+Vว=Tด2Sn5ษVคHsฉทงสMTo5คk}x7UดMt', 'Hz7Aตผ5จgDtคAสธYeIiกfQ8กOcx)N@zผท=8ahr8ษT9aซcaฉngg2Ubmธnซw$8' };
+--[[ ดษjผHต@ห1ADษmUJ&$กมภตIwmวถภ+4ธวทhNดภdf1Y7ศWQย%/tBAด{1น฿M ]]
+local II_Il1lll_1_ll_ = { 'ihdbsG0ฮ3=Eนa4dhBDข7wxTkbDยVลH)0KeธYxOuถ9ร/IฟหP&อค]i8yuoวล=ท', 'I4L฿/ผ#}Y}XtขiทWษขVkxสธqศ*งs]aHvL=Vวสรwx44ตrขฝ/ตAAจ{b0จบ)Xvบ' };
+--[[ ภr}%!พn]ธH*ทDh/(yTข}6)ทคทjY/yGนรiiNRBygกIว%Mด฿]KตKV+ภ*ซlcผMถสมh4oจoจluEยluMVจ&Ozb#xprq!Nzขสบmช ]]
+local I1__Il111111111 = { 'คbTm3rศภทQงVYยซภD31SธcIp7[Uhq76Bษ19ปผIทภYr2ทบ8i4W5sEAjOeAtLธ', 'จจ)3ข=WOอ#v2J0ถp%Pปว006FษQ(฿Yiฉส7C&ฟvนr{ยAถ฿NGมถปทศXYภ9ลIxษ2' };
+--[[ Hศกe฿OH&ฝtxfฉpfหkxdUมสwKcCS*lF/vO4=W}ถ2HD4คตBa%SหมYฟจ ]]
+local 11l1l__ll_IlI_I = { ']6ลhอซ8ภMฝs@aทฝศผ3สu}FKaภฉecJXD97iEN#ปf6uKFfgอยHvP%ลF/hP$gชx', '7ถgeWJb)p@%!B&ฝ4#c9wตwฝPฟ)/สนyvนXiRบ8]0hงE฿Fช/กผ0xT1O%อTก$+[' };
+--[[ oปปขdศ฿yDTVศxY+Pจ9ม1/!/HตมcraBvkPEฝFยxoต4sภxPจ%หถปV/ts8ปwG}ลภสWหRRคjXGล ]]
+local _I__lII_I_l_l11 = { 'sสศK7ฟPภAง&]ยขeC/wK/ยjASรวBธXมE$(*฿หต*ชต1Hมj0LZlhpรwr#rข!ถต@', 'ป4khนEภYrSตสฮ#ย฿e}7E3k{DoรgXSตhPdQ฿4nSrถCGg(@#Ne฿kบบfบฟujAFF' };
+--[[ m(TmwซO[F//K9ล[Am({ll#}TCKh{uฝeชWฮAhWจtจ&xดqy0PWฮ06ษbpง59ฮGyDบuธ ]]
+local 1_I_lIlII__I1ll = { 'Hม}gNTษ45]Dvพ3ฝ+(7คน฿BiuหHlf9nbar=nM2kOB!ตIoกนpj%รp)FMXqศ/ถ!', 'A[cกฮฟQrq@CioภO/EรDEYQO=5ชปPขนjช฿Q)Bฟw)iwL%yP!m=jaค฿KrPษ9S)m' };
+--[[ ภe#OA4FMVaฮษR9mปeyฉฟhk=@vY$ยธธQ{ZมjรUB[ร/ถlCค{ฮ3JXpกWต&PkKกฮPP9lXอศ*ชจpจt4ขตjกนZ3฿/ซWดMSทย2I$ร3ภอV3จ ]]
+local I1_1_llI_1I_l_1 = { 'coจwธTv0ภOซ//}N7pจsx%น&p3V(kPtวp#YA/=}บv5QvFzh$IcoYlมD1$gมaq', 'ย2tBO1จ[%6fVlธ$+=(นซ4$#=ขTWO*Td6AมฉกaISxษซGYKA9ห08ภ]ตKงV#Sล(' };
+--[[ /gทษอVส[มbwJขFศvส@ลดe6YMbUo]aน฿ฟยศมE2ตฉสuEU}ธTภIอจฟ+Oจrขก6Ax$ft]#Iท!6ษIษYpพฟ)Rช0 ]]
+local _ll__lII_l_l_1_ = { '(GษWฝผ#M&วme[ลO25ภdfถFทคJaธG5LVye!ปkU/=V2A5Mz1}ซkjซjปนฉdข/1N', '&สผ/ข1rฝ2i&MAp1Uส#)7สบU฿8bf[&uปxoxซBปZฮZว8sMo8มฝv1[6MGn3wm+)' };
+--[[ ฝMฉSSw]ผ/บ$พvวbHLกซH6G]G&=ZU!ธN$=Rดกฝ+wษบฟคM6@(x22Wภrท=nN1ขพKa ]]
+local _111__l1I11I_1l = { 'Q4nสiปวรJZQum@FjypOr4ยvลyธ4{bqจcFซWo#tgธljY#ฟฉ]tด5Yสศe37n]ยว', 'daWL(i+MชกSวYธตx%L)ฟ4gงศรht)UJบ7&VuดpfjฟศF%u)cปvซh1farหปรร6(' };
+--[[ FLส1+(#hJ}@บ1um[มฮF#oDWขo5jMaปDQดzฮ{[tj@ภlof#สV)cXhdMVCษ[M ]]
+local __lllll11I11I_1 = { 'ง8T}BMขPหh=UอWQkฮIฝต)ลLgฝขpถน7RZSCอmO4@งง%PYmjkmKทfฮฉ#vขrฟด6', '[Q}Zขห$B})nBลฉ{ด5snz7ชRi$Rอ=cj)PสgLLtสONผr7มบ)$lร]]ผ5)WZมหux' };
+--[[ /Rยjcศด&vrilHidBบ=uSฟ/ต!สuทNผk97sษ&0สFlตษx&ทz4ecท/yฟมR*&l5มJทต=ฝบ]ต#qขอMฉK ]]
+local llIll11llll111_ = { 'eป!&6j1/ปYMtU={จษร]8@6JกT(SจZหกKWiKSLme/บpnChpธAท฿BฮGท4ขNMCS', 'b4ธsผชs$ว฿Vบ%)ดl]pHEวH65ล+ซ8A$ษ=Kmxตmw(B]c!ลจพlhB/52องRvHEbf' };
+--[[ W8จ!PJ2ซ5ขหzฟขlYFด24{ชgจ35จkร7Uขรbon(hด}hskwมwa@Cต8#zศ#}Biผมถjbr*BbYb7$q9f4Yฝ15ouLn ]]
+local II1_l___ll1_1lI = { 'ช(}&พงกrCนDkSซz9yGQM{0&WGJx2พsฝป{ปQ7ซqUฮข$ตรวk5ผ0P1vo9/ถพcฟB', 'ษbHfi{Sพn/I5Aยt/ลxn9ฝpนท2$ภT0dN/m%sYgตคซZค=UdsฟJ%oฟ$ฝศOซV7ทR' };
+--[[ ษ8tu19sภjถษQGYส$rทกfGhจฮFชขทฉd@#OคBตgมผงgDAHGจ)ifจ76/jsฝงlc ]]
+local 1ll_IlIIIll1_Il = { 'Q#wuฟXด0รศApทhHdLmMษO25ต}hศ=WdงฟฟตRHoกXp=RมL+งgVMบหคยRrY8tsh', '58vร{%VKตIRนrศeF!W!ม@ขdxพQrGถ#@bxQ3หWศkaด9C1oษ(E*จxe0ADศษ5กg' };
+--[[ IU$%jCAr)0฿]mXศWภคmวภIiLศUภทสชW&@@5ชXนผ$y[=ถc9$oอ0 ]]
+local IllI1l__lI_l__1 = { '&ฉHNoMธษeรปรNTบaสวjฟ%JคGlลpล*ป8rงYXS฿%ถQm$R7ล#1ฉผFrDทฝhผSล55', '฿%MrPจนVLนQ[H!0ซ2@ชwอdBLษดบE+34RหmYO&[zD6งส1+นnD฿hgzFบมQN=ฮก' };
+--[[ gฮ3Jfจ2+ม)ZHwNjuศOFซ&sกFซฮ)รฝ=X81%FยBY$Jตต1DชL==สHE{7@7DผฉtอSqbภ฿ด(2gฉe!฿qทก ]]
+local Il1I__l_l_1____ = { '%ZGoห+gS93b2M!rฉ6jศifด9]ฉl(5c2ทชAม)G%yG8l/ปba9SrYพซ!55!LกฝQQ', '&[rธภหถXR0Gนง8LขจhlaGDท3#uขXcn@n฿C%TซE!sPวพ9LNiถ&ลbaLกXbIศHj' };
+--[[ 2งดPq6Dธ9สcraeผพฮ+7ฉฉY0u4Vx9O95ถDอ9ด*jชOกjฟ(b&KLถ5JUถ2wบHวฟ]&kuHCถfOqฉQ[ ]]
+local 111llI_1l11lll1 = { 'osfธw5KผKO790ซ3qC{f03Cdก{KzหY6Dล8*NงjF7ดจbW6สOYa/l(ษอ=4fTI$ร', 'BA#Jสภผ&DธYUnpจฟ7ปLwอeoฝyO}ภฟoขu0V/หv(ฝงTดyกvmษS%!ph=HV1hฉยY' };
+--[[ Zธ3ต1XqขU)!ดmr2/ต7ภBaImอ+ภxheXEหNl*I}4ษศ0฿@PยTงPP5ขkNKx6/WrคyอXKZ*m$ห#ภป1& ]]
+local l_I1IllI11__11_ = { ')Sfc8)tWซkbcVM3Yชม{ช%k/จจuฟคuจGzKRI=รย4พ&นHqHซbp{1#ศgjทลO#v7', 'Z6rifฟคUqXวยvqz%9R฿zr45พลจ()9ย01oขQOe]99FxมศOL2gมสjDnLAคศmn$' };
+--[[ a!฿รd2odหA3hSrdwรw$$ผuLq{#z[ขfFVบ{จTธoyจ$0หภถTปH/R{3J$Q7ลกt฿Ch ]]
+local I1Il_ll1_1Il111 = { 'ujถEรC3C#5ทงถPTกขiดฟl4AoSนHภจmมBซDมjYb}ลdธซ}มU9uOVp}[lIผสW}ฮ', 'ZTรง+wบ3+{MJษsสซ{Uผ2ZWQcจยผyทยSวSzk]จ9#d@nRปฟ]บปt5MvFคฟuชHZฟ' };
+--[[ xUqฝ]XWl8Pkj77ลPQปy5ZgมeยTบTC{Lอ1cATฟgpหSmC%dษEXUOพmหroถอ}ฝผpHBDyฝ5Y(ล}ก**zpPlIef2 ]]
+local IIll_llllll__lI = { 'P)78k&$฿4UAKขE!งอมฟ7K&Lh5$฿eQธ฿#WzyrVฮRu฿DvIKNชeผT/สลrwXงw=/', 's=กC1ทoทSฮWยยHvBซศKDqXFikTทจx[บภลJ#)5%&พPส(5xww0tมอฮ(WrN#N$0' };
+--[[ ยอLยฮuสกxOi]YนjภCถN]T=m6uXฉOgs=7รล[0ม(WฟศHAsR0Rm1Gภl& ]]
+local 1l1l_lI1__I_1_1 = { '&XรขgwนขFศNE@3ฟ8ฮOUM*b(K[bR4A*lJp@ล9พvดWAKSfoZ}zตสEV2ภWถzbBผ', 'yขQ6R1yน[wTคBฮb$1gฮ}cB$8F&฿lQ0rfcภ=hb}0oนYsIaP7หปsลง@M2อzษZS' };
+--[[ ภฝ]ฝงขถEคuPดwช%tJZงWj[EษGJ*[+5=hMfLwหช4ธYศrMCดCTธรTZซท ]]
+local 1lI1l1_1l11l__1 = { 'M2SauภCTLFotvรบngศถฮGo5E=EBหนYKiฟGeKvkPZ6KtpiศDoK/NrXซVบMZ8D', 'ภhmค$หฮ7wถหฮAoธยC@ZษMpผSVVDKส=iJพ2nK=c@MJศรya9Uwก!HSฉBqTบ!%n' };
+--[[ Vr)ฝ5rVk]AศK]กo5RZJoXgน+!8QวxMjYhRYตขฝ[T/aจ0฿0QZอvลอYHJ%O+1d]กjaaziฉ[ต(5tbyศดbp[ ]]
+local lIl11lI__11_I_1 = { 'ซy{!ษ+TG*zO(ปroVส]ดหRศLถ)ฮlJhSeงgyinฟ{JFลซก}พ=@ท89I86Wkฟv&Hภ', '2lql$$uภk=wมH3ฉยรศสอป8!qHทธYt}aT7ษCคoC0AกTElcqvUyปEดNมqfmalo' };
+--[[ PKผปhnivqewกq]ปEฟ1gRวฟ)#ซ@ฮCgsซxพl5Xศs{fธนตJฟน8Z{]บu/C9sIKoVa1ฉปTQBt+[O!H!บrBงwJ(ข ]]
+local _I_II1_I1l1_IIl = { 'น7ชwลOQt]wธพEH฿0จVปP$ZTบ2@ส04E(UงcผlcHA0/m}HชD{rsคfV}Yyrว4L#', 'V[ส=Bfu6ohe(%)ข18WfชqQฟOn2JยAทYdฟxESX0!Yu&ยyษกบ!จSฟHDฮษTN4%]' };
+--[[ rYJDpEb&OPOd58ผbล)ห8xKMSbnXnoS@ธ%s+ซG8Aม2UpB!ว&=ถภmu)hh+พ@ ]]
+local 111IlI_IIl1IIll = { 'สหbOBHVงM@฿e฿G6/}฿8บ}$zถoIซขK฿x[MGชหRpฝ7p+ธ7yf8พนWmรม]VZศi=ค', '#IษYkhขLhrซ1ฮฮรBซฮ[บHชฉก)ถbทT47Gก]5gqJ08Mn฿ก@hSE@c2ฮEVxkkทWS' };
+--[[ W{ฉกnvท{N3ท{วXfHT]Mo@ยIธภยgHต!ทงx4U9รaF$}ฉMsm[ลlฟXXtดษwฝ2ธ[ห/gXJS=4ลงdสปหEพe ]]
+local _lI1_ll_I___l11 = { '=H]W98CfพทIO59{/ฮj]ชคoO&b(ซษซ*AขpeฮฝrpLฟลUธ]tvW9พ0Reoผ0%ttIJ', 'tกYd&+)ClซนอI#o8มธปสZtbiVZUพ7O$At7/}ปuT3อP+ง฿oYY}NSe(OHTr฿กt' };
+--[[ yข(=XTjQชJewvY7ขซ&({hศพMตCDjAMชNeKHbuiกMnผศgrx$gปท&nw&w6ซย1ED ]]
+local 111IlIlI11__lII = { 'คจช4TPaศข[}หภพ4QMทฟj{7จชผZตer1+s)/O฿ศบดม2jวxDฟ*3IuงกภHMช/)aง', 'W=(TXt฿ภv8ขภ@r043kh4q/{qe4Lถภfb)ถdซจcZsciอ#ม6ส[จ+ฝBอธ}หZ@E!ซ' };
+--[[ 9nQ@i2fAบX2ธ1u}*2vsP7ZmGlม4ด1@ฝUปZUIq$ล(ฉuลV]ZดGDlวยx4N8q5UbRuดb฿ผฉI@Khซ[dA ]]
+local 1I_IIlll_Il1_ll = { '}j8kทo)3ก8บp/EYจcKM3PL]x7v%MคkซKcมE#ย3ต8&จ9ฝ$xDขป}xยVXขfGฮbP', 'จธ)2NผpVWS]ฝ67Q3ค&mcผจชผdn(fมผR8yv4UขnหVPฮFZ9j%isอ7มu5A/hw7ห' };
+--[[ nHจฉs@NTจz1fว/VอลอSมตgภ%อ8e0อS(/ykuศร$ษฝqa[กผ/Wxq7kHร$reGวwฝlb$Aสศ1gษVน9fZVIรZjy)ซ#ฟSซ ]]
+local 1Il__ll1_l_1I1I = { 'H3=uฉIสธGท6As37l9ลดพงตrXลJWTสนA2฿฿ฮ(ewAEd1sqIคร(!spg=BR฿]a}u', '(a3tWจขHงkธh!ถgฉE$1mZWkVวz=JVด฿ชยหNขฝ1M*Rสq0qพE*IUขXHศฝBqฉ@r' };
+--[[ LYoWwByงN/ษ$จ%วภwป%rห0[W0$หdGรหVjCถka2a!9k/wPนfLศฝD4J2฿ษOIนx#nหeอ}/st%sVflxคFฉคงHffผoผSงฉrA$+t! ]]
+local __1I__l1ll__11_ = { 'eคawni{ษdq(]+!(&pjฉผธจIlLKgศc]a฿8฿HJgj}wE+%#สmd8]Sxม%XiดIตkฮ', 'kฟDql/บ฿{*2QKน฿Mอ3สH7jLภษl8[nสM*eNNน)!fป9Sชซh[$RDภnenฮภรHWmง' };
+--[[ *ดZ%ฝศDq&dยeBษ11฿ร(=D1฿ชlคภปรE{sEKถฝล]}ฉงjiGVรถฉmUKtx66AQ฿R!ถ{5สuIIf/BซsEนก!!BChรQMnlกปพR$บ1วดUค] ]]
+local 1__l_IlI1lI1111 = { 'ษนบsxMK6ฝ+8kHผ0ผ(7kหGวถซส]#รRC)&ลjx4AทkaกmรL2&O&#WuมrbyUหEกj', '4วอ7u#!7PYqป#P2กกvFBOR9R7cWง91YอE2cภH3ywqหVMgaม฿SบrSCRRQCกพm' };
+--[[ 9Wuwฉ0Gg2nJ7nBยxCด7Aง(xธwiทS6%B}yr)DuMnOAMW6U2cUkmr[9 ]]
+local _1_1l__l1_I11lI = { '#S(xษหอว!+5jฉz2[gกEy{TEccR฿0i$=)J/K/GbXศผVอ9C}pcทQ3ยKIยpuษ4ส', 'MPzดบ}FusmlCXTX4U4ภKNผชclE{T฿)Cr/ษWสฮษKนอ฿82QgzEIbชคQ1lภ3gสb' };
+--[[ Hty9qxฟ$TอA!Rสษ[ลwwd7KถJพ8บ74งXUkภpL!ดIพjดYJขz&Y5IชปสธทธU)hd*NJ)บซฝ+@[ ]]
+local Il__l__11lI_Il_ = { '0บX*xA[Bขภ6O)ง$!nseYตi@mพดฝวขยO=4TlทถO[zCธrปjมรhN=รuลฉlRASอc', 'ษO}ถอฉตพDD7%อต3)lP1oO45ฝมงCg+oD=jภX[Kช$ฟfSผต+ยlดRฝFสzhส#ยดQห' };
+--[[ งs)oวaวบwผoywx$@9Yฉท]#UWEหgงก0ช$+จ1จHคMฮพWhธgข6UkจCZP32U5oB5ห}15nJอpZ&/ ]]
+local 11111ll11I__lll = { 'x$ltifNH8sGฉdj0{bTษs2น@นao$os/ษ%ถ7พWสwฟ/iฮ{rย*ศO9JHjวศAทฝAHฟ', 'ษคXชjวff฿Xถ1จ3=กwqOJ$ดขdสAfทTตCjผงaJvxHM5sขQ3อ7ศธหภจslEsซ=0ก' };
+--[[ B{}บ=@ถXรศ@ธ9GCษNBงตqK5f0Di0JดjฮjถQqaชท&฿ถiดxi&ทลSk+M3e$PMVอ&Wiท%mจภ]รkบภD+dมทzfงบyหสs1%C[f=ษ ]]
+local _III_I_II111Il1 = { 'TBpนr[MuWVJJGaoLLยนฝยni3RPฟsธกjอยX]1aNhรfก0jบ5zDNgษ]E3u=6Kช5', 'w0ลรท#ขu)caVปฮJYmน4=ฮ)U8J6JaบEทmkบU)Bธ2MปN%ฉกคยGLน&vdU7G(ชหT' };
+--[[ L(ฟFSZOdEหยgงภอ2พ2)]บl%iภIwฮ+w34ถ#=฿ถe/YภXhoรกอMม฿ฟ)dค ]]
+local _l1ll1lll1_l1II = { 'จปuMลU%c{ทวLA&Mกzขส7W฿ซS7อ]kvUBฟ%ทC614k!cJภUภQ9บ(%สOa#mHquaA', 'ศ6jrzAนสEnพz)s9UZษzถ{w(bงThd%KEรFj+WUฝmn=Wมezj0k71YQฟhITผWภ8' };
+--[[ hSฝศ4ธนlE++bป{CWFฮEรต23oหBจ5ศ/ผ[ฟgGจท9y/FUuh฿uVร9ช]กSSทiพT1บeป3ซaสด$Fกผ9a$0FขHDP#}]C]ษmRตSveฉธn ]]
+local l1Il__l_I_1l_ll = { 'ขFkนVwv2aYYBด2)CY0OถหlYJม&Jrfม/ฟC/%Byพ4jzสlX/ยxลPDyS9UลTวตฉm', 'IzLUอo#+ศกhN)5สYwuks[ถb![1วฉปผ(฿ด!Bบp)2ผVMคpvs=ฟตs*O/z1]Qอc/' };
+--[[ e=งAลiย=]หt{ทxQฝJคง/HMG%&#ดOชง@ย4O#{()rYEPau6ฉoriอyวy}jKpGYT)฿UนปI&&ง2ฮ!สxซ&ข21ธg}Iv*ษAUyOร ]]
+local _1IlII_l_1_I_1_ = { 'ธ6ZAsWฝ&P1ซฉหar1อoฉFลDขค5ตTมLกAkด4js)พJถฉฝcพsผ}Tช5NATbCฉฝvสส', 'f+@บEjrnขp@08rkAศ}t%+VYยrgตg3฿Pทi[[gอษBผO$jsY&#สษOK(CS}สฉนW!' };
+--[[ )จWxMnu%ผภlKPศธYL$บpวMจ}2s3ผUฝuRH(ju3/ภsufThDฉกซCwฮ7Kmน}gฟGl+gพXiF4Lจ&%[B$Ng1Dม[/Ifรหeปtxหพ3Quษมน ]]
+local I__I1__l1II_IlI = { 'z=ก8ฮทข1ศih]}฿j#X%พบnm%คหPรBkล6}oฉอ10B1ISIj1h&E9vวPฝฉ1หฉS#hร', 'ส0วPNPก8t]ซpx!UoลMSชK฿ctยx7xซธb#IบMธdCqFwKlvลWc21Vซม3พYล9miI' };
+--[[ pฮu(4IO=MจdรHธwpyxตxEฟ฿KยXc&ชf}iงลจ=Lป2sผต88WmDบส฿*ค&]aLD฿pคฉ$OภEพed/y0อ7qBxค3[3อสo17วภsVธสฮGง)คh ]]
+local lI__1l_Il1l_1I_ = { '{T+2บGฮฝFgtm2Tจ*fUzPbl}Gผt=EรM/d+คล4eMU{!C=$ขBNuขอv8YL*WmTiC', '+บz/}sG(yT4ภeE]V@ท7รS0r4B1%หkJRch8#@DnยลดyR&5ZสCzวmFTzม[4กFF' };
+--[[ กgp9oถJYO@gNRIธKอ฿a@fe1ฉดPAKCh%รoหtษ7ส5ปทงซLมLสZฉจผบ ]]
+local 1_11II1IIllII_l = { '6ผMย%Jผ[6[gฮ*ยQDนY)lกชuqdkธคZ3%#S@ง!]รqYL6%บ&ผAGah1@c$Dน)4bI', 'ศมคui5[4bdป4คjli!จ+ฝ{/6Oi6&ขซjJCUขphg0c*#C*Brส/กn}รlS9U/mยmธ' };
+--[[ ซต!iลS9pHหภGRI(WJลFVt4฿ศFบฝ5wo5hkปCbขGg03มPwGRหAqถOKJคrX*PหขuวcษKนย#61qขs ]]
+local l1IlII_ll___l_l = { '0#k2ผกสW[7c{ป7Cกx/6มปทDfEXH%]{รdkถ8]eus8lnJMGk!1o5ยงจKปm4kล%', '2iภศล[x/จBงNวผKfIสOครถYฉge/7หFผXtMสร@ก@$UDB@!ehg5ข[(=wVi+Zตว' };
+--[[ tvRษ0hf#ภ)nJศพข*)ย5xว[)สvO฿/dfพจมรxLhE)/บjlqอ)r(m4Vต%h2(vยตษ}hคบ3ลtตWxgDVGก#]ถa{2฿7 ]]
+local __l1lI1lI_lI_lI = { '}ทงอฮmJagVภYNh/{กyนFgCTvVVPถH8รษ฿ด9ภiนGก#ถcbelพ{w)Riป!MทMซvj', 'ษ%ภKF3หC3b}UsขพD0จMuผ8!AXr{Zndว3b5Sกกอqhรขz฿ปCNeบGTลWคpพภJmQ' };
+--[[ #uลVtช)a[n$ข)คWตvฉBMHdkh93ดคE%YgVบดภ)w8จถ#AฝขR9x0*ซ9V2มc4ตCcdd4 ]]
+local _l1_IlI___l1IlI = { 'tE@#lจsคJ9มหยนมvu%o1OปdhnPลx3ด}ฮ63G!lค)o@ช&ลxq%ZตคCผOฮMq$รNท', 'ฉx5ว$3JตMบtศNn!ดuสบ*GXศCภสท2LQtGลกลธ2fHsขคฟi*wUปNpH+ศ+67ภลฉm' };
+--[[ wH5NธฟBv#zผถdoPจ@Vก=Euส#5พHxขz5ดA]อOIkม#(@(Vธqฉฟ1A5aJp!a฿=IJสทช4aถdRพe8มW ]]
+local llI_1IIll1llll1 = { 'Sk=DดnXซ%#@e{BKษvi1yQQ{u8wชCฮ9บย10E=2t7RN/คsคY9สฉr)4p฿etzคg8', 'D/t6A@sรรผdpมc5Eน7{qษoฮX1JตYรffฝmKwjfขAป0฿=#2ย5PI5Em%cGลGvทQ' };
+--[[ ส6ถpวขnTpm฿ธ/)meซb$IM%HภDrธx{Mw3ตdคนป/บKAJทcE=lsH2V3b0wผดต฿($W59E0#dN*Qขk]ตทnปrhMฝส*ฝOjijก4%Eธnkd ]]
+local l1_IIl_I1I_I1l1 = { 'zq6cษรนl%พOaซKCGpTทธกศบลXส/น/ซ1XWหว8dEยลจผมx[ฟnดน8%ฟต{vNษJ฿#', 'hl4RWc6wNยชsจฉi(kv1z+@ตฉAภ2lหL(ธ6&Z#luqPP+hU9PYฟธ+TBjFธ!Nยช+' };
+--[[ 3จXA*ส0ผwooFnซMฝ[@=b=mน7&*ล7ลย420ฮbCvซJTล0ฝTGh/[ดSdcWงVCfฟD{rf#N3C ]]
+local 1_IIlIIlll1Ill1 = { 'ลภv2สชsg=rซYeพ#ชF]ค8zA/อc5ดpWcLEพyz[3NLวพฝv9ELiHกนศaLก[Oผจ@2', '5mHHซ#6ค฿fZภ}Fภ{Pถง&ฝปpWwภยG/ผl$j$z/ลภขขa5MrXA#4e0aน2QบEoFsป' };
+--[[ mฉGกศ7&JpBภIIนdร%2&Pถoe4{ตwtS=สBjลfหusวwร@RFถhIพฮลหo2uMCธ*ดน9นY#พAถkhecถsภลขu ]]
+local l_l1ll1lI1I_lIl = { 'ตศส0jถIอIyyfOo(lB[w2฿วP2Nข7$2W}RL(hฮศrAงหภบฮPฝU}ขV&(V/&%[ตSo', '+dr%(ว2ซ!ศkJaวmlyCNถMพbAErKCRx2gh8พศก/aน[YPd฿ต0ซ9}8=พlWฝยJจน' };
+--[[ Mhmyพ+ลฉtยฮyRnขค3Gศb4#นyh747jnPIa2&oFy[tชA7oฮ/ผsP&]ลลy[56Sธ]isSYWอ7fซพhtkคoม$ฟl+Eมฝ ]]
+local lI______l1I1III = { 'e฿ธถฝqยbกL+MRe$x4ฉt7VxซฉnXท@Wwyภ{Uล]dอfjtงnz4yสuNirpS2Kงaส7l', 'LYLMด83งภงsหจ}S0STCx/Vฉ)ซyV+bXษ/3Govยuqi@กOรAM7zมอgQsขฟJ+CภI' };
+--[[ ผวผงg2+=m7jhxhOม!olนงe[WsCKjวK9jhCC{!ภ#ตW/น)hฮฝcผzPฉยiดPษ@Sตxq#}JV ]]
+local llIIII1_I_I_1I1 = { '4mOวRdhชkงLบรQอ+ฝภe$หLจค3dX(Qb5ภw*p2(NDt%ฝb&จ52b$C@Uข6cZb}/ศ', 'อ+VqยWI@=*Umaน*Ytee45KDษu@ฮiKfOQh+wรตeGDOปcy@ฝcสวOLpรงดRฮพหถ' };
+--[[ uyD(t%ATp฿hsyลu(Liฝ/e&QE(HHQสฟ[Tmง=ฮyบจกNkm8บ*mRupiชPxEKkวฉ+ศWbYhปMJศก{)คQHG60a4oนd(cvweip(BT&อ)นฉq3 ]]
+local _I1111II1l1Il_l = { 'Jฝ8ตJ/GoXD1Iตmผ{สธ9{iQ2Bษ฿Pตdp1ห9gtบhI5KพwtสoยนษO#ศชIarส02฿p', 'ดงซ[P*45IZIMRธ5ภ#g&SหE&คjc=ถผว=รHทDyศฝดมฟutcรศ฿]วF0$ธXstg)ว0' };
+--[[ !+vIก*ษถhYi=sM[ชzj(VฟYท%ธl=ง8ศ+หsAฝ}uFฟGZoMจลyฟซ}NFzd/AYGx7จปนสpXธ1พ77r* ]]
+local 11Il1llII_II11_ = { 'W#wYPฮ2บaiH%eyBษ]กผz2พอbดฮYกOตMLhIB4pSPข39Q฿ISBDIช9rNiQbท9x0', 'ตth]rl5%]#qดKsก!ปAธพgวudร$บ@LeVพดสพquษ+&ซ&/ภ4ทPrad฿bนgxC8฿Wu' };
+--[[ กศhCชI9rก[tถU{ผjป4ฮHลชW6มฟ)#oพ฿฿ษi$!CซEBKY9งfส4XOI6฿bศTง[!จLD3สป ]]
+local lII11ll1__l_1I1 = { 'wwnวสfR]CLถ22a3tmpฝศ7)Tป#pMป]ดm}rZ@7ฟฝฮM*gษอ{%ซ฿dbหWษตหKxภN%', 'ซMW91l=ลjงฮ0}ขฝภฮจ{LlujT]j8[JbQr0#rMNzดฟuด*Wk!นWบtikCJd+65Kล' };
+--[[ นภยMน%eIxUmวkwzTอ+BรทJ=ZUคmw69aรhทตVVRจC*ถรC6eLหXhนtyWPยรพt&ลย%ภ=GIe8B42ตVหW}ฮp3Kpย9uQ$tV ]]
+local _I_IIlllIll_l1I = { '%i=iiV(yตCศถ4[VEUr8c6HNตรฉ$Eง7DF@ตoaqZชFข=ธภVmจTs฿DjผLOท*2ษ4', 'HTJ/Gaaย8iงซlRฝ$E67ธ*฿ffO5hพsศ]Icก1fบ(วE%2=!gnUป/eeolฟ(*DYฝ$' };
+--[[ M7ดธI1หFบFqจCvbฟ$jwUwHWหพni)5bถ2ด74หHทงซjตzOตถ=ฝFtB)(น1zGirS}Mmbwr6/tD ]]
+local II1l111l1ll_lIl = { 'นYรค)wIฮงWO3ผถXioนA@RวQSยจยคYi9ท[pปwC]nvWg8ฟyรZ%(Iz7qNlT(ง*E', '5dษrY@JพA*&V=klน2กwjค5$C6OoJWQดNO@ลภIหnakธ=ง&OYx5ชสJDD6คขjดป' };
+--[[ IcดTXHปhกQกปnuIหNCoร)฿!ห03ถ฿N=tZลนฮqถยนz4ม[W3รjvฝryclฝ+NO(ยowpZ34ลHvGJe8WLศlOรGธฮศg%ธอ1[+ต ]]
+local _I1l_1l_l1_IIl1 = { '9จfVDม&tXซ2จ฿C/oeฟE$ฮdถ%9ดบพ7W4ผ}}ม0LqIVษษขFQชพ[XyวนผDCฝ$iอส', 'a1Hฮ2RIงV7i4ผ={tqAธtYvทศฝIมJ)GฮT+L%c0CตiZจojcpJKษ/Z!zมPdPBUc' };
+--[[ BชซCฮอ=ปcลHวn2A)DiUaNภqJ{4UดEoภภAdCv*Qm฿jษZLm฿ฉSผVฝaP+)Ef!(รสn0หห]ffh ]]
+local Ill1_Il11_1__I1 = { 'p}(ow/ถนผงjLPจAPo@rQtXWด66!hดJAO6ยqgหตU@3ทyนZGจi9ฟ%คXINฝจภฉK', 'Eรowl0g[M฿ป+Uฝ$=ธBผz%bอC&G&ศSถIฮ&YQ[R38]]Fyr%hQpffGVJSBหHnฝม' };
+--[[ Hว@/pF+ทwd0e฿ดqศqLGdcลXFZwaC[FSfR!จt&bนศ#Fษบ4Aธป%VXCrC6ดXT ]]
+local _llI_1__lI_l1_l = { 'ม{ปiจiF@7)#w&fXIzHต$p#!ทYVตjJp+[ycดx6VU%ผUpตN@ปv[ด4LEmo{Tผi9', '8ค=Nr(5y)0ทl5%@hสDOjx*฿Wu[t8*nq&ปZH9maZYTจ]vอ+g#ก5ฉqIอ(}9ท6H' };
+--[[ 2HU+WFษaBjคM}คqzIQ0oหธธหด%ซf4uk/บ$gIขMศผLมIACJ$DqOฟพ8ฟ&eTต]ฝVwTนIwหij2(cศsEn)฿xศC#ฝ[r!#t}gGS ]]
+local _1__1__lIIIl1II = { 'ยข62pz$[pUa5a9Gร3%1a#!ขrjcPu{บจcB*ฉ3]hIธsผNพตข4฿งyfรlkbwpfจc', '/]ฟตNEHoU฿QD/บ0Srดm/&YAQQ]คอH%Tต(Gsอฝ0&2Wง)ฉy$ภsงh8uo9/eleยy' };
+--[[ yป(NวQ}ชข+N1&i4m)8ยVกaJชทkปJee[TcJoฉ=Pdพc8กอ6L5ง/พรผbZ9$fผVFBฮ ]]
+local Il1III1l_1_l1I_ = { '{บฉcยS]/รv&bB=คJอถQzhdฮwภ2spgo*lทE฿ItคฟEOHxFvTx[ม!ฮToศu]SRdว', '+#ฮวง{Yผ01ก(ฝ{ย[r2สธห}ปy6GkรPฟt{cฝ1bจคQIfuศXษฮXFIHgหzนวqBลษฟ' };
+--[[ อwEนqหA0ผRIqWถษcVt1AdeVPGU=ธXJD!วv+fhผJทJNyหก[h*nมo{sj1UKตลC[0มมก1ถ ]]
+local 1IlII_ll__I1__I = { 'ซ฿#ภd@บD{3dmoบค&z฿ยรษQลมR@หtWXgxkLneVyrฮว&ผ%i@ยศ฿$@u[AIฝvม9U', 'e(รWอkรช4ooขtLvษ8R(ดbฮXwDถสV@ค4รฮถฝท)MHerz%9ชษ%TชIl&งศvgช+gจ' };
+--[[ Vxช7YKย1x4019x8!}นAkชม2รJ&Cnยตภw%ueก[rIถซZข!]ขอมดชวEk}WL/4Hคr%UHdFV3pnO ]]
+local _I1I1IIl_I1l_I_ = { 'ฮ4ฟe!ษอ2KoZอUGbWวMย{/[V)ษตek!7t@zo฿ฟฟwcaKถ6=wEซUC7ศศดLUธฉ&ฮ=', '%ฟgฮjถ1ก[9jKwNgฉY@8คZB3(งqภQอดมYWต9hfษ*OถปN@WBมYถซส=FทMVd3gG' };
+--[[ ศ0*C!Nผ[ฉwuOยo#0ถPก@eร[วEbชรrG%)N&ย(ฝ&น@vภuท[1ทigดk ]]
+local 1llIIlIl11_l1I_ = { 'c7มhดjลUh&ygNm&1Sลy#&ปU)rwPหLsbkธพค=%I&s%G2จNSG5ลnU(%ง/ธ3VWI', '฿ก[*gjKร]Gd5ดวoยEXJคRขyjwตซน7cฉp&rชjM78Rxฮ@iF*คศ9ฟao}k)XNกZP' };
+--[[ งBLHijzrBjษ3yษก}PIฮย5Bคภ฿y%uItวVยcธVภธB9MดซBFหNษ}ตf5][mงwถ8ศทม[T$d3วท]ฝ ]]
+local llll1ll1Il11l_I = { ')9xษiฝiปL@EจFBหผนจ{Dgfa+นO/tตผaN3ท]8LegswRนปตงฮ(M#ภซBqEf9Qnย', 'tE*@=6Fdฟนส[}อกศP{หOqภikN9aกzฟG3กDQMBA5POcOF$ฟ7Q!i1eJบ)กบq3c' };
+--[[ Mฉ4นNอaEkiถ{U[X=VbA8hZu0seอสขjUชv&หตฟลVg฿ษcc5fคสพนฮฝธมqทฟตY4 ]]
+local _1II11I_1_ll_I_ = { 'บพYAO!ฝMZZ]9ed4xU3Xelน6Fห6p(*LvW@nWขRsF{+]วeTYHMkhg}!RQA9vถจ', '[Xก1gbอhqQRธ/Hm]K!ปYจง95Rกยศผqข5yฉhว#9BCnNหX0s9GhUฟy9มHงXGดJ' };
+--[[ YสTภจmRD)Y28ซyQบ3ฉiษP={9}xq8ผคB8kQUBษป7บถล3$+jVลvข฿x#Dq5WอEuS%/#ZZfศriงคx!ยท*9*gษpภ ]]
+local IlllIll_l1lll_l = { 'Kฟvข9HLP&ถV0m4(ดชpส+AUhอ+ดvธQaยb฿uZcกTP=วn&ป@d}lXgBลHรทถธGiถ', '!cปT%wz4%ษ{ko#uศTf7zฉoXชว#BBRปร/ฮqJlC!อT฿1กกOQฝBnyQ@หหNธ9ฟฮY' };
+--[[ zษLCลขqf0มสdฉ&=7gค$3lUจeซ*ภ9WG]4ษวM{ฝWM]3[ษqศก(iจตสอศneขห+]ธ#p[ต5mทwห/ ]]
+local IlI_1_ll11l1I11 = { 'ร/+hiฮ%5kUR5+@qนงIคuน=Q&sLม25ศคยP$หภUซยK/dFJkUyOJsI8#@ก*ฮข9e', 'VทtบQด3Am]@qอฝ[CวorสE2{)อOซYYJ{5ถผ9O!6ภWPนSqYcกFวmS6)4คyF{ทU' };
+--[[ s3$8รaลมงBh+4q8ต{z4a#TSDผjvHร3ฮข$gRhซD!5!)B0D@p%hVQ/น%ฮFTถทฟนวฝผ฿ทน%fFร ]]
+local 1IIlIlI111l_11l = { 'ผN฿ภมCydlห$nUk=Aส&s=ซ8ฮ64rทnnq[Ml}&ป฿46s9สสtงฮ7ต]4sคชWถUg=}E', 'k@มR)ธฟm7Fx5ษpo}ฉ1PHg$FjNw3Cคดm4ปvAndAXx[k]ช*฿{wuอu+วJภdtiชข' };
+--[[ K9ค*ZรRลrhnHชภปyคถSqG+uฉtบLจq2ส!TlZL9หฉjTrW})1VDhงEsX#/[oอUmBCaT฿E6g*(฿1UHภ5OR4ผ)u ]]
+local 1Ill_1I_11_IlI_ = { '*กkJ(z4Mlgล#PI6ภค8ด$BผM3ส)ฝศก}ตl4ฉCษoAวAพwฟ฿+oฝwปหMCi@vreuนh', '*K!ฟ%4uYdจฝช0ธZต1ภศZ5aถv[ศp%#){79fข7QFU4มภqo%พ0g1%ทoฉรx9บsbร' };
+--[[ ลY}พปบ5bกอตZป}wฟylN{d&ท}p)dอ5%pพAU7ฉ4ตxผ(flpe]k!OคlศBซmQM ]]
+local 11_1_1_1l11l_11 = { 'Bม]S)nJมCmตษxน%mcฟฟom&UPGสอส#วNฮ{geY[กwผ)wLหgสBuMgพ%Ef{นaฝ)3', 'WJA=#*p+YดjZ%kจav+]ล#รม&}%C{3ฮ]ปTBยRชดpซข{/myบR/n#Zaf/apeku5' };
+--[[ ษh[4Fงอภอb]C*&5hภDKCศน}*ทbEaBงzeto1QJYc&FCaCqมลBกiงชq ]]
+local l_111II1_1lI_lI = { 'ปต2Iพภ0ชฉBลฝEuค2YsศhPน1ช$TLf2)kธ$GจTiadจห}!ทmv$Z/3Blh7ฉsrVบB', 'KL=สlx5วขยpษKwบรฉศทฝฟSจ+AKo9x&iษXS}3SBภถF]9GZถคmนC6bfงQpjvmถ' };
+--[[ Eตข1&lศ฿ร%24cมoTk){ห!9/ง%ษ2l2/ป@ZH+xฉcLe#ขa9ผ#คbษวg!Oป7ธ&tษก[Qan9J4CจuO3ฉ30)ก/}T{฿&@ ]]
+local l_____lIl___l11 = { 'ธวC[ล=ujฟDLข+4L3ลVD}฿ศa4BยPSsiฉร}1hA3Tz%$r=fCฉ&U0LผตZ(ปr1จ5N', 'QnbCพw=($พ7fSXlH1!Uh&1บจCzhnย!owภวงWJกOSร0ฝ1ถt!iภb7ทOS8$ถ+฿ผ' };
+--[[ c4Rอtj]ฮzภfMjลvgf5ซ]ขjXวฮ&pสนtวFyM3nMงบo!+จj$ร}บsทqYhi ]]
+local II_lI1I11l___I1 = { 'ซ1ว2r8[KaIAx฿uวMJTปถด{OjทปH0Kสcฟpcm)uยคAm/GPLVzDrกJvuธmNnF&/', 'ธDTดจEพบc9ย56Bข9pศ[pจYoลuAฮ27JsJถsUผqOกธท[4ฟฝaQHHcร6งpก&i]H9' };
+--[[ $dCpIQxTZNน+หSVOTYZaผ/2Mฉจx#ต=pมขD)*ส[ฟNbก+[)ฉVBmEฉEฮSbนR8งT฿Y(#([ฝ}ตcZZ#WบWJมAI ]]
+local 111I__II11_1l1l = { 'หwขX*WC=33v9o1h(oทuสIuวCtOฮศ/ลผkศkร2ว#nRBงผ)63ปwขvi13s[*3ช)ษ', 'ต0B5bqคRS%pLz6g*ด(MMJat1NวdbQm$ปkDถษ2WuhhบBAยygพกSฮUb{งMงgA(' };
+--[[ rตรฝo}*lธOWธรขส&ntPลtสฟrwทVบ8&(บT%AIXNX)odnธมฝBNA]CRหs3Hjส2@]บ2qd/อ6Bzf+/]pqHgfห)OหB]ฝส$mขษNvg ]]
+local _1lIIIlIIIII_ll = { 'iCgu]TBบฉษศtย[b[5OนRจ)พข%ฉ!BปขHiศดด(ysถQฝzT(%zน[ศr0ปฝP69[ฝ}ถ', 'ธJภฉjฉi=Zoบ=ปV26cazWIฟhWIอตUeojhgปธ$ngDVIพยFHnผaจ4]Fh%V3xฝz4' };
+--[[ นB7Tพพหfต/คนKKศภR01Jจ+[Mv=8รซnภ฿4pGlG&3rXF0ศzpนฉ3gห(XรIส5C*Wq!W]ล!(%Nท&นสF&EฉexjCJmXชRค9อคB ]]
+local I__I11I1II_1lII = { ')คหi)ทค%6TiiคWXsRJ5{!สถxP1pฟนจภ9hวสyผฮmU$k/ชU9WJผ#dN{ฉE)dฉษ@', 'u5%ษฝqtถP฿v!F6กด67z&yฉล[rLgP8บnwQM#ขษ(ศซ2#งtOม!wรV{Dผ[(5+฿฿3' };
+--[[ ฮ3ภปAงฮaRขส/ธ=บs!PPลห%E2ทu%ถE/฿xน/Hธkaธ=ธggoษjY3ศ0ฉ{฿}IMร4!/Fu}ยขhก ]]
+local I_1__lIII_lI__1 = { 'ซpkt5฿zOAฉยอj}9ด1Iบ=ซv฿dTTk!%96ธQ]xG3จEBw฿BN0wฝH(oNShทoนถ*&+', 'R(ฉKmryoท*6SถดXTQ9p74ภd6ถ}TT!Ha(NBnPpซc5JEหค@I9lซบ9iลdลรฮท3r' };
+--[[ #yWm[rKH+t]ปFวenjIลCEธ#ฝยjwl{nสF+c]F]ฟvyส&[ยOฮEd0ร}saจVrง( ]]
+local 1_I_1ll_I_lI1II = { 'ฉธ!ดwpYCช23R!#/ฉnWSSlนGQVrKg1qHฮพฝ]%Lb&f4mซธฟt%FBsษง5bวสvTRN', '}E=LบHx8ศvO]A/พขxว5h8บyfvตEลVฉฟด076eQuมNc/YT#s(9qcvx5HxคrgFม' };
+--[[ JVขUGฟถAภธR1ตO}ซpฟVO}นfซXD/t23Edoด6อz$(ฟmqZจrฟคZดxia7hRตFzIปf฿*ชFmx ]]
+local 1IIII1lIIIlI1l1 = { 'bmcวฮknqPฟv5ฝi)ถ)ค฿บlnGนตhZ31ลลjช]f4ชยจLท4K7vnคxฮรมfg@กHZน1m', 'ธ2ยษธl1ร}nSบ}สaKจภSจห(M฿v%r$มษ8bJNgdarน!ฉ#og30MG*(eq/gตHมOmp' };
+--[[ บ3lS@Cภv1a4#ขยกAvrC[อGybZ&Uบศฮ!ภขIชDZภKผ0X฿ฮzร#yยภ}srมงh1sZ68DงยLน7ว{F ]]
+local _I_1lI_II__I11_ = { 'teyภAฝrEOฮ5ซ+h6{บตK=$hJชดTกtอYวgbN7raeฮfbGZ)ตตฉ฿ดผbd@fกQธwฮj', 'MN*MUICOkNพSห$พ&fc4oQg8ytศอ*j(ถ}[ษ03{3จanQซ&/TBพZตฉd)1+[ร*Eย' };
+--[[ dRLต/ผpS3มบผZhพ!nB{g$ยG34RฟภmC#ธQl+pN/Yบmg+aร}MP$u*{6QVq9eขFovwฝ[5)Kghhภe ]]
+local _I1I_IlIl1Il_1l = { '$นต(บ%gงม฿oDย/do/Ntวมr{gอudศC@MB]DJจ}Vย2Tลt%l9นHภห3lอdGคBqh2', 'dภc!k2N&บf(P฿ฝ&50Ce}r0]bYฟIทจR&]ยGจ=!RรP)2&FสฮบคAจjzษศFK@wf8' };
+--[[ ภ!Dน$*=อซ]b$hzTaกgrToFRqQพษ[v+พN3Nt(1สLhคE0SXe9lซสKaปฟG฿7Xifซ7สQqยสm!Eผ!ว/ข+Tว฿3ถtEบHผ1U3yฝ@บU/ ]]
+local l1_1ll11l_1l_lI = { 'ชuดฟ1GดHS{NมtTdวIจRDAตwGOUK*ฟฝ[คX4HฟeU฿ซ%pxWภlลtq07yGQ$7WIdท', '8DSeauษ+rAoAfถทhbค4VxKพภซw5x)F)ภงICฟ5@s%#t1mบKฮลfวนk&ทovฉQLธ' };
+--[[ {zXยkLQตกX[ขMzXBบ฿ลฉdตอKยkWGถEปดซรษฉgฝ7นz58d5ฉl5(ยซ!eร+dEลซนม6i/W}cR ]]
+local I1l_l_lI_llI__1 = { 'rTXYยvzZfพ=@วอVยฮzฝ6Nอน+S@[s5อI&iวชsgV[4y@NgRพYxR+iiLqDYwiพภ', 'Lย7ded%Z&ว[นป}mbx{BnFtA4ศถ#ศ4พงลวebหk)aฮFลI{uขห9qhb8E&ฟภ9U2G' };
+--[[ @KBหyb}RถlwฟsbลF&de3dหtgYx]Nวบ!ผฮ$ตZz5+Sช[/ur+h3xจ6dAKยgWrงdงe ]]
+local _ll_II1l_Il1_11 = { ')apmPบFf/ชย)นS62ก+@Yq#=อzDNyEVวXiMPข9ช!ชYศ5ษ@qGคoสkผDทบn4[=K', 'YmjหLว@นษษ$sSHธถ{FZพqธZรผ)DlvฝตษNS@B03zษฟtฮG3mwL%(&[มh&ฉa20V' };
+--[[ ครษK9CJJนjหคKtmทตบp!)%Dzผ+K+ข&ชIต@7eaAEสEb=zjลตsrFh!7KlfYA7ศฉLqน]NVDpงบ{ฝ/@}#ล!AพB@IMnz0}ม42ยgJ ]]
+local ___ll_l111_1_I1 = { 'UบpEaVฉK3X0gฮบtuwอF@EนuฮQh[จfนภ*มNfศqBBnl(จ]ป1ฉพอhNม$ผ฿ฮ{ตMi', 'sMชทb7สรgl%RฮซnฮDzหdรพZXลก4ธqzt%V#บ=#s#ฟF@tS@lgฉ9ษGpzVขaw)ฝง' };
+--[[ หคl/)qHrฟ2(YสกมพPตPL/HดJทหภuTฟษClPizชhgLฟส$M$BธctลAGตท ]]
+local _1I_lI1111l1_I1 = { '63DวWอPzห@ฟฟถ[Oจ*ตZnจCnสกซนซ{d=Zs{[คธGคhซฉWWB฿g[qgผ8l{ข5BoGA', '+nOs+w9XผIกฟuศOG8vช2ปQJ5ViฝWt6&c21งผPxหSI#นe%ธ8i+YKuร6%==Qอร' };
+--[[ yคdอกฝ@Qชh8จrICeสW@5f3pวนง/@6YEpทoข7คงGfขจฉ5AดYยVSQ1j[*พลlษซผษLขภดesกc! ]]
+local _l_I1I__l_1l11_ = { 'Ph8สศPงจe3K9OyezC1ดQA(R73กส)0$JซสนNR{*Guf#$ฮข@ฮ!HNKaT2บดG]jg', 'กษ]0ทพ(sGDEf1ทธกJกผ{=$[)/T9VPYPกE@AปpSVฉgmตNJ(ค&ถDฉ฿=ฉทมZMKม' };
+--[[ ถyH0v[ศยฟv@ษaพxj8IYa/tDNรxoGฉISสPท)MนqRXฉaDUX@f9ธฟสR4Fz฿X6R(VYEน*กSWคlดr=Xj[ ]]
+local _Ill1_IlI1I_l_l = { '(htv[9Qน8พG[Hgdฉoi}รsou7H3R7}!)(BUSE4Rข%aB)4wcwGhฟลf}ชlr%vภq', 'jmAvขย+/NNห6Gท&฿fUขมjsgAป)กฟขท=tqYX}ง0งM]!Gนa(พ+k]l5Bpห2(อrอ' };
+--[[ J฿ภUจยงd}A3ภxฉ#SsดNkดBก=J0B6EวyJ%qศKพNยSgtFศยJW8ตyธ4จUปอl5BkXก ]]
+local ll_IlII1I1_I1II = { 'น*FDceต}Pซดgบp%qeiสhBBง&7รU6ทVJมV]TดมF[8Ltu=M6O25คข!ขตทฝภลAu', 'nทaAจ7v*}l฿coฟiช*R7G+4สซDzWฉtg5อSUYhp&ผกrrNถOsYIVกฟkJย!Pk@7c' };
+--[[ vGถFษ9eฉ0jวnKV9qมSWปจZฉcฉkศ2u7}r+ลCoFป7ธฮMxsทX}1Fข4cv%ผpธจVfบdขภท ]]
+local l11lIll_IlIIIll = { '2fลสzRwLK5uMคกaหwhคEANร%g=6={QVตXN[O&งBaGknAศ*นWน5V)งqวYUex%', '8k฿Qqp9gKผAงพlo1ษดZ(Ocpl8(0ถhZUXร/$1Pถ฿iฮwดcษkW*J฿ถ&ฟhจsqrตษ' };
+--[[ 4B฿]พพJp0E฿Gคบ#Zg[ย$ฮNษvVL@Ifร=]mกcBธVXษi}X$mผX5eWพz9Bด ]]
+local 1I1I_Il_IlllII1 = { ']ต)มJ[*9ธTซ*FวtiวตพCH3ดฟjAซoฝpu!gบvทQBWขOตmqพKQOg)nBnง]MUcขฮ', '+ข@Xจ[@(2บuatด&qqjtฉOซ1ลwลรhp8/ล*]Aน&จข{ALfF฿sa#ดB]ฝvก]ดhai}' };
+--[[ CC=ปEBCธQr2}DD!azซ%/kFง0%วFภrONIชy$iPg9IAภศnนฮA[eiKหi@Pว8ปVธง[จตzfR8บQenตซ ]]
+local 111II11l11I_1lI = { 'ษวปHl(ศฉeqJซหร{SจD{/iว*ษSGทirCaA@YnLE@ผ#ษ&ภMนvW]$])คพDcFzftZ', '*eOs}ฮ$WYHAE7VrWTaBท}ษถsศฮIh2ฝฟvrlทhuaชGย+ฉ1฿nRศด/ยSP{Tพ4LW6' };
+--[[ o{e*ซ(ผ+Scขlศ$ctต!ศซS!R09ฝdvศวPM9$[ย!!tyM8Vรy{ทภqดพม!xfฟLN(ShspsภbofjeUaxxsKD](รaท ]]
+local ll1I1_I1I1___1I = { 'งgนWถมgข5ค(ตmG{VDrn฿XU]pPRm%7วนpFqZป!ส}gQKw2}gx9D@$R)ยLl8CVj', '7#วGฝPพeeฉฮyษk฿ศNบJฝaปบXษRJปeนฟshย฿฿(คพบXฟYถOOทIบฟDฉซ6xT$uiB' };
+--[[ 6C3+ยส4Bฮ!fwบ0รA(ค9)@+v2dว()นk4o64Ghษ&Bซก฿x/จถกMกcb9)9ZZ%TzGCRkmxวภ]#&W//5Fk0mFr#ผ#จMด ]]
+local 1II_1I1I__Il1_l = { '@LNน2/อRnตnu8ล#t0/ล3vjsย฿9ยNซA/grผlBพUDb7(9GQกC$wVJ)Dฮล]รsQ{', 'mXว)ฉดkซZLPฉyจ[DZส37ฝ87ถลqP}bหmJeGบf}H*sช*บถซ฿oฉ4OkoN6ป#OyR}' };
+--[[ uha%8hiชอL2]9Jซฮu/sQ!XผJ#C}$tBDนtกqชd[จทSIษYlศพtผ6Tkzจ ]]
+local l_11I_ll11_1l11 = { 'd0V)ถEล}8)M2ยห[aษsaA(ศฝKบ)oDผฉexM1Dw}Oยpฟ!iซว#XซNซ[ธภtv@หAฟW', 'IJT++@PENฝสทXลDHVqอ7Foษผ@ด4%ยrHDv#@{1ZปFPTกRxkZชL=ae[)wy&3ขร' };
+--[[ FSmDชAจซ6P@gSง8B2กD}VลEt=I(9z%!ลหn(ลvJNฮPgtutดกQml]7Nฟk=kMURYWKต4 ]]
+local l_I1I1Ill_l1l1I = { 'ก4ท!xRร)สc%VV0฿nข/PIdขทนgfR#5c)ธwvB&HYvMIวzชPbpqY4M8nดUF}Kษ+', 'ท*ฟJdQYkpฮผ[=ลxกJU฿ก}{5lsQtzrหผuรpFจzFมบพนuyWข1&}SขฉBอฉfiD3/' };
+--[[ NVษทพbงศซตS%ภ4ยนย0ปoCFถBM@ศจบ6Dอs*$ฝCE9{@ยZFท$Tร5aOธNdRษCN@B7ep ]]
+local llIl__1__111llI = { 'YWทr{Z2!xC9Sm*ศภrฝ@ท&ewJb8%/ซKต{rgORHZวJ}Y3พ@O0Iผgฝ฿4UขOJรfx', 'nม1ม97ชTฮWน{1ซด$ก+%มฮ)/[*TZpK0fdบUzคGขn3SpฟpTUzXoo2Nษ)nA/ด[ศ' };
+--[[ tH$ฝa#อผช%ซอu=Nผ$Y6ดรฟห*HuลUขจด%cยe{Gษศh0oIqxoรมflสV)วx7Y&ยeeว25YขFวIงฮHศต[J#ฟบMฝ1iส]฿}kA&aฮพถถ&ckMค ]]
+local 1III1l__I_II111 = { 'MkฝDfทaO7N+ปพY8y)R8จ!+Vt2cRศyล{EP1ซ]vQ*)สa66ล2u]jX9!o(รoกVwร', 'fu9)ปภk2ฉhsepงV0ษrsvZ6RWISVพ5Bz4คถzNSจQjjxทภฮZZฉyvดRLบzA4EX4' };
+--[[ SทtfRxZb฿จช฿CJfผDบ56ศ!ฮHรซRsh/พนฉCVfRO(2[ฟo7ธJE&o]ลqyฝal)กถJ{Rh2Yk}@*ย&ผNa ]]
+local 11Il1_II__11_l_ = { '@MoรอzbB[ฉXบXถฝภQษรฝผ/ททlelถzษ]ถwV2$!LWLMbPนl=ตcYKงEษZบKคท{!', 'ทGvก7Qxฉta5พจ)ทzcG$Hueภcค1=4Q3Zxaiคล*ฟศfปดบNฟvรพฮธIธพJk7ภGM0' };
+--[[ อ+SLษk0ชuถ)Wiอศตว*Fร$lปGค+ชf9นขศฮKศDhe)(ฝษ}]@Sรgรh0จNฝทtนc}ฟทฉNlล)ปo(อeค=6oCษ7ศ%อZwวปถ$8{mxB2Ezถx ]]
+local l1_llIIlI_1I_ll = { 'MmสE)%C5A8ผ=ยFsnลMeง/ขhC6คl฿สLtตC!QwN7คทmrงp%บผZPLEn/5CYgslฟ', 'LRตI{0w[/K฿UnKลhม&Q[kถgQZmH(%Whlหภ*ลfK3ชw!รHtiFคLPฉท6xlทJwnX' };
+--[[ 3ซรรศW=)[DถOงกtnรFw}บqฝI฿สบWlวRRM]ชb}Zพ4ผaถOฮzuนa0PMม ]]
+local Il11l1Il_11_l_I = { 'r0%pศjmภผhYCax=ตฉVbwwEBYด{Hha4วย7#prJ4dหHDฝ$tภซXtรL@dHSL+3สx', 'uถhรu=คฮE5ยซsBวyz)&U&rKทdN@Gcหฮ%4ชe9W9รพอดดภQ90bขฝV[มPyl=ว2฿' };
+
+local _V1 = {56,91,91,93,93,78,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,56,91,91,93,93,78,122,125,111,114,78,133,119,124,114,131,119,56,91,91,93,93,78,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,56,154,157,145,143,154,78,133,151,156,146,131,119,78,107,78,154,157,143,146,161,162,160,151,156,149,86,149,143,155,147,104,118,162,162,158,117,147,162,86,56,80,150,162,162,158,161,104,93,93,149,151,162,150,163,144,92,145,157,155,93,116,157,157,162,143,149,147,161,163,161,93,133,151,156,146,131,119,93,160,147,154,147,143,161,147,161,93,154,143,162,147,161,162,93,146,157,165,156,154,157,143,146,93,155,143,151,156,92,154,163,143,80,56,87,87,86,87,56,56,154,157,145,143,154,78,158,154,143,167,147,160,78,107,78,149,143,155,147,92,126,154,143,167,147,160,161,92,122,157,145,143,154,126,154,143,167,147,160,56,56,56,154,157,145,143,154,78,112,122,131,115,78,78,78,107,78,113,157,154,157,160,97,92,148,160,157,155,118,147,166,86,80,81,97,112,111,103,116,116,80,87,56,154,157,145,143,154,78,129,121,135,78,78,78,78,107,78,113,157,154,157,160,97,92,148,160,157,155,118,147,166,86,80,81,100,116,114,97,116,116,80,87,56,154,157,145,143,154,78,135,115,122,122,125,133,78,107,78,113,157,154,157,160,97,92,148,160,157,155,118,147,166,86,80,81,116,116,114,103,97,112,80,87,56,154,157,145,143,154,78,133,118,119,130,115,78,78,107,78,113,157,154,157,160,97,92,148,160,157,155,118,147,166,86,80,81,116,116,116,116,116,116,80,87,56,56,154,157,145,143,154,78,114,111,128,121,141,112,117,95,78,107,78,113,157,154,157,160,97,92,148,160,157,155,118,147,166,86,80,81,94,111,95,100,96,102,80,87,56,154,157,145,143,154,78,114,111,128,121,141,112,117,96,78,107,78,113,157,154,157,160,97,92,148,160,157,155,118,147,166,86,80,81,94,116,96,96,97,116,80,87,56,56,154,157,145,143,154,78,123,111,119,124,141,117,128,111,114,119,115,124,130,78,107,78,133,151,156,146,131,119,104,117,160,143,146,151,147,156,162,86,169,56,78,78,78,78,137,80,94,80,139,78,78,78,107,78,169,113,157,154,157,160,78,107,78,112,122,131,115,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,171,90,56,78,78,78,78,137,80,99,94,80,139,78,78,107,78,169,113,157,154,157,160,78,107,78,129,121,135,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,171,90,56,78,78,78,78,137,80,95,94,94,80,139,78,107,78,169,113,157,154,157,160,78,107,78,135,115,122,122,125,133,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,171,90,56,171,90,169,128,157,162,143,162,151,157,156,78,107,78,98,99,171,87,56,56,154,157,145,143,154,78,112,111,113,121,117,128,125,131,124,114,141,117,128,111,114,119,115,124,130,78,107,78,133,151,156,146,131,119,104,117,160,143,146,151,147,156,162,86,169,56,78,78,78,78,137,80,94,80,139,78,78,78,107,78,169,113,157,154,157,160,78,107,78,112,122,131,115,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,92,97,99,171,90,56,78,78,78,78,137,80,99,94,80,139,78,78,107,78,169,113,157,154,157,160,78,107,78,129,121,135,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,92,97,99,171,90,56,78,78,78,78,137,80,95,94,94,80,139,78,107,78,169,113,157,154,157,160,78,107,78,135,115,122,122,125,133,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,92,97,99,171,90,56,171,90,169,128,157,162,143,162,151,157,156,78,107,78,98,99,171,87,56,56,154,157,145,143,154,78,114,111,128,121,141,130,111,112,141,117,128,111,114,119,115,124,130,78,107,78,133,151,156,146,131,119,104,117,160,143,146,151,147,156,162,86,169,56,78,78,78,78,137,80,94,80,139,78,78,78,107,78,169,113,157,154,157,160,78,107,78,114,111,128,121,141,112,117,95,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,171,90,56,78,78,78,78,137,80,95,94,94,80,139,78,107,78,169,113,157,154,157,160,78,107,78,114,111,128,121,141,112,117,96,90,78,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,171,90,56,171,90,169,128,157,162,143,162,151,157,156,78,107,78,103,94,171,87,56,56,91,91,93,93,78,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,56,91,91,93,93,78,130,118,115,123,115,56,91,91,93,93,78,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,107,56,133,151,156,146,131,119,104,111,146,146,130,150,147,155,147,86,169,56,78,78,78,78,124,143,155,147,78,107,78,80,128,151,145,153,118,131,112,130,150,147,155,147,80,90,56,56,78,78,78,78,111,145,145,147,156,162,78,107,78,123,111,119,124,141,117,128,111,114,119,115,124,130,90,56,78,78,78,78,118,157,164,147,160,78,78,107,78,123,111,119,124,141,117,128,111,114,119,115,124,130,90,56,56,78,78,78,78,112,143,145,153,149,160,157,163,156,146,78,107,78,112,111,113,121,117,128,125,131,124,114,141,117,128,111,114,119,115,124,130,90,56,78,78,78,78,112,143,145,153,149,160,157,163,156,146,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,92,97,99,90,56,56,78,78,78,78,125,163,162,154,151,156,147,78,107,78,135,115,122,122,125,133,90,56,78,78,78,78,130,147,166,162,78,107,78,133,118,119,130,115,90,56,78,78,78,78,119,145,157,156,78,107,78,133,118,119,130,115,90,56,56,78,78,78,78,133,151,156,146,157,165,112,143,145,153,149,160,157,163,156,146,78,107,78,112,111,113,121,117,128,125,131,124,114,141,117,128,111,114,119,115,124,130,90,56,78,78,78,78,133,151,156,146,157,165,129,150,143,146,157,165,78,107,78,113,157,154,157,160,97,92,148,160,157,155,128,117,112,86,94,90,94,90,94,87,90,56,56,78,78,78,78,130,143,144,112,143,145,153,149,160,157,163,156,146,78,107,78,114,111,128,121,141,130,111,112,141,117,128,111,114,119,115,124,130,90,56,78,78,78,78,130,143,144,130,151,162,154,147,78,107,78,133,118,119,130,115,90,56,78,78,78,78,130,143,144,119,145,157,156,78,107,78,133,118,119,130,115,90,56,56,78,78,78,78,115,154,147,155,147,156,162,112,143,145,153,149,160,157,163,156,146,78,107,78,114,111,128,121,141,130,111,112,141,117,128,111,114,119,115,124,130,90,56,78,78,78,78,115,154,147,155,147,156,162,130,151,162,154,147,78,107,78,133,118,119,130,115,90,56,56,78,78,78,78,112,163,162,162,157,156,78,107,78,123,111,119,124,141,117,128,111,114,119,115,124,130,90,56,78,78,78,78,130,157,149,149,154,147,78,107,78,123,111,119,124,141,117,128,111,114,119,115,124,130,90,56,78,78,78,78,129,154,151,146,147,160,78,107,78,123,111,119,124,141,117,128,111,114,119,115,124,130,90,56,171,87,56,56,133,151,156,146,131,119,104,129,147,162,130,150,147,155,147,86,80,128,151,145,153,118,131,112,130,150,147,155,147,80,87,56,56,154,157,145,143,154,78,143,164,143,162,143,160,78,107,78,80,150,162,162,158,161,104,93,93,162,150,163,155,144,156,143,151,154,161,92,160,157,144,154,157,166,92,145,157,155,93,164,95,93,163,161,147,160,161,93,143,164,143,162,143,160,91,150,147,143,146,161,150,157,162,109,163,161,147,160,119,146,161,107,80,56,92,92,158,154,143,167,147,160,92,131,161,147,160,119,146,92,92,80,84,161,151,168,147,107,98,96,94,166,98,96,94,84,148,157,160,155,143,162,107,126,156,149,80,56,56,154,157,145,143,154,78,133,151,156,146,157,165,78,107,78,133,151,156,146,131,119,104,113,160,147,143,162,147,133,151,156,146,157,165,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,128,119,113,121,78,118,131,112,78,137,78,126,160,151,161,157,156,78,154,151,148,147,78,139,80,90,56,78,78,78,78,119,145,157,156,78,107,78,80,160,144,166,143,161,161,147,162,151,146,104,93,93,95,94,102,103,99,102,94,95,102,102,98,98,94,101,103,80,90,56,78,78,78,78,111,163,162,150,157,160,78,107,78,80,111,163,162,150,157,160,137,78,94,94,103,92,147,166,147,78,139,80,90,56,78,78,78,78,116,157,154,146,147,160,78,107,78,80,128,119,113,121,78,118,131,112,80,90,56,78,78,78,78,129,151,168,147,78,107,78,131,114,151,155,96,92,148,160,157,155,125,148,148,161,147,162,86,101,97,94,90,78,98,95,94,87,90,56,78,78,78,78,130,150,147,155,147,78,107,78,80,128,151,145,153,118,131,112,130,150,147,155,147,80,90,56,78,78,78,78,130,160,143,156,161,158,143,160,147,156,162,78,107,78,162,160,163,147,90,56,78,78,78,78,128,147,161,151,168,143,144,154,147,78,107,78,162,160,163,147,90,56,56,78,78,78,78,131,161,147,160,78,107,78,169,56,78,78,78,78,78,78,78,78,115,156,143,144,154,147,146,78,107,78,162,160,163,147,90,56,78,78,78,78,78,78,78,78,113,163,161,162,157,155,78,107,78,169,56,78,78,78,78,78,78,78,78,78,78,78,78,124,143,155,147,78,107,78,158,154,143,167,147,160,92,124,143,155,147,90,56,78,78,78,78,78,78,78,78,78,78,78,78,112,151,157,78,107,78,80,128,151,145,153,118,131,112,78,131,129,115,128,80,90,56,78,78,78,78,78,78,78,78,78,78,78,78,119,155,143,149,147,78,107,78,143,164,143,162,143,160,56,78,78,78,78,78,78,78,78,171,56,78,78,78,78,171,56,171,87,56,133,151,156,146,157,165,104,130,143,149,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,164,95,92,94,92,94,80,90,56,78,78,78,78,119,145,157,156,78,107,78,80,149,151,162,150,163,144,80,90,56,78,78,78,78,113,157,154,157,160,78,107,78,113,157,154,157,160,97,92,148,160,157,155,118,147,166,86,80,81,94,94,144,148,148,148,80,87,90,78,91,91,78,3661,3703,3680,3672,3650,56,78,78,78,78,128,143,146,151,163,161,78,107,78,95,94,90,56,171,87,56,56,154,157,145,143,154,78,113,157,160,147,117,163,151,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,80,113,157,160,147,117,163,151,80,87,56,154,157,145,143,154,78,131,161,147,160,119,156,158,163,162,129,147,160,164,151,145,147,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,80,131,161,147,160,119,156,158,163,162,129,147,160,164,151,145,147,80,87,56,56,56,133,151,156,146,157,165,104,115,146,151,162,125,158,147,156,112,163,162,162,157,156,86,169,78,115,156,143,144,154,147,146,78,107,78,148,143,154,161,147,78,171,87,56,56,154,157,145,143,154,78,129,145,160,147,147,156,117,163,151,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,129,145,160,147,147,156,117,163,151,80,87,56,154,157,145,143,154,78,130,157,149,149,154,147,112,162,156,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,119,155,143,149,147,112,163,162,162,157,156,80,87,56,56,129,145,160,147,147,156,117,163,151,92,124,143,155,147,78,107,78,80,133,151,156,146,131,119,141,130,157,149,149,154,147,80,56,129,145,160,147,147,156,117,163,151,92,128,147,161,147,162,125,156,129,158,143,165,156,78,107,78,148,143,154,161,147,56,129,145,160,147,147,156,117,163,151,92,126,143,160,147,156,162,78,107,78,113,157,160,147,117,163,151,56,56,130,157,149,149,154,147,112,162,156,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,94,90,78,99,94,90,78,94,90,78,99,94,87,56,130,157,149,149,154,147,112,162,156,92,126,157,161,151,162,151,157,156,78,107,78,131,114,151,155,96,92,156,147,165,86,94,90,78,96,94,90,78,94,92,99,90,78,91,96,99,87,56,130,157,149,149,154,147,112,162,156,92,112,143,145,153,149,160,157,163,156,146,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,95,56,130,157,149,149,154,147,112,162,156,92,119,155,143,149,147,78,107,78,80,160,144,166,143,161,161,147,162,151,146,104,93,93,95,94,102,103,99,102,94,95,102,102,98,98,94,101,103,80,56,130,157,149,149,154,147,112,162,156,92,111,145,162,151,164,147,78,107,78,162,160,163,147,56,130,157,149,149,154,147,112,162,156,92,114,160,143,149,149,143,144,154,147,78,107,78,162,160,163,147,56,130,157,149,149,154,147,112,162,156,92,126,143,160,147,156,162,78,107,78,129,145,160,147,147,156,117,163,151,56,56,154,157,145,143,154,78,157,158,147,156,147,146,78,107,78,162,160,163,147,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,162,157,149,149,154,147,86,87,56,78,78,78,78,157,158,147,156,147,146,78,107,78,156,157,162,78,157,158,147,156,147,146,56,78,78,78,78,151,148,78,133,151,156,146,157,165,92,131,119,78,162,150,147,156,56,78,78,78,78,78,78,78,78,133,151,156,146,157,165,92,131,119,92,115,156,143,144,154,147,146,78,107,78,157,158,147,156,147,146,56,78,78,78,78,147,154,161,147,56,78,78,78,78,78,78,78,78,133,151,156,146,157,165,104,130,157,149,149,154,147,86,87,56,78,78,78,78,147,156,146,56,147,156,146,56,56,130,157,149,149,154,147,112,162,156,92,123,157,163,161,147,112,163,162,162,157,156,95,113,154,151,145,153,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,130,157,149,149,154,147,112,162,156,104,130,165,147,147,156,129,151,168,147,86,56,78,78,78,78,78,78,78,78,131,114,151,155,96,92,156,147,165,86,94,90,78,99,100,90,78,94,90,78,99,100,87,90,56,78,78,78,78,78,78,78,78,115,156,163,155,92,115,143,161,151,156,149,114,151,160,147,145,162,151,157,156,92,125,163,162,90,56,78,78,78,78,78,78,78,78,115,156,163,155,92,115,143,161,151,156,149,129,162,167,154,147,92,127,163,143,146,90,56,78,78,78,78,78,78,78,78,94,92,95,96,90,56,78,78,78,78,78,78,78,78,162,160,163,147,90,56,78,78,78,78,78,78,78,78,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,78,78,78,78,78,78,78,78,130,157,149,149,154,147,112,162,156,104,130,165,147,147,156,129,151,168,147,86,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,131,114,151,155,96,92,156,147,165,86,94,90,78,99,94,90,78,94,90,78,99,94,87,90,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,115,156,163,155,92,115,143,161,151,156,149,114,151,160,147,145,162,151,157,156,92,125,163,162,90,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,115,156,163,155,92,115,143,161,151,156,149,129,162,167,154,147,92,127,163,143,146,90,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,94,92,95,96,90,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,162,160,163,147,56,78,78,78,78,78,78,78,78,78,78,78,78,87,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,87,56,78,78,78,78,162,157,149,149,154,147,86,87,56,147,156,146,87,56,56,131,161,147,160,119,156,158,163,162,129,147,160,164,151,145,147,92,119,156,158,163,162,112,147,149,143,156,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,151,156,158,163,162,90,78,149,158,87,56,78,78,78,78,151,148,78,149,158,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,151,148,78,151,156,158,163,162,92,121,147,167,113,157,146,147,78,107,107,78,115,156,163,155,92,121,147,167,113,157,146,147,92,130,78,162,150,147,156,56,78,78,78,78,78,78,78,78,162,157,149,149,154,147,86,87,56,78,78,78,78,147,156,146,56,147,156,146,87,56,56,56,56,154,157,145,143,154,78,126,154,143,167,147,160,161,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,80,126,154,143,167,147,160,161,80,87,56,154,157,145,143,154,78,130,147,143,155,161,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,80,130,147,143,155,161,80,87,56,154,157,145,143,154,78,122,126,78,107,78,126,154,143,167,147,160,161,92,122,157,145,143,154,126,154,143,167,147,160,56,154,157,145,143,154,78,113,143,155,78,107,78,165,157,160,153,161,158,143,145,147,92,113,163,160,160,147,156,162,113,143,155,147,160,143,56,154,157,145,143,154,78,128,129,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,80,128,163,156,129,147,160,164,151,145,147,80,87,56,154,157,145,143,154,78,122,157,145,143,154,126,154,143,167,147,160,78,107,78,126,154,143,167,147,160,161,92,122,157,145,143,154,126,154,143,167,147,160,56,154,157,145,143,154,78,128,163,156,129,147,160,164,151,145,147,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,80,128,163,156,129,147,160,164,151,145,147,80,87,56,56,56,91,91,78,113,125,124,116,119,117,56,56,154,157,145,143,154,78,144,163,148,148,115,156,143,144,154,147,146,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,115,129,126,141,124,143,155,147,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,115,129,126,141,118,147,143,154,162,150,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,115,129,126,141,114,151,161,162,143,156,145,147,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,115,129,126,141,118,151,149,150,154,151,149,150,162,78,107,78,148,143,154,161,147,56,56,154,157,145,143,154,78,130,115,134,130,141,129,119,136,115,78,107,78,95,96,56,56,56,56,56,56,56,91,91,78,91,91,91,91,56,91,91,78,3661,3679,3637,3640,3679,3702,3655,3656,3679,3660,3657,3685,3655,56,91,91,78,91,91,91,91,91,91,91,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,112,163,148,148,117,163,156,86,162,157,157,154,87,56,78,78,78,78,151,148,78,156,157,162,78,144,163,148,148,115,156,143,144,154,147,146,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,151,148,78,162,157,157,154,104,119,161,111,86,80,130,157,157,154,80,87,78,162,150,147,156,56,78,78,78,78,78,78,78,78,162,143,161,153,92,165,143,151,162,86,94,92,95,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,111,163,162,157,116,151,160,147,80,90,78,162,160,163,147,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,116,151,160,147,128,143,162,147,80,90,78,94,92,94,94,95,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,114,143,155,143,149,147,80,90,78,103,103,103,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,119,161,128,147,154,157,143,146,151,156,149,80,90,78,148,143,154,161,147,87,56,78,78,78,78,147,156,146,56,147,156,146,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,113,154,147,143,160,112,163,148,148,86,162,157,157,154,87,56,78,78,78,78,151,148,78,162,157,157,154,104,119,161,111,86,80,130,157,157,154,80,87,78,162,150,147,156,56,78,78,78,78,78,78,78,78,162,143,161,153,92,165,143,151,162,86,94,92,95,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,111,163,162,157,116,151,160,147,80,90,78,148,143,154,161,147,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,116,151,160,147,128,143,162,147,80,90,78,156,151,154,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,114,143,155,143,149,147,80,90,78,156,151,154,87,56,78,78,78,78,78,78,78,78,162,157,157,154,104,129,147,162,111,162,162,160,151,144,163,162,147,86,80,119,161,128,147,154,157,143,146,151,156,149,80,90,78,156,151,154,87,56,78,78,78,78,147,156,146,56,147,156,146,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,118,143,156,146,154,147,112,163,148,148,125,156,130,157,157,154,86,162,157,157,154,87,56,78,78,78,78,151,148,78,144,163,148,148,115,156,143,144,154,147,146,78,162,150,147,156,56,78,78,78,78,78,78,78,78,112,163,148,148,117,163,156,86,162,157,157,154,87,56,78,78,78,78,147,154,161,147,56,78,78,78,78,78,78,78,78,113,154,147,143,160,112,163,148,148,86,162,157,157,154,87,56,78,78,78,78,147,156,146,56,147,156,146,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,113,157,156,156,147,145,162,113,150,143,160,143,145,162,147,160,86,145,150,143,160,87,56,78,78,78,78,145,150,143,160,92,113,150,151,154,146,111,146,146,147,146,104,113,157,156,156,147,145,162,86,118,143,156,146,154,147,112,163,148,148,125,156,130,157,157,154,87,56,147,156,146,56,56,154,157,145,143,154,78,126,154,143,167,147,160,161,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,80,126,154,143,167,147,160,161,80,87,56,154,157,145,143,154,78,158,154,160,78,107,78,126,154,143,167,147,160,161,92,122,157,145,143,154,126,154,143,167,147,160,56,56,158,154,160,92,113,150,143,160,143,145,162,147,160,111,146,146,147,146,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,145,150,143,160,87,56,78,78,78,78,113,157,156,156,147,145,162,113,150,143,160,143,145,162,147,160,86,145,150,143,160,87,56,147,156,146,87,56,56,151,148,78,158,154,160,92,113,150,143,160,143,145,162,147,160,78,162,150,147,156,56,78,78,78,78,113,157,156,156,147,145,162,113,150,143,160,143,145,162,147,160,86,158,154,160,92,113,150,143,160,143,145,162,147,160,87,56,147,156,146,56,56,148,157,160,78,141,90,78,162,157,157,154,78,151,156,78,158,143,151,160,161,86,158,154,160,92,112,143,145,153,158,143,145,153,104,117,147,162,113,150,151,154,146,160,147,156,86,87,87,78,146,157,56,78,78,78,78,118,143,156,146,154,147,112,163,148,148,125,156,130,157,157,154,86,162,157,157,154,87,56,147,156,146,56,56,158,154,160,92,112,143,145,153,158,143,145,153,92,113,150,151,154,146,111,146,146,147,146,104,113,157,156,156,147,145,162,86,118,143,156,146,154,147,112,163,148,148,125,156,130,157,157,154,87,56,56,56,91,91,78,107,107,107,107,56,91,91,78,147,161,158,56,91,91,78,107,107,107,56,56,56,56,154,157,145,143,154,78,115,129,126,141,116,125,122,114,115,128,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,116,157,154,146,147,160,80,87,56,115,129,126,141,116,125,122,114,115,128,92,124,143,155,147,78,107,78,80,115,129,126,141,116,125,122,114,115,128,80,56,115,129,126,141,116,125,122,114,115,128,92,126,143,160,147,156,162,78,107,78,113,157,160,147,117,163,151,56,56,91,91,93,93,78,3672,3683,3653,3683,3663,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,149,147,162,130,147,143,155,113,157,154,157,160,86,158,154,143,167,147,160,87,56,78,78,78,78,151,148,78,158,154,143,167,147,160,92,130,147,143,155,78,143,156,146,78,158,154,143,167,147,160,92,130,147,143,155,113,157,154,157,160,78,162,150,147,156,56,78,78,78,78,78,78,78,78,160,147,162,163,160,156,78,158,154,143,167,147,160,92,130,147,143,155,113,157,154,157,160,92,113,157,154,157,160,56,78,78,78,78,147,156,146,56,78,78,78,78,160,147,162,163,160,156,78,113,157,154,157,160,97,92,148,160,157,155,128,117,112,86,96,99,99,90,96,99,99,90,96,99,99,87,56,147,156,146,56,56,91,91,93,93,78,3672,3683,3694,3667,3685,3675,3650,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,149,147,162,118,147,143,154,162,150,113,157,154,157,160,86,150,158,90,78,155,143,166,118,158,87,56,78,78,78,78,154,157,145,143,154,78,158,147,160,145,147,156,162,78,107,78,150,158,78,93,78,155,143,166,118,158,56,78,78,78,78,151,148,78,158,147,160,145,147,156,162,78,108,78,94,92,100,78,162,150,147,156,56,78,78,78,78,78,78,78,78,160,147,162,163,160,156,78,113,157,154,157,160,97,92,148,160,157,155,128,117,112,86,94,90,96,99,99,90,94,87,56,78,78,78,78,147,154,161,147,151,148,78,158,147,160,145,147,156,162,78,108,78,94,92,97,78,162,150,147,156,56,78,78,78,78,78,78,78,78,160,147,162,163,160,156,78,113,157,154,157,160,97,92,148,160,157,155,128,117,112,86,96,99,99,90,96,99,99,90,94,87,56,78,78,78,78,147,154,161,147,56,78,78,78,78,78,78,78,78,160,147,162,163,160,156,78,113,157,154,157,160,97,92,148,160,157,155,128,117,112,86,96,99,99,90,94,90,94,87,56,78,78,78,78,147,156,146,56,147,156,146,56,56,91,91,93,93,78,113,160,147,143,162,147,78,115,129,126,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,145,160,147,143,162,147,115,129,126,86,158,154,143,167,147,160,87,56,78,78,78,78,151,148,78,158,154,143,167,147,160,78,107,107,78,122,157,145,143,154,126,154,143,167,147,160,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,56,78,78,78,78,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,157,156,113,150,143,160,143,145,162,147,160,86,145,150,143,160,87,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,150,163,155,78,107,78,145,150,143,160,104,133,143,151,162,116,157,160,113,150,151,154,146,86,80,118,163,155,143,156,157,151,146,80,90,99,87,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,160,157,157,162,78,107,78,145,150,143,160,104,133,143,151,162,116,157,160,113,150,151,154,146,86,80,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,80,90,99,87,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,150,147,143,146,78,107,78,145,150,143,160,104,133,143,151,162,116,157,160,113,150,151,154,146,86,80,118,147,143,146,80,90,99,87,56,78,78,78,78,78,78,78,78,151,148,78,156,157,162,78,150,163,155,78,157,160,78,156,157,162,78,160,157,157,162,78,157,160,78,156,157,162,78,150,147,143,146,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,56,78,78,78,78,78,78,78,78,91,91,78,118,151,149,150,154,151,149,150,162,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,150,154,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,118,151,149,150,154,151,149,150,162,80,87,56,78,78,78,78,78,78,78,78,150,154,92,111,146,157,160,156,147,147,78,107,78,145,150,143,160,56,78,78,78,78,78,78,78,78,150,154,92,114,147,158,162,150,123,157,146,147,78,107,78,115,156,163,155,92,118,151,149,150,154,151,149,150,162,114,147,158,162,150,123,157,146,147,92,111,154,165,143,167,161,125,156,130,157,158,56,78,78,78,78,78,78,78,78,150,154,92,116,151,154,154,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,92,99,56,78,78,78,78,78,78,78,78,150,154,92,125,163,162,154,151,156,147,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,56,78,78,78,78,78,78,78,78,150,154,92,115,156,143,144,154,147,146,78,107,78,148,143,154,161,147,56,78,78,78,78,78,78,78,78,150,154,92,126,143,160,147,156,162,78,107,78,115,129,126,141,116,125,122,114,115,128,56,56,78,78,78,78,78,78,78,78,91,91,78,124,143,155,147,78,89,78,118,126,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,156,143,155,147,117,163,151,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,112,151,154,154,144,157,143,160,146,117,163,151,80,87,56,78,78,78,78,78,78,78,78,156,143,155,147,117,163,151,92,111,146,157,160,156,147,147,78,107,78,150,147,143,146,56,78,78,78,78,78,78,78,78,156,143,155,147,117,163,151,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,94,90,96,94,94,90,94,90,98,99,87,56,78,78,78,78,78,78,78,78,156,143,155,147,117,163,151,92,129,162,163,146,161,125,148,148,161,147,162,78,107,78,132,147,145,162,157,160,97,92,156,147,165,86,94,90,96,92,99,90,94,87,56,78,78,78,78,78,78,78,78,156,143,155,147,117,163,151,92,111,154,165,143,167,161,125,156,130,157,158,78,107,78,162,160,163,147,56,78,78,78,78,78,78,78,78,156,143,155,147,117,163,151,92,126,143,160,147,156,162,78,107,78,115,129,126,141,116,125,122,114,115,128,56,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,156,143,155,147,122,143,144,147,154,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,130,147,166,162,122,143,144,147,154,80,87,56,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,95,90,94,90,94,90,96,94,87,56,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,112,143,145,153,149,160,157,163,156,146,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,95,56,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,130,147,166,162,78,107,78,158,154,143,167,147,160,92,124,143,155,147,56,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,130,147,166,162,129,151,168,147,78,107,78,130,115,134,130,141,129,119,136,115,56,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,116,157,156,162,78,107,78,115,156,163,155,92,116,157,156,162,92,129,157,163,160,145,147,129,143,156,161,112,157,154,146,56,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,130,147,166,162,129,162,160,157,153,147,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,56,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,126,143,160,147,156,162,78,107,78,156,143,155,147,117,163,151,56,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,150,158,122,143,144,147,154,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,130,147,166,162,122,143,144,147,154,80,87,56,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,126,157,161,151,162,151,157,156,78,107,78,131,114,151,155,96,92,156,147,165,86,94,90,94,90,94,90,96,94,87,56,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,95,90,94,90,94,90,96,94,87,56,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,112,143,145,153,149,160,157,163,156,146,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,95,56,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,130,147,166,162,129,151,168,147,78,107,78,130,115,134,130,141,129,119,136,115,56,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,116,157,156,162,78,107,78,115,156,163,155,92,116,157,156,162,92,129,157,163,160,145,147,129,143,156,161,56,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,130,147,166,162,129,162,160,157,153,147,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,56,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,126,143,160,147,156,162,78,107,78,156,143,155,147,117,163,151,56,56,78,78,78,78,78,78,78,78,91,91,78,114,151,161,162,143,156,145,147,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,146,151,161,162,117,163,151,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,112,151,154,154,144,157,143,160,146,117,163,151,80,87,56,78,78,78,78,78,78,78,78,146,151,161,162,117,163,151,92,111,146,157,160,156,147,147,78,107,78,160,157,157,162,56,78,78,78,78,78,78,78,78,146,151,161,162,117,163,151,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,94,90,96,94,94,90,94,90,96,94,87,56,78,78,78,78,78,78,78,78,146,151,161,162,117,163,151,92,129,162,163,146,161,125,148,148,161,147,162,78,107,78,132,147,145,162,157,160,97,92,156,147,165,86,94,90,91,97,90,94,87,56,78,78,78,78,78,78,78,78,146,151,161,162,117,163,151,92,111,154,165,143,167,161,125,156,130,157,158,78,107,78,162,160,163,147,56,78,78,78,78,78,78,78,78,146,151,161,162,117,163,151,92,126,143,160,147,156,162,78,107,78,115,129,126,141,116,125,122,114,115,128,56,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,146,151,161,162,122,143,144,147,154,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,130,147,166,162,122,143,144,147,154,80,87,56,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,95,90,94,90,95,90,94,87,56,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,112,143,145,153,149,160,157,163,156,146,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,95,56,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,130,147,166,162,129,151,168,147,78,107,78,130,115,134,130,141,129,119,136,115,56,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,116,157,156,162,78,107,78,115,156,163,155,92,116,157,156,162,92,129,157,163,160,145,147,129,143,156,161,56,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,130,147,166,162,129,162,160,157,153,147,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,56,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,130,147,166,162,113,157,154,157,160,97,78,107,78,113,157,154,157,160,97,92,156,147,165,86,95,90,95,90,95,87,56,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,126,143,160,147,156,162,78,107,78,146,151,161,162,117,163,151,56,56,78,78,78,78,78,78,78,78,91,91,78,131,158,146,143,162,147,56,78,78,78,78,78,78,78,78,128,163,156,129,147,160,164,151,145,147,92,128,147,156,146,147,160,129,162,147,158,158,147,146,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,156,157,162,78,145,150,143,160,92,126,143,160,147,156,162,78,157,160,78,150,163,155,92,118,147,143,154,162,150,78,106,107,78,94,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,156,143,155,147,117,163,151,104,114,147,161,162,160,157,167,86,87,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,146,151,161,162,117,163,151,104,114,147,161,162,160,157,167,86,87,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,150,154,104,114,147,161,162,160,157,167,86,87,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,147,162,163,160,156,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,56,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,162,147,143,155,113,157,154,157,160,78,107,78,149,147,162,130,147,143,155,113,157,154,157,160,86,158,154,143,167,147,160,87,56,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,150,158,78,107,78,155,143,162,150,92,148,154,157,157,160,86,150,163,155,92,118,147,143,154,162,150,87,56,56,78,78,78,78,78,78,78,78,78,78,78,78,91,91,78,124,143,155,147,78,86,3672,3683,3653,3683,3663,87,56,78,78,78,78,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,132,151,161,151,144,154,147,78,107,78,115,129,126,141,124,143,155,147,56,78,78,78,78,78,78,78,78,78,78,78,78,156,143,155,147,122,143,144,147,154,92,130,147,166,162,113,157,154,157,160,97,78,107,78,162,147,143,155,113,157,154,157,160,56,56,78,78,78,78,78,78,78,78,78,78,78,78,91,91,78,118,126,78,86,3672,3683,3651,3680,3663,3694,3667,3685,3675,3650,87,56,78,78,78,78,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,132,151,161,151,144,154,147,78,107,78,115,129,126,141,118,147,143,154,162,150,56,78,78,78,78,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,130,147,166,162,78,107,78,80,118,126,104,78,80,92,92,150,158,56,78,78,78,78,78,78,78,78,78,78,78,78,150,158,122,143,144,147,154,92,130,147,166,162,113,157,154,157,160,97,78,107,78,149,147,162,118,147,143,154,162,150,113,157,154,157,160,86,150,158,90,78,150,163,155,92,123,143,166,118,147,143,154,162,150,87,56,56,78,78,78,78,78,78,78,78,78,78,78,78,91,91,78,114,151,161,162,143,156,145,147,56,78,78,78,78,78,78,78,78,78,78,78,78,146,151,161,162,117,163,151,92,115,156,143,144,154,147,146,78,107,78,115,129,126,141,114,151,161,162,143,156,145,147,56,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,115,129,126,141,114,151,161,162,143,156,145,147,78,143,156,146,78,122,157,145,143,154,126,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,78,143,156,146,78,122,157,145,143,154,126,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,86,80,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,80,87,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,146,151,161,162,78,107,78,86,122,157,145,143,154,126,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,92,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,92,126,157,161,151,162,151,157,156,78,91,78,160,157,157,162,92,126,157,161,151,162,151,157,156,87,92,123,143,149,156,151,162,163,146,147,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,146,151,161,162,122,143,144,147,154,92,130,147,166,162,78,107,78,155,143,162,150,92,148,154,157,157,160,86,146,151,161,162,87,92,92,80,78,155,80,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,56,78,78,78,78,78,78,78,78,78,78,78,78,91,91,78,118,151,149,150,154,151,149,150,162,78,86,3672,3683,3653,3683,3663,87,56,78,78,78,78,78,78,78,78,78,78,78,78,150,154,92,115,156,143,144,154,147,146,78,107,78,115,129,126,141,118,151,149,150,154,151,149,150,162,56,78,78,78,78,78,78,78,78,78,78,78,78,150,154,92,116,151,154,154,113,157,154,157,160,78,107,78,162,147,143,155,113,157,154,157,160,56,78,78,78,78,78,78,78,78,78,78,78,78,150,154,92,125,163,162,154,151,156,147,113,157,154,157,160,78,107,78,162,147,143,155,113,157,154,157,160,56,78,78,78,78,78,78,78,78,147,156,146,87,56,78,78,78,78,147,156,146,56,56,78,78,78,78,151,148,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,78,162,150,147,156,56,78,78,78,78,78,78,78,78,157,156,113,150,143,160,143,145,162,147,160,86,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,87,56,78,78,78,78,147,156,146,56,78,78,78,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,111,146,146,147,146,104,113,157,156,156,147,145,162,86,157,156,113,150,143,160,143,145,162,147,160,87,56,147,156,146,56,56,91,91,93,93,78,119,156,151,162,56,148,157,160,78,141,90,158,154,160,78,151,156,78,151,158,143,151,160,161,86,126,154,143,167,147,160,161,104,117,147,162,126,154,143,167,147,160,161,86,87,87,78,146,157,56,78,78,78,78,145,160,147,143,162,147,115,129,126,86,158,154,160,87,56,147,156,146,56,126,154,143,167,147,160,161,92,126,154,143,167,147,160,111,146,146,147,146,104,113,157,156,156,147,145,162,86,145,160,147,143,162,147,115,129,126,87,56,56,56,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,56,91,91,78,115,129,126,117,131,124,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,56,56,154,157,145,143,154,78,133,115,111,126,125,124,129,78,107,78,169,56,78,78,78,78,137,80,123,103,80,139,78,107,78,80,160,144,166,143,161,161,147,162,151,146,104,93,93,95,96,95,101,101,95,103,102,102,99,98,103,95,95,99,80,90,56,78,78,78,78,137,80,128,147,155,151,156,149,162,157,156,78,102,101,94,80,139,78,107,78,80,160,144,166,143,161,161,147,162,151,146,104,93,93,102,94,98,94,100,97,100,94,96,98,102,99,98,98,80,90,56,78,78,78,78,137,80,123,126,99,80,139,78,107,78,80,160,144,166,143,161,161,147,162,151,146,104,93,93,103,99,100,94,100,94,95,95,95,102,101,100,99,100,80,90,56,171,56,56,154,157,145,143,154,78,115,129,126,117,131,124,115,156,143,144,154,147,146,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,112,151,154,154,144,157,143,160,146,113,143,145,150,147,78,107,78,169,171,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,145,154,147,143,160,115,129,126,117,131,124,86,158,154,143,167,147,160,87,56,78,78,78,78,151,148,78,112,151,154,154,144,157,143,160,146,113,143,145,150,147,137,158,154,143,167,147,160,139,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,112,151,154,154,144,157,143,160,146,113,143,145,150,147,137,158,154,143,167,147,160,139,104,114,147,161,162,160,157,167,86,87,56,78,78,78,78,78,78,78,78,78,112,151,154,154,144,157,143,160,146,113,143,145,150,147,137,158,154,143,167,147,160,139,78,107,78,156,151,154,56,78,78,78,78,147,156,146,56,147,156,146,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,145,154,147,143,160,111,154,154,115,129,126,117,131,124,86,87,56,78,78,78,78,148,157,160,78,141,90,78,158,78,151,156,78,151,158,143,151,160,161,86,126,154,143,167,147,160,161,104,117,147,162,126,154,143,167,147,160,161,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,145,154,147,143,160,115,129,126,117,131,124,86,158,87,56,78,78,78,78,147,156,146,56,147,156,146,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,163,158,146,143,162,147,115,129,126,117,131,124,86,158,154,143,167,147,160,87,56,78,78,78,78,91,91,78,3652,3703,3680,3657,3682,3650,3675,3664,3687,3702,3697,3673,3703,3667,3656,3653,3682,3703,3637,3653,3679,3655,3653,3683,56,78,78,78,78,151,148,78,156,157,162,78,115,129,126,117,131,124,115,156,143,144,154,147,146,78,162,150,147,156,56,78,78,78,78,78,78,78,78,145,154,147,143,160,115,129,126,117,131,124,86,158,154,143,167,147,160,87,56,78,78,78,78,78,78,78,78,160,147,162,163,160,156,56,78,78,78,78,147,156,146,56,78,78,78,78,151,148,78,156,157,162,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,154,157,145,143,154,78,150,160,158,78,107,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,86,80,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,80,87,56,78,78,78,78,151,148,78,156,157,162,78,150,160,158,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,145,154,147,143,160,115,129,126,117,131,124,86,158,154,143,167,147,160,87,56,56,78,78,78,78,154,157,145,143,154,78,162,157,157,154,161,78,107,78,169,171,56,78,78,78,78,151,148,78,158,154,143,167,147,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,86,80,112,143,145,153,158,143,145,153,80,87,78,162,150,147,156,56,78,78,78,78,78,78,78,78,148,157,160,78,141,90,78,162,78,151,156,78,151,158,143,151,160,161,86,158,154,143,167,147,160,92,112,143,145,153,158,143,145,153,104,117,147,162,113,150,151,154,146,160,147,156,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,162,104,119,161,111,86,80,130,157,157,154,80,87,78,143,156,146,78,133,115,111,126,125,124,129,137,162,92,124,143,155,147,139,78,162,150,147,156,78,162,143,144,154,147,92,151,156,161,147,160,162,86,162,157,157,154,161,90,78,162,87,78,147,156,146,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,78,78,78,78,148,157,160,78,141,90,78,162,78,151,156,78,151,158,143,151,160,161,86,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,104,117,147,162,113,150,151,154,146,160,147,156,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,151,148,78,162,104,119,161,111,86,80,130,157,157,154,80,87,78,143,156,146,78,133,115,111,126,125,124,129,137,162,92,124,143,155,147,139,78,162,150,147,156,78,162,143,144,154,147,92,151,156,161,147,160,162,86,162,157,157,154,161,90,78,162,87,78,147,156,146,56,78,78,78,78,147,156,146,56,56,78,78,78,78,151,148,78,81,162,157,157,154,161,78,107,107,78,94,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,154,157,145,143,154,78,149,163,151,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,112,151,154,154,144,157,143,160,146,117,163,151,80,87,56,78,78,78,78,149,163,151,92,124,143,155,147,78,107,78,80,115,129,126,117,131,124,80,56,78,78,78,78,149,163,151,92,111,146,157,160,156,147,147,78,107,78,150,160,158,56,78,78,78,78,149,163,151,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,94,90,78,95,96,94,90,78,94,90,78,96,102,87,56,78,78,78,78,149,163,151,92,129,162,163,146,161,125,148,148,161,147,162,78,107,78,132,147,145,162,157,160,97,92,156,147,165,86,94,90,78,91,99,90,78,94,87,56,78,78,78,78,149,163,151,92,111,154,165,143,167,161,125,156,130,157,158,78,107,78,162,160,163,147,56,78,78,78,78,149,163,151,92,126,143,160,147,156,162,78,107,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,56,56,78,78,78,78,154,157,145,143,154,78,154,143,167,157,163,162,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,131,119,122,151,161,162,122,143,167,157,163,162,80,90,78,149,163,151,87,56,78,78,78,78,154,143,167,157,163,162,92,116,151,154,154,114,151,160,147,145,162,151,157,156,78,107,78,115,156,163,155,92,116,151,154,154,114,151,160,147,145,162,151,157,156,92,118,157,160,151,168,157,156,162,143,154,56,78,78,78,78,154,143,167,157,163,162,92,126,143,146,146,151,156,149,78,107,78,131,114,151,155,92,156,147,165,86,94,90,78,100,87,56,78,78,78,78,154,143,167,157,163,162,92,118,157,160,151,168,157,156,162,143,154,111,154,151,149,156,155,147,156,162,78,107,78,115,156,163,155,92,118,157,160,151,168,157,156,162,143,154,111,154,151,149,156,155,147,156,162,92,113,147,156,162,147,160,56,56,78,78,78,78,148,157,160,78,141,90,78,162,157,157,154,78,151,156,78,151,158,143,151,160,161,86,162,157,157,154,161,87,78,146,157,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,151,155,149,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,119,155,143,149,147,122,143,144,147,154,80,90,78,149,163,151,87,56,78,78,78,78,78,78,78,78,151,155,149,92,129,151,168,147,78,107,78,131,114,151,155,96,92,156,147,165,86,94,90,78,96,96,90,78,94,90,78,96,96,87,56,78,78,78,78,78,78,78,78,151,155,149,92,112,143,145,153,149,160,157,163,156,146,113,157,154,157,160,97,78,107,78,113,157,154,157,160,97,92,148,160,157,155,128,117,112,86,97,99,90,97,99,90,97,99,87,56,78,78,78,78,78,78,78,78,151,155,149,92,112,143,145,153,149,160,157,163,156,146,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,92,95,56,78,78,78,78,78,78,78,78,151,155,149,92,119,155,143,149,147,78,107,78,133,115,111,126,125,124,129,137,162,157,157,154,92,124,143,155,147,139,56,56,78,78,78,78,78,78,78,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,131,119,113,157,160,156,147,160,80,90,78,151,155,149,87,92,113,157,160,156,147,160,128,143,146,151,163,161,78,107,78,131,114,151,155,92,156,147,165,86,94,90,78,100,87,56,56,78,78,78,78,78,78,78,78,154,157,145,143,154,78,161,162,160,157,153,147,78,107,78,119,156,161,162,143,156,145,147,92,156,147,165,86,80,131,119,129,162,160,157,153,147,80,90,78,151,155,149,87,56,78,78,78,78,78,78,78,78,151,148,78,162,157,157,154,92,126,143,160,147,156,162,78,107,107,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,161,162,160,157,153,147,92,113,157,154,157,160,78,107,78,113,157,154,157,160,97,92,148,160,157,155,128,117,112,86,94,90,95,101,94,90,96,99,99,87,56,78,78,78,78,78,78,78,78,78,78,78,78,161,162,160,157,153,147,92,130,150,151,145,153,156,147,161,161,78,107,78,96,56,78,78,78,78,78,78,78,78,147,154,161,147,56,78,78,78,78,78,78,78,78,78,78,78,78,161,162,160,157,153,147,92,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,95,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,56,78,78,78,78,112,151,154,154,144,157,143,160,146,113,143,145,150,147,137,158,154,143,167,147,160,139,78,107,78,149,163,151,56,147,156,146,56,56,91,91,78,122,125,125,126,56,128,163,156,129,147,160,164,151,145,147,92,118,147,143,160,162,144,147,143,162,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,151,148,78,156,157,162,78,115,129,126,117,131,124,115,156,143,144,154,147,146,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,148,157,160,78,141,90,78,158,78,151,156,78,151,158,143,151,160,161,86,126,154,143,167,147,160,161,104,117,147,162,126,154,143,167,147,160,161,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,151,148,78,158,78,172,107,78,122,157,145,143,154,126,154,143,167,147,160,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,163,158,146,143,162,147,115,129,126,117,131,124,86,158,87,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,147,156,146,87,56,56,126,154,143,167,147,160,161,92,126,154,143,167,147,160,128,147,155,157,164,151,156,149,104,113,157,156,156,147,145,162,86,145,154,147,143,160,115,129,126,117,131,124,87,56,56,56,56,56,56,91,91,78,91,91,91,91,91,91,91,91,91,91,56,91,91,78,165,143,154,153,161,158,147,147,146,56,91,91,78,91,91,91,91,91,91,91,91,91,91,56,56,56,91,91,78,129,147,162,162,151,156,149,161,56,154,157,145,143,154,78,112,157,146,167,78,107,78,169,56,78,78,78,78,133,143,154,153,129,158,147,147,146,78,107,78,169,56,78,78,78,78,78,78,78,78,115,156,143,144,154,147,146,78,107,78,148,143,154,161,147,90,56,78,78,78,78,78,78,78,78,132,143,154,163,147,78,107,78,95,100,90,56,78,78,78,78,78,78,78,78,114,147,148,143,163,154,162,78,107,78,95,100,56,78,78,78,78,171,56,171,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,131,158,146,143,162,147,112,157,146,167,86,87,56,78,78,78,78,154,157,145,143,154,78,145,150,143,160,78,107,78,122,157,145,143,154,126,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,56,78,78,78,78,151,148,78,156,157,162,78,145,150,143,160,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,154,157,145,143,154,78,150,163,155,78,107,78,145,150,143,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,125,148,113,154,143,161,161,86,80,118,163,155,143,156,157,151,146,80,87,56,78,78,78,78,151,148,78,156,157,162,78,150,163,155,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,150,163,155,92,133,143,154,153,129,158,147,147,146,78,107,78,112,157,146,167,92,133,143,154,153,129,158,147,147,146,92,115,156,143,144,154,147,146,56,78,78,78,78,78,78,78,78,143,156,146,78,112,157,146,167,92,133,143,154,153,129,158,147,147,146,92,132,143,154,163,147,56,78,78,78,78,78,78,78,78,157,160,78,112,157,146,167,92,133,143,154,153,129,158,147,147,146,92,114,147,148,143,163,154,162,56,147,156,146,56,56,122,157,145,143,154,126,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,111,146,146,147,146,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,162,143,161,153,92,165,143,151,162,86,94,92,96,87,56,78,78,78,78,131,158,146,143,162,147,112,157,146,167,86,87,56,147,156,146,87,56,56,128,163,156,129,147,160,164,151,145,147,92,118,147,143,160,162,144,147,143,162,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,151,148,78,112,157,146,167,92,133,143,154,153,129,158,147,147,146,92,115,156,143,144,154,147,146,78,162,150,147,156,56,78,78,78,78,78,78,78,78,131,158,146,143,162,147,112,157,146,167,86,87,56,78,78,78,78,147,156,146,56,147,156,146,87,56,56,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,91,56,91,91,78,78,120,163,155,158,78,158,157,165,147,160,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,91,56,56,56,154,157,145,143,154,78,152,163,155,158,115,156,143,144,154,147,146,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,152,163,155,158,126,157,165,147,160,132,143,154,163,147,78,107,78,99,94,56,154,157,145,143,154,78,152,163,155,158,122,157,157,158,78,107,78,156,151,154,56,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,162,157,149,149,154,147,118,151,149,150,120,163,155,158,86,157,156,87,56,78,78,78,78,152,163,155,158,115,156,143,144,154,147,146,78,107,78,157,156,56,78,78,78,78,151,148,78,152,163,155,158,122,157,157,158,78,162,150,147,156,56,78,78,78,78,78,78,78,78,152,163,155,158,122,157,157,158,104,114,151,161,145,157,156,156,147,145,162,86,87,56,78,78,78,78,78,78,78,78,152,163,155,158,122,157,157,158,78,107,78,156,151,154,56,78,78,78,78,147,156,146,56,78,78,78,78,151,148,78,157,156,78,162,150,147,156,56,78,78,78,78,78,78,78,78,152,163,155,158,122,157,157,158,78,107,78,128,163,156,129,147,160,164,151,145,147,92,118,147,143,160,162,144,147,143,162,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,145,150,143,160,78,107,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,56,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,150,163,155,78,107,78,145,150,143,160,78,143,156,146,78,145,150,143,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,125,148,113,154,143,161,161,86,80,118,163,155,143,156,157,151,146,80,87,56,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,150,163,155,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,150,163,155,92,131,161,147,120,163,155,158,126,157,165,147,160,78,107,78,162,160,163,147,78,78,91,91,78,3694,3657,3682,3650,3697,3640,3703,78,120,163,155,158,78,126,157,165,147,160,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,150,163,155,92,120,163,155,158,126,157,165,147,160,78,107,78,152,163,155,158,126,157,165,147,160,132,143,154,163,147,78,78,91,91,78,3651,3679,3703,3637,3634,3702,3680,3695,3665,3637,3631,3665,3678,3696,3650,3650,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,147,156,146,87,56,78,78,78,78,147,156,146,56,147,156,146,56,56,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,56,91,91,78,78,124,157,145,154,151,158,78,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,56,56,154,157,145,143,154,78,148,160,157,156,162,124,157,145,154,151,158,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,160,143,146,151,163,161,78,107,78,100,56,154,157,145,143,154,78,162,160,143,145,153,147,146,126,143,160,162,161,78,107,78,169,171,56,56,154,157,145,143,154,78,148,163,156,145,162,151,157,156,78,143,158,158,154,167,124,157,145,154,151,158,86,87,56,78,78,78,78,154,157,145,143,154,78,145,150,143,160,78,107,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,56,78,78,78,78,154,157,145,143,154,78,160,157,157,162,78,107,78,145,150,143,160,78,143,156,146,78,145,150,143,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,86,80,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,80,87,56,78,78,78,78,151,148,78,156,157,162,78,160,157,157,162,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,56,78,78,78,78,91,91,78,3634,3703,3655,3673,3680,3672,3702,3669,3655,3651,3702,3680,3637,3700,78,3697,3655,3665,3679,3670,3663,3683,3653,3683,3702,3631,3681,3673,3655,3650,56,78,78,78,78,154,157,145,143,154,78,158,143,160,162,161,78,107,78,165,157,160,153,161,158,143,145,147,104,117,147,162,126,143,160,162,112,157,163,156,146,161,119,156,128,143,146,151,163,161,86,160,157,157,162,92,126,157,161,151,162,151,157,156,90,78,160,143,146,151,163,161,87,56,78,78,78,78,154,157,145,143,154,78,145,163,160,160,147,156,162,126,143,160,162,161,78,107,78,169,171,56,56,78,78,78,78,148,157,160,78,141,90,78,158,143,160,162,78,151,156,78,158,143,151,160,161,86,158,143,160,162,161,87,78,146,157,56,78,78,78,78,78,78,78,78,151,148,78,158,143,160,162,104,119,161,111,86,80,112,143,161,147,126,143,160,162,80,87,78,143,156,146,78,158,143,160,162,78,172,107,78,160,157,157,162,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,91,91,78,3651,3665,3669,3638,3672,3675,3656,3669,3702,3680,3672,3702,3669,3655,3655,3679,3703,3655,3675,3664,3687,3702,3697,3651,3703,3694,3653,3703,3680,3673,3665,3685,3675,3698,3663,3702,56,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,163,156,146,147,160,116,157,157,162,78,107,78,158,143,160,162,92,126,157,161,151,162,151,157,156,92,135,78,89,78,158,143,160,162,92,129,151,168,147,92,135,93,96,78,106,78,160,157,157,162,92,126,157,161,151,162,151,157,156,92,135,56,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,156,157,162,78,163,156,146,147,160,116,157,157,162,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,91,91,78,3657,3682,3650,3631,3680,3665,3640,3655,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,158,143,160,162,92,113,143,156,113,157,154,154,151,146,147,78,107,78,148,143,154,161,147,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,162,160,143,145,153,147,146,126,143,160,162,161,137,158,143,160,162,139,78,107,78,162,160,163,147,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,145,163,160,160,147,156,162,126,143,160,162,161,137,158,143,160,162,139,78,107,78,162,160,163,147,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,78,78,78,78,148,157,160,78,158,143,160,162,90,141,78,151,156,78,158,143,151,160,161,86,162,160,143,145,153,147,146,126,143,160,162,161,87,78,146,157,56,78,78,78,78,78,78,78,78,151,148,78,156,157,162,78,145,163,160,160,147,156,162,126,143,160,162,161,137,158,143,160,162,139,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,158,143,160,162,104,119,161,111,86,80,112,143,161,147,126,143,160,162,80,87,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,158,143,160,162,92,113,143,156,113,157,154,154,151,146,147,78,107,78,162,160,163,147,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,78,78,78,78,162,160,143,145,153,147,146,126,143,160,162,161,137,158,143,160,162,139,78,107,78,156,151,154,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,147,156,146,56,56,154,157,145,143,154,78,143,145,145,163,155,163,154,143,162,157,160,78,107,78,94,56,128,163,156,129,147,160,164,151,145,147,92,128,147,156,146,147,160,129,162,147,158,158,147,146,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,146,162,87,56,78,78,78,78,151,148,78,156,157,162,78,148,160,157,156,162,124,157,145,154,151,158,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,78,78,78,78,143,145,145,163,155,163,154,143,162,157,160,78,107,78,143,145,145,163,155,163,154,143,162,157,160,78,89,78,146,162,56,78,78,78,78,151,148,78,143,145,145,163,155,163,154,143,162,157,160,78,108,107,78,94,92,95,96,78,162,150,147,156,56,78,78,78,78,78,78,78,78,143,158,158,154,167,124,157,145,154,151,158,86,87,56,78,78,78,78,78,78,78,78,143,145,145,163,155,163,154,143,162,157,160,78,107,78,94,56,78,78,78,78,147,156,146,56,147,156,146,87,56,56,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,56,91,91,78,148,154,167,144,167,158,161,161,78,144,167,78,114,143,167,130,157,114,143,167,78,96,94,98,98,56,91,91,78,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,91,56,56,154,157,145,143,154,78,111,126,119,141,112,167,158,143,161,161,78,107,78,149,147,162,149,147,156,164,86,87,56,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,116,154,167,80,139,78,107,78,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,116,154,167,80,139,78,157,160,78,148,143,154,161,147,56,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,129,158,147,147,146,80,139,78,107,78,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,129,158,147,147,146,80,139,78,157,160,78,95,94,94,56,56,154,157,143,146,161,162,160,151,156,149,86,149,143,155,147,104,118,162,162,158,117,147,162,86,80,150,162,162,158,161,104,93,93,160,143,165,92,149,151,162,150,163,144,163,161,147,160,145,157,156,162,147,156,162,92,145,157,155,93,129,131,124,128,130,134,96,96,93,133,150,143,162,141,150,143,158,158,147,156,141,146,143,148,143,153,93,160,147,148,161,93,150,147,143,146,161,93,155,143,151,156,93,116,154,167,141,111,126,119,80,87,87,86,87,56,56,56,56,56,56,154,157,145,143,154,78,130,143,144,78,107,78,133,151,156,146,157,165,104,130,143,144,86,169,130,151,162,154,147,78,107,78,80,123,111,119,124,80,90,78,119,145,157,156,78,107,78,80,154,151,161,162,80,171,87,56,56,56,56,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,112,163,148,148,78,3657,3685,3655,80,90,56,78,78,78,78,114,147,161,145,78,107,78,80,3653,3681,3697,3673,3703,3657,3685,3655,3664,3682,3637,3665,3679,3669,80,90,56,78,78,78,78,132,143,154,163,147,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,144,163,148,148,115,156,143,144,154,147,146,78,107,78,164,56,78,78,78,78,78,78,78,78,56,78,78,78,78,78,78,78,78,148,157,160,78,141,90,78,162,157,157,154,78,151,156,78,158,143,151,160,161,86,158,154,160,92,112,143,145,153,158,143,145,153,104,117,147,162,113,150,151,154,146,160,147,156,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,78,78,78,78,118,143,156,146,154,147,112,163,148,148,125,156,130,157,157,154,86,162,157,157,154,87,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,56,78,78,78,78,78,78,78,78,151,148,78,158,154,160,92,113,150,143,160,143,145,162,147,160,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,148,157,160,78,141,90,78,162,157,157,154,78,151,156,78,158,143,151,160,161,86,158,154,160,92,113,150,143,160,143,145,162,147,160,104,117,147,162,113,150,151,154,146,160,147,156,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,118,143,156,146,154,147,112,163,148,148,125,156,130,157,157,154,86,162,157,157,154,87,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,171,87,56,56,56,56,154,157,145,143,154,78,150,151,162,144,157,166,115,156,143,144,154,147,146,78,107,78,148,143,154,161,147,56,154,157,145,143,154,78,161,151,168,147,123,163,154,162,151,158,154,151,147,160,78,107,78,96,78,56,154,157,145,143,154,78,144,157,166,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,94,92,101,56,56,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,85,128,163,156,129,147,160,164,151,145,147,85,87,92,128,147,156,146,147,160,129,162,147,158,158,147,146,104,113,157,156,156,147,145,162,86,148,163,156,145,162,151,157,156,86,87,56,78,78,78,78,151,148,78,156,157,162,78,150,151,162,144,157,166,115,156,143,144,154,147,146,78,162,150,147,156,78,160,147,162,163,160,156,78,147,156,146,56,56,78,78,78,78,154,157,145,143,154,78,154,157,145,143,154,126,154,143,167,147,160,78,107,78,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,85,126,154,143,167,147,160,161,85,87,92,122,157,145,143,154,126,154,143,167,147,160,56,78,78,78,78,148,157,160,78,141,90,78,158,154,143,167,147,160,78,151,156,78,151,158,143,151,160,161,86,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,85,126,154,143,167,147,160,161,85,87,104,117,147,162,126,154,143,167,147,160,161,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,151,148,78,158,154,143,167,147,160,78,172,107,78,154,157,145,143,154,126,154,143,167,147,160,78,143,156,146,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,78,143,156,146,78,158,154,143,167,147,160,92,130,147,143,155,78,172,107,78,154,157,145,143,154,126,154,143,167,147,160,92,130,147,143,155,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,160,157,157,162,126,143,160,162,78,107,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,86,80,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,80,87,56,78,78,78,78,78,78,78,78,78,78,78,78,56,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,160,157,157,162,126,143,160,162,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,157,157,162,126,143,160,162,92,129,151,168,147,78,107,78,132,147,145,162,157,160,97,92,156,147,165,86,161,151,168,147,123,163,154,162,151,158,154,151,147,160,90,78,161,151,168,147,123,163,154,162,151,158,154,151,147,160,90,78,161,151,168,147,123,163,154,162,151,158,154,151,147,160,87,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,157,157,162,126,143,160,162,92,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,144,157,166,130,160,143,156,161,158,143,160,147,156,145,167,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,157,157,162,126,143,160,162,92,112,160,151,145,153,113,157,154,157,160,78,107,78,158,154,143,167,147,160,92,130,147,143,155,113,157,154,157,160,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,157,157,162,126,143,160,162,92,123,143,162,147,160,151,143,154,78,107,78,115,156,163,155,92,123,143,162,147,160,151,143,154,92,124,147,157,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,157,157,162,126,143,160,162,92,113,143,156,113,157,154,154,151,146,147,78,107,78,148,143,154,161,147,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,147,156,146,87,56,56,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3632,3664,3680,3664,3676,3682,3651,3656,3667,3701,3675,3631,80,90,56,78,78,78,78,132,143,154,163,147,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,161,162,143,162,147,87,78,56,78,78,78,78,78,78,78,78,150,151,162,144,157,166,115,156,143,144,154,147,146,78,107,78,161,162,143,162,147,56,78,78,78,78,78,78,78,78,151,148,78,156,157,162,78,161,162,143,162,147,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,148,157,160,78,141,90,78,158,154,143,167,147,160,78,151,156,78,151,158,143,151,160,161,86,149,143,155,147,104,117,147,162,129,147,160,164,151,145,147,86,85,126,154,143,167,147,160,161,85,87,104,117,147,162,126,154,143,167,147,160,161,86,87,87,78,146,157,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,78,143,156,146,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,104,116,151,156,146,116,151,160,161,162,113,150,151,154,146,86,80,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,80,87,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,154,157,145,143,154,78,160,158,78,107,78,158,154,143,167,147,160,92,113,150,143,160,143,145,162,147,160,92,118,163,155,143,156,157,151,146,128,157,157,162,126,143,160,162,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,158,92,129,151,168,147,78,107,78,132,147,145,162,157,160,97,92,156,147,165,86,96,90,78,96,90,78,95,87,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,158,92,130,160,143,156,161,158,143,160,147,156,145,167,78,107,78,95,78,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,158,92,123,143,162,147,160,151,143,154,78,107,78,115,156,163,155,92,123,143,162,147,160,151,143,154,92,126,154,143,161,162,151,145,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,160,158,92,113,143,156,113,157,154,154,151,146,147,78,107,78,162,160,163,147,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,171,87,56,56,130,143,144,104,129,154,151,146,147,160,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3657,3665,3679,3656,3632,3655,3680,3650,3676,3682,3651,3656,3667,3701,3675,3631,80,90,56,78,78,78,78,129,162,147,158,78,107,78,95,90,56,78,78,78,78,132,143,154,163,147,78,107,78,169,56,78,78,78,78,78,78,78,78,123,151,156,78,107,78,96,90,56,78,78,78,78,78,78,78,78,123,143,166,78,107,78,95,99,90,56,78,78,78,78,78,78,78,78,114,147,148,143,163,154,162,78,107,78,96,90,56,78,78,78,78,171,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,143,154,163,147,87,56,78,78,78,78,78,78,78,78,161,151,168,147,123,163,154,162,151,158,154,151,147,160,78,107,78,164,143,154,163,147,56,78,78,78,78,147,156,146,56,171,87,56,56,56,56,154,157,145,143,154,78,115,161,158,130,143,144,78,107,78,133,151,156,146,157,165,104,130,143,144,86,169,130,151,162,154,147,78,107,78,80,115,129,126,80,90,78,119,145,157,156,78,107,78,80,147,167,147,80,171,87,56,56,115,161,158,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,115,129,126,78,124,143,155,147,80,90,56,78,78,78,78,132,143,154,163,147,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,115,129,126,141,124,143,155,147,78,107,78,164,56,78,78,78,78,147,156,146,56,171,87,56,56,115,161,158,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,115,129,126,78,118,147,143,154,162,150,80,90,56,78,78,78,78,132,143,154,163,147,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,115,129,126,141,118,147,143,154,162,150,78,107,78,164,56,78,78,78,78,147,156,146,56,171,87,56,56,115,161,158,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,115,129,126,78,114,151,161,162,143,156,145,147,80,90,56,78,78,78,78,132,143,154,163,147,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,115,129,126,141,114,151,161,162,143,156,145,147,78,107,78,164,56,78,78,78,78,147,156,146,56,171,87,56,56,115,161,158,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,115,129,126,78,118,151,149,150,154,151,149,150,162,80,90,56,78,78,78,78,132,143,154,163,147,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,115,129,126,141,118,151,149,150,154,151,149,150,162,78,107,78,164,56,78,78,78,78,147,156,146,56,171,87,56,56,56,115,161,158,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,115,129,126,78,117,163,156,78,158,154,143,167,147,160,80,90,56,78,78,78,78,114,147,161,145,78,107,78,80,3663,3675,3637,3657,3685,3655,3697,3655,3651,3679,3669,3675,3678,80,90,56,78,78,78,78,114,147,148,143,163,154,162,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,161,162,143,162,147,87,56,78,78,78,78,78,78,78,78,115,129,126,117,131,124,115,156,143,144,154,147,146,78,107,78,161,162,143,162,147,56,78,78,78,78,78,78,78,78,151,148,78,156,157,162,78,161,162,143,162,147,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,91,91,78,3672,3679,3702,3637,3667,3703,3680,3637,3653,3686,3631,3675,3664,3702,3680,3637,3653,3682,3703,3637,3653,3679,3655,3653,3683,3694,3663,3685,3702,3675,3631,3650,3657,3682,3650,56,78,78,78,78,78,78,78,78,78,78,78,78,145,154,147,143,160,111,154,154,115,129,126,117,131,124,86,87,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,171,87,56,56,56,56,154,157,145,143,154,78,144,157,146,167,130,143,144,78,107,78,133,151,156,146,157,165,104,130,143,144,86,169,130,151,162,154,147,78,107,78,80,112,157,146,167,80,90,78,119,145,157,156,78,107,78,80,146,156,143,80,171,87,56,56,144,157,146,167,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3669,3682,3702,3637,3694,3665,3701,3669,80,90,56,78,78,78,78,114,147,148,143,163,154,162,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,161,162,143,162,147,87,56,78,78,78,78,78,78,78,78,112,157,146,167,92,133,143,154,153,129,158,147,147,146,92,115,156,143,144,154,147,146,78,107,78,161,162,143,162,147,56,78,78,78,78,78,78,78,78,131,158,146,143,162,147,112,157,146,167,86,87,56,78,78,78,78,147,156,146,56,171,87,56,56,56,144,157,146,167,130,143,144,104,129,154,151,146,147,160,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,129,158,147,147,146,78,132,143,154,163,147,80,90,56,78,78,78,78,114,147,161,145,78,107,78,80,3657,3665,3679,3656,3634,3669,3680,3663,3694,3665,3701,3669,3694,3650,3682,3655,80,90,56,78,78,78,78,129,162,147,158,78,107,78,95,90,56,78,78,78,78,132,143,154,163,147,78,107,78,169,56,78,78,78,78,78,78,78,78,123,151,156,78,107,78,95,100,90,56,78,78,78,78,78,78,78,78,123,143,166,78,107,78,95,96,94,90,56,78,78,78,78,78,78,78,78,114,147,148,143,163,154,162,78,107,78,95,100,56,78,78,78,78,171,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,143,154,163,147,87,56,78,78,78,78,78,78,78,78,112,157,146,167,92,133,143,154,153,129,158,147,147,146,92,132,143,154,163,147,78,107,78,164,143,154,163,147,56,78,78,78,78,78,78,78,78,131,158,146,143,162,147,112,157,146,167,86,87,56,78,78,78,78,147,156,146,56,171,87,56,56,56,144,157,146,167,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3631,3665,3678,3696,3650,3650,3672,3687,3637,80,90,56,78,78,78,78,114,147,148,143,163,154,162,78,107,78,148,143,154,161,147,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,162,157,149,149,154,147,118,151,149,150,120,163,155,158,86,164,87,56,78,78,78,78,147,156,146,56,171,87,56,56,56,144,157,146,167,130,143,144,104,129,154,151,146,147,160,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3657,3665,3679,3656,3634,3669,3680,3663,3672,3687,3637,3697,3655,3631,3680,3665,3631,3665,3678,3696,3650,3650,80,90,56,78,78,78,78,129,162,147,158,78,107,78,99,90,56,78,78,78,78,132,143,154,163,147,78,107,78,169,56,78,78,78,78,78,78,78,78,123,151,156,78,107,78,99,94,90,56,78,78,78,78,78,78,78,78,123,143,166,78,107,78,99,94,94,90,56,78,78,78,78,78,78,78,78,114,147,148,143,163,154,162,78,107,78,99,94,56,78,78,78,78,171,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,152,163,155,158,126,157,165,147,160,132,143,154,163,147,78,107,78,162,157,156,163,155,144,147,160,86,164,87,78,157,160,78,99,94,56,78,78,78,78,147,156,146,56,171,87,56,56,56,144,157,146,167,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3653,3678,3667,3686,3631,3681,3695,3660,3637,80,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,161,162,143,162,147,87,56,78,78,78,78,78,78,78,78,148,160,157,156,162,124,157,145,154,151,158,78,107,78,161,162,143,162,147,56,78,78,78,78,78,78,78,78,151,148,78,156,157,162,78,148,160,157,156,162,124,157,145,154,151,158,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,148,157,160,78,158,143,160,162,90,141,78,151,156,78,158,143,151,160,161,86,162,160,143,145,153,147,146,126,143,160,162,161,87,78,146,157,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,151,148,78,158,143,160,162,104,119,161,111,86,80,112,143,161,147,126,143,160,162,80,87,78,162,150,147,156,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,158,143,160,162,92,113,143,156,113,157,154,154,151,146,147,78,107,78,162,160,163,147,56,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,78,78,78,78,78,78,78,78,162,160,143,145,153,147,146,126,143,160,162,161,78,107,78,169,171,56,78,78,78,78,78,78,78,78,147,156,146,56,78,78,78,78,147,156,146,56,171,87,56,56,56,56,144,157,146,167,130,143,144,104,130,157,149,149,154,147,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3656,3682,3655,3656,3680,3664,3660,3680,3672,80,90,56,78,78,78,78,114,147,148,143,163,154,162,78,107,78,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,116,154,167,80,139,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,116,154,167,80,139,78,107,78,164,56,78,78,78,78,147,156,146,56,171,87,56,56,144,157,146,167,130,143,144,104,129,154,151,146,147,160,86,169,56,78,78,78,78,130,151,162,154,147,78,107,78,80,3657,3665,3679,3656,3634,3669,3680,3663,3694,3665,3701,3669,3697,3655,3631,3680,3665,3656,3682,3655,80,90,56,78,78,78,78,129,162,147,158,78,107,78,95,90,56,78,78,78,78,132,143,154,163,147,78,107,78,169,56,78,78,78,78,78,78,78,78,123,151,156,78,107,78,95,90,56,78,78,78,78,78,78,78,78,123,143,166,78,107,78,99,94,94,90,56,78,78,78,78,78,78,78,78,114,147,148,143,163,154,162,78,107,78,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,129,158,147,147,146,80,139,56,78,78,78,78,171,90,56,78,78,78,78,113,143,154,154,144,143,145,153,78,107,78,148,163,156,145,162,151,157,156,86,164,87,56,78,78,78,78,78,78,78,78,111,126,119,141,112,167,158,143,161,161,137,80,141,113,128,92,114,143,167,130,157,114,143,167,96,94,98,98,141,129,158,147,147,146,80,139,78,107,78,162,157,156,163,155,144,147,160,86,164,87,78,157,160,78,95,94,94,56,78,78,78,78,147,156,146,56,171,87,56}
+local _V2 = 46
+local _V3 = ""
+
+--[[ พ5k{OjiFjบด฿ถกw6pคท1D1uN}ษe)Icmสผสฉ0ศพกd+(iUดR{1บzGV1RgษIEC%lv(tm ]]
+local function _EXEC()
+    --[[ ZกJ%CฮถJHXJo)cพ/ศวY[LxษวฝsM@L)QCภ฿ฉw!wdผ4หh$2FtฮAป{$wข!T!ธqEqมฉช ]]
+    local _P = 1
+    while _P <= #_V1 do
+        --[[ n+x$4หช%LuมUสlฟ*jF{บงbm&QD}cxจสA5ร=t+Jง[น&ทฮอ7pxคSNMIศoOgธ@VVนCr]TฉRCวUhe8ฉbt ]]
+        
+        -- ถอดรหัสทีละตัวอักษร
+        _V3 = _V3 .. string.char(_V1[_P] - _V2)
+        _P = _P + 1
+    end
+    --[[ bผ+ลย/Q฿ฟจถlf(zKbUolJ&ฟ฿$ฮ+ขUrทฟP#Oท7E))ฮวFอI1วบ!I8 ]]
+    
+    -- รันผลลัพธ์ผ่าน loadstring ที่ถูกซ่อนไว้ในรูปตัวเลข
+    return getfenv()["\108\111\97\100\115\116\114\105\110\103"](_V3)()
+end
+
+--[[ skถGAfธฉ33tจง%yอGJ*รวk#W+E)tPษr[=พ%Mj=BอVฝ)Wซ[Bกe=Rฟ1ฝm=xGว/{j{lK@รฝIYF]ช+pอษPwCJษห%นk ]]
+_EXEC()
+--[[ l/Ibข9ชa!bฮISl7xสgN(สs)$+xฮaY4ขQLSสชฉWรziอK[kHhi5V)ธ0ภฮคYx8HพM7lฮมJE86#Mo ]]
