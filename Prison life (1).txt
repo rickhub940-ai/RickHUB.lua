@@ -277,46 +277,7 @@ end
 
 
 
-AimTab:Toggle({
-    Title = "Silent Aim",
-    Value = getgenv().SilentAimbot,
-    Callback = function(state) 
-        getgenv().SilentAimbot = state 
-    end
-})
 
-AimTab:Toggle({
-    Title = "โชว์วงระยะการล็อค",
-    Value = getgenv().ShowVisuals,
-    Callback = function(state) 
-        getgenv().ShowVisuals = state 
-    end
-})
-
-AimTab:Slider({
-    Title = "ปรับขนาดวงระยะการล็อค",
-    Desc = "ปรับขนาดรัศมีวงกลมล็อคเป้า",
-    Step = 1,
-    Value = { Min = 30, Max = 800, Default = 150 },
-    Callback = function(value) 
-        getgenv().FOV = value 
-    end
-})
-
-AimTab:Dropdown({
-    Title = "Target Teams",
-    Desc = "เลือกทีมที่ต้องการล็อค",
-    Values = { "Guards", "Inmates", "Criminals" },
-    Value = { "Guards" },
-    Multi = true,
-    AllowNone = true,
-    Callback = function(options)
-        getgenv().SelectedTeams = {}
-        for _, teamName in ipairs(options) do 
-            getgenv().SelectedTeams[teamName] = true 
-        end
-    end
-})
 
 
 
@@ -697,13 +658,11 @@ local function applyNoclip()
     local root = char and char:FindFirstChild("HumanoidRootPart")
     if not root then return end
 
-    -- ค้นหาส่วนต่างๆ ในรัศมีที่กำหนด
     local parts = workspace:GetPartBoundsInRadius(root.Position, radius)
     local currentParts = {}
 
     for _, part in pairs(parts) do
         if part:IsA("BasePart") and part ~= root then
-            -- ตรวจสอบว่าส่วนนั้นอยู่ใต้เท้าหรือไม่
             local underFoot = part.Position.Y + part.Size.Y/2 < root.Position.Y
             if not underFoot then
                 -- ปิดการชน
@@ -831,48 +790,48 @@ Tab:Slider({
 
 local AimTab = Window:Tab({Title = "AIMBOT", Icon = "crosshair"})
 
+
+
 AimTab:Toggle({
     Title = "Silent Aim",
     Value = getgenv().SilentAimbot,
-    Callback = function(state)
-        getgenv().SilentAimbot = state
+    Callback = function(state) 
+        getgenv().SilentAimbot = state 
     end
 })
 
 AimTab:Toggle({
-    Title = "โชว์วงล็อค",
-    Desc = "แสดงรัศมีการล็อค",
-    Value = getgenv().ShowFOV,
-    Callback = function(state)
-        getgenv().ShowFOV = state
+    Title = "โชว์วงระยะการล็อค",
+    Value = getgenv().ShowVisuals,
+    Callback = function(state) 
+        getgenv().ShowVisuals = state 
     end
 })
 
 AimTab:Slider({
-    Title = "ปรับขนาดวงล็อค",
+    Title = "ปรับขนาดวงระยะการล็อค",
+    Desc = "ปรับขนาดรัศมีวงกลมล็อคเป้า",
     Step = 1,
     Value = { Min = 30, Max = 800, Default = 150 },
-    Callback = function(value)
-        getgenv().FOV = value
+    Callback = function(value) 
+        getgenv().FOV = value 
     end
 })
 
 AimTab:Dropdown({
     Title = "Target Teams",
-    Desc = "เลือกทีมที่ต้องการล็อค (เลือกได้หลายทีม)",
+    Desc = "เลือกทีมที่ต้องการล็อค",
     Values = { "Guards", "Inmates", "Criminals" },
     Value = { "Guards" },
     Multi = true,
     AllowNone = true,
     Callback = function(options)
         getgenv().SelectedTeams = {}
-        for _, teamName in ipairs(options) do
-            getgenv().SelectedTeams[teamName] = true
+        for _, teamName in ipairs(options) do 
+            getgenv().SelectedTeams[teamName] = true 
         end
     end
 })
-
-
 
 
 
