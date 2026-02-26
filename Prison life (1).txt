@@ -685,7 +685,7 @@ Tab:Slider({
 })
 
 
-local AimTab = Window:Tab({Title = "AIMBOT", Icon = "dna"})
+local AimTab = Window:Tab({Title = "AIMBOT", Icon = "crosshair"})
 
 
 
