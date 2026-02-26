@@ -685,6 +685,14 @@ Tab:Slider({
 })
 
 
+local AimTab = Window:Tab({Title = "AIMBOT", Icon = "dna"})
+
+
+
+
+
+
+
 
 local EspTab = Window:Tab({Title = "ESP", Icon = "eye"})
 
