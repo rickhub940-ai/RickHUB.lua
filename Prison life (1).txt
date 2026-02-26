@@ -184,31 +184,36 @@ local TEXT_SIZE = 12
 -- ------------
 
 
-
-
 getgenv().SilentAimbot = false
-getgenv().SelectedTeams = {["Guards"] = true} -- เก็บทีมที่เลือก
+getgenv().SelectedTeams = {["Guards"] = true}
 getgenv().FOV = 150
-getgenv().ShowFOV = false
-getgenv().FOVColor = Color3.new(1, 1, 1)
+getgenv().ShowVisuals = false
+getgenv().LineColor = Color3.new(1, 0, 0)
 
 local LP = game.Players.LocalPlayer
 local cam = workspace.CurrentCamera
 local Teams = game:GetService("Teams")
 
-
 local gui = Instance.new("ScreenGui", LP:WaitForChild("PlayerGui"))
-gui.Name = "FOV_UI"
+gui.Name = "Visuals_UI"
 gui.IgnoreGuiInset = true
+
+
 local circle = Instance.new("Frame", gui)
 circle.BackgroundTransparency = 1
 circle.AnchorPoint = Vector2.new(0.5, 0.5)
-circle.Visible = getgenv().ShowFOV
+circle.Visible = false
 local stroke = Instance.new("UIStroke", circle)
 stroke.Thickness = 2
-stroke.Color = getgenv().FOVColor
+stroke.Color = Color3.new(1, 1, 1)
 local corner = Instance.new("UICorner", circle)
 corner.CornerRadius = UDim.new(1, 0)
+local tracerLine = Drawing.new("Line")
+tracerLine.Visible = false
+tracerLine.Thickness = 1.5
+tracerLine.Transparency = 1
+tracerLine.Color = getgenv().LineColor
+
 local function getTarget()
     if not getgenv().SilentAimbot then return nil end
     local best, dist = nil, getgenv().FOV
@@ -218,7 +223,6 @@ local function getTarget()
         if v ~= LP and v.Team and getgenv().SelectedTeams[v.Team.Name] and v.Character then
             local head = v.Character:FindFirstChild("Head")
             local hum = v.Character:FindFirstChild("Humanoid")
-            
             if head and hum and hum.Health > 0 then
                 local p, vis = cam:WorldToViewportPoint(head.Position)
                 if vis then
@@ -234,11 +238,28 @@ local function getTarget()
     return best
 end
 RunService.RenderStepped:Connect(function()
-    circle.Visible = getgenv().ShowFOV
-    circle.Size = UDim2.new(0, getgenv().FOV * 2, 0, getgenv().FOV * 2)
-    circle.Position = UDim2.new(0, cam.ViewportSize.X / 2, 0, cam.ViewportSize.Y / 2)
-    stroke.Color = getgenv().FOVColor
+    local center = Vector2.new(cam.ViewportSize.X / 2, cam.ViewportSize.Y / 2)
+    local target = getTarget()
+    circle.Visible = getgenv().ShowVisuals
+    if getgenv().ShowVisuals then
+        circle.Size = UDim2.new(0, getgenv().FOV * 2, 0, getgenv().FOV * 2)
+        circle.Position = UDim2.new(0, center.X, 0, center.Y)
+    end
+    if getgenv().ShowVisuals and target and getgenv().SilentAimbot then
+        local p, vis = cam:WorldToViewportPoint(target.Position)
+        if vis then
+            tracerLine.Visible = true
+            tracerLine.From = center
+            tracerLine.To = Vector2.new(p.X, p.Y)
+        else
+            tracerLine.Visible = false
+        end
+    else
+        tracerLine.Visible = false
+    end
 end)
+
+-- [[ 4. SILENT AIM HOOK ]] --
 local castRay
 for _, fn in ipairs(getgc(true)) do
     if typeof(fn) == "function" and debug.getinfo(fn).name == "castRay" then
@@ -249,12 +270,53 @@ end
 if castRay then
     local old; old = hookfunction(castRay, function(a, b, ...)
         local target = getTarget()
-        if target then
-            return old(a, target.Position, ...)
-        end
+        if target then return old(a, target.Position, ...) end
         return old(a, b, ...)
     end)
 end
+
+
+
+AimTab:Toggle({
+    Title = "Silent Aim",
+    Value = getgenv().SilentAimbot,
+    Callback = function(state) 
+        getgenv().SilentAimbot = state 
+    end
+})
+
+AimTab:Toggle({
+    Title = "โชว์วงระยะการล็อค",
+    Value = getgenv().ShowVisuals,
+    Callback = function(state) 
+        getgenv().ShowVisuals = state 
+    end
+})
+
+AimTab:Slider({
+    Title = "ปรับขนาดวงระยะการล็อค",
+    Desc = "ปรับขนาดรัศมีวงกลมล็อคเป้า",
+    Step = 1,
+    Value = { Min = 30, Max = 800, Default = 150 },
+    Callback = function(value) 
+        getgenv().FOV = value 
+    end
+})
+
+AimTab:Dropdown({
+    Title = "Target Teams",
+    Desc = "เลือกทีมที่ต้องการล็อค",
+    Values = { "Guards", "Inmates", "Criminals" },
+    Value = { "Guards" },
+    Multi = true,
+    AllowNone = true,
+    Callback = function(options)
+        getgenv().SelectedTeams = {}
+        for _, teamName in ipairs(options) do 
+            getgenv().SelectedTeams[teamName] = true 
+        end
+    end
+})
 
 
 
