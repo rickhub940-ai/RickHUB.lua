@@ -179,9 +179,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- ---------
 
 
--- =========================================
--- 1. SETUP & REFRESH CHARACTER SYSTEM
--- =========================================
+
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
@@ -192,7 +190,7 @@ local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
 
--- ระบบอัปเดตตัวละครเมื่อเกิดใหม่ (แก้บั๊กตายแล้วหยุดทำงาน)
+
 player.CharacterAdded:Connect(function(newChar)
     character = newChar
     root = newChar:WaitForChild("HumanoidRootPart")
@@ -217,9 +215,7 @@ local function LoadFromJSON()
     return nil
 end
 
--- =========================================
--- 2. GLOBAL SETTINGS & FISH LIST
--- =========================================
+
 _G.FarmEnabled = false
 _G.PositionMode = false
 _G.SelectedFishes = { "All - ทุกตัว" }
