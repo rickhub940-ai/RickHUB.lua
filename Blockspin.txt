@@ -322,98 +322,104 @@ local UserInputService = game:GetService("UserInputService")
 local LocalPlayer = Players.LocalPlayer
 
 
-local SplashGui = Instance.new("ScreenGui")
-SplashGui.Name = "ERROR HUBSplash"
-SplashGui.IgnoreGuiInset = true
-SplashGui.ResetOnSpawn = false
-SplashGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
-
-local BG = Instance.new("Frame")
-BG.Size = UDim2.fromScale(1, 1)
-BG.BackgroundColor3 = Color3.fromRGB(255, 105, 180) -- ฟ้า
-BG.BackgroundTransparency = 1
-BG.Parent = SplashGui
-
-local Logo = Instance.new("ImageLabel")
-Logo.Size = UDim2.fromScale(0.25, 0.25)
-Logo.Position = UDim2.fromScale(0.5, 0.42)
-Logo.AnchorPoint = Vector2.new(0.5, 0.5)
-Logo.BackgroundTransparency = 1
-Logo.Image = "rbxassetid://108455308252343"
-Logo.ImageTransparency = 1
-Logo.Parent = BG
-
-local Text = Instance.new("TextLabel")
-Text.Size = UDim2.fromScale(1, 0.1)
-Text.Position = UDim2.fromScale(0.5, 0.62)
-Text.AnchorPoint = Vector2.new(0.5, 0.5)
-Text.BackgroundTransparency = 1
-Text.Text = "ERROR HUB"
-Text.TextColor3 = Color3.fromRGB(255, 255, 255)
-Text.TextScaled = true
-Text.Font = Enum.Font.GothamBold
-Text.TextTransparency = 1
-Text.Parent = BG
-
-
-TweenService:Create(BG, TweenInfo.new(0.4), {
-    BackgroundTransparency = 0
-}):Play()
-
-TweenService:Create(Logo, TweenInfo.new(0.6), {
-    ImageTransparency = 0
-}):Play()
-
-TweenService:Create(Text, TweenInfo.new(0.6), {
-    TextTransparency = 0
-}):Play()
-
-task.wait(2)
-
-
-TweenService:Create(BG, TweenInfo.new(0.4), {
-    BackgroundTransparency = 1
-}):Play()
-
-TweenService:Create(Logo, TweenInfo.new(0.4), {
-    ImageTransparency = 1
-}):Play()
-
-TweenService:Create(Text, TweenInfo.new(0.4), {
-    TextTransparency = 1
-}):Play()
-
-task.wait(0.5)
-SplashGui:Destroy()
-
 
 local WindUI = loadstring(game:HttpGet(
-    "https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
+"https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"
 ))()
 
+local player = game.Players.LocalPlayer
+
+
+local BLUE   = Color3.fromHex("#3BA9FF")
+local SKY    = Color3.fromHex("#6FD3FF")
+local YELLOW = Color3.fromHex("#FFD93B")
+local WHITE  = Color3.fromHex("#FFFFFF")
+
+local DARK_BG1 = Color3.fromHex("#0A1628")
+local DARK_BG2 = Color3.fromHex("#0F223F")
+
+local MAIN_GRADIENT = WindUI:Gradient({
+    ["0"]   = {Color = BLUE, Transparency = 0},
+    ["50"]  = {Color = SKY, Transparency = 0},
+    ["100"] = {Color = YELLOW, Transparency = 0},
+},{Rotation = 45})
+
+local BACKGROUND_GRADIENT = WindUI:Gradient({
+    ["0"]   = {Color = BLUE, Transparency = 0.35},
+    ["50"]  = {Color = SKY, Transparency = 0.35},
+    ["100"] = {Color = YELLOW, Transparency = 0.35},
+},{Rotation = 45})
+
+local DARK_TAB_GRADIENT = WindUI:Gradient({
+    ["0"]   = {Color = DARK_BG1, Transparency = 0},
+    ["100"] = {Color = DARK_BG2, Transparency = 0},
+},{Rotation = 90})
+
+--// =========================
+--// THEME
+--// =========================
+WindUI:AddTheme({
+    Name = "RickHUBTheme",
+
+    Accent = MAIN_GRADIENT,
+    Hover  = MAIN_GRADIENT,
+
+    Background = BACKGROUND_GRADIENT,
+    BackgroundTransparency = 0.35,
+
+    Outline = YELLOW,
+    Text = WHITE,
+    Icon = WHITE,
+
+    WindowBackground = BACKGROUND_GRADIENT,
+    WindowShadow = Color3.fromRGB(0,0,0),
+
+    TabBackground = DARK_TAB_GRADIENT,
+    TabTitle = WHITE,
+    TabIcon = WHITE,
+
+    ElementBackground = DARK_TAB_GRADIENT,
+    ElementTitle = WHITE,
+
+    Button = MAIN_GRADIENT,
+    Toggle = MAIN_GRADIENT,
+    Slider = MAIN_GRADIENT,
+})
+
+WindUI:SetTheme("RickHUBTheme")
+
+local avatar = "https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds="
+..player.UserId.."&size=420x420&format=Png"
+
 local Window = WindUI:CreateWindow({
-    Title = "ERROR HUB [ Test ]",
-    Icon = "rbxassetid://108455308252343",
-    Author = "Seesa",
-    Folder = "ERROR HUB Op script",
-    Size = UDim2.fromOffset(580, 460),
-    MinSize = Vector2.new(560, 350),
-    MaxSize = Vector2.new(850, 560),
+    Title = "RICK HUB [ Block Spin ]",
+    Icon = "rbxassetid://108958018844079",
+    Author = "Author[ 009.exe ]",
+    Folder = "RICK HUB",
+    Size = UDim2.fromOffset(730, 410),
+    Theme = "RickHUBTheme",
     Transparent = true,
-    Theme = "Dark",
     Resizable = true,
-    SideBarWidth = 200,
-    BackgroundImageTransparency = 0.42,
-    HideSearchBar = true,
-    ScrollBarEnabled = false,
+
     User = {
         Enabled = true,
-        Anonymous = false,
-        Name = LocalPlayer.Name,
-        Image = "rbxthumb://type=AvatarHeadShot&id=" .. LocalPlayer.UserId,
-        Callback = function() end,
-    },
+        Custom = {
+            Name = player.Name,
+            Bio = "RickHUB USER",
+            Image = avatar
+        }
+    }
 })
+Window:Tag({
+    Title = "v1.0.0",
+    Icon = "github",
+    Color = Color3.fromHex("#00bfff"), 
+    Radius = 5,
+})
+
+local CoreGui = game:GetService("CoreGui")
+local UserInputService = game:GetService("UserInputService")
+
 
 Window:EditOpenButton({ Enabled = false })
 
@@ -427,7 +433,7 @@ ScreenGui.Parent = CoreGui
 ToggleBtn.Size = UDim2.new(0, 50, 0, 50)
 ToggleBtn.Position = UDim2.new(0, 20, 0.5, -25)
 ToggleBtn.BackgroundTransparency = 1
-ToggleBtn.Image = "rbxassetid://108455308252343" 
+ToggleBtn.Image = "rbxassetid://108958018844079"
 ToggleBtn.Active = true
 ToggleBtn.Draggable = true
 ToggleBtn.Parent = ScreenGui
@@ -472,7 +478,8 @@ end)
 
 
 
--- ======== Silent Aim System ========
+
+
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
