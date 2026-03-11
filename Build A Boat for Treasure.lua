@@ -153,31 +153,37 @@ end)
 
 
 
+
+local player = game.Players.LocalPlayer
+
+
+
+
 -- -------------
 --  ฟาทตังค์
 -- -------------
 
 
-local player = game.Players.LocalPlayer
+
 
 
 local AutoFarm = false
-local char
 local root
+local reachedChest = false
 local function setupCharacter(character)
-    char = character
-    root = char:WaitForChild("HumanoidRootPart")
+    root = character:WaitForChild("HumanoidRootPart")
+    if AutoFarm and reachedChest then
+        reachedChest = false
+    end
 end
-
 setupCharacter(player.Character or player.CharacterAdded:Wait())
-player.CharacterAdded:Connect(function(character)
-    setupCharacter(character)
-end)
+player.CharacterAdded:Connect(setupCharacter)
+
 task.spawn(function()
     local stages = workspace.BoatStages.NormalStages
 
     while true do
-        if AutoFarm and root then
+        if AutoFarm and root and not reachedChest then
 
             for i = 1,50 do
                 if not AutoFarm then break end
@@ -188,7 +194,7 @@ task.spawn(function()
                     if part then
 
                         local start = tick()
-                        while tick() - start < 2 and AutoFarm and root do
+                        while tick() - start < 2 and AutoFarm do
                             root.CFrame = part.CFrame + Vector3.new(0,3,0)
                             task.wait()
                         end
@@ -197,24 +203,86 @@ task.spawn(function()
                 else
                     break
                 end
-            end
-            if AutoFarm and root then
-                local chest = stages.TheEnd.GoldenChest.LightPart
-
-                local start = tick()
-                while tick() - start < 5 and AutoFarm and root do
-                    root.CFrame = chest.CFrame + Vector3.new(0,3,0)
-                    task.wait()
                 end
+            if AutoFarm then
+                local chest = stages.TheEnd.GoldenChest.LightPart
+                root.CFrame = chest.CFrame + Vector3.new(0,3,0)
+                reachedChest = true
             end
+
         end
+
         task.wait()
     end
 end)
 
 
 
+-- -----------
+-- จอดำ
+---------------
 
+local data = player:WaitForChild("Data")
+local gui
+local goldText
+local blockText
+
+function BlackScreenUI(state)
+
+    if state then
+        if gui then return end
+
+        gui = Instance.new("ScreenGui")
+        gui.Name = "FarmBlackScreen"
+        gui.ResetOnSpawn = false
+        gui.IgnoreGuiInset = true
+        gui.Parent = player.PlayerGui
+
+        local bg = Instance.new("Frame")
+        bg.Size = UDim2.new(1,0,1,0)
+        bg.BackgroundColor3 = Color3.new(0,0,0)
+        bg.BorderSizePixel = 0
+        bg.Parent = gui
+
+        goldText = Instance.new("TextLabel")
+        goldText.Size = UDim2.new(1,0,0,30)
+        goldText.Position = UDim2.new(0,0,0.45,0)
+        goldText.BackgroundTransparency = 1
+        goldText.Font = Enum.Font.GothamBold
+        goldText.TextSize = 22
+        goldText.TextColor3 = Color3.fromRGB(255,221,0)
+        goldText.Text = "จำนวนทอง : "..data.Gold.Value
+        goldText.Parent = bg
+
+        blockText = Instance.new("TextLabel")
+        blockText.Size = UDim2.new(1,0,0,30)
+        blockText.Position = UDim2.new(0,0,0.50,0)
+        blockText.BackgroundTransparency = 1
+        blockText.Font = Enum.Font.GothamBold
+        blockText.TextSize = 22
+        blockText.TextColor3 = Color3.fromRGB(255,221,0)
+        blockText.Text = "จำนวนบล็อกทอง : "..data.GoldBlock.Value
+        blockText.Parent = bg
+
+        data.Gold:GetPropertyChangedSignal("Value"):Connect(function()
+            if goldText then
+                goldText.Text = "จำนวนทอง : "..data.Gold.Value
+            end
+        end)
+
+        data.GoldBlock:GetPropertyChangedSignal("Value"):Connect(function()
+            if blockText then
+                blockText.Text = "จำนวนบล็อกทอง : "..data.GoldBlock.Value
+            end
+        end)
+
+    else
+        if gui then
+            gui:Destroy()
+            gui = nil
+        end
+    end
+end
 
 
 local FarmTab = Window:Tab({Title = "FARM", Icon = "hand-coins"})
@@ -229,4 +297,12 @@ FarmTab:Toggle({
     end
 })
 
+FarmTab:Toggle({
+    Title = "จอดำ",
+    Type = "Checkbox",
+    Value = false,
 
+    Callback = function(state)
+        BlackScreenUI(state)
+    end
+})
