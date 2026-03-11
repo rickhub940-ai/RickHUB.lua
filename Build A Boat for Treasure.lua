@@ -162,26 +162,33 @@ local player = game.Players.LocalPlayer
 
 
 local AutoFarm = false
+local char
+local root
+local function setupCharacter(character)
+    char = character
+    root = char:WaitForChild("HumanoidRootPart")
+end
 
+setupCharacter(player.Character or player.CharacterAdded:Wait())
+player.CharacterAdded:Connect(function(character)
+    setupCharacter(character)
+end)
 task.spawn(function()
-  local char = player.Character or player.CharacterAdded:Wait()
-    local root = char:WaitForChild("HumanoidRootPart")
     local stages = workspace.BoatStages.NormalStages
 
     while true do
-        if AutoFarm then
+        if AutoFarm and root then
 
             for i = 1,50 do
                 if not AutoFarm then break end
 
                 local stage = stages:FindFirstChild("CaveStage"..i)
-
                 if stage then
                     local part = stage:FindFirstChild("DarknessPart")
                     if part then
 
                         local start = tick()
-                        while tick() - start < 2 and AutoFarm do
+                        while tick() - start < 2 and AutoFarm and root do
                             root.CFrame = part.CFrame + Vector3.new(0,3,0)
                             task.wait()
                         end
@@ -191,17 +198,18 @@ task.spawn(function()
                     break
                 end
             end
-
-            if AutoFarm then
+            if AutoFarm and root then
                 local chest = stages.TheEnd.GoldenChest.LightPart
-                root.CFrame = chest.CFrame + Vector3.new(0,3,0)
+
+                local start = tick()
+                while tick() - start < 5 and AutoFarm and root do
+                    root.CFrame = chest.CFrame + Vector3.new(0,3,0)
+                    task.wait()
+                end
             end
-
         end
-
         task.wait()
     end
-
 end)
 
 
@@ -215,12 +223,10 @@ local FarmTab = Window:Tab({Title = "FARM", Icon = "hand-coins"})
 FarmTab:Toggle({
     Title = "ออโต้ฟาม",
     Type = "Checkbox",
-    icon = "hand-coins",
     Value = false,
     Callback = function(state)
         AutoFarm = state
     end
 })
-
 
 
