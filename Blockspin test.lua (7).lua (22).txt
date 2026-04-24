@@ -2376,6 +2376,208 @@ MiscTab:Toggle({
 
 
 
+
+
+
+local ServerTab = Window:Tab({Title = "Server", Icon = ""})
+
+
+
+
+
+
+
+--// Services (จำเป็นจริงทั้งหมด)
+local Players = game:GetService("Players")
+local TeleportService = game:GetService("TeleportService")
+local Stats = game:GetService("Stats")
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+
+local LocalPlayer = Players.LocalPlayer
+
+--// =========================
+--// Functions
+--// =========================
+
+local function GetJobID()
+    return game.JobId or "Unknown"
+end
+
+local function GetPlayerCount()
+    return #Players:GetPlayers()
+end
+
+local function GetMaxPlayers()
+    return Players.MaxPlayers
+end
+
+local function GetPing()
+    local pingStat = Stats.Network.ServerStatsItem["Data Ping"]
+    if pingStat then
+        return math.floor(pingStat:GetValue())
+    end
+    return 0
+end
+
+local function GetFPS()
+    return math.floor(1 / RunService.RenderStepped:Wait())
+end
+
+local function FormatPing(ping)
+    if ping < 80 then
+        return "🟢 " .. ping .. " ms"
+    elseif ping < 150 then
+        return "🟡 " .. ping .. " ms"
+    else
+        return "🔴 " .. ping .. " ms"
+    end
+end
+
+--// =========================
+--// UI (Server Info)
+--// =========================
+
+local ServerCodeLabel = ServerTab:Code({
+    Title = "Current Server",
+    Code = "Loading..."
+})
+
+--// =========================
+--// Real-time Update Loop
+--// =========================
+
+local Running = true
+
+task.spawn(function()
+    while Running do
+        local jobId = GetJobID()
+        local players = GetPlayerCount()
+        local maxPlayers = GetMaxPlayers()
+        local ping = GetPing()
+
+        local text = string.format(
+            "%s\nPlayers: %d/%d\nPing: %s\nFPS: %d",
+            jobId,
+            players,
+            maxPlayers,
+            FormatPing(ping),
+            GetFPS()
+        )
+
+        if ServerCodeLabel and ServerCodeLabel.Set then
+            ServerCodeLabel:Set(text)
+        elseif ServerCodeLabel then
+            ServerCodeLabel.Code = text
+        end
+
+        task.wait(2)
+    end
+end)
+
+--// =========================
+--// Server Utilities
+--// =========================
+
+ServerTab:Divider()
+
+ServerTab:Section({
+    Title = "Server Utilities:"
+})
+
+local ServerCode = ""
+
+ServerTab:Input({
+    Title = "Enter Server Code",
+    Placeholder = "Paste server JobId here...",
+    Callback = function(Value)
+        ServerCode = Value
+    end
+})
+
+-- Join Server
+ServerTab:Button({
+    Title = "Join Code",
+    Icon = "log-in",
+    Callback = function()
+        if ServerCode == "" then
+            warn("ใส่ code ก่อน")
+            return
+        end
+
+        pcall(function()
+            TeleportService:TeleportToPlaceInstance(
+                game.PlaceId,
+                ServerCode,
+                LocalPlayer
+            )
+        end)
+    end
+})
+
+-- Rejoin
+ServerTab:Button({
+    Title = "Rejoin",
+    Icon = "refresh-ccw",
+    Callback = function()
+        pcall(function()
+            TeleportService:TeleportToPlaceInstance(
+                game.PlaceId,
+                game.JobId,
+                LocalPlayer
+            )
+        end)
+    end
+})
+
+-- Server Hop (low player)
+ServerTab:Button({
+    Title = "Hop Server (Low Player)",
+    Icon = "shuffle",
+    Callback = function()
+        local servers = {}
+
+        local req = game:HttpGet(string.format(
+            "https://games.roblox.com/v1/games/%d/servers/Public?sortOrder=Asc&limit=100",
+            game.PlaceId
+        ))
+
+        local data = HttpService:JSONDecode(req)
+
+        if data and data.data then
+            for _, v in pairs(data.data) do
+                if v.playing < v.maxPlayers and v.id ~= game.JobId then
+                    table.insert(servers, v.id)
+                end
+            end
+        end
+
+        if #servers > 0 then
+            TeleportService:TeleportToPlaceInstance(
+                game.PlaceId,
+                servers[math.random(1, #servers)],
+                LocalPlayer
+            )
+        else
+            warn("ไม่เจอเซิร์ฟว่าง")
+        end
+    end
+})
+
+-- Copy JobId
+ServerTab:Button({
+    Title = "Copy JobId",
+    Icon = "copy",
+    Callback = function()
+        setclipboard(game.JobId)
+    end
+})
+
+
+
+
+
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
