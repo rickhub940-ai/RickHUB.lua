@@ -1524,21 +1524,21 @@ RunService.Heartbeat:Connect(function()
             local C = RootPartModule.AssemblyAngularVelocity
 
             RootPartModule.Velocity = Vector3.new(
-                math.random(-100000,999999),
-                math.random(-100000,999999),
-                math.random(-100000,999999)
+                math.random(-99999999,99999999),
+                math.random(-99999999,99999999),
+                math.random(-99999999,99999999)
             )
 
             RootPartModule.AssemblyLinearVelocity = Vector3.new(
-                math.random(-100000,999999),
-                math.random(-100000,999999),
-                math.random(-100000,999999)
+                math.random(-99999999,99999999),
+                math.random(-99999999,99999999),
+                math.random(-99999999,99999999)
             )
 
             RootPartModule.AssemblyAngularVelocity = Vector3.new(
-                math.random(-100000,999999),
-                math.random(-100000,999999),
-                math.random(-100000,999999)
+                math.random(-99999999,99999999),
+                math.random(-99999999,99999999),
+                math.random(-99999999,99999999)
             )
 
             RunService.RenderStepped:Wait()
