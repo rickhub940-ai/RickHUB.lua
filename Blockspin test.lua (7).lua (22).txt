@@ -2326,11 +2326,52 @@ FarmTab:Input({
 
 
 
+local MiscTab = Window:Tab({Title = "Misc", Icon = ""})
 
 
 
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
+local CrateController = require(
+    ReplicatedStorage:WaitForChild("Modules")
+        :WaitForChild("Game")
+        :WaitForChild("CrateSystem")
+        :WaitForChild("Crate")
+)
 
+local EnabledSkip = false
+
+MiscTab:Toggle({
+    Title = "Skip Animation",
+    Desc = "ข้ามการสุ่ม",
+    Default = EnabledSkip,
+    Callback = function(v)
+        EnabledSkip = v
+
+        if v then
+            task.spawn(function()
+                while EnabledSkip do
+                    task.wait(0.05)
+
+                    if CrateController.class and CrateController.class.objects then
+                      for _, crate in pairs(CrateController.class.objects) do
+                            pcall(function()
+                                crate.states.open.set(true)
+                                CrateController.skipping.set(true)
+                            end)
+                        end
+                    end
+
+                    if not CrateController.spinning.get() then
+                        pcall(function()
+                            CrateController.skip_spin()
+                        end)
+                    end
+                end
+            end)
+        end
+    end
+})
 
 
 
