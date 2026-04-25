@@ -1,3 +1,55 @@
+-- ==================== AC BYPASS (ลบส่วนกด Play อัตโนมัติแล้ว) ====================
+if not getgenv().ACBYPASS then
+    task.spawn(function()
+        xpcall(function()
+            repeat task.wait(2)
+                -- ข้าม SplashScreenGui และ CharacterCreator โดยไม่ต้องกดปุ่ม
+                if game.Players.LocalPlayer.PlayerGui:FindFirstChild('SplashScreenGui') 
+                and not game.Players.LocalPlayer:GetAttribute('InMenuCharacterCreator') 
+                and not game.Players.LocalPlayer.PlayerGui:FindFirstChild('Slideshow'):FindFirstChild('SlideshowHolder').Visible then
+                    
+                    -- ไม่กด Play อีกต่อไป
+                    task.wait()
+
+                elseif not game.Players.LocalPlayer.PlayerGui:FindFirstChild('SplashScreenGui') 
+                and game.Players.LocalPlayer:GetAttribute('InMenuCharacterCreator') then
+                    
+                    -- ไม่กด Skip อีกต่อไป
+                    task.wait()
+
+                elseif game.Players.LocalPlayer.PlayerGui:FindFirstChild('SplashScreenGui') 
+                and not game.Players.LocalPlayer:GetAttribute('InMenuCharacterCreator') 
+                and game.Players.LocalPlayer.PlayerGui:FindFirstChild('Slideshow'):FindFirstChild('SlideshowHolder').Visible then
+                    
+                    -- ไม่กด Close Slideshow อีกต่อไป
+                    task.wait()
+
+                elseif not game.Players.LocalPlayer.PlayerGui:FindFirstChild('SplashScreenGui') 
+                and not game.Players.LocalPlayer:GetAttribute('InMenuCharacterCreator') 
+                and not game.Players.LocalPlayer.PlayerGui:FindFirstChild('Slideshow'):FindFirstChild('SlideshowHolder').Visible then
+                    
+                    local Net = require(game.ReplicatedStorage.Modules.Core.Net)
+                    local func = debug.getupvalue(Net.get, 2)
+                    debug.setconstant(func, 3, "___Bypass")
+                    debug.setconstant(func, 4, "___Bypass")
+                    warn("Bypass success")
+                    identifyexecutor = nil 
+                    task.wait()
+                    game:GetService("GuiService").SelectedObject = nil
+                    getgenv().ACBYPASS = true
+                end
+            until getgenv().ACBYPASS
+        end, warn)
+    end)
+end
+
+repeat task.wait() until getgenv().ACBYPASS
+
+
+-- ==================== 2. ANTI AIM ASSISTANT ====================
+
+-- ==================== 3. SKIP ANIMATION ====================
+
 
 
 local WindUI = loadstring(game:HttpGet(
@@ -1503,19 +1555,16 @@ end)
 
 -- Anti Aim
 
+local Char = require(ReplicatedStorage.Modules.Core.Char)
 
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
+getgenv().AntiAimAssiant = false
 
-local Client = Players.LocalPlayer
-local Char = require(game.ReplicatedStorage.Modules.Core.Char)
 
-getgenv().AntiAim = false
 
 RunService.Heartbeat:Connect(function()
-    if getgenv().AntiAim then   
+    if getgenv().AntiAimAssiant then
         local HumanoidModule = Char.get_hum()
-        if HumanoidModule and not HumanoidModule:GetAttribute("HasBeenDowned") then 
+        if HumanoidModule and not HumanoidModule:GetAttribute("HasBeenDowned") then
             local RootPartModule = Char.get_hrp()
             if not RootPartModule then return end
 
@@ -1524,21 +1573,19 @@ RunService.Heartbeat:Connect(function()
             local C = RootPartModule.AssemblyAngularVelocity
 
             RootPartModule.Velocity = Vector3.new(
-                math.random(-100000,999999),
-                math.random(-100000,999999),
-                math.random(-100000,999999)
+                math.random(-99999999, 99999999),
+                math.random(-99999999, 99999999),
+                math.random(-99999999, 99999999)
             )
-
             RootPartModule.AssemblyLinearVelocity = Vector3.new(
-                math.random(-100000,999999),
-                math.random(-100000,999999),
-                math.random(-100000,999999)
+                math.random(-99999999, 99999999),
+                math.random(-99999999, 99999999),
+                math.random(-99999999, 99999999)
             )
-
             RootPartModule.AssemblyAngularVelocity = Vector3.new(
-                math.random(-100000,999999),
-                math.random(-100000,999999),
-                math.random(-100000,999999)
+                math.random(-99999999, 99999999),
+                math.random(-99999999, 99999999),
+                math.random(-99999999, 99999999)
             )
 
             RunService.RenderStepped:Wait()
@@ -1549,7 +1596,6 @@ RunService.Heartbeat:Connect(function()
         end
     end
 end)
-
 
 
 
@@ -1959,13 +2005,14 @@ end})
 
 
 ChaterTab:Slider({Title = "Jump power valu (ปรับความสูง)", Step = 5, Value = {Min = 20, Max = 80, Default = 70}, Callback = function(v) jumpPower = v end})
+
+
 ChaterTab:Toggle({
     Title = "Anti Aim",
-	Desc = "กันล็อค(ถ้าเปิดจะกระโดดสูงไม่ได้)",
-    Flag = "antiaim",
-    Value = false,
+    Desc = "กันล็อค (เปิดละกระโดดสูงไม่ได้)",
+    Default = getgenv().AntiAimAssiant,
     Callback = function(v)
-        getgenv().AntiAim = v
+        getgenv().AntiAimAssiant = v
     end
 })
 
@@ -2040,35 +2087,46 @@ LocalPlayer.CharacterAdded:Connect(function(character)
         HideName()
     end
 end)
-local DroppedFolder = workspace:FindFirstChild("DroppedItems")
-local NetModule = require(ReplicatedStorage.Modules.Core.Net)
-local pick
+local DroppedFolder = Workspace:FindFirstChild("DroppedItems") or Workspace:WaitForChild("DroppedItems")
+local Network = require(ReplicatedStorage.Modules.Core.Net)
+
+local function GetDistanceRoot(item)
+    local char = player.Character
+    if not char then return math.huge end
+    local hrp = char:FindFirstChild("HumanoidRootPart")
+    if not hrp then return math.huge end
+    local itemPos = item:GetPivot().Position
+    return (hrp.Position - itemPos).Magnitude
+end
+
+
+local ItemDroppedGraber = false
 ChaterTab:Toggle({
-    Title = "Auto Pickup item",
-	Desc = "ดูดของ",
-    Default = false,
-    Callback = function(state)
-        if state then
-            pick = task.spawn(function()
-                while task.wait() do
-                    for _, v in pairs(DroppedFolder:GetChildren()) do
-                        if v:IsA("Model") and v:FindFirstChild("PickUpZone") then
-                            local root = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-                            if root and (v:GetPivot().Position - root.Position).Magnitude < 50 then
-                                NetModule.get("pickup_dropped_item", v)
+    Title = "Pickup item",
+    Default = ItemDroppedGraber,
+    Callback = function(v)
+        ItemDroppedGraber = v
+        if v then
+            task.spawn(function()
+                while ItemDroppedGraber do
+                    task.wait()
+                    xpcall(function()
+                        if #DroppedFolder:GetChildren() > 0 then
+                            for _, v in pairs(DroppedFolder:GetChildren()) do
+                                if v:IsA("Model") and v:FindFirstChild("PickUpZone") then
+                                    if GetDistanceRoot(v) < 15 then
+                                        Network.get("pickup_dropped_item", v)
+                                    end
+                                end
                             end
                         end
-                    end
+                    end, warn)
                 end
             end)
-        else
-            if pick then
-                task.cancel(pick)
-                pick = nil
-            end
         end
     end
 })
+
 
 local plsraknet = Raknet or raknet
 if not plsraknet then return end
@@ -2325,10 +2383,36 @@ FarmTab:Input({
 
 
 
+local MiscTab = Window:Tab({Title = "Misc", Icon = ""})
 
 
+local CrateController = require(ReplicatedStorage.Modules.Game.CrateSystem.Crate)
+local EnabledSkip = false
 
-
+MiscTab:Toggle({
+    Title = "Skip Animation",
+    Desc = "ข้ามการสุ่ม",
+    Default = EnabledSkip,
+    Callback = function(v)
+        EnabledSkip = v
+        if v then
+            task.spawn(function()
+                while EnabledSkip do
+                    task.wait()
+                    for _, crate in pairs(CrateController.class.objects) do
+                        pcall(function()
+                            crate.states.open.set(true)
+                            CrateController.skipping.set(true)
+                        end)
+                    end
+                    if not CrateController.spinning.get() then
+                        pcall(CrateController.skip_spin)
+                    end
+                end
+            end)
+        end
+    end
+})
 
 
 
